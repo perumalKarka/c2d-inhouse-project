@@ -1,6 +1,6 @@
 <footer>
             <div class="container container-1280 " style="padding:0 20px">
-              <div class="row fotter-top reset-margin">
+              <div class="row footer-top reset-margin">
                 <div class="footer-col-1 col-md-2 col-sm-12 reset-padding">
                   <img src="images/site-white.logo.png" alt="footer-logo">
                 </div> 
@@ -14,9 +14,9 @@
                   </nav>
                 </div>
               </div>
-              <div class="right-side-copyright">
-                  <p class="copyright reset-margin">(c) Copy right</p>
-                </div>
+              <div class="footer-bottom">
+                  <p>(c) Copy right</p>
+              </div>
             
 </footer>
 <a href="javascript:void(0)" id="scrollBtn" >

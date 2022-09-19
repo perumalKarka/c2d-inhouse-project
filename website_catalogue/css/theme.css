@@ -399,10 +399,10 @@ border-color: #383838;
 }
 
 
-/* footer design code */
+/* Footer design starts (19-09-22) */
 footer{
   background: #005579;
-  padding: 30px 0;
+  padding: 30px 0 26px 0;
   margin-top: 28px;
 }
 .menus-container ul{
@@ -413,26 +413,29 @@ footer{
     padding-left:12%;
    
 }
-
-.fotter-top{
-  padding-bottom:20px;
-  border-bottom:1px solid#0874A2;
-}
-.right-side-copyright p{
-  text-align: right;
-  color:white;
-  font-size: 20px;;
-}
-.right-side-copyright{
-  padding-top:20px;
-}
-
 .menus-container ul li a{
   color:white;
   font-size: 20px;
   text-decoration: underline !important;
   
 }
+.footer-top{
+  padding-bottom:20px;
+  border-bottom:1px solid#0874A2;
+}
+
+.footer-bottom{
+  padding-top:20px;
+}
+.footer-bottom p{
+  text-align: right;
+  color:white;
+  font-size: 20px;
+  margin:0;
+}
+
+
+
 
 
 .menu-categories-container ul.menu{
@@ -452,7 +455,7 @@ footer{
   margin-bottom: 18px;
 }
 .menu-categories-container ul.menu li{
-/*padding-bottom:9px;*/
+  /*padding-bottom:9px;*/
 }
 .menu-categories-container ul.menu li a{
   font-family: 'robotoregular';
