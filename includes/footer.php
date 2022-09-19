@@ -48,6 +48,7 @@
 <a href="javascript:void(0)" id="scrollBtn" >
   <img src="images/scroll-top.png" />
 </a>
+
 <div class="mobile-fixed-footer container-fluid d-block d-md-none">
   <div class="mobile-fixed-row  row reset-margin">
     <div class="home-holder holder col reset-padding">
