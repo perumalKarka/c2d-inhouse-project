@@ -103,6 +103,7 @@ transform: translate(-50%,-50%);
 -moz-transform: translate(-50%,-50%);
 -ms-transform: translate(-50%,-50%);
 }
+
 .container-1320{
 width: 1320px;
 max-width: 100%;
@@ -133,7 +134,21 @@ max-width: 970px;
 width: 100%;
 }
 
-
+.container-75{
+  max-width: 75%;
+  width: 100%;
+}
+.container-80{
+  max-width: 80%;
+  width: 100%;
+}
+.container-85{
+  max-width: 85%;
+  width: 100%;
+}
+.site-fluid{
+  padding: 0;
+}
 header.fixed-header{
 background: #fcfcfc;
 position: -webkit-sticky;
@@ -400,10 +415,12 @@ border-color: #383838;
 
 
 /* Footer design starts (19-09-22) */
+.footer-section{
+  margin-top: 28px;
+}
 footer{
   background: #005579;
   padding: 30px 0 26px 0;
-  margin-top: 28px;
 }
 .menus-container ul{
   list-style: none;
