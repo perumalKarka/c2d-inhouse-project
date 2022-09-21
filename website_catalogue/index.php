@@ -19,14 +19,21 @@
     <meta name="msapplication-TileImage" content="images/favicon-ico.png" />
 </head>
 <body>
-    <div class="container container-1280 reset-padding">
-        <?php include 'includes/mobile-menu.php'; ?>
-        <header class="site-header site-navbar site-navbar-target overlay-header">
-            <?php include 'includes/header.php'; ?>
-        </header>
+    <div class="container-fluid site-fluid">
+        <section class="header-section">
+            <div class="container container-85 reset-padding">
+                <?php include 'includes/mobile-menu.php'; ?>
+                <header class="site-header site-navbar site-navbar-target overlay-header">
+                    <?php include 'includes/header.php'; ?>
+                </header>
+            </div>
+        </section>
+        <?php  include 'includes/highlighted-footer.php'; ?>
+        <section class="footer-section">
+            <?php  include 'includes/footer.php'; ?>
+        </section>
     </div>
-    <?php  include 'includes/highlighted-footer.php'; ?>
-    <?php  include 'includes/footer.php'; ?>
+    
     
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
