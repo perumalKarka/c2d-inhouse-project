@@ -33,9 +33,9 @@
             <div class="container container-75 reset-padding">
                 <div class="rectangle-animate"></div>
                 <div class="websitetemplate-condent">
-                    <h4>WEBSITE TEMPLATES</h4>
-                    <p>Lorem ipsum dolor sit amet,<br>conseteur sadiscing elitr,sed diam</p>
-                    <p class="website-subcondent"> Lorem ipsum dolor sit amet,conseteur sadiscing elitr,sed diamnonumyeirmod<br>tempor invidunt ut labore et doloremagne aliquam erat,sed iam voluptu.Atvero</p>
+                    <h4 class="section-center__title">WEBSITE TEMPLATES</h4>
+                    <p>Lorem ipsum dolor sit amet, conseteur sadiscing elitr,sed diam</p>
+                    <p class="website-subcondent"> Lorem ipsum dolor sit amet,conseteur sadiscing elitr,sed diamnonumyeirmod tempor invidunt ut labore et doloremagne aliquam erat,sed iam voluptu.Atvero</p>
                     <button type="button" class="click-mail">Let's Go -></button>
                 </div>
             </div>
@@ -100,7 +100,7 @@
         <!-- pricing -->
         <section class="pricing ">
             <div class="container container-75">
-                <p class="price-title reset-margin">Pricing</p>
+                <h4 class="section-side__title reset-margin">Pricing</p>
                 <h3 class="reset-margin">Lorem ipsum dolor sit amet</h3>
                 <div class="row price-list">
                     <div class="col-5 price-list-left reset-padding">
@@ -119,10 +119,10 @@
         <!-- maintanance -->
         <section class="maintanance">
             <div class="container container-75">
-                <h4>MAINTENANCE</h4>
+                <h4 class="section-center__title">MAINTENANCE</h4>
                 <p>Lorem ipsum dolor sit amet, adipisci ng elit sit amet.</p>
                 <div class="row startingprice reset-margin">
-                    <div class="col-md-6 starting-price my-auto reset-padding">
+                    <div class="col-md-6 starting-price align-self-center reset-padding">
                         <h3>Starting at XX$/yr</h3>
                         <p class="price-para">Regularly XX$/month</p>
                     </div>
@@ -142,32 +142,32 @@
         <!-- Feature -->
         <section class="feature">
             <div class="container container-75 reset-padding">
-                <h4 class="feature-container-75__heading">FEATURES</h4>
-                <div class="row justify-content-center  feature-container-75-splitfeature reset-margin">
+                <h4 class="section-side__title">FEATURES</h4>
+                <div class="row justify-content-center feature-container-75-splitfeature reset-margin">
                     <div class="col-4 feature-video__condent">
                         <img class="video_icon" src="images/tv-icon.png">
-                        <p class="feature-video__condent__para1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-                        <p class="feature-video__condent__para2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                        <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                        <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                     </div>
                     <div class="col-4 feature-video__condent">
                         <img class="video_icon" src="images/tv-icon.png">
-                        <p class="feature-video__condent__para1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-                        <p class="feature-video__condent__para2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                        <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                        <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                     </div>
                     <div class="col-4 feature-video__condent">
                         <img class="video_icon" src="images/tv-icon.png">
-                        <p class="feature-video__condent__para1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-                        <p class="feature-video__condent__para2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                        <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                        <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                     </div>
                     <div class="col-4 feature-video__condent mt-5">
                         <img class="video_icon" src="images/tv-icon.png">
-                        <p class="feature-video__condent__para1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-                        <p class="feature-video__condent__para2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                        <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                        <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                     </div>
                     <div class="col-4 feature-video__condent mt-5">
                         <img class="video_icon" src="images/tv-icon.png">
-                        <p class="feature-video__condent__para1">Lorem ipsum dolor sit amet, </p>
-                        <p class="feature-video__condent__para2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                        <p >Lorem ipsum dolor sit amet, </p>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                     </div>
                 </div>          
             </div>
@@ -175,7 +175,7 @@
         <!-- website builder -->
         <section class="website-builder">
             <div class="container container-75 reset-padding">
-                <h3 class="website-builder-container-75__bilder-title">WEBSITE BUILDER</h3>
+                <h3 class="section-center__title">WEBSITE BUILDER</h3>
                 <p class="website-builder-container-75__bilder-title__bilder-condent">Lorem ipsum dolor sit amet</p>
                 <div class="row website-builder-lineway">
                     <div class="col-5 website-builder-lineway-track-line">
@@ -219,7 +219,7 @@
         <section class="support-guidance">
             <div class="container container-90 support-guidance-email-popup-image reset-padding">
                 <div class="support-guidance-container-90">
-                    <h4 class="support-guidance-container-90__title1">SUPPORT AND GUIDANCE</h4>
+                    <h4 class="section-side__title">SUPPORT AND GUIDANCE</h4>
                     <h3 class="support-guidance-container-90__title2">Lorem ipsum dolor sit amet, consetetur</h3>
                     <p  class="support-guidance-container-90__title__para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                     <a href="">Contact us-></a>

@@ -454,6 +454,25 @@ footer{
   font-size: 20px;
   margin:0;
 }
+.section-center__title{
+
+padding-top:109px;
+margin:0px;
+text-align: center;
+font-size:22px;
+letter-spacing: 4.4px;
+color: #F4A41D;
+text-transform: uppercase;
+opacity: 1;
+}
+.section-side__title{
+  text-align: left;
+font-size:22px;
+letter-spacing: 4.4px;
+color: #F4A41D;
+opacity: 1;
+
+}
 
 /* top animation */
 .container-75 {
@@ -469,17 +488,11 @@ footer{
   
 }
 .websitetemplate-condent{
-  padding-top: 77px;
+  
   padding-bottom: 102px;
   text-align: center;
 }
-.websitetemplate-condent h4{
-  color:#F4A41D;
-  padding-bottom:20px;
-  font-size: 22px;
-  margin:0px;
-  letter-spacing: 4.4px;
-}
+
 .websitetemplate-condent p{
   font-size:70px;
   color:white;
@@ -491,6 +504,8 @@ footer{
   font-size: 26px;
   color:#AAAAAA;
   padding: 30px 0px;
+  max-width: 91%;
+  margin:0 auto;
 }
 button.click-mail{
   border:none;
@@ -531,14 +546,7 @@ section.pricing{
   padding:109px 0px;
 }
 
-.pricing p.price-title{
-  
-text-align: left;
-font-size:22px;
-letter-spacing: 4.4px;
-color: #F4A41D;
-opacity: 1;
-}
+
 .pricing h3{
 padding-top:43px;
 text-align: center;
@@ -643,15 +651,13 @@ section.feature{
   padding:110px 0px;
 
 }
-h4.feature-container-75__heading{
-  font-size: 22px;
-    color: #F4A41D;
-    margin-bottom:70px;
+.feature-container-75-splitfeature{
+  padding-top:70px;
 }
 .feature-video__condent img{
   margin-bottom:20px;
 }
-.feature-video__condent__para1{
+.feature-video__condent p{
   letter-spacing: var(--unnamed-character-spacing-0);
 text-align: left;
 font-size:23px;
@@ -659,24 +665,10 @@ letter-spacing: 0px;
 color: #AAAAAA;
 opacity: 1;
 }
-.feature-video__condent__para2{
-  letter-spacing: var(--unnamed-character-spacing-0);
-text-align: left;
-font-size:23px;
-letter-spacing: 0px;
-color: #AAAAAA;
-opacity: 1;
-}
+
 /* website builder */
-.website-builder{
-  padding:110px 0px;
-}
-h3.website-builder-container-75__bilder-title{
-  font-size:22px;
-  text-align: center;
-  color:#F4A41D;
-  margin:0px;
-}
+
+
 p.website-builder-container-75__bilder-title__bilder-condent{
   font-size:60px;
   color:#FFFFFF;
