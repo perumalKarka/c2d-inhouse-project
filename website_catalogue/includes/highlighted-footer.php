@@ -1,5 +1,5 @@
 <section class="heightlight-footer-box">
-          <div class="container container-1160">
+          <div class="container container-75">
             <div class="row reset-margin">
               <div class="col-lg-8 col-md-12 col-sm-12 box-content">
                 <h4 class="box-title">Vous avez un projet, nous le savoir </h4>

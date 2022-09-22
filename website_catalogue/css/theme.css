@@ -103,6 +103,7 @@ transform: translate(-50%,-50%);
 -moz-transform: translate(-50%,-50%);
 -ms-transform: translate(-50%,-50%);
 }
+
 .container-1320{
 width: 1320px;
 max-width: 100%;
@@ -132,8 +133,26 @@ width: 100%;
 max-width: 970px;
 width: 100%;
 }
+.container-90{
+  max-width: 90%;
+  width:100%;
+}
 
-
+.container-75{
+  max-width: 75%;
+  width: 100%;
+}
+.container-80{
+  max-width: 80%;
+  width: 100%;
+}
+.container-85{
+  max-width: 85%;
+  width: 100%;
+}
+.site-fluid{
+  padding: 0;
+}
 header.fixed-header{
 background: #fcfcfc;
 position: -webkit-sticky;
@@ -400,10 +419,12 @@ border-color: #383838;
 
 
 /* Footer design starts (19-09-22) */
+.footer-section{
+  margin-top: 28px;
+}
 footer{
   background: #005579;
   padding: 30px 0 26px 0;
-  margin-top: 28px;
 }
 .menus-container ul{
   list-style: none;
@@ -433,6 +454,312 @@ footer{
   font-size: 20px;
   margin:0;
 }
+
+/* top animation */
+.container-75 {
+  width: 100%;
+  max-width: 75%;
+  padding:20px 0px 0px 0px;
+}
+.container-75 .rectangle-animate{
+  padding:20%;
+  background-color: #000000;
+  box-shadow: 0px 2px 7px #00000017;
+  border-radius: 41px;
+  
+}
+.websitetemplate-condent{
+  padding-top: 77px;
+  padding-bottom: 102px;
+  text-align: center;
+}
+.websitetemplate-condent h4{
+  color:#F4A41D;
+  padding-bottom:20px;
+  font-size: 22px;
+  margin:0px;
+  letter-spacing: 4.4px;
+}
+.websitetemplate-condent p{
+  font-size:70px;
+  color:white;
+  line-height: revert;
+  margin:0px;
+
+}
+.websitetemplate-condent p.website-subcondent{
+  font-size: 26px;
+  color:#AAAAAA;
+  padding: 30px 0px;
+}
+button.click-mail{
+  border:none;
+  padding:10px 50px 10px 50px;
+  border-radius: 8px;
+  color:white;
+  background-color: #3EBDCC;
+  font-size: 28px;
+}
+/* carosal */
+
+.container-85{
+  width: 100%;
+  max-width: 85%;
+
+}
+.carousel {
+  position: relative;
+}
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.carousel-item .ads {
+  display: inline-block;
+  margin-left: -4px;
+}
+.carousel-item .ads img {
+  width: 100%;
+  height: auto;
+}
+/* pricing */
+
+section.pricing{
+  background: #00344A 0% 0% no-repeat padding-box;
+  margin-top:111px;
+  padding:109px 0px;
+}
+
+.pricing p.price-title{
+  
+text-align: left;
+font-size:22px;
+letter-spacing: 4.4px;
+color: #F4A41D;
+opacity: 1;
+}
+.pricing h3{
+padding-top:43px;
+text-align: center;
+font-size:60px;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.price-list{
+  padding-top:20px;
+  text-align: center;
+}
+.price-list-left h1{
+ 
+font-size:150px;
+letter-spacing: 0px;
+color: #3EBDCC;
+margin:0px;
+}
+.price-list-left p{
+text-align: center;
+font-size:26px;
+letter-spacing: 0px;
+color: #AAAAAA;
+margin:0px;
+}
+.price-list-right h1{
+  font-size:150px;
+letter-spacing: 0px;
+color: #3EBDCC;
+margin:0px;
+
+}
+.price-list-right p{
+  text-align: center;
+font-size:26px;
+letter-spacing: 0px;
+color: #AAAAAA;
+margin:0px;
+
+}
+.price-list .seperate{
+  color:white;
+  font-size: 70px;
+ 
+}
+/* maintanance */
+
+
+.maintanance h4{
+  padding-top:109px;
+  margin:0px;
+  text-align: center;
+  font-size:22px;
+letter-spacing: 4.4px;
+color: #F4A41D;
+text-transform: uppercase;
+opacity: 1;
+}
+.maintanance p{
+  padding-top:40px;
+  text-align: left;
+font-size:67px;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+margin:0px;
+}
+.startingprice{
+  padding-top:50px;
+  padding-bottom:60px;
+}
+.starting-price h3{
+  text-align: left;
+font-size:50px;
+letter-spacing: 0px;
+color: #3EBDCC;
+opacity: 1;
+
+}
+.starting-price p{
+  text-align: left;
+font-size:30px;
+letter-spacing: 0px;
+color: #3EBDCC;
+opacity: 1;
+}
+p.price-para{
+  padding:0px;
+  margin-top:10px;
+}
+.list-of-price ul li{
+  color:#3EBDCC;
+  margin-top: 7px;
+}
+.list-of-price ul li span{
+  color:#AAAAAA;
+}
+/* feature */
+section.feature{
+  background: #00344A 0% 0% no-repeat padding-box;
+  padding:110px 0px;
+
+}
+h4.feature-container-75__heading{
+  font-size: 22px;
+    color: #F4A41D;
+    margin-bottom:70px;
+}
+.feature-video__condent img{
+  margin-bottom:20px;
+}
+.feature-video__condent__para1{
+  letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font-size:23px;
+letter-spacing: 0px;
+color: #AAAAAA;
+opacity: 1;
+}
+.feature-video__condent__para2{
+  letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font-size:23px;
+letter-spacing: 0px;
+color: #AAAAAA;
+opacity: 1;
+}
+/* website builder */
+.website-builder{
+  padding:110px 0px;
+}
+h3.website-builder-container-75__bilder-title{
+  font-size:22px;
+  text-align: center;
+  color:#F4A41D;
+  margin:0px;
+}
+p.website-builder-container-75__bilder-title__bilder-condent{
+  font-size:60px;
+  color:#FFFFFF;
+  padding-top:46px;
+  padding-bottom:208px;
+  text-align: center;
+  margin:0px;
+}
+.circle{
+
+background: #3EBDCC;
+position: relative;
+width: 25px;
+height: 25px;
+border-radius: 100%;
+color: white;
+text-align: center;
+}
+.circle:after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  right: 50%;
+  bottom: 1px;
+  height: 231px;
+  width: 2px;
+  transform: scale(1, 2);
+  transform-origin: 50% -100%;
+  background-color: #3EBDCC;
+  z-index: -1;
+}
+/* support guidance */
+section.support-guidance{
+  background-color: #00344A;
+  padding:110px 0px;
+}
+.support-guidance-email-popup-image{
+  background-image: url("../images/background.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.support-guidance-container-90{
+  max-width: 58%;
+  width:100%;
+}
+h4.support-guidance-container-90__title1{
+    letter-spacing: 4.4px;
+    color: #F4A41D;
+    opacity: 1;
+    margin: 0;
+    font-size: 22px;
+    text-align: left;
+}
+h3.support-guidance-container-90__title2{
+  
+  text-align: left;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 60px;
+  padding-top: 40px;
+  margin: 0px;
+}
+p.support-guidance-container-90__title__para{
+font-size: 26px;
+text-align: left;
+letter-spacing: 0px;
+color: #AAAAAA;
+opacity: 1;
+margin:0;
+padding:50px 0px;
+}
+.support-guidance-container-90 a{
+
+    text-decoration:underline!important;
+    text-align: right;
+    font-size: 28px;
+    letter-spacing: 0px;
+    color: #3EBDCC;
+    opacity: 1;
+}
+
+
 
 
 
