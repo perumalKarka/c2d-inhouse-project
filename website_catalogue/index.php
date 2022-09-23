@@ -34,7 +34,7 @@
                 <div class="rectangle-animate"></div>
                 <div class="websitetemplate-condent">
                     <h4 class="section-center__title">WEBSITE TEMPLATES</h4>
-                    <p>Lorem ipsum dolor sit amet, conseteur sadiscing elitr,sed diam</p>
+                    <h2 class="section-sub__title">Lorem ipsum dolor sit amet, conseteur sadiscing elitr,sed diam</h2>
                     <p class="website-subcondent"> Lorem ipsum dolor sit amet,conseteur sadiscing elitr,sed diamnonumyeirmod tempor invidunt ut labore et doloremagne aliquam erat,sed iam voluptu.Atvero</p>
                     <button type="button" class="click-mail">Let's Go -></button>
                 </div>
@@ -100,8 +100,8 @@
         <!-- pricing -->
         <section class="pricing ">
             <div class="container container-75">
-                <h4 class="section-side__title reset-margin">Pricing</p>
-                <h3 class="reset-margin">Lorem ipsum dolor sit amet</h3>
+                <h4 class="section-left__title reset-margin">Pricing</p>
+                <h2 class="section-sub__title">Lorem ipsum dolor sit amet</h3>
                 <div class="row price-list">
                     <div class="col-5 price-list-left reset-padding">
                         <h1 clas="price_amount">XXX€</h1>
@@ -120,7 +120,7 @@
         <section class="maintanance">
             <div class="container container-75">
                 <h4 class="section-center__title">MAINTENANCE</h4>
-                <p>Lorem ipsum dolor sit amet, adipisci ng elit sit amet.</p>
+                <p class="section-left-sub__title">Lorem ipsum dolor sit amet, adipisci ng elit sit amet.</p>
                 <div class="row startingprice reset-margin">
                     <div class="col-md-6 starting-price align-self-center reset-padding">
                         <h3>Starting at XX$/yr</h3>
@@ -142,7 +142,7 @@
         <!-- Feature -->
         <section class="feature">
             <div class="container container-75 reset-padding">
-                <h4 class="section-side__title">FEATURES</h4>
+                <h4 class="section-left__title">FEATURES</h4>
                 <div class="row justify-content-center feature-container-75-splitfeature reset-margin">
                     <div class="col-4 feature-video__condent">
                         <img class="video_icon" src="images/tv-icon.png">
@@ -176,51 +176,16 @@
         <section class="website-builder">
             <div class="container container-75 reset-padding">
                 <h3 class="section-center__title">WEBSITE BUILDER</h3>
-                <p class="website-builder-container-75__bilder-title__bilder-condent">Lorem ipsum dolor sit amet</p>
-                <div class="row website-builder-lineway">
-                    <div class="col-5 website-builder-lineway-track-line">
-                        <img class="website-builder-lineway-track-line__imageicon" src="images/Group 612.png">
-                    </div>
-                    <div class="col-1 circle">1</div>
-                    <div class="col-6 website-builder-lineway-track-line-condent">
-                        <p class="website-builder-lineway-track-line-condent__para1">Lorem ipsum dolor sit amet</p>
-                        <p class="website-builder-lineway-track-line-condent__para2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
-                    </div>
-                    <div class="col-5 website-builder-lineway-track-line-condent">
-                        <p class="website-builder-lineway-track-line-condent__para1">Lorem ipsum dolor sit amet</p>
-                        <p class="website-builder-lineway-track-line-condent__para2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
-                    </div>
-                    <div class="col-1 circle">2</div>
-                    <div class="col-6 website-builder-lineway-track-line">
-                        <img class="website-builder-lineway-track-line__imageicon" src="images/Group 611.png">
-                    </div>
-                    <div class="col-5 website-builder-lineway-track-line">
-                        <img class="website-builder-lineway-track-line__imageicon" src="images/Group 610.png">
-                    </div>
-                    <div class="col-1 circle">3</div>
-                    <div class="col-6 website-builder-lineway-track-line-condent">
-                        <p class="website-builder-lineway-track-line-condent__para1">Lorem ipsum dolor sit amet</p>
-                        <p class="website-builder-lineway-track-line-condent__para2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
-
-                    </div>
-                    <div class="col-5 website-builder-lineway-track-line-condent">
-                        <p class="website-builder-lineway-track-line-condent__para1">Lorem ipsum dolor sit amet</p>
-                        <p class="website-builder-lineway-track-line-condent__para2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
-
-                    </div>
-                    <div class="col-1 circle">4</div>
-                    <div class="col-6 website-builder-lineway-track-line">
-                    <img class="website-builder-lineway-track-line__imageicon" src="images/Group 581.png">
-                    </div>
-                </div>
+                <h2 class="section-sub__title">Lorem ipsum dolor sit amet</p>
+                
             </div>
         </section> 
          <!--support and guidance  -->
         <section class="support-guidance">
             <div class="container container-90 support-guidance-email-popup-image reset-padding">
                 <div class="support-guidance-container-90">
-                    <h4 class="section-side__title">SUPPORT AND GUIDANCE</h4>
-                    <h3 class="support-guidance-container-90__title2">Lorem ipsum dolor sit amet, consetetur</h3>
+                    <h4 class="section-left__title">SUPPORT AND GUIDANCE</h4>
+                    <p class="section-left-sub__title">Lorem ipsum dolor sit amet, consetetur</h3>
                     <p  class="support-guidance-container-90__title__para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                     <a href="">Contact us-></a>
 

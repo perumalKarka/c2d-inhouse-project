@@ -465,7 +465,7 @@ color: #F4A41D;
 text-transform: uppercase;
 opacity: 1;
 }
-.section-side__title{
+.section-left__title{
   text-align: left;
 font-size:22px;
 letter-spacing: 4.4px;
@@ -493,13 +493,7 @@ opacity: 1;
   text-align: center;
 }
 
-.websitetemplate-condent p{
-  font-size:70px;
-  color:white;
-  line-height: revert;
-  margin:0px;
 
-}
 .websitetemplate-condent p.website-subcondent{
   font-size: 26px;
   color:#AAAAAA;
@@ -514,6 +508,15 @@ button.click-mail{
   color:white;
   background-color: #3EBDCC;
   font-size: 28px;
+}
+.section-sub__title{
+  padding-top:40px;
+  
+color: var(--unnamed-color-ffffff);
+text-align: center;
+font-size:70px;
+color: #FFFFFF;
+opacity: 1;
 }
 /* carosal */
 
@@ -566,13 +569,7 @@ letter-spacing: 0px;
 color: #3EBDCC;
 margin:0px;
 }
-.price-list-left p{
-text-align: center;
-font-size:26px;
-letter-spacing: 0px;
-color: #AAAAAA;
-margin:0px;
-}
+
 .price-list-right h1{
   font-size:150px;
 letter-spacing: 0px;
@@ -606,15 +603,7 @@ color: #F4A41D;
 text-transform: uppercase;
 opacity: 1;
 }
-.maintanance p{
-  padding-top:40px;
-  text-align: left;
-font-size:67px;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-margin:0px;
-}
+
 .startingprice{
   padding-top:50px;
   padding-bottom:60px;
@@ -722,8 +711,7 @@ h4.support-guidance-container-90__title1{
     font-size: 22px;
     text-align: left;
 }
-h3.support-guidance-container-90__title2{
-  
+.section-left-sub__title{
   text-align: left;
   letter-spacing: 0px;
   color: #FFFFFF;
@@ -732,6 +720,8 @@ h3.support-guidance-container-90__title2{
   padding-top: 40px;
   margin: 0px;
 }
+  
+
 p.support-guidance-container-90__title__para{
 font-size: 26px;
 text-align: left;
