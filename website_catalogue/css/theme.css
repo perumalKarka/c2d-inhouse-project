@@ -740,8 +740,134 @@ padding:50px 0px;
     color: #3EBDCC;
     opacity: 1;
 }
+/* scroll timeline */
+.timeline {
+  padding-top :140px !important;
+  padding-bottom:110px;
+}
+.timeline ul {
+  padding: 0;
+}
+.timeline .default-line {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 4px;
+  background: #bdc3c7;
+  /* height: 1900px; */
+}
+.timeline .draw-line {
+  width: 4px;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  background: #3EBDCC;
+}
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  padding:5px 0px;
+  margin: 0 auto;
+  height: 375px;
+  background: transparent;
+}
+.timeline ul li.in-view {
+  transition: 0.125s ease-in-out, background-color 0.2s ease-out, color 0.1s ease-out, border 0.1s ease-out;
+  margin:120px 0px;
+}
+.timeline ul li.in-view::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  background-image: url("https://sg0duxoli5-flywheel.netdna-ssl.com/wp-content/themes/inspired_elearning_theme/images/check-dark.svg");
+  background-color: #3EBDCC;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.125s ease-in-out, background-color 0.2s ease-out, color 0.1s ease-out, border 0.1s ease-out;
+}
+.timeline ul li::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  background: inherit;
+  background: #bdc3c7;
+  transition: all 0.4s ease-in-out;
+}
+.timeline_image img{
+  padding-left:50px;
+}
+.timeline_condent h2{
+  text-align: left;
+font-size:40px;
+letter-spacing: 0px;
+color: #AAAAAA;
+opacity: 1;
+padding-left:30px;
+margin-bottom:20px;
+}
+.timeline_condent p{
+  
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font-size:24px;
+letter-spacing: 0px;
+color: #AAAAAA;
+opacity: 1;
+margin:0px;
+padding-left:30px;
+}
+/* .timeline_button li.in-view::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 42px;
+  
+  border-radius: 50%;
+  background-image: url("https://sg0duxoli5-flywheel.netdna-ssl.com/wp-content/themes/inspired_elearning_theme/images/check-dark.svg");
+  background-color: #3EBDCC;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.125s ease-in-out, background-color 0.2s ease-out, color 0.1s ease-out, border 0.1s ease-out;
+}
+.timeline_button li::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 12px;
+ 
+  border-radius: 50%;
+  background: inherit;
+  background: #bdc3c7;
+  transition: all 0.4s ease-in-out;
+} */
+.timeline ul li.timeline_button{
+  list-style-type: none;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+ height: 0 !important;
+  background: transparent;
+}
 
-
+.timeline li.row.hidden{
+  opacity: 0;
+}
 
 
 

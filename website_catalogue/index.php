@@ -101,7 +101,7 @@
         <section class="pricing ">
             <div class="container container-75">
                 <h4 class="section-left__title reset-margin">Pricing</p>
-                <h2 class="section-sub__title">Lorem ipsum dolor sit amet</h3>
+                <h2 class="section-sub__title">Lorem ipsum dolor sit amet</h2>
                 <div class="row price-list">
                     <div class="col-5 price-list-left reset-padding">
                         <h1 clas="price_amount">XXX€</h1>
@@ -176,8 +176,40 @@
         <section class="website-builder">
             <div class="container container-75 reset-padding">
                 <h3 class="section-center__title">WEBSITE BUILDER</h3>
-                <h2 class="section-sub__title">Lorem ipsum dolor sit amet</p>
-                
+                <h2 class="section-sub__title">Lorem ipsum dolor sit amet</h2>
+                <div class="timeline ">
+                 <ul class="reset-marin">
+                  <span class="default-line"></span>
+                  <span class="draw-line"></span>
+                  
+                    <li class="row">
+                        <div class="col-md-6 timeline_image reset-padding"><img src="images/timeline-pic-1.png" /></div>
+                        <div class="col-md-6 timeline_condent "> <h2>Lorem ipsum dolor sit</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
+                        </div>
+                    </li>
+                    <li class="row hidden">
+                         <div class="col-md-6 timeline_condent"><h2>Lorem ipsum dolor sit</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
+                         </div>
+                         <div class="col-md-6 timeline_image"><img src="images/timeline-pic-2.png" /></div>
+                    </li>
+                    <li class="row hidden">
+                        <div class="col-md-6 col-md-6 timeline_image"><img src="images/timeline-pic-3.png" /></div>
+                        <div class="col-md-6 timeline_condent"> <h2>Lorem ipsum dolor sit</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
+                        </div>
+                    </li>
+                    <li class="row hidden">
+                         <div class="col-md-6 timeline_condent"><h2>Lorem ipsum dolor sit</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
+                         </div>
+                         <div class="col-md-6 col-md-6 timeline_image"><img src="images/timeline-pic-4.png" /></div>
+                    </li>
+                  <div class="col timeline_button text-center "><button type="button" class="click-mail">Let's Build -></button><div>
+                  </ul>
+                   
+                </div>
             </div>
         </section> 
          <!--support and guidance  -->
@@ -208,5 +240,6 @@
     <script src="js/jquery.sticky.js"></script>
     <script src="js/mobile_menu.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/graph.js"></script>
 </body>
 </html>
