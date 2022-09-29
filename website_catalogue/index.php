@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil | Website catalogue | C2D</title>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -31,7 +30,7 @@
         <!-- top animation -->
         <section class="website-animation">
             <div class="container container-75 reset-padding">
-                <div class="rectangle-animate"></div>
+                    <div class="rectangle-animate"></div>
                 <div class="websitetemplate-condent">
                     <h4 class="section-center__title">WEBSITE TEMPLATES</h4>
                     <h2 class="section-sub__title">Lorem ipsum dolor sit amet, conseteur sadiscing elitr,sed diam</h2>
@@ -45,55 +44,47 @@
         <section class="template-carosal">
             <div id="demo_1" class="container container-90 carousel slide reset-padding" data-ride="carousel">
 				<div class="carousel-inner reset-padding">
-						<div class="carousel-item">
-							<div class="col-md-4 ads"><img src="images/Group 109.png"></div>    
-							<div class="col-md-4 ads"><img src="images/Group 1199.png"></div>   
-							<div class="col-md-4 ads"><img src="images/Group 109.png"></div>   
-						</div>
-						<div class="carousel-item active">
-							<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
-							<div class="col-md-4  ads"><img src="images/Group 1199.png"></div>   
-							<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
-							      
-						</div>
-						<div class="carousel-item">
-							<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
-							<div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>   
-							<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
-							      
-						</div>
-				
-						<!-- Left and right controls -->
+					<div class="carousel-item">
+						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>    
+						<div class="col-md-4 ads"><img src="images/Group 1199.png"></div>   
+						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>   
+					</div>
+					<div class="carousel-item active">
+						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
+						<div class="col-md-4  ads"><img src="images/Group 1199.png"></div>   
+						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
+						<div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>   
+						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
+					</div>
+				        <!-- Left and right controls -->
 						<a class="carousel-control-prev" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
 					    <a class="carousel-control-next" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
-                              
-				</div>
+                </div>
             </div>
             <div id="demo_1" class="container container-90 carousel slide reset-padding mt-4" data-ride="carousel">
 				<div class="carousel-inner reset-padding">
-						<div class="carousel-item">
-							<div class="col-md-4 ads"><img src="images/Group 109.png"></div>    
-							<div class="col-md-4 ads"><img src="images/Group 1199.png"></div>   
-							<div class="col-md-4 ads"><img src="images/Group 109.png"></div>   
-						</div>
-						<div class="carousel-item active">
-							<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
-							<div class="col-md-4  ads"><img src="images/Group 1199.png"></div>   
-							<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
-							      
-						</div>
-						<div class="carousel-item">
-							<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
-							<div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>   
-							<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
-							      
-						</div>
-				
-						<!-- Left and right controls -->
+					<div class="carousel-item">
+						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>    
+						<div class="col-md-4 ads"><img src="images/Group 1199.png"></div>   
+						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>   
+					</div>
+					<div class="carousel-item active">
+						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
+						<div class="col-md-4  ads"><img src="images/Group 1199.png"></div>   
+						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
+						<div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>   
+						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
+					</div>
+				        <!-- Left and right controls -->
 						<a class="carousel-control-prev" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
 					    <a class="carousel-control-next" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
-                              
-				</div>
+                </div>
             </div>
         </section>
         <!-- end template slider -->
@@ -181,26 +172,25 @@
                  <ul class="reset-marin">
                   <span class="default-line"></span>
                   <span class="draw-line"></span>
-                  
-                    <li class="row">
+                    <li class="row" data-before="1">
                         <div class="col-md-6 timeline_image reset-padding"><img src="images/timeline-pic-1.png" /></div>
                         <div class="col-md-6 timeline_condent "> <h2>Lorem ipsum dolor sit</h2>
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                         </div>
                     </li>
-                    <li class="row hidden">
+                    <li class="row hidden"  data-before="2">
                          <div class="col-md-6 timeline_condent"><h2>Lorem ipsum dolor sit</h2>
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                          </div>
                          <div class="col-md-6 timeline_image"><img src="images/timeline-pic-2.png" /></div>
                     </li>
-                    <li class="row hidden">
+                    <li class="row hidden"  data-before="3">
                         <div class="col-md-6 col-md-6 timeline_image"><img src="images/timeline-pic-3.png" /></div>
                         <div class="col-md-6 timeline_condent"> <h2>Lorem ipsum dolor sit</h2>
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                         </div>
                     </li>
-                    <li class="row hidden">
+                    <li class="row hidden"  data-before="4">
                          <div class="col-md-6 timeline_condent"><h2>Lorem ipsum dolor sit</h2>
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                          </div>
@@ -208,7 +198,6 @@
                     </li>
                   <div class="col timeline_button text-center "><button type="button" class="click-mail">Let's Build -></button><div>
                   </ul>
-                   
                 </div>
             </div>
         </section> 
@@ -220,13 +209,10 @@
                     <p class="section-left-sub__title">Lorem ipsum dolor sit amet, consetetur</h3>
                     <p  class="support-guidance-container-90__title__para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                     <a href="">Contact us-></a>
-
                 </div>
-             </div>
-
+            </div>
         </section>
-
-        
+        <!-- footer -->
         <section class="footer-section">
             <?php  include 'includes/footer.php'; ?>
         </section>

@@ -432,19 +432,16 @@ footer{
     margin: 0;
     justify-content: space-between;
     padding-left:12%;
-   
 }
 .menus-container ul li a{
   color:white;
   font-size: 20px;
   text-decoration: underline !important;
-  
 }
 .footer-top{
   padding-bottom:20px;
   border-bottom:1px solid#0874A2;
 }
-
 .footer-bottom{
   padding-top:20px;
 }
@@ -455,7 +452,6 @@ footer{
   margin:0;
 }
 .section-center__title{
-
 padding-top:109px;
 margin:0px;
 text-align: center;
@@ -471,7 +467,6 @@ font-size:22px;
 letter-spacing: 4.4px;
 color: #F4A41D;
 opacity: 1;
-
 }
 
 /* top animation */
@@ -492,8 +487,6 @@ opacity: 1;
   padding-bottom: 102px;
   text-align: center;
 }
-
-
 .websitetemplate-condent p.website-subcondent{
   font-size: 26px;
   color:#AAAAAA;
@@ -518,6 +511,7 @@ font-size:70px;
 color: #FFFFFF;
 opacity: 1;
 }
+
 /* carosal */
 
 .container-85{
@@ -541,6 +535,7 @@ opacity: 1;
   width: 100%;
   height: auto;
 }
+
 /* pricing */
 
 section.pricing{
@@ -548,8 +543,6 @@ section.pricing{
   margin-top:111px;
   padding:109px 0px;
 }
-
-
 .pricing h3{
 padding-top:43px;
 text-align: center;
@@ -569,7 +562,6 @@ letter-spacing: 0px;
 color: #3EBDCC;
 margin:0px;
 }
-
 .price-list-right h1{
   font-size:150px;
 letter-spacing: 0px;
@@ -588,16 +580,17 @@ margin:0px;
 .price-list .seperate{
   color:white;
   font-size: 70px;
- 
-}
+ }
+
+
 /* maintanance */
 
 
 .maintanance h4{
-  padding-top:109px;
-  margin:0px;
-  text-align: center;
-  font-size:22px;
+padding-top:109px;
+margin:0px;
+text-align: center;
+font-size:22px;
 letter-spacing: 4.4px;
 color: #F4A41D;
 text-transform: uppercase;
@@ -609,15 +602,14 @@ opacity: 1;
   padding-bottom:60px;
 }
 .starting-price h3{
-  text-align: left;
+text-align: left;
 font-size:50px;
 letter-spacing: 0px;
 color: #3EBDCC;
 opacity: 1;
-
 }
 .starting-price p{
-  text-align: left;
+text-align: left;
 font-size:30px;
 letter-spacing: 0px;
 color: #3EBDCC;
@@ -634,11 +626,11 @@ p.price-para{
 .list-of-price ul li span{
   color:#AAAAAA;
 }
+
 /* feature */
 section.feature{
   background: #00344A 0% 0% no-repeat padding-box;
   padding:110px 0px;
-
 }
 .feature-container-75-splitfeature{
   padding-top:70px;
@@ -666,7 +658,7 @@ p.website-builder-container-75__bilder-title__bilder-condent{
   text-align: center;
   margin:0px;
 }
-.circle{
+/* .circle{
 
 background: #3EBDCC;
 position: relative;
@@ -688,7 +680,7 @@ text-align: center;
   transform-origin: 50% -100%;
   background-color: #3EBDCC;
   z-index: -1;
-}
+} */
 /* support guidance */
 section.support-guidance{
   background-color: #00344A;
@@ -720,8 +712,6 @@ h4.support-guidance-container-90__title1{
   padding-top: 40px;
   margin: 0px;
 }
-  
-
 p.support-guidance-container-90__title__para{
 font-size: 26px;
 text-align: left;
@@ -733,13 +723,14 @@ padding:50px 0px;
 }
 .support-guidance-container-90 a{
 
-    text-decoration:underline!important;
-    text-align: right;
-    font-size: 28px;
-    letter-spacing: 0px;
-    color: #3EBDCC;
-    opacity: 1;
+text-decoration:underline!important;
+text-align: right;
+font-size: 28px;
+letter-spacing: 0px;
+color: #3EBDCC;
+opacity: 1;
 }
+
 /* scroll timeline */
 .timeline {
   padding-top :140px !important;
@@ -776,7 +767,7 @@ padding:50px 0px;
   margin:120px 0px;
 }
 .timeline ul li.in-view::before {
-  content: "";
+  content: attr(data-before);
   position: absolute;
   left: 50%;
   top: 0;
@@ -790,9 +781,14 @@ padding:50px 0px;
   background-repeat: no-repeat;
   background-position: center;
   transition: 0.125s ease-in-out, background-color 0.2s ease-out, color 0.1s ease-out, border 0.1s ease-out;
+  text-align: center;
+  color: white;
+  padding:6px 22px;
+  font-size:30px;
 }
+
 .timeline ul li::before {
-  content: "";
+  content: attr(data-before);
   position: absolute;
   left: 50%;
   top: 0;
@@ -803,7 +799,9 @@ padding:50px 0px;
   background: inherit;
   background: #bdc3c7;
   transition: all 0.4s ease-in-out;
+
 }
+
 .timeline_image img{
   padding-left:50px;
 }
@@ -827,35 +825,7 @@ opacity: 1;
 margin:0px;
 padding-left:30px;
 }
-/* .timeline_button li.in-view::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 0;
-  transform: translateX(-50%);
-  width: 42px;
-  
-  border-radius: 50%;
-  background-image: url("https://sg0duxoli5-flywheel.netdna-ssl.com/wp-content/themes/inspired_elearning_theme/images/check-dark.svg");
-  background-color: #3EBDCC;
-  background-size: 20px 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: 0.125s ease-in-out, background-color 0.2s ease-out, color 0.1s ease-out, border 0.1s ease-out;
-}
-.timeline_button li::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 0;
-  transform: translateX(-50%);
-  width: 12px;
- 
-  border-radius: 50%;
-  background: inherit;
-  background: #bdc3c7;
-  transition: all 0.4s ease-in-out;
-} */
+
 .timeline ul li.timeline_button{
   list-style-type: none;
   position: relative;
@@ -868,11 +838,6 @@ padding-left:30px;
 .timeline li.row.hidden{
   opacity: 0;
 }
-
-
-
-
-
 .menu-categories-container ul.menu{
   list-style: none;
   -webkit-column-count: 2;
