@@ -40,6 +40,7 @@
             </div>
         </section>
         <!-- end top animation -->
+        
         <!-- template slider -->
         <section class="template-carosal">
             <div id="demo_1" class="container container-90 carousel slide reset-padding" data-ride="carousel">
@@ -107,6 +108,7 @@
             </div>  
         </section>
         <!-- end-pricing -->
+
         <!-- maintanance -->
         <section class="maintanance">
             <div class="container container-75">
@@ -130,6 +132,8 @@
             </div>
         </section>
         <!-- end maintannace -->
+
+
         <!-- Feature -->
         <section class="feature">
             <div class="container container-75 reset-padding">
@@ -163,6 +167,8 @@
                 </div>          
             </div>
         </section>
+
+
         <!-- website builder -->
         <section class="website-builder">
             <div class="container container-75 reset-padding">
@@ -201,7 +207,8 @@
                 </div>
             </div>
         </section> 
-         <!--support and guidance  -->
+
+        <!--support and guidance  -->
         <section class="support-guidance">
             <div class="container container-90 support-guidance-email-popup-image reset-padding">
                 <div class="support-guidance-container-90">
@@ -212,6 +219,8 @@
                 </div>
             </div>
         </section>
+
+
         <!-- footer -->
         <section class="footer-section">
             <?php  include 'includes/footer.php'; ?>
@@ -226,6 +235,5 @@
     <script src="js/jquery.sticky.js"></script>
     <script src="js/mobile_menu.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/graph.js"></script>
 </body>
 </html>
