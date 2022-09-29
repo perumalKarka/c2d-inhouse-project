@@ -814,7 +814,7 @@ opacity: 1;
   background: transparent;
 }
 .timeline ul li.in-view {
-  transition: 0.125s ease-in-out, background-color 0.2s ease-out, color 0.1s ease-out, border 0.1s ease-out;
+  transition: 0.5s ease-in-out, background-color 0.2s ease-out, color 0.1s ease-out, border 0.1s ease-out;
   margin:120px 0px;
 }
 .timeline ul li.in-view::before {
@@ -888,6 +888,7 @@ padding-left:30px;
 
 .timeline li.row.hidden{
   opacity: 0;
+  transition: 0.5s ease-in-out
 }
 .menu-categories-container ul.menu{
   list-style: none;

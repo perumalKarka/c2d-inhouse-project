@@ -674,7 +674,7 @@ $('.voxNews').parent().append($('.voxNews').clone());
       function phase1() {
           var voxNews = $('.voxNews').first(),
               curMargin = voxNews.css('margin-left').replace("px", ""),
-              animSpeed = (w*7) - (Math.abs(curMargin)*20);
+              animSpeed = (w*9) - (Math.abs(curMargin)*20);
 
           voxNews.animate({'margin-left' : '-' + w + 'px'}, animSpeed, 'linear', phase2);
       }
@@ -704,7 +704,7 @@ $('.voxNews1').parent().append($('.voxNews1').clone());
       function phase1() {
           var voxNews1 = $('.voxNews1').first(),
               curMargin = voxNews1.css('margin-right').replace("px", ""),
-              animSpeed = (w*7) - (Math.abs(curMargin)*20);
+              animSpeed = (w*9) - (Math.abs(curMargin)*20);
 
           voxNews1.animate({'margin-right' : '-' + w + 'px'}, animSpeed, 'linear', phase2);
       }
