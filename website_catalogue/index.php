@@ -27,6 +27,7 @@
                 </header>
             </div>
         </section>
+        
         <!-- top animation -->
         <section class="website-animation">
             <div class="container container-75 reset-padding">
@@ -254,6 +255,7 @@
             <?php  include 'includes/footer.php'; ?>
         </section>
     </div>
+
     
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
