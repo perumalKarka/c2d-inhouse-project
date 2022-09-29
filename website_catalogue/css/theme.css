@@ -133,6 +133,10 @@ width: 100%;
 max-width: 970px;
 width: 100%;
 }
+.container-90{
+  max-width: 90%;
+  width:100%;
+}
 
 .container-75{
   max-width: 75%;
@@ -428,19 +432,16 @@ footer{
     margin: 0;
     justify-content: space-between;
     padding-left:12%;
-   
 }
 .menus-container ul li a{
   color:white;
   font-size: 20px;
   text-decoration: underline !important;
-  
 }
 .footer-top{
   padding-bottom:20px;
   border-bottom:1px solid#0874A2;
 }
-
 .footer-bottom{
   padding-top:20px;
 }
@@ -450,11 +451,445 @@ footer{
   font-size: 20px;
   margin:0;
 }
+.section-center__title{
+padding-top:109px;
+margin:0px;
+text-align: center;
+font-size:22px;
+letter-spacing: 4.4px;
+color: #F4A41D;
+text-transform: uppercase;
+opacity: 1;
+}
+.section-left__title{
+  text-align: left;
+font-size:22px;
+letter-spacing: 4.4px;
+color: #F4A41D;
+opacity: 1;
+}
+
+/* top animation */
+.container-75 {
+  width: 100%;
+  max-width: 75%;
+  padding:20px 0px 0px 0px;
+}
+.container-75 .rectangle-animate{
+  padding:20%;
+  background-color: #000000;
+  box-shadow: 0px 2px 7px #00000017;
+  border-radius: 41px;
+  
+}
+.websitetemplate-condent{
+  
+  padding-bottom: 102px;
+  text-align: center;
+}
+.websitetemplate-condent p.website-subcondent{
+  font-size: 26px;
+  color:#AAAAAA;
+  padding: 30px 0px;
+  max-width: 91%;
+  margin:0 auto;
+}
+button.click-mail{
+  border:none;
+  padding:10px 50px 10px 50px;
+  border-radius: 8px;
+  color:white;
+  background-color: #3EBDCC;
+  font-size: 28px;
+}
+.section-sub__title{
+  padding-top:40px;
+  
+color: var(--unnamed-color-ffffff);
+text-align: center;
+font-size:70px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+/* carosal */
+
+.container-85{
+  width: 100%;
+  max-width: 85%;
+
+}
+.carousel {
+  position: relative;
+}
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.carousel-item .ads {
+  display: inline-block;
+  margin-left: -4px;
+}
+.carousel-item .ads img {
+  width: 100%;
+  height: auto;
+}
 
 
 
 
+/* left right carosal */
+#news_slide{
+  height:356px; 
+  overflow:hidden;
+  }
+  #news_slide1{
+    height:150px; 
+    overflow:hidden;
+    }
+  .voxNews li{
+  margin-top:-10px;
+  float:left;
+  margin-left:5px;
+  padding:15px 0 5px;
+  }
+  
+  .voxNews1 li{
+  margin-top:-10px;
+  float:right;
+  margin-left:5px;
+  padding:15px 0 5px;
+  }
+  .carosal_image{
+    vertical-align:baseline;
+  }
+  
+  
+  
+  .products-outer {
+    width: 80%;
+    margin: 50px auto 0;
+   
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  .products-inner {
+  /*   width: 1156px; */
+   /* position: relative;
+  /*   left: 0px; */
+  /*   transition: all; */
+  }
+  .product {
+    display: inline;
+  }
 
+
+
+/* pricing */
+
+section.pricing{
+  background: #00344A 0% 0% no-repeat padding-box;
+  margin-top:111px;
+  padding:109px 0px;
+}
+.pricing h3{
+padding-top:43px;
+text-align: center;
+font-size:60px;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.price-list{
+  padding-top:20px;
+  text-align: center;
+}
+.price-list-left h1{
+ 
+font-size:150px;
+letter-spacing: 0px;
+color: #3EBDCC;
+margin:0px;
+}
+.price-list-right h1{
+  font-size:150px;
+letter-spacing: 0px;
+color: #3EBDCC;
+margin:0px;
+
+}
+.price-list-right p{
+  text-align: center;
+font-size:26px;
+letter-spacing: 0px;
+color: #AAAAAA;
+margin:0px;
+
+}
+.price-list .seperate{
+  color:white;
+  font-size: 70px;
+ }
+
+
+/* maintanance */
+
+
+.maintanance h4{
+padding-top:109px;
+margin:0px;
+text-align: center;
+font-size:22px;
+letter-spacing: 4.4px;
+color: #F4A41D;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.startingprice{
+  padding-top:50px;
+  padding-bottom:60px;
+}
+.starting-price h3{
+text-align: left;
+font-size:50px;
+letter-spacing: 0px;
+color: #3EBDCC;
+opacity: 1;
+}
+.starting-price p{
+text-align: left;
+font-size:30px;
+letter-spacing: 0px;
+color: #3EBDCC;
+opacity: 1;
+}
+p.price-para{
+  padding:0px;
+  margin-top:10px;
+}
+.list-of-price ul li{
+  color:#3EBDCC;
+  margin-top: 7px;
+}
+.list-of-price ul li span{
+  color:#AAAAAA;
+}
+
+/* feature */
+section.feature{
+  background: #00344A 0% 0% no-repeat padding-box;
+  padding:110px 0px;
+}
+.feature-container-75-splitfeature{
+  padding-top:70px;
+}
+.feature-video__condent img{
+  margin-bottom:20px;
+}
+.feature-video__condent p{
+  letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font-size:23px;
+letter-spacing: 0px;
+color: #AAAAAA;
+opacity: 1;
+}
+
+/* website builder */
+
+
+p.website-builder-container-75__bilder-title__bilder-condent{
+  font-size:60px;
+  color:#FFFFFF;
+  padding-top:46px;
+  padding-bottom:208px;
+  text-align: center;
+  margin:0px;
+}
+/* .circle{
+
+background: #3EBDCC;
+position: relative;
+width: 25px;
+height: 25px;
+border-radius: 100%;
+color: white;
+text-align: center;
+}
+.circle:after {
+  content: ' ';
+  position: absolute;
+  display: block;
+  right: 50%;
+  bottom: 1px;
+  height: 231px;
+  width: 2px;
+  transform: scale(1, 2);
+  transform-origin: 50% -100%;
+  background-color: #3EBDCC;
+  z-index: -1;
+} */
+/* support guidance */
+section.support-guidance{
+  background-color: #00344A;
+  padding:110px 0px;
+}
+.support-guidance-email-popup-image{
+  background-image: url("../images/background.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.support-guidance-container-90{
+  max-width: 58%;
+  width:100%;
+}
+h4.support-guidance-container-90__title1{
+    letter-spacing: 4.4px;
+    color: #F4A41D;
+    opacity: 1;
+    margin: 0;
+    font-size: 22px;
+    text-align: left;
+}
+.section-left-sub__title{
+  text-align: left;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  font-size: 60px;
+  padding-top: 40px;
+  margin: 0px;
+}
+p.support-guidance-container-90__title__para{
+font-size: 26px;
+text-align: left;
+letter-spacing: 0px;
+color: #AAAAAA;
+opacity: 1;
+margin:0;
+padding:50px 0px;
+}
+.support-guidance-container-90 a{
+
+text-decoration:underline!important;
+text-align: right;
+font-size: 28px;
+letter-spacing: 0px;
+color: #3EBDCC;
+opacity: 1;
+}
+
+/* scroll timeline */
+.timeline {
+  padding-top :140px !important;
+  padding-bottom:110px;
+}
+.timeline ul {
+  padding: 0;
+}
+.timeline .default-line {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 4px;
+  background: #bdc3c7;
+  /* height: 1900px; */
+}
+.timeline .draw-line {
+  width: 4px;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  background: #3EBDCC;
+}
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  padding:5px 0px;
+  margin: 0 auto;
+  height: 375px;
+  background: transparent;
+}
+.timeline ul li.in-view {
+  transition: 0.5s ease-in-out, background-color 0.2s ease-out, color 0.1s ease-out, border 0.1s ease-out;
+  margin:120px 0px;
+}
+.timeline ul li.in-view::before {
+  content: attr(data-before);
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  background-image: url("https://sg0duxoli5-flywheel.netdna-ssl.com/wp-content/themes/inspired_elearning_theme/images/check-dark.svg");
+  background-color: #3EBDCC;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.125s ease-in-out, background-color 0.2s ease-out, color 0.1s ease-out, border 0.1s ease-out;
+  text-align: center;
+  color: white;
+  padding:6px 22px;
+  font-size:30px;
+}
+
+.timeline ul li::before {
+  content: attr(data-before);
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  background: inherit;
+  background: #bdc3c7;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.timeline_image img{
+  padding-left:50px;
+}
+.timeline_condent h2{
+  text-align: left;
+font-size:40px;
+letter-spacing: 0px;
+color: #AAAAAA;
+opacity: 1;
+padding-left:30px;
+margin-bottom:20px;
+}
+.timeline_condent p{
+  
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+font-size:24px;
+letter-spacing: 0px;
+color: #AAAAAA;
+opacity: 1;
+margin:0px;
+padding-left:30px;
+}
+
+.timeline ul li.timeline_button{
+  list-style-type: none;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+ height: 0 !important;
+  background: transparent;
+}
+
+.timeline li.row.hidden{
+  opacity: 0;
+  transition: 0.5s ease-in-out
+}
 .menu-categories-container ul.menu{
   list-style: none;
   -webkit-column-count: 2;
