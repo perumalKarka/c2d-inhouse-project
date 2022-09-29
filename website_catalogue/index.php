@@ -43,8 +43,8 @@
         
         <!-- template slider -->
         <section class="template-carosal">
-            <div id="demo_1" class="container container-90 carousel slide reset-padding" data-ride="carousel">
-				<div class="carousel-inner reset-padding">
+            
+				<!-- <div class="carousel-inner reset-padding">
 					<div class="carousel-item">
 						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>    
 						<div class="col-md-4 ads"><img src="images/Group 1199.png"></div>   
@@ -60,8 +60,8 @@
 						<div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>   
 						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
 					</div>
-				        <!-- Left and right controls -->
-						<a class="carousel-control-prev" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+				        Left and right controls -->
+						<!-- <a class="carousel-control-prev" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
 					    <a class="carousel-control-next" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
                 </div>
             </div>
@@ -82,10 +82,38 @@
 						<div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>   
 						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
 					</div>
-				        <!-- Left and right controls -->
-						<a class="carousel-control-prev" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+				        Left and right controls -->
+						<!-- <a class="carousel-control-prev" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
 					    <a class="carousel-control-next" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
-                </div>
+                </div> -->
+
+            <div id="news_slide" class="products-outer">
+                <ul class="voxNews products-inner reset-padding">
+                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    <li><img class="carosal_image" src="images/Group 1199.png"></li>
+                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    <li><img class="carosal_image" src="images/Group 1199.png"></li>
+                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    <li><img class="carosal_image" src="images/Group 1199.png"></li>
+                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                </ul>
+            </div>
+
+            <div id="news_slide" class="products-outer">
+                <ul class="voxNews1 products-inner reset-padding">
+                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    <li><img class="carosal_image" src="images/Group 1199.png"></li>
+                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    <li><img class="carosal_image" src="images/Group 1199.png"></li>
+                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    <li><img class="carosal_image" src="images/Group 1199.png"></li>
+                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    
+                </ul>
             </div>
         </section>
         <!-- end template slider -->
@@ -228,7 +256,7 @@
     </div>
     
     
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.js"></script>

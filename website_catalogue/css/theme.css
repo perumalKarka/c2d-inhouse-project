@@ -536,6 +536,57 @@ opacity: 1;
   height: auto;
 }
 
+
+
+
+/* left right carosal */
+#news_slide{
+  height:356px; 
+  overflow:hidden;
+  }
+  #news_slide1{
+    height:150px; 
+    overflow:hidden;
+    }
+  .voxNews li{
+  margin-top:-10px;
+  float:left;
+  margin-left:5px;
+  padding:15px 0 5px;
+  }
+  
+  .voxNews1 li{
+  margin-top:-10px;
+  float:right;
+  margin-left:5px;
+  padding:15px 0 5px;
+  }
+  .carosal_image{
+    vertical-align:baseline;
+  }
+  
+  
+  
+  .products-outer {
+    width: 80%;
+    margin: 50px auto 0;
+   
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  .products-inner {
+  /*   width: 1156px; */
+   /* position: relative;
+  /*   left: 0px; */
+  /*   transition: all; */
+  }
+  .product {
+    display: inline;
+  }
+
+
+
 /* pricing */
 
 section.pricing{
