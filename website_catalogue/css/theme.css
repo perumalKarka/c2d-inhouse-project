@@ -905,13 +905,230 @@ letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
 }
-/* .catalogue-firstSection .catelogue-right-searchbar{
-  text-align: right;
-  padding-top:200px;
-} */
+.searchBox{
+  width:50%;
+  float:right;
+  border-bottom: 1px  solid#3EBDCC;
+}
+span.searchicon{
+  color:#3EBDCC;
+  font-size: 20px;
+}
+.searchBox input{
+  background-color: transparent;
+  border:none;
+  text-align: left;
+    font-size:18px;
+    letter-spacing: 0px;
+    color: white;
+    opacity: 1;
+}
+
+  #myFilter::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  /* filter section */
+  .filtersection{
+   
+    margin:10px 0px 10px 0px;
+    border-top:2px solid #383838;
+    border-bottom:2px solid #383838;
+
+  }
+  .request{
+    text-align: right;
+    padding:0px;
+  }
+  .request-sector{
+    border:none;
+    border-radius: 6px;
+    padding:13px 36px;
+    background-color: #F4A41D;
+    text-align: center;
+font-size:24px;
+letter-spacing: 0px;
+color: #383838;
+opacity: 1;
+
+  }
+
+ /* website card temaplate start */
 
 
 
+.card_body{
+    margin: 10px 35px 50px 35px;
+}
+.card_image{
+  position: relative;
+}
+.card_image i{
+  box-shadow: 3px 3px 6px #0000005e;
+    color: #005579;
+    padding: 17px 20px 17px 20px;
+    background-color: white;
+    border-radius: 37px;
+    position:absolute;
+    left: 30px;
+    bottom: 42px;
+}
+.card_image i:last-child{
+  left:100px;
+}
+.card_image i.like{
+  background-color:  #005579;
+  color:white;
+}
+.card_image img{
+  border-radius: 41px;
+  box-shadow: 0px 2px 7px #00000066;
+  border-radius: 41px 41px 0px 0px;
+  opacity: 1;
+}
+.card_body button{
+  margin-right:10px;
+  color: white;
+  text-align: left;
+  font-size:12px;
+  letter-spacing: 1.2px;
+  color: #005579;
+  opacity: 1;
+  border: 0.5px solid #005579;
+  border-radius:8px;
+  opacity: 1;
+  padding:10px 25px;
+  background-color: white;
+}
+.card_body.btn-2{
+  color:#3EBDCC!important;
+}
+.website_template{
+  background-color: #00000080;
+  background: #383838 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 9px #00000080;
+  border-radius: 41px;
+  opacity: 1;
+
+}
+.card_block:nth-child(odd) .website_template
+{
+  margin-right:20px;
+  margin-left:0px;
+}
+.card_block:nth-child(even) .website_template
+{
+  margin-left:20px;
+  margin-right:0px;
+}
+.card_body span{
+text-align: right;
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3ebdcc);
+margin-left: 27%;
+font-size:16px;
+letter-spacing: 0px;
+color: #3EBDCC;
+opacity: 1;
+}
+.card_body h3{
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3ebdcc);
+margin: 20px 0px;
+font-size:40px;
+letter-spacing: 0px;
+color: #3EBDCC;
+opacity: 1;
+}
+.card_body p{
+
+font-size:20px;
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+letter-spacing: 0px;
+color: #AAAAAA;
+opacity: 1;
+margin-bottom:40px;
+}
+button.preview{
+float: right;
+background: var(--unnamed-color-3ebdcc) 0% 0% no-repeat padding-box;
+background: #3EBDCC 0% 0% no-repeat padding-box;
+border-radius: 6px;
+padding:10px 14x;
+text-align: center;
+font-size:24px;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+ .card_block{
+  margin-top:100px;
+ }
+
+.color-selector li {
+  width: 34px;
+  height: 34px;
+  color: transparent;
+  border-radius: 50%;
+  margin-right:11px;
+}
+
+/* pagenavigation */
+.website-pagenation{
+  padding-top:77px;
+  padding-bottom:100px;
+
+}
+.website-pagenation nav{
+  float:right;
+
+}
+.website-pagenation-nav_ul{
+  box-shadow: 0px 3px 6px #0000006B;
+opacity: 1;
+
+}
+.website-pagenation-nav_ul_li a{
+  font-size:20px;
+  color: #AAAAAA;
+  background-color: #383838;
+  padding:20px 24px;
+border:none;
+
+opacity: 1;
+margin-right:8px;
+}
+.section-num a{
+padding:20px 24px;
+background-color: #383838;
+text-align: center;
+font-size:20px;
+letter-spacing: 0px;
+color: #AAAAAA;
+opacity: 1;
+border:none;
+
+opacity: 1;
+margin-right:8px;
+
+}
+.website-pagenation-nav_ul_li a:hover {
+  background-color: #3EBDCC;
+  color:white;
+}
+.section-num a:hover {
+  background-color: #3EBDCC;
+  color:white;
+}
+
+/* slideshow recent view
+button*/
+h2.card_subtitle{
+  font-size:35px;
+  color:#FFFFFF;
+  margin-bottom:80px;
+}
 
 
 

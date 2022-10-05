@@ -32,12 +32,278 @@
             <div class="container container-90 reset-padding">
                 <div class="row">
                     <div class="col-6 catelogue-left-sub__title reset-padding"><p class="reset-margin">Lorem ipsum dolor sit amet, consetetur</p></div>
-                    <div class="col-6 catelogue-right-searchbar"></div>
+                    <div class="col-6 catelogue-right-searchbar align-self-end reset-padding ">
+                        <div class="input-group searchBox">
+                           <input class="form-control reset-padding mb-2" type="text" id="myFilter" placeholder="Search for your type of business..." aria-label="Search">
+                            <div class="input-group-append align-self-center mb-2">
+                                <span class="fa fa-search form-control-feedback searchicon"id="basic-text1"></span>
+                            </div>
+                        </div>
+                    </div>
                         
                 </div>
             </div>
+        </section> 
+        <!-- filter section -->
+        <section class="filtersection">
+            <div class="container container-90 reset-padding">
+                <div class="row filter-option reset-margin">
+                    <div class="col-6">
+                    </div>
+                    <div class="col-6 request">
+                    <button type="button" class="request-sector">Request a new sector</button>
+                    </div>
+                </div>
+            </div>
 
-        </section>  
+            
+        </section> 
+        <!-- card section -->
+        <section class="cardsection">
+            <div class="container container-90 reset-padding">
+                <div class="row catelogu_template_item reset-margin">
+                    <div class="card_block col-6 reset-padding">
+                        <div class="card website_template">
+                            <div class="card_image"><img src="images/cardimage1.jpeg" class="card-img">
+                            <i class="fa fa-bookmark"></i>
+                            <i class="fa fa-thumbs-up like "></i>
+                            
+                            </div>
+                            <div class="card_body mt-3">
+                                <button type="button"  >MINIMAL</button>
+                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
+                                <span>1245 liked this design</span>
+                                <h3>We must give title here</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <div class="row reset-margin">
+                                    <div class="col-6 reset-padding">
+                                        <span class="color-choice reset-margin">Color choice</span>
+                                        <ul class="d-flex color-selector mt-2">
+                                            <li style="background: #9D4EDD;"></li>
+                                            <li style="background: #FF570A;"></li>
+                                            <li style="background: #6EC630;"></li>
+                                            <li style="background: #EAAB3D;"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" >Live Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_block col-6 reset-padding">
+                        <div class="card website_template">
+                            <div class="card_image"><img src="images/cardimage1.jpeg" class="card-img"> 
+                            <i class="fa fa-bookmark"></i>
+                            <i class="fa fa-thumbs-up  "></i>
+                            </div>
+                            <div class="card_body mt-3">
+                                <button type="button"  >MINIMAL</button>
+                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
+                                <span>1245 liked this design</span>
+                                <h3>We must give title here</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <div class="row reset-margin">
+                                    <div class="col-6 reset-padding">
+                                        <span class="color-choice reset-margin">Color choice</span>
+                                        <ul class="d-flex color-selector mt-2">
+                                            <li style="background: #9D4EDD;"></li>
+                                            <li style="background: #FF570A;"></li>
+                                            <li style="background: #6EC630;"></li>
+                                            <li style="background: #EAAB3D;"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" >Live Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_block col-6 reset-padding">
+                        <div class="card website_template">
+                            <div class="card_image"><img src="images/cardimage1.jpeg" class="card-img">
+                            <i class="fa fa-bookmark"></i>
+                            <i class="fa fa-thumbs-up "></i>
+                            </div>
+                            <div class="card_body mt-3">
+                                <button type="button"  >MINIMAL</button>
+                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
+                                <span>1245 liked this design</span>
+                                <h3>We must give title here</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <div class="row reset-margin">
+                                    <div class="col-6 reset-padding">
+                                        <span class="color-choice reset-margin">Color choice</span>
+                                        <ul class="d-flex color-selector mt-2">
+                                            <li style="background: #9D4EDD;"></li>
+                                            <li style="background: #FF570A;"></li>
+                                            <li style="background: #6EC630;"></li>
+                                            <li style="background: #EAAB3D;"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" >Live Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_block col-6 reset-padding">
+                        <div class="card website_template">
+                            <div class="card_image"><img src="images/cardimage1.jpeg" class="card-img">
+                            <i class="fa fa-bookmark"></i>
+                            <i class="fa fa-thumbs-up  "></i>
+                            </div>
+                            <div class="card_body mt-3">
+                                <button type="button"  >MINIMAL</button>
+                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
+                                <span>1245 liked this design</span>
+                                <h3>We must give title here</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <div class="row reset-margin">
+                                    <div class="col-6 reset-padding">
+                                        <span class="color-choice reset-margin">Color choice</span>
+                                        <ul class="d-flex color-selector mt-2">
+                                            <li style="background: #9D4EDD;"></li>
+                                            <li style="background: #FF570A;"></li>
+                                            <li style="background: #6EC630;"></li>
+                                            <li style="background: #EAAB3D;"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" >Live Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_block col-6 reset-padding">
+                        <div class="card website_template">
+                            <div class="card_image"><img src="images/cardimage1.jpeg" class="card-img">
+                            <i class="fa fa-bookmark"></i>
+                            <i class="fa fa-thumbs-up  "></i>
+                            </div>
+                            <div class="card_body mt-3">
+                                <button type="button"  >MINIMAL</button>
+                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
+                                <span>1245 liked this design</span>
+                                <h3>We must give title here</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <div class="row reset-margin">
+                                    <div class="col-6 reset-padding">
+                                        <span class="color-choice reset-margin">Color choice</span>
+                                        <ul class="d-flex color-selector mt-2">
+                                            <li style="background: #9D4EDD;"></li>
+                                            <li style="background: #FF570A;"></li>
+                                            <li style="background: #6EC630;"></li>
+                                            <li style="background: #EAAB3D;"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" >Live Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_block col-6 reset-padding">
+                        <div class="card website_template">
+                            <div class="card_image"><img src="images/cardimage1.jpeg" class="card-img">
+                            <i class="fa fa-bookmark"></i>
+                            <i class="fa fa-thumbs-up  "></i>
+                            </div>
+                            <div class="card_body mt-3">
+                                <button type="button"  >MINIMAL</button>
+                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
+                                <span>1245 liked this design</span>
+                                <h3>We must give title here</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <div class="row reset-margin">
+                                    <div class="col-6 reset-padding">
+                                        <span class="color-choice reset-margin">Color choice</span>
+                                        <ul class="d-flex color-selector mt-2">
+                                            <li style="background: #9D4EDD;"></li>
+                                            <li style="background: #FF570A;"></li>
+                                            <li style="background: #6EC630;"></li>
+                                            <li style="background: #EAAB3D;"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" >Live Preview</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- page nation -->
+        <section class="website-pagenation">
+            <div class="container container-90 reset-padding">
+            <nav aria-label="Page navigation example website-pagenation-nav">
+                <ul class="pagination website-pagenation-nav_ul reset-margin">
+                    <li class="page-item website-pagenation-nav_ul_li">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    </li>
+                    <li class="page-item section-num"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item section-num"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item section-num"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item section-num"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item section-num"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item section-num">
+                    <a class="page-link reset-margin" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </section>
+        <!-- slide show -->
+        <section class="slide-show-recent_cardview">
+           
+            <div id="demo_1" class="container container-90 carousel slide reset-padding mt-4" data-ride="carousel">
+            <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
+				<div class="carousel-inner reset-padding">
+					<div class="carousel-item">
+						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>    
+						<div class="col-md-4 ads"><img src="images/Group 1199.png"></div>   
+						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>   
+					</div>
+					<div class="carousel-item active">
+						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
+						<div class="col-md-4  ads"><img src="images/Group 1199.png"></div>   
+						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
+						<div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>   
+						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
+					</div>
+				        <--Left and right controls -->
+						 <a class="carousel-control-prev slide_position" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+					    <a class="carousel-control-next slide_position" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                </div>
+            </div>
+            <div id="demo_2" class="container container-90 carousel slide card_slide reset-padding"  style="margin-top:100px;"data-ride="carousel">
+            <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
+				<div class="carousel-inner reset-padding">
+					<div class="carousel-item">
+						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>    
+						<div class="col-md-4 ads"><img src="images/Group 1199.png"></div>   
+						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>   
+					</div>
+					<div class="carousel-item active">
+						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
+						<div class="col-md-4  ads"><img src="images/Group 1199.png"></div>   
+						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
+					</div>
+					<div class="carousel-item">
+						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
+						<div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>   
+						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
+					</div>
+				        <--Left and right controls -->
+						 <a class="carousel-control-prev slide_position" href="#demo_2" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+					    <a class="carousel-control-next slide_position" href="#demo_2" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                </div>
+            </div>
+        </section>
         
         
 
