@@ -201,8 +201,8 @@
                     <div class="card_block col-6 reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardimage1.jpeg" class="card-img">
-                            <i class="fa fa-bookmark"></i>
-                            <i class="fa fa-thumbs-up  "></i>
+                             <i class="fa fa-bookmark"></i>
+                            <i class="fa fa-thumbs-up "></i>
                             </div>
                             <div class="card_body mt-3">
                                 <button type="button"  >MINIMAL</button>
@@ -230,7 +230,7 @@
         </section>
         <!-- page nation -->
         <section class="website-pagenation">
-            <div class="container container-90 reset-padding">
+            <div class="container container-90 reset-padding"style="overflow:hidden;">
             <nav aria-label="Page navigation example website-pagenation-nav">
                 <ul class="pagination website-pagenation-nav_ul reset-margin">
                     <li class="page-item website-pagenation-nav_ul_li">
@@ -259,7 +259,7 @@
            
             <div id="demo_1" class="container container-90 carousel slide reset-padding mt-4" data-ride="carousel">
             <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
-				<div class="carousel-inner reset-padding">
+				<div class="carousel-inner inner-slide">
 					<div class="carousel-item">
 						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>    
 						<div class="col-md-4 ads"><img src="images/Group 1199.png"></div>   
@@ -276,13 +276,13 @@
 						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
 					</div>
 				        <--Left and right controls -->
-						 <a class="carousel-control-prev slide_position" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-					    <a class="carousel-control-next slide_position" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+						 <a class="carousel-control-prev slide_position prev-section" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+					    <a class="carousel-control-next slide_position next-section" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
                 </div>
             </div>
             <div id="demo_2" class="container container-90 carousel slide card_slide reset-padding"  style="margin-top:100px;"data-ride="carousel">
             <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
-				<div class="carousel-inner reset-padding">
+				<div class="carousel-inner inner-slide ">
 					<div class="carousel-item">
 						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>    
 						<div class="col-md-4 ads"><img src="images/Group 1199.png"></div>   
@@ -299,8 +299,8 @@
 						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
 					</div>
 				        <--Left and right controls -->
-						 <a class="carousel-control-prev slide_position" href="#demo_2" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-					    <a class="carousel-control-next slide_position" href="#demo_2" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+						 <a class="carousel-control-prev slide_position prev-section" href="#demo_2" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+					    <a class="carousel-control-next slide_position next-section" href="#demo_2" data-slide="next"><span class="carousel-control-next-icon"></span></a>
                 </div>
             </div>
         </section>

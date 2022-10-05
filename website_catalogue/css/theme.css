@@ -923,6 +923,12 @@ span.searchicon{
     color: white;
     opacity: 1;
 }
+.searchBox input:focus{
+  background-color:#1F1F1F;
+  border-color: transparent;
+  box-shadow: none;
+  color:white;
+}
 
   #myFilter::placeholder {
     color: white;
@@ -1129,7 +1135,32 @@ h2.card_subtitle{
   color:#FFFFFF;
   margin-bottom:80px;
 }
+.slide-show-recent_cardview .inner-slide{
+  padding:0px 40px;
+}
+.slide-show-recent_cardview .inner-slide a.prev-section{
+  left:-85px;
+}
+.slide-show-recent_cardview .inner-slide a.next-section{
+  right:-82px;
+}
+/* request form */
+.request-form h2{
+  font-size:40px;
+  color:white;
+  text-align: left;
+  margin-bottom:82px;
+}
+.form-container{
+  background: #383838 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 15px #000000AA;
+  border-radius: 37px;
+  opacity: 1;
 
+}
+.request-form{
+  padding:100px 100px;
+}
 
 
 
