@@ -1011,6 +1011,11 @@ border:none;
 color: #878787;
 opacity: 1;
 font-size:18px;
+border:none;
+}
+.requestmodal_content input:focus{
+  background-color: #1F1F1F;
+  border:none;
 }
 .requestmodal_content h3{
 font-size:18px;
@@ -1034,6 +1039,7 @@ font: normal normal bold 24px/29px Roboto;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
+border:none;
 }
 
 
