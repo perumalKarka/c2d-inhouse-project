@@ -17,7 +17,7 @@
     <link rel="apple-touch-icon" href="images/favicon-ico.png" />
     <meta name="msapplication-TileImage" content="images/favicon-ico.png" />
 </head>
-<body>
+<body class="catelogue-page">
     <div class="container-fluid site-fluid">
         <section class="header-section">
             <div class="container container-85 reset-padding">
@@ -51,7 +51,8 @@
                     <div class="col-6">
                     </div>
                     <div class="col-6 request">
-                    <button type="button" class="request-sector">Request a new sector</button>
+                    <button type="button" class="request-sector" data-toggle="modal" data-target="#exampleModal">Request a new sector</button>
+                    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button> -->
                     </div>
                 </div>
             </div>
@@ -313,6 +314,7 @@
             <?php  include 'includes/footer.php'; ?>
         </section>
     </div>
+    <?php include 'model.php'; ?>
 
     
     

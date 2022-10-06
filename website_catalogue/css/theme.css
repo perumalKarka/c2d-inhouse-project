@@ -575,12 +575,7 @@ opacity: 1;
     overflow: hidden;
   }
   
-  .products-inner {
-  /*   width: 1156px; */
-   /* position: relative;
-  /*   left: 0px; */
-  /*   transition: all; */
-  }
+ 
   .product {
     display: inline;
   }
@@ -690,7 +685,7 @@ section.feature{
   margin-bottom:20px;
 }
 .feature-video__condent p{
-  letter-spacing: var(--unnamed-character-spacing-0);
+letter-spacing: var(--unnamed-character-spacing-0);
 text-align: left;
 font-size:23px;
 letter-spacing: 0px;
@@ -958,6 +953,89 @@ color: #383838;
 opacity: 1;
 
   }
+  .catelogue-page .modal-backdrop{
+    background-color: #1F1F1F;
+    opacity: 1;
+  }
+  .requestform-popup-page{
+    margin-top:150px;
+    margin-bottom:200px;
+  }
+  h2.form-heading{
+    color:white;
+    padding-bottom:60px;
+    margin:0px;
+    font-size:50px;
+}
+.requestform-popup-page .requestmodal_content{
+background: #383838 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 15px #000000AA;
+border-radius: 37px;
+opacity: 1;
+}
+button.closebutton{
+  color:#3EBDCC;
+  right: 75px;
+  position: absolute;
+  top: 87px;
+
+}
+button.closebutton span{
+  font-size:60px;
+}
+.requestmodal_content{
+  padding:100px 100px;
+}
+.requestmodal_content label
+{
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font-size:24px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+.requestmodal_content input{
+  background: #1F1F1F 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+border:none;
+}
+.description input{
+
+  padding:80px 0px;
+}
+.requestmodal_content input{
+  padding:30px 20px;
+  letter-spacing: 0px;
+color: #878787;
+opacity: 1;
+font-size:18px;
+}
+.requestmodal_content h3{
+font-size:18px;
+letter-spacing: 1.25px;
+color: #BEBEBE;
+opacity: 1;
+margin-top:30px;
+}
+.robotimage img{
+  width: 100%;
+  max-width: 50%;
+}
+.submit{
+  text-align: right;
+}
+.submit button{
+padding:10px 79px;
+color: var(--unnamed-color-ffffff);
+text-align: center;
+font: normal normal bold 24px/29px Roboto;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
 
  /* website card temaplate start */
 
