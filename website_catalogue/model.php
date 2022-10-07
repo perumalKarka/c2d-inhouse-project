@@ -1,9 +1,10 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <button type="button" class="close closebutton" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span> 
-        </button>
+        
     <div class="modal-dialog container-80 requestform-popup-page">
         <h2 class="form-heading">Request for a new sector</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
         <div class="modal-content requestmodal_content">
             <form>
                 <div class="form-group">
@@ -25,9 +26,7 @@
             </form>
             <h3 class="request-condent ">This site is protected by reCAPTCHA and the Google<span style="color:white;"> Privacy Policy </span>and <span style="color:white;">Terms of Conditions</span> apply.
             <div class="row reset-margin pt-5">
-                <div class="col-6 robotimage reset-padding"><img src="images/robot.png" ></div>
+                <div class="col-6 robotimage reset-padding g-recaptcha"data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+               
+
                 <div class="col-6 submit reset-padding"><button type="button" class="click-mail">submit</button></div>
-            </div>
-        </div>
-    </div>
-</div>

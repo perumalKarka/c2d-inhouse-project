@@ -953,6 +953,13 @@ color: #383838;
 opacity: 1;
 
   }
+  .catelogue-page .header-section header{
+    z-index: 0;
+  }
+  .request-sector:focus{
+    border: none;
+    outline: none;
+  }
   .catelogue-page .modal-backdrop{
     background-color: #1F1F1F;
     opacity: 1;
@@ -980,6 +987,7 @@ button.closebutton{
   top: 87px;
 
 }
+
 button.closebutton span{
   font-size:60px;
 }
