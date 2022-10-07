@@ -723,3 +723,6 @@ $('.voxNews1').parent().append($('.voxNews1').clone());
 setupNews1(vox_news1);
 
 
+
+
+

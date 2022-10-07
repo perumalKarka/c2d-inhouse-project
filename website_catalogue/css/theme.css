@@ -913,10 +913,10 @@ span.searchicon{
   background-color: transparent;
   border:none;
   text-align: left;
-    font-size:18px;
-    letter-spacing: 0px;
-    color: white;
-    opacity: 1;
+  font-size:18px;
+  letter-spacing: 0px;
+  color: white;
+  opacity: 1;
 }
 .searchBox input:focus{
   background-color:#1F1F1F;
@@ -987,22 +987,22 @@ opacity: 1;
   text-shadow: none;
   font-size:35px;
   position: absolute;
-  right:-39px;
-  top:-10vh;
+  right:-61px;
+  top:-47vh;
 
 }
-.requestmodal_content form{
-  padding:100px 100px;
+.requestform-popup-page .requestmodal_content{
+  padding:50px 50px !important;
   
 
 }
-button.closebutton{
+/* button.closebutton{
   color:#3EBDCC;
   right: 75px;
   position: absolute;
   top: 87px;
 
-}
+} */
 
 button.closebutton span{
   font-size:60px;
@@ -1023,7 +1023,7 @@ border-radius: 10px;
 opacity: 1;
 border:none;
 }
-.description input{
+.requestmodal_content .description input{
 
   padding:80px 0px;
 }
