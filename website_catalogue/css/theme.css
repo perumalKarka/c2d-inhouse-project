@@ -974,11 +974,27 @@ opacity: 1;
     margin:0px;
     font-size:50px;
 }
-.requestform-popup-page .requestmodal_content{
-background: #383838 0% 0% no-repeat padding-box;
-box-shadow: 0px 0px 15px #000000AA;
-border-radius: 37px;
-opacity: 1;
+.requestmodal_content{
+  background: #383838 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 15px #000000AA;
+  border-radius: 37px;
+ 
+
+}
+.requestmodal_content .close{
+  color: #3EBDCC;
+  opacity: 1;
+  text-shadow: none;
+  font-size:35px;
+  position: absolute;
+  right:-39px;
+  top:-10vh;
+
+}
+.requestmodal_content form{
+  padding:100px 100px;
+  
+
 }
 button.closebutton{
   color:#3EBDCC;
@@ -991,9 +1007,7 @@ button.closebutton{
 button.closebutton span{
   font-size:60px;
 }
-.requestmodal_content{
-  padding:100px 100px;
-}
+
 .requestmodal_content label
 {
   letter-spacing: var(--unnamed-character-spacing-0);
