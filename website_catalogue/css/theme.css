@@ -960,6 +960,7 @@ opacity: 1;
     border: none;
     outline: none;
   }
+  /* requestform pop up */
   .catelogue-page .modal-backdrop{
     background-color: #1F1F1F;
     opacity: 1;
@@ -973,6 +974,7 @@ opacity: 1;
     padding-bottom:60px;
     margin:0px;
     font-size:50px;
+    line-height: inherit;
 }
 .requestmodal_content{
   background: #383838 0% 0% no-repeat padding-box;
@@ -988,21 +990,17 @@ opacity: 1;
   font-size:35px;
   position: absolute;
   right:-61px;
-  top:-47vh;
+  top:-32vh;
 
 }
-.requestform-popup-page .requestmodal_content{
-  padding:50px 50px !important;
+.requestmodal_content .close:focus{
+  outline: none;
+}
+form.request-popup-form{
+  padding:50px 50px;
   
 
 }
-/* button.closebutton{
-  color:#3EBDCC;
-  right: 75px;
-  position: absolute;
-  top: 87px;
-
-} */
 
 button.closebutton span{
   font-size:60px;
@@ -1028,7 +1026,7 @@ border:none;
   padding:80px 0px;
 }
 .requestmodal_content input{
-  padding:30px 20px;
+  padding:32px 20px;
   letter-spacing: 0px;
 color: #878787;
 opacity: 1;
@@ -1063,6 +1061,64 @@ color: #FFFFFF;
 opacity: 1;
 border:none;
 }
+/* live preview */
+.skip-button{
+  text-align: right;
+} 
+button.skip{
+  background: #1F1F1F 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #0000009e;
+    border: 1px solid #3EBDCC;
+    border-radius: 6px;
+    opacity: 1;
+    text-align: left;
+    font-size:25px;
+    letter-spacing: 0px;
+    color: #3EBDCC;
+    opacity: 1;
+    padding: 18px 94px;
+}
+.logo-heading{
+  padding:50px 50px 20px 50px;
+}
+h2.logo-title{
+  font-size:50px;
+letter-spacing: 0px;
+color: #3EBDCC;
+opacity: 1;
+}
+p.logo-condent{
+text-align: left;
+font-size:24px;
+letter-spacing: 0px;
+color: #AAAAAA;
+opacity: 1;
+margin:0px;
+}
+hr.horizontal-line{
+ 
+  background: #383838 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 9px #00000080;
+border-radius: 40px;
+opacity: 1;
+}
+.upload-logo{
+  padding-left:50px;
+}
+p.logo-subcondent{
+  text-align: left;
+font-size:18px;
+letter-spacing: 0px;
+color: #AAAAAA;
+opacity: 1;
+padding-left:50px;
+padding-right:70px;
+padding:30px 70px 30px 50px;
+}
+.site-name{
+  margin-top:80px;
+}
+
 
 
  /* website card temaplate start */
