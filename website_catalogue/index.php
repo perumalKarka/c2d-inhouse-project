@@ -34,7 +34,7 @@
                     <div class="rectangle-animate"></div>
                 <div class="websitetemplate-condent">
                     <h4 class="section-center__title">WEBSITE TEMPLATES</h4>
-                    <h2 class="section-sub__title">Lorem ipsum dolor sit amet, conseteur sadiscing elitr,sed diam</h2>
+                    <h2 class="section-sub__title">Lorem ipsum dolor sit amet, conseteur sadiscing elitr,sed</h2>
                     <p class="website-subcondent"> Lorem ipsum dolor sit amet,conseteur sadiscing elitr,sed diamnonumyeirmod tempor invidunt ut labore et doloremagne aliquam erat,sed iam voluptu.Atvero</p>
                     <button type="button" class="click-mail">Let's Go -></button>
                 </div>
@@ -92,27 +92,27 @@
                 <ul class="voxNews products-inner reset-padding">
                     <li><img class="carosal_image" src="images/Group 109.png"></li>
                     <li><img class="carosal_image" src="images/Group 1199.png"></li>
-                    <li><img class="carosal_image" src="images/Group 109.png"></li>
-                    <li><img class="carosal_image" src="images/Group 109.png"></li>
-                    <li><img class="carosal_image" src="images/Group 1199.png"></li>
-                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    <li><img class="carosal_image" src="images/Group 111.png"></li>
                     <li><img class="carosal_image" src="images/Group 109.png"></li>
                     <li><img class="carosal_image" src="images/Group 1199.png"></li>
+                    <li><img class="carosal_image" src="images/Group 111.png"></li>
                     <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    <li><img class="carosal_image" src="images/Group 1199.png"></li>
+                    <li><img class="carosal_image" src="images/Group 111.png"></li>
                 </ul>
             </div>
 
             <div id="news_slide" class="products-outer">
                 <ul class="voxNews1 products-inner reset-padding">
-                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    <li><img class="carosal_image" src="images/Group 113.png"></li>
                     <li><img class="carosal_image" src="images/Group 1199.png"></li>
-                    <li><img class="carosal_image" src="images/Group 109.png"></li>
-                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    <li><img class="carosal_image" src="images/Group 111.png"></li>
+                    <li><img class="carosal_image" src="images/Group 113.png"></li>
                     <li><img class="carosal_image" src="images/Group 1199.png"></li>
-                    <li><img class="carosal_image" src="images/Group 109.png"></li>
-                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    <li><img class="carosal_image" src="images/Group 111.png"></li>
+                    <li><img class="carosal_image" src="images/Group 113.png"></li>
                     <li><img class="carosal_image" src="images/Group 1199.png"></li>
-                    <li><img class="carosal_image" src="images/Group 109.png"></li>
+                    <li><img class="carosal_image" src="images/Group 111.png"></li>
                     
                 </ul>
             </div>

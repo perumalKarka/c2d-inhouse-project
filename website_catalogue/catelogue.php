@@ -17,7 +17,7 @@
     <link rel="apple-touch-icon" href="images/favicon-ico.png" />
     <meta name="msapplication-TileImage" content="images/favicon-ico.png" />
 </head>
-<body>
+<body class="catelogue-page">
     <div class="container-fluid site-fluid">
         <section class="header-section">
             <div class="container container-85 reset-padding">
@@ -51,7 +51,8 @@
                     <div class="col-6">
                     </div>
                     <div class="col-6 request">
-                    <button type="button" class="request-sector">Request a new sector</button>
+                    <button type="button" class="request-sector" data-toggle="modal" data-target="#exampleModal">Request a new sector</button>
+                    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button> -->
                     </div>
                 </div>
             </div>
@@ -85,7 +86,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" >Live Preview</button></div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" data-toggle="modal" data-target="#exampleModal-1" >Live Preview</button></div>
                                 </div>
                             </div>
                         </div>
@@ -313,10 +314,13 @@
             <?php  include 'includes/footer.php'; ?>
         </section>
     </div>
+    <?php include 'model.php'; ?>
 
     
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.js"></script>
