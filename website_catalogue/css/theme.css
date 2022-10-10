@@ -969,13 +969,19 @@ opacity: 1;
     margin-top:150px;
     margin-bottom:200px;
   }
+  .requestform-popup-page .modal-content{
+    background: transparent;
+    border-radius: inherit;
+    box-shadow: none;
+    border: none;
+  }
   h2.form-heading{
     color:white;
     padding-bottom:60px;
     margin:0px;
     font-size:50px;
     line-height: inherit;
-}
+  }
 .requestmodal_content{
   background: #383838 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 15px #000000AA;
@@ -990,7 +996,7 @@ opacity: 1;
   font-size:35px;
   position: absolute;
   right:-61px;
-  top:-32vh;
+  top:-12%;
 
 }
 .requestmodal_content .close:focus{
@@ -1062,11 +1068,20 @@ opacity: 1;
 border:none;
 }
 /* live preview */
+.skip-row{
+  background:#1f1f1f;
+}
+.skip-row h2{
+  color:white;
+  margin:0px;
+  font-size:50px;
+  line-height: inherit;
+}
 .skip-button{
   text-align: right;
 } 
-button.skip{
-  background: #1F1F1F 0% 0% no-repeat padding-box;
+.skip{
+    background: #1F1F1F 0% 0% no-repeat padding-box;
     box-shadow: 0px 4px 8px #0000009e;
     border: 1px solid #3EBDCC;
     border-radius: 6px;
