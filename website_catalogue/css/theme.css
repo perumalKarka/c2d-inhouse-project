@@ -1093,6 +1093,10 @@ border:none;
     opacity: 1;
     padding: 18px 94px;
 }
+.skip:hover{
+  background-color: #3EBDCC;
+  border: 1px solid #3EBDCC;
+}
 .logo-heading{
   padding:50px 50px 20px 50px;
 }
