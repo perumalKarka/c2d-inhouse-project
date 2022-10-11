@@ -49,7 +49,7 @@
                     <button type="button" class="like-button"><i class="fa fa-thumbs-up "></i> Like template</button>
 
                     <button type="button" class="whistlist-button"><i class="fa fa-bookmark"></i>Add to Wishlist</button>
-                    <button type="button" class="copyright-button" ><i class="bi bi-award"></i>Buy Copyright*</button>
+                    <button type="button" class="copyright-button" ><i class="fa fa-copyright"></i>Buy Copyright*</button>
                     
                     </div>
                 </div>
