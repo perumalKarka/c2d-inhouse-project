@@ -11,19 +11,19 @@
                 <form class="request-popup-form">
                     <div class="form-group">
                         <label for="exampleFormControlInput1 formleft-sub-title">Give a name to the sector that you wish.</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                     </div>
                     <div class="form-group mt-5 description">
                         <label for="exampleFormControlInput1 formleft-sub-title">Describe below how that sector works.</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                     </div>
                     <div class="form-group mt-5 description">
                         <label for="exampleFormControlInput1 formleft-sub-title">How would you like your customer’s to experience that ?</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                     </div>
                     <div class="form-group mt-5">
                         <label for="exampleFormControlInput1 formleft-sub-title">Can we contact you for further details ?</label>
-                        <input type="email" class="form-control emailsec" id="exampleFormControlInput1" placeholder="Your e-mail id here.">
+                        <input type="text" class="form-control emailsec" id="exampleFormControlInput1" placeholder="Your e-mail id here.">
                     </div>
 
                     <h3 class="request-condent ">This site is protected by reCAPTCHA and the Google<span style="color:white;"> Privacy Policy </span>and <span style="color:white;">Terms of Conditions</span> apply.</h3>
