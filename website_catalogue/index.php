@@ -17,7 +17,7 @@
     <link rel="apple-touch-icon" href="images/favicon-ico.png" />
     <meta name="msapplication-TileImage" content="images/favicon-ico.png" />
 </head>
-<body>
+<body class="index-page">
     <div class="container-fluid site-fluid">
         <section class="header-section">
             <div class="container container-85 reset-padding">
@@ -36,7 +36,7 @@
                     <h4 class="section-center__title">WEBSITE TEMPLATES</h4>
                     <h2 class="section-sub__title">Lorem ipsum dolor sit amet, conseteur sadiscing elitr,sed</h2>
                     <p class="website-subcondent"> Lorem ipsum dolor sit amet,conseteur sadiscing elitr,sed diamnonumyeirmod tempor invidunt ut labore et doloremagne aliquam erat,sed iam voluptu.Atvero</p>
-                    <button type="button" class="click-mail">Let's Go -></button>
+                    <button type="button" class="click-mail"  data-toggle="modal" data-target="#exampleModal-1">Let's Go -></button>
                 </div>
             </div>
         </section>
@@ -231,7 +231,7 @@
                          </div>
                          <div class="col-md-6 col-md-6 timeline_image"><img src="images/timeline-pic-4.png" /></div>
                     </li>
-                  <div class="col timeline_button text-center "><button type="button" class="click-mail">Let's Build -></button><div>
+                  <div class="col timeline_button text-center "><button type="button" class="click-mail" data-toggle="modal" data-target="#exampleModal-2">Let's Build -></button><div>
                   </ul>
                 </div>
             </div>
@@ -255,10 +255,12 @@
             <?php  include 'includes/footer.php'; ?>
         </section>
     </div>
+    <?php include 'model-v2.php'; ?>
 
     
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.js"></script>
