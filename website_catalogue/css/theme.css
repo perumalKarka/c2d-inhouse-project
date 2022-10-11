@@ -1233,6 +1233,70 @@ label.copy-subtitle{
   opacity: 1;
 }
 
+/* livepreview-page */
+.livepreview-firstSection .live-preview-left-sub__title p{
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font-size:70px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  }
+  .livepreview-firstSection .live-preview-right-sub__title p{
+    font-size:26px;
+    font-family: 'robotothin';
+    color:#AAAAAA;
+    line-height: 32px;
+  }
+  .filtersection button{
+    margin-right: 12px;
+  }
+  .filtersection button i{
+    margin-right:4px;
+  }
+  .filtersection button:last-child{
+    margin-right: 0px;
+  }
+  button.like-button{
+    padding:15px 30px;
+    background: #3EBDCC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 6px #00000040;
+    border-radius: 6px;
+    opacity: 1;
+    font-size:20px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  border:none;
+
+  }
+  button.whistlist-button{
+    padding:15px 30px;
+    background: #3EBDCC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 6px #00000040;
+    border-radius: 6px;
+    opacity: 1;
+    border:none;
+    font-size:20px;
+    letter-spacing: 0px;
+    color:white;
+    opacity: 1;
+
+  }
+  button.copyright-button{
+    padding:15px 30px;
+    background: #F4A41D 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 6px #00000040;
+    border-radius: 6px;
+    opacity: 1; 
+    font-size:20px;
+    letter-spacing: 0px;
+    color:white;
+    opacity: 1;
+    border:none;
+
+  }
 
 
 
