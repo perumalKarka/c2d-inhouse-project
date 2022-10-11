@@ -44,7 +44,7 @@
                             </div>
                             <div class="form-group email-message col-lg-12 pt-5">
                             <label for="inputAddress">Message</label>
-                            <input type="text" class="form-control message" id="inputPassword4" placeholder="">
+                            <textarea class="form-control message" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
                         </div>
                         <div class="row reset-margin message-subcondent">
@@ -121,15 +121,15 @@
                             </div>
                             <div class="form-group email-message col-lg-12 pt-5">
                             <label for="inputAddress">Message</label>
-                            <input type="text" class="form-control message" id="inputPassword4" placeholder="">
+                            <textarea class="form-control message" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
                         </div>
-                        <div class="row reset-margin  message-subcondent copyright-condent pt-2">
-                            <h3 class="message-condent reset-margin">This site is protected by reCAPTCHA and the Google<span style="color:white;"> Privacy Policy </span>and <span style="color:white;">Terms of Conditions</span> apply.</h3>
+                        <div class="row reset-margin message-subcondent">
+                            <h3 class="message-condent">This site is protected by reCAPTCHA and the Google<span style="color:white;"> Privacy Policy </span>and <span style="color:white;">Terms of Conditions</span> apply.</h3>
                             <div class="col-6 robotimage reset-padding g-recaptcha"data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
                             <div class="col-6 submit reset-padding align-self-center">
                                 <label for="inputPassword4" class="field"> <span class="required">*</span> Fields required</label>
-                                <button type="button" class="click-mail">Buy Copyright</button>
+                                <button type="button" class="click-mail">Contact us now!</button>
                             </div>
                         </div>
                 </form>

@@ -947,10 +947,10 @@ span.searchicon{
     padding:13px 36px;
     background-color: #F4A41D;
     text-align: center;
-font-size:24px;
-letter-spacing: 0px;
-color: #383838;
-opacity: 1;
+  font-size:24px;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
 
   }
   .catelogue-page .header-section header{
@@ -1034,15 +1034,27 @@ border:none;
 .requestmodal_content input{
   padding:32px 20px;
   letter-spacing: 0px;
-color: #878787;
-opacity: 1;
-font-size:18px;
-border:none;
+  color:white;
+  font-family: 'robotoregular';
+  font-size: 28px;
+  opacity: 1;
+ font-size:18px;
+ border:none;
 }
 .requestmodal_content input:focus{
   background-color: #1F1F1F;
   border:none;
+  color:white;
+  box-shadow: none;
 }
+.requestmodal_content textarea:focus{
+  background-color: #1F1F1F;
+  color:white;
+  box-shadow: none;
+  
+
+}
+
 .requestmodal_content h3{
 font-size:18px;
 letter-spacing: 1.25px;
@@ -1153,8 +1165,10 @@ padding:30px 70px 30px 50px;
 span.required{
   color:#FF0000;
 }
-input.message{  
-    padding: 60px 0px;
+textarea.message{  
+    
+    padding: 20px 20px;
+    height:215px;
     border-radius: 10px;
     background-color: #1F1F1F;
     border: none;
@@ -1162,10 +1176,11 @@ input.message{
 label.field{
   margin-left:49px;
   font-size:20px;
+  margin-bottom:15px;
 }
 
 .message-subcondent{
-  padding-top:228px;
+  padding-top:90px;
 }
 h3.message-condent{
   padding-bottom:22px;
@@ -1204,14 +1219,14 @@ h3.message-condent{
  margin:0px;
 }
 label.copy-title{
-  font-family: 'robotomedium';
+  font-family: 'robotoregular';
   font-size: 28px;
   letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
 }
 label.copy-subtitle{
-  font-family: 'robotoregular';
+  font-family: 'robotothin';
   font-size: 24px;
   letter-spacing: 0px;
   color: #FFFFFF;
