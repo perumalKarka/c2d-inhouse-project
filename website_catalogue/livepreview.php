@@ -57,7 +57,7 @@
         </section> 
         <!-- body condent preview -->
         <section class="body-condent">
-            <img src="images/image.jpg">
+            <img src="images/image.jpg" class="body-condent-image">
         </section>
         
         
