@@ -1363,6 +1363,11 @@ margin-top:77px;
 #faq .card .card-header a,#faq .card .card-body{
   color:#ffffff;
 }
+/* land-page */
+body.land-page{
+  background-color: white;
+  position: relative;
+}
 
 
 
