@@ -103,7 +103,20 @@ transform: translate(-50%,-50%);
 -moz-transform: translate(-50%,-50%);
 -ms-transform: translate(-50%,-50%);
 }
-
+.btn-c2d-primary-md{
+  font-family: 'robotoregular';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  width:283px;
+  padding: 15px 0px;
+  background: #3EBDCC;
+  border-color: #3EBDCC;
+  border-radius: 8px;
+  }
 .container-1320{
 width: 1320px;
 max-width: 100%;

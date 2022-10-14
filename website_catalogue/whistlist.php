@@ -556,12 +556,17 @@
                                 
                             </div>
                         </div>
-                        <button type="button" class="submit-btn">Submit</button>
+                        <div class="container container-90 text-right">
+                            <button type="button" class="btn btn-primary btn-c2d-primary-md mt-5">Submit</button>
+                        </div>
+                        
             
         </div>
        
         <!-- footer -->
-        
+        <section class="footer-section">
+            <?php  include 'includes/footer.php'; ?>
+        </section>
 
     </div>
     <?php include 'model-v2.php'; ?>
