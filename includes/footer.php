@@ -46,7 +46,7 @@
             </div>
 </footer>
 <a href="javascript:void(0)" id="scrollBtn" >
-  <img src="images/scroll-top.png" />
+  <img src="images/scroll-top.png" width="30" height="25"/>
 </a>
 
 <div class="mobile-fixed-footer container-fluid d-block d-md-none">

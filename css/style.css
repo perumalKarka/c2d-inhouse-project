@@ -987,6 +987,8 @@ font-size: 18px;
 line-height: 32px;
 color: #005579;
 }
+
+/* accordian */
 .accordion{
 margin-bottom:120px;
 }
@@ -1025,6 +1027,79 @@ right:0;
   /* symbol for "collapsed" panels */
   content: "\f067";
 }
+.accordian-second-sec img.accoridan-images{
+  max-width:100%;
+}
+#faq2 img.accoridan-images{
+  width:100%;
+
+}
+.accoridan-slider-sec .checkboxTop-block{
+  margin-top:14px;
+}
+
+
+
+
+.contactform-check--label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'rubik';
+  color:#B1B1B1;
+}
+.contactform-check--label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 4px!important;
+  right: -10px;
+  height: 18px;
+  width: 18px;
+  background-color: #fff;
+  border:1px solid #7E7E7E;
+}
+.contactform-check--label:hover input ~ .checkmark {
+  background-color: #ccc;
+
+}
+.contactform-check--label input:checked ~ .checkmark {
+  background-color: #FAA61A;
+  border:1px solid #FAA61A;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.contactform-check--label input:checked ~ .checkmark:after {
+  display: block;
+}
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #FAA61A;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+input[type=checkbox]:checked + span.checkmark + span.checked-color  {
+  color:#FAA61A;
+}
+
 .accordion .card-body{
 padding: 30px 0 40px 0;
 font-style: normal;
@@ -3710,3 +3785,225 @@ color:#005579;
 background-color:#383838;
 border-color: #383838;
 }
+
+/* update landpage */
+
+
+
+.homemade_solutions-content{
+  padding-top:142px;
+  margin-bottom:122px;
+  
+}
+.homemade_solutions-content-2{
+  margin-bottom:101px;
+
+}
+.homemade_solutions-content h2{
+text-align: center;
+font-size:44px;
+font-family: 'robotoregular';
+letter-spacing: 0px;
+color: #005579;
+opacity: 1;
+margin-bottom:45px;
+
+}
+.homemade_solutions-content p{
+font-size:24px;
+font-family: 'robotoregular';
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: center;
+font: normal normal normal 24px/33px Roboto;
+letter-spacing: 0px;
+color: #005579;
+opacity: 1;
+margin-bottom:64px;
+}
+.homemade_solutions-content-2 h2{
+font-size:44px;
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: center;
+font: normal normal medium 44px/62px Roboto;
+letter-spacing: 0px;
+color: #005579;
+opacity: 1;
+margin-bottom:19px;
+}
+.homemade_solutions-content-2 p{
+font-size:24px;
+font-family: 'robotoregular';
+letter-spacing: var(--unnamed-character-spacing-0);
+text-align: left;
+letter-spacing: 0px;
+color: #005579;
+opacity: 1;
+}
+
+
+
+/* phoning solution */
+section.phoningsolution{
+  background-color: #E6F0FF;
+  padding-top:70px;
+  padding-bottom: 54px;
+  
+}
+.phoning-solution-pricing-list-style{
+  padding-top:37px;
+  padding-bottom:50px;
+}
+.phoning-solution-pricing-list-style h2{
+  text-align: left;
+  font-size:22px;
+  letter-spacing: 4.4px;
+  color: #F4A41D;
+  opacity: 1;
+  margin:0px;
+}
+.phoning-solution-pricing-list-style p{
+  padding-top:32px;
+  font: var(--unnamed-font-style-normal) normal medium 40px/100px Roboto;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font-size:40px;
+  letter-spacing: 0px;
+  color: #00344A;
+  opacity: 1;
+  margin:0px;
+}
+.phoning-solution-pricing-list-style .pricing-list-condent{
+  padding-top:11px;
+  border:none;
+  
+}
+.pricing-list-condent ul li{
+  padding-bottom:16px;
+}
+button.phoning-button {
+  margin-top:33px;
+}
+.phoningsolution-right-side-image img{
+  max-width:100%;
+
+}
+.pricing-list-condent ul{
+  list-style: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #878787;
+}
+.pricing-list-condent ul li i{
+  color: #3EBDCC;
+  margin-right: 15.5px;
+}
+.landing-page-last-condent{
+  padding-top:92px;
+  padding-bottom:34px!important;
+}
+.landing-page-last-condent p{
+  font-size:24px;
+  font-family: 'robotoregular';
+  text-align: center;
+}
+
+h4.box-title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 55px;
+  color: #ffffff;
+  font-family: 'robotoregular';
+
+}
+p.box-para{
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font-size:18px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+section.heightlight-footer-box-1{
+  padding:88px 0 105px 0;
+}
+/* cardsection */
+.lading-page-card{
+  padding-bottom:186px;
+}
+.landpage-block .card {
+  margin-right: 23px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px 3px rgb(0 0 0 / 25%);
+  border-radius: 8px;
+  border: none;
+
+}
+.land-page-header{
+  background-color:#E6F0FF;
+}
+.land-page-header-inner{
+  padding:40px 40px 32px 40px;
+}
+.land-page-header-inner span{
+  padding:7px;  
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font-size:18px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  background: #F4A41D 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  margin-right:18px;
+}
+.land-page-header-inner label{
+
+  text-align: left;
+  font: normal normal 300 16px/23px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.land-page-header-inner h2{
+  padding-top:26px;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal bold 35px/40px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;                   
+}
+.land-page-header-inner p{
+  padding-top:5px;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal 300 16px/23px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1; 
+}
+.landpage-block hr{
+  border:2px solid#F4A41D;
+  margin-left:10px;
+  margin-right:53px;
+  position:relative;
+  bottom:16px;
+}
+.page-card-button{
+  padding:14px 104px 14px 104px;
+}
+.landpage-block .card button.page-card-button {
+  padding:14px 100px 14px 100px;
+  text-align: center;
+  font-size:20px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  
+}
+

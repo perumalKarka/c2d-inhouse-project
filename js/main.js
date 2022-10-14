@@ -594,3 +594,62 @@ jQuery(function ($) {
       $('.container').append('<p class="no-support">' + noSupport + '</p>');
   }
 });
+
+
+var vox_news = 0;
+$('.voxNews li').each(function() {
+    vox_news += $(this).outerWidth( true );
+});
+
+$('.voxNews').parent().append($('.voxNews').clone());
+  function setupNews(w) {
+      function phase1() {
+          var voxNews = $('.voxNews').first(),
+              curMargin = voxNews.css('margin-left').replace("px", ""),
+              animSpeed = (w*9) - (Math.abs(curMargin)*20);
+
+          voxNews.animate({'margin-left' : '-' + w + 'px'}, animSpeed, 'linear', phase2);
+      }
+      function phase2() {
+          $('.voxNews').first().css({'margin-left' : '0px'});
+           phase1();
+      }
+      $('.voxNews img').hover(function() {
+          $('.voxNews').stop();
+      }, function() {
+          phase1();
+      });
+      phase1();
+  }
+
+setupNews(vox_news);
+
+
+var vox_news1 = 0;
+
+$('.voxNews1 li').each(function() {
+    vox_news1 += $(this).outerWidth( true );
+});
+
+$('.voxNews1').parent().append($('.voxNews1').clone());
+  function setupNews1(w) {
+      function phase1() {
+          var voxNews1 = $('.voxNews1').first(),
+              curMargin = voxNews1.css('margin-right').replace("px", ""),
+              animSpeed = (w*9) - (Math.abs(curMargin)*20);
+
+          voxNews1.animate({'margin-right' : '-' + w + 'px'}, animSpeed, 'linear', phase2);
+      }
+      function phase2() {
+          $('.voxNews1').first().css({'margin-right' : '0px'});
+           phase1();
+      }
+      $('.voxNews1 img').hover(function() {
+          $('.voxNews1').stop();
+      }, function() {
+          phase1();
+      });
+      phase1();
+  }
+
+setupNews1(vox_news1);
