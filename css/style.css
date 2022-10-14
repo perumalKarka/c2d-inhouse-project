@@ -987,6 +987,8 @@ font-size: 18px;
 line-height: 32px;
 color: #005579;
 }
+
+/* accordian */
 .accordion{
 margin-bottom:120px;
 }
@@ -1025,6 +1027,79 @@ right:0;
   /* symbol for "collapsed" panels */
   content: "\f067";
 }
+.accordian-second-sec img.accoridan-images{
+  max-width:100%;
+}
+#faq2 img.accoridan-images{
+  width:100%;
+
+}
+.accoridan-slider-sec .checkboxTop-block{
+  margin-top:14px;
+}
+
+
+
+
+.contactform-check--label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: 'rubik';
+  color:#B1B1B1;
+}
+.contactform-check--label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 4px!important;
+  right: -10px;
+  height: 18px;
+  width: 18px;
+  background-color: #fff;
+  border:1px solid #7E7E7E;
+}
+.contactform-check--label:hover input ~ .checkmark {
+  background-color: #ccc;
+
+}
+.contactform-check--label input:checked ~ .checkmark {
+  background-color: #FAA61A;
+  border:1px solid #FAA61A;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.contactform-check--label input:checked ~ .checkmark:after {
+  display: block;
+}
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #FAA61A;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+input[type=checkbox]:checked + span.checkmark + span.checked-color  {
+  color:#FAA61A;
+}
+
 .accordion .card-body{
 padding: 30px 0 40px 0;
 font-style: normal;
