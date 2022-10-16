@@ -1228,8 +1228,6 @@ label.field{
 h3.message-condent{
   padding-bottom:22px;
   font-family: 'robotoregular';
-  
-
 }
 .requestform-popup-page .request-popup-form.request-model-1 .form-group{
   padding-right:0px;
@@ -2069,7 +2067,6 @@ ul.socialmedia_network li a{
 .heightlight-footer-box{
   background: #00344A;
   overflow: hidden;
-  position: relative;
   z-index: 1;
   margin-top:30px;
 }

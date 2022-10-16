@@ -1,16 +1,3 @@
-  $(document).ready(function () {
-    alert("step1")
-    $('#success').click(function (e) {
-        $('#message').html(`
-        <div class="alert alert-thanks alert-dismissible fade show" role="alert">
-          <img src="images/right-icon.png" />
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>`);
-    })
-
-  });
     /******* Sound Engg filter javaScript Starts ********/
     trackSelection("all");
     function trackSelection(c) {
