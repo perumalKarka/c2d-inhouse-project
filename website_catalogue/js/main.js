@@ -410,9 +410,9 @@ $(document).ready(function() {
   /******  Go to top scroll options ******/
   $(window).scroll(function() {
     if ($(this).scrollTop() > 20) {
-    $('#scrollBtn').fadeIn();
+    $('#scroll').fadeIn();
     } else {
-    $('#scrollBtn').fadeOut();
+    $('#scroll').fadeOut();
     }
   });
     

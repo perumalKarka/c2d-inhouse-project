@@ -77,15 +77,20 @@ z-index: 1;
 }
 
 
-
+#scroll{
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 99;
+}
 #scrollBtn {
-display: none;
-width:60px;
-height:60px;
-position: fixed;
-bottom: 100px;
-right: 20px;
-z-index: 99;
+
+right: 0;
+top: -51px;
+width: 60px;
+height: 60px;
+position: absolute;
 border: none;
 outline: none;
 background-color: #3EBDCC;
@@ -2147,4 +2152,135 @@ ul.socialmedia_network li a{
   background:#3EBDCC;
   border:1px solid #3EBDCC;
   color:#fff;
+}
+
+/** Wishlist right-sidebar component **/
+#wish{
+  right: 0;
+  top: -122px;
+  width: 60px;
+  height: 60px; 
+  position: absolute;
+  border: none;
+  outline: none;
+  border-radius: 80px 80px 80px 18px;
+  background-color: #3EBDCC;
+  cursor: pointer;
+  box-shadow: 0 5px 4px 0 rgb(0 0 0 / 26%);
+}
+#wish img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+.wishlist-bar{
+  width:480px;
+  background:#1F1F1F;
+}
+.wishlist-bar h2{
+  font-size: 22px;
+  line-height: 30px;
+  font-family: 'robotoregular';
+  font-weight: bold;
+  color:#F4A41D;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 25px 0;
+  margin-top:40px;
+  box-shadow: 0px 2px 20px #00000080;
+}
+.wishlist-container .card{
+  background-color: transparent;
+  background-clip: inherit;
+  border:none;
+  border-radius: inherit;
+  margin-top: 60px;
+}
+.wishlist-container .card-title{
+  font-size: 22px;
+  font-family: 'robotoregular';
+  line-height: 30px;
+  font-weight: bold;
+  color:#ffffff;
+  margin:0px 0 4px 0;
+}
+.wishlist-container{
+  padding: 0 30px;
+  max-height: 450px;
+  overflow: auto;
+}
+.wishlist-container .card-text{
+  font-size: 18px;
+  font-family: 'robotolight';
+  line-height: 30px;
+  color:#ffffff;
+  margin: 0 0 40px 0;
+}
+.wishlist-container .card-img{
+  height:143px;
+}
+.wishlist-container .card-body{
+  padding: 0 0 0 8px;
+}
+.wishlist-container .remove{
+  color:#FF3D00;
+  font-size: 18px;
+  font-family:'robotoregular';
+  font-weight: bold;
+  width:100px;
+  padding: 4px 0;
+  text-align: center;
+  border: 1px solid #FF3D00;
+  border-radius: 6px;
+  float: left;
+}
+.wishlist-container .preview{
+  color:#ffffff;
+  background: #3EBDCC;
+  font-size: 18px;
+  font-family:'robotoregular';
+  font-weight: bold;
+  width:100px;
+  padding: 4px 0;
+  text-align: center;
+  border: 1px solid #3EBDCC;
+  border-radius: 6px;
+  float: right;
+}
+.wishlist-inner-box{
+  position: relative;
+  height: 90%;
+  
+}
+.wishlist-footer-box{
+  box-shadow: 0px 2px 20px #00000080;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 12px 30px;
+}
+.wish-checkout{
+  color:#ffffff;
+  background: #3EBDCC;
+  font-size: 24px;
+  font-family:'robotoregular';
+  font-weight: bold;
+  width:200px;
+  padding: 4px 0;
+  text-align: center;
+  border: 1px solid #3EBDCC;
+  border-radius: 8px;
+  float: right;
+}
+.wish-visit{
+  color:#ffffff;
+  font-size: 24px;
+  line-height: 40px;
+  font-family: 'robotolight';
 }

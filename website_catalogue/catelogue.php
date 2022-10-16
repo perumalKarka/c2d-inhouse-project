@@ -7,6 +7,8 @@
     <title>Accueil | Website catalogue | C2D</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link rel="stylesheet" href="css/js-offcanvas.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -18,7 +20,7 @@
     <meta name="msapplication-TileImage" content="images/favicon-ico.png" />
 </head>
 <body class="catelogue-page">
-    <div class="container-fluid site-fluid">
+    <main class="container-fluid site-fluid c-offcanvas-content-wrap" role="main">
         <section class="header-section">
             <div class="container container-85 reset-padding">
                 <?php include 'includes/mobile-menu.php'; ?>
@@ -313,19 +315,60 @@
         <section class="footer-section">
             <?php  include 'includes/footer.php'; ?>
         </section>
-    </div>
-    <?php include 'model.php'; ?>
+    </main>
+    
+    <?php 
+        include 'includes/sidebar.php';
+        include 'model.php'; 
+    ?>
 
     
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/js-offcanvas.pkgd.js"></script> 
     <script src="js/owl.carousel.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/mobile_menu.js"></script>
     <script src="js/main.js"></script>
+    
+    <script type="text/javascript">
+		$( function(){
+
+
+			$( document ).on( "create.offcanvas", function( e ){
+				var dataOffcanvas = $( e.target ).data('offcanvas-component');
+				console.log(dataOffcanvas);
+				dataOffcanvas.onOpen =  function() {
+					console.log('Callback onOpen');
+				};
+				dataOffcanvas.onClose =  function() {
+					console.log('Callback onClose');
+				};
+
+			} );
+
+			var leftOffcanvas;
+			function openOffcanvas () {
+				leftOffcanvas.open();
+            }
+            window.openOffcanvas = openOffcanvas;
+
+			$( '#left' ).on( "create.offcanvas", function( e ){
+				leftOffcanvas = $(this).data('offcanvas-component');
+				console.log(leftOffcanvas);
+			} );
+
+			$('.js-open-offcanvas').on('click', function () {
+                openOffcanvas();
+			});
+
+			$( document ).trigger( "enhance" );
+		});
+    </script>
 </body>
 </html>
