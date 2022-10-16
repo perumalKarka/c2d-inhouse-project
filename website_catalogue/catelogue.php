@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme-model.css" />
     <link rel="stylesheet" href="css/mobile_style.css" />
     <link rel="icon" href="images/favicon-ico.png" sizes="32x32" />
     <link rel="icon" href="images/favicon-ico.png" sizes="32x32" />
