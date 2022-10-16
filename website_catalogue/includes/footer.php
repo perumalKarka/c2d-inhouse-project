@@ -19,9 +19,15 @@
               </div>
             
 </footer>
-<a href="javascript:void(0)" id="scrollBtn" >
-  <img src="images/scroll-top.png" width="30" height="25" />
-</a>
+<div id="scroll">
+  <a href="javascript:void(0)" id="wish" class="js-open-offcanvas">
+    <img src="images/wish-white-icon.png" />
+  </a>
+  <a href="javascript:void(0)" id="scrollBtn" >
+    <img src="images/scroll-top.png" width="30" height="25" />
+  </a>
+</div>
+
 <!-- <div class="mobile-fixed-footer container-fluid d-block d-md-none">
   <div class="mobile-fixed-row  row reset-margin">
     <div class="home-holder holder col reset-padding">
