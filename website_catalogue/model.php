@@ -1,5 +1,7 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" data-backdrop="static" aria-hidden="true">
+    <div id="message"></div>
     <div class="modal-dialog container-80 requestform-popup-page">
+        
         <h2 class="form-heading">Request for a new sector</h2>
         <div class="modal-content requestmodal_content">
             <div class="requestmodal_content">
@@ -29,21 +31,22 @@
                     <h3 class="request-condent ">This site is protected by reCAPTCHA and the Google<span style="color:white;"> Privacy Policy </span>and <span style="color:white;">Terms of Conditions</span> apply.</h3>
                     <div class="row reset-margin pt-5">
                         <div class="col-6 robotimage reset-padding g-recaptcha"data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
-                        <div class="col-6 submit reset-padding align-self-center"><button type="button" class="click-mail">submit</button></div>
+                        <div class="col-6 submit reset-padding align-self-center"><button type="button" id="success" class="click-mail">submit</button></div>
                     </div>
                 </form>
             </div>
             
         </div>
     </div>
+
+    
 </div>
 <!-- logo upload 1-->
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" data-backdrop="static" aria-hidden="true">
+    
     <div class="modal-dialog container-80 requestform-popup-page">
-        
-
         <div class="modal-content">
             <div class="row skip-row reset-margin ">
                                 <div class="col-6"><h2 class= "form-heading">Lorem ipsum dolor sit amet, consetetur </h2></div>
