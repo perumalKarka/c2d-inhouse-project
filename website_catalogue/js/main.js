@@ -1,3 +1,25 @@
+  $(document).ready(function () {
+    $('#success').click(function (e) {
+        $('#message').html(`
+        <div class="alert alert-thanks alert-dismissible fade show" role="alert">
+          <div class="container container-80 thanksmsg-container text-center">
+            <div class="thanksmsg-box">
+              <img src="images/right-icon.png" />
+              <div class="thanksmessage-wrapper">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
+                aliquyam erat, sed diam voluptua. At vero</p>
+              </div>
+            </div>          
+          </div>
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <img src="images/closeicon.png" />
+          </button>
+        </div>`);
+    })
+
+  });
     /******* Sound Engg filter javaScript Starts ********/
     trackSelection("all");
     function trackSelection(c) {
