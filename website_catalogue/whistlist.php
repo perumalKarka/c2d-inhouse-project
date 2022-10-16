@@ -407,8 +407,8 @@
                                     <button type="button" class="template-button">Go to Infrastructure</button>
                                     <div class="card-body">
                                         <div class="row reset-margin">
-                                                    <div class="col-6 reset-padding"><h2 class="accordian-sub-title">LOREM IPSUM</h2></div>
-                                                    <div class="col-6 reset-padding">
+                                                    <div class="col-6 p-0"><h2 class="accordian-sub-title">LOREM IPSUM</h2></div>
+                                                    <div class="col-6 p-0">
                                                         <div class="input-group searchBox">
                                                             <input class="form-control reset-padding " type="text" id="myFilter" placeholder="Search for more templates..." aria-label="Search">
                                                         <div class="input-group-append align-self-center ">
@@ -416,16 +416,88 @@
                                                         </div>
                                                         </div>
                                                     </div>
-                                        </div>
-                                        
+                                        </div> 
                                         <div class="col accoridan-slider-sec reset-padding">
+                                            <div class="form-group checkboxTop-block ">
+                                                <label class="contactform-check--label block-color">
+                                                    <input class="contactform-check--input" type="checkbox" value="option1">
+                                                    <span class="checkmark"></span>
+                                                    <span class="checked-color">Starter Kit</span>
+                                                </label>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="meeting-para">
+                                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+                                                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+                                                        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+                                                        no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
+                                                        consetetur 
+
+                                                    </p>    
+                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                        <div class="id-box">
+                                                            <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
+                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="form-group checkboxTop-block mt-2 ">
+                                                <label class="contactform-check--label block-color">
+                                                       <input class="contactform-check--input" type="checkbox" value="option1">
+                                                        <span class="checkmark"></span>
+                                                        <span class="checked-color">Starter Kit</span>
+                                                </label>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="meeting-para">
+                                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+                                                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+                                                        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+                                                        no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
+                                                        consetetur 
+
+                                                    </p>    
+                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                        <div class="id-box">
+                                                            <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
+                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <hr style="border-top:1px solid #707070;">
+                                            <div class="row reset-margin">
+                                                    <div class="col-6 p-0"><h2 class="accordian-sub-title">Add ons</h2></div>
+                                                    <div class="col-6 p-0 text-right">
+                                                        <i class="fa fa-question-circle" style="font-size:24px;color:#3EBDCC"></i>
+                                                    </div>
+                                            </div> 
                                             <div class="form-group checkboxTop-block ">
                                                 <label class="contactform-check--label block-color">
                                                     <input class="contactform-check--input" type="checkbox" value="option1">
                                                     <span class="checkmark"></span>
                                                     <span class="checked-color">Reservation Tablet</span>
                                                 </label>
-                                                <p class="meeting-para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur </p>
+                                                <div class="d-flex justify-content-between">
+                                                    <p class="meeting-para">
+                                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
+                                                        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+                                                        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+                                                        no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
+                                                        consetetur 
+
+                                                    </p>    
+                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                        <div class="id-box">
+                                                            <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
+                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                             <div class="form-group checkboxTop-block mt-2 ">
                                                 <label class="contactform-check--label block-color">
@@ -449,7 +521,7 @@
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
-                                                </div>          
+                                                </div>        
                                             </div>
                                             <div class="form-group checkboxTop-block mt-2 ">
                                                 <label class="contactform-check--label block-color">
@@ -473,7 +545,7 @@
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
-                                                </div>   
+                                                </div>        
                                             </div>
                                             <div class="form-group checkboxTop-block mt-2 ">
                                                 <label class="contactform-check--label block-color">
@@ -497,7 +569,7 @@
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
-                                                </div>   
+                                                </div>        
                                             </div>
                                             <div class="form-group checkboxTop-block mt-2 ">
                                                 <label class="contactform-check--label block-color">
@@ -521,7 +593,7 @@
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
-                                                </div>   
+                                                </div>         
                                             </div>
                                             <div class="form-group checkboxTop-block mt-2 ">
                                                 <label class="contactform-check--label block-color">
@@ -545,7 +617,7 @@
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
-                                                </div>   
+                                                </div>        
                                             </div>
                                         </div>
 

@@ -65,7 +65,7 @@
                 <div class="row catelogu_template_item reset-margin">
                     <div class="card_block col-6 reset-padding">
                         <div class="card website_template">
-                            <div class="card_image"><img src="images/cardimage1.jpeg" class="card-img">
+                            <div class="card_image"><img src="images/cardImages.png" class="card-img">
                             <i class="fa fa-bookmark"></i>
                             <i class="fa fa-thumbs-up like "></i>
                             
@@ -93,7 +93,7 @@
                     </div>
                     <div class="card_block col-6 reset-padding">
                         <div class="card website_template">
-                            <div class="card_image"><img src="images/cardimage1.jpeg" class="card-img"> 
+                            <div class="card_image"><img src="images/cardImages.png" class="card-img"> 
                             <i class="fa fa-bookmark"></i>
                             <i class="fa fa-thumbs-up  "></i>
                             </div>
@@ -120,7 +120,7 @@
                     </div>
                     <div class="card_block col-6 reset-padding">
                         <div class="card website_template">
-                            <div class="card_image"><img src="images/cardimage1.jpeg" class="card-img">
+                            <div class="card_image"><img src="images/cardImages.png" class="card-img">
                             <i class="fa fa-bookmark"></i>
                             <i class="fa fa-thumbs-up "></i>
                             </div>
@@ -147,7 +147,7 @@
                     </div>
                     <div class="card_block col-6 reset-padding">
                         <div class="card website_template">
-                            <div class="card_image"><img src="images/cardimage1.jpeg" class="card-img">
+                            <div class="card_image"><img src="images/cardImages.png" class="card-img">
                             <i class="fa fa-bookmark"></i>
                             <i class="fa fa-thumbs-up  "></i>
                             </div>
@@ -174,7 +174,7 @@
                     </div>
                     <div class="card_block col-6 reset-padding">
                         <div class="card website_template">
-                            <div class="card_image"><img src="images/cardimage1.jpeg" class="card-img">
+                            <div class="card_image"><img src="images/cardImages.png" class="card-img">
                             <i class="fa fa-bookmark"></i>
                             <i class="fa fa-thumbs-up  "></i>
                             </div>
@@ -201,7 +201,7 @@
                     </div>
                     <div class="card_block col-6 reset-padding">
                         <div class="card website_template">
-                            <div class="card_image"><img src="images/cardimage1.jpeg" class="card-img">
+                            <div class="card_image"><img src="images/cardImages.png" class="card-img">
                              <i class="fa fa-bookmark"></i>
                             <i class="fa fa-thumbs-up "></i>
                             </div>
@@ -258,7 +258,7 @@
         <!-- slide show -->
         <section class="slide-show-recent_cardview">
            
-            <div id="demo_1" class="container container-90 carousel slide reset-padding mt-4" data-ride="carousel">
+            <div id="demo_1" class="container container-90 carousel slide reset-padding " data-ride="carousel">
             <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
 				<div class="carousel-inner inner-slide">
 					<div class="carousel-item">
@@ -281,7 +281,7 @@
 					    <a class="carousel-control-next slide_position next-section" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
                 </div>
             </div>
-            <div id="demo_2" class="container container-90 carousel slide card_slide reset-padding"  style="margin-top:100px;"data-ride="carousel">
+            <div id="demo_2" class="container container-90 carousel slide card_slide reset-padding"  style="margin-top:76px;"data-ride="carousel">
             <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
 				<div class="carousel-inner inner-slide ">
 					<div class="carousel-item">

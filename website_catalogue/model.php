@@ -8,18 +8,18 @@
                         <img src="images/closeicon.png">
                     </button>
                 </div> 
-                <form class="request-popup-form">
+                <form class="request-popup-form request-model-1">
                     <div class="form-group">
                         <label for="exampleFormControlInput1 formleft-sub-title">Give a name to the sector that you wish.</label>
                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                     </div>
-                    <div class="form-group mt-5 description">
-                        <label for="exampleFormControlInput1 formleft-sub-title">Describe below how that sector works.</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    <div class="form-group email-message mt-5 description">
+                            <label for="inputAddress">Describe below how that sector works</label>
+                            <textarea class="form-control message" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
-                    <div class="form-group mt-5 description">
-                        <label for="exampleFormControlInput1 formleft-sub-title">How would you like your customer’s to experience that ?</label>
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    <div class="form-group email-message mt-5 description">
+                            <label for="inputAddress">How would you like your customer’s to experience that ?</label>
+                            <textarea class="form-control message" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
                     <div class="form-group mt-5">
                         <label for="exampleFormControlInput1 formleft-sub-title">Can we contact you for further details ?</label>
@@ -82,7 +82,7 @@
                 <div class="input-group mb-3">
                     <input type="text" class="form-control site-search-name" placeholder="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed" aria-label="Recipient's username" aria-describedby="basic-addon2">
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary click-mail" type="button" id="inputGroupFileAddon04">Live preview</button>
+                        <button class="btn  preview site-livepreview-button" type="button" id="inputGroupFileAddon04">Live preview</button>
                     </div>
                 </div>
                 </form>

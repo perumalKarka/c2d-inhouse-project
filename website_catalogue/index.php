@@ -36,7 +36,7 @@
                     <h4 class="section-center__title">WEBSITE TEMPLATES</h4>
                     <h2 class="section-sub__title">Lorem ipsum dolor sit amet, conseteur sadiscing elitr,sed</h2>
                     <p class="website-subcondent"> Lorem ipsum dolor sit amet,conseteur sadiscing elitr,sed diamnonumyeirmod tempor invidunt ut labore et doloremagne aliquam erat,sed iam voluptu.Atvero</p>
-                    <button type="button" class="click-mail"  data-toggle="modal" data-target="#exampleModal-1">Let's Go -></button>
+                    <button type="button" class="click-mail"  data-toggle="modal" data-target="#exampleModal-1">Let's Go <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></button>
                 </div>
             </div>
         </section>
@@ -169,27 +169,27 @@
                 <h4 class="section-left__title">FEATURES</h4>
                 <div class="row justify-content-center feature-container-75-splitfeature reset-margin">
                     <div class="col-4 feature-video__condent">
-                        <img class="video_icon" src="images/tv-icon.png">
+                        <img class="video_icon" src="images/videoicon.png">
                         <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
                         <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                     </div>
                     <div class="col-4 feature-video__condent">
-                        <img class="video_icon" src="images/tv-icon.png">
+                        <img class="video_icon" src="images/videoicon.png">
                         <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
                         <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                     </div>
                     <div class="col-4 feature-video__condent">
-                        <img class="video_icon" src="images/tv-icon.png">
+                        <img class="video_icon" src="images/videoicon.png">
                         <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
                         <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                     </div>
                     <div class="col-4 feature-video__condent mt-5">
-                        <img class="video_icon" src="images/tv-icon.png">
+                        <img class="video_icon" src="images/videoicon.png">
                         <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
                         <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                     </div>
                     <div class="col-4 feature-video__condent mt-5">
-                        <img class="video_icon" src="images/tv-icon.png">
+                        <img class="video_icon" src="images/videoicon.png">
                         <p >Lorem ipsum dolor sit amet, </p>
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                     </div>
@@ -208,7 +208,7 @@
                   <span class="default-line"></span>
                   <span class="draw-line"></span>
                     <li class="row" data-before="1">
-                        <div class="col-md-6 timeline_image reset-padding"><img src="images/timeline-pic-1.png" /></div>
+                        <div class="col-md-6 timeline_image-1 reset-padding"><img src="images/timeline-pic-1.png" /></div>
                         <div class="col-md-6 timeline_condent "> <h2>Lorem ipsum dolor sit</h2>
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                         </div>
@@ -217,10 +217,10 @@
                          <div class="col-md-6 timeline_condent"><h2>Lorem ipsum dolor sit</h2>
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                          </div>
-                         <div class="col-md-6 timeline_image"><img src="images/timeline-pic-2.png" /></div>
+                         <div class="col-md-6 timeline_image-2"><img src="images/timeline-pic-2.png" /></div>
                     </li>
                     <li class="row hidden"  data-before="3">
-                        <div class="col-md-6 col-md-6 timeline_image"><img src="images/timeline-pic-3.png" /></div>
+                        <div class="col-md-6 col-md-6 timeline_image-1"><img src="images/timeline-pic-3.png" /></div>
                         <div class="col-md-6 timeline_condent"> <h2>Lorem ipsum dolor sit</h2>
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                         </div>
@@ -229,9 +229,9 @@
                          <div class="col-md-6 timeline_condent"><h2>Lorem ipsum dolor sit</h2>
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                          </div>
-                         <div class="col-md-6 col-md-6 timeline_image"><img src="images/timeline-pic-4.png" /></div>
+                         <div class="col-md-6 col-md-6 timeline_image-2"><img src="images/timeline-pic-4.png" /></div>
                     </li>
-                  <div class="col timeline_button text-center "><button type="button" class="click-mail" data-toggle="modal" data-target="#exampleModal-2">Let's Build -></button><div>
+                  <div class="col timeline_button text-center "><button type="button" class="click-mail" data-toggle="modal" data-target="#exampleModal-2">Let's Build <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></button><div>
                   </ul>
                 </div>
             </div>
