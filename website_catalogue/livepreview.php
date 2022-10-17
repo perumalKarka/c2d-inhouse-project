@@ -71,13 +71,14 @@
                 </div>
                 <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
                 <div for="tab-2" class="label tab-label-2">
-                    <i class="fa fa-image d-block"></i>
-                    Logo
+                  <img class="d-block i-icon" src="images/color-pic.png" width="25" height="25" />
+                    Custom
+                    
                 </div>
                 <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
                 <div for="tab-3" class="label tab-label-3">
-                    <img class="d-block i-icon" src="images/color-pic.png" width="25" height="25" />
-                    Custom
+                   <i class="fa fa-image d-block"></i>
+                    Logo
                 </div>
                 <input id="tab-4" type="radio" name="radio-set" class="tab-selector-4" />
                 <div for="tab-4" class="label tab-label-4">
@@ -93,16 +94,61 @@
             
             <div class="content">
                 <div class="content-1">
-                    <h2>About us</h2>
-                    <p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man.</p>
-                    <h3>How we work</h3>
-                    <p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
+                    <div class="tap-page-slider">
+                            <img src="images/homepageicon.png" class="tap-page-icon">
+                            <label class="home-page-label">Home Page</label>
+                    </div>
+                    <div class="tap-page-slider-1">
+                            <img src="images/homepageicon.png" class="tap-page-icon">
+                            <label class="home-page-label">Product Range Page</label>
+                    </div>
+                    <div class="tap-page-slider-3">
+                            <img src="images/homepageicon.png" class="tap-page-icon">
+                            <label class="home-page-label">Transaction Page</label>
+                    </div>
+                    
                 </div>
                 <div class="content-2">
-                    <h2>Services</h2>
-                    <p>Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.</p>
-                    <h3>Excellence</h3>
-                    <p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
+                    <div class="custom-para">
+                        <p class="custom-condent">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                        <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                    </div>
+                    <div class="row reset-margin">
+                                    <div class="col-12 reset-padding">
+                                        <span class="color-choice reset-margin">Color choice</span>
+                                        <ul class="d-flex color-selector mt-2">
+                                            <li style="background: #9D4EDD;"></li>
+                                            <li style="background: #FF570A;"></li>
+                                            <li style="background: #6EC630;"></li>
+                                            <li style="background: #EAAB3D;"></li>
+                                        </ul>
+                                    </div>
+                    </div>
+                    <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                               <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                                
+                            </ul>
+                    </nav>
+                    <div class="btn-group">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+                                Left-aligned but right aligned when large screen
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg-right">
+                                <button class="dropdown-item" type="button">Action</button>
+                                <button class="dropdown-item" type="button">Another action</button>
+                                <button class="dropdown-item" type="button">Something else here</button>
+                            </div>
+                    </div>
+                     <button class="apply">APPLY</button>
+
                 </div>
                 <div class="content-3">
                     <h2>Portfolio</h2>
