@@ -93,27 +93,24 @@
             </div>
             
             <div class="content">
-                <div class="content-wrapper content-1">
-                    <div class="tap-page-slider">
-                            <img src="images/homepageicon.png" class="tap-page-icon">
-                            <label class="home-page-label">Home Page</label>
-                    </div>
-                    <div class="tap-page-slider-1">
-                            <img src="images/homepageicon.png" class="tap-page-icon">
-                            <label class="home-page-label">Product Range Page</label>
-                    </div>
-                    <div class="tap-page-slider-3">
-                            <img src="images/homepageicon.png" class="tap-page-icon">
-                            <label class="home-page-label">Transaction Page</label>
-                    </div>
+                <div class="content-wrapper content-1 row reset-margin">
+                    <div class="tap-page-slider col-6 mt-2 mb-2">
+                        <img src="images/homepageicon.png" class="tap-page-icon"> </div>
+                    <div class="col-6 mt-2 mb-2 label-content"> <label class="home-page-label">Home Page</label></div>
+                   <div class="tap-page-slider-1 col-6 mt-2 mb-2">
+                        <img src="images/homepageicon.png" class="tap-page-icon"> </div>
+                   <div class="col-6 mt-2 mb-2 label-content"> <label class="home-page-label">Product Range <br> Page</label></div>
+                   <div class="tap-page-slider-3 col-6 mt-2 mb-2">
+                        <img src="images/homepageicon.png" class="tap-page-icon"> </div>
+                   <div class="col-6 mt-2 mb-2 label-content"> <label class="home-page-label">Transaction Page</label></div>
                     
                 </div>
                 <div class="content-wrapper content-2">
-                    <div class="custom-para">
-                        <p class="custom-condent">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                   <div class="custom-para">
+                        <p class="custom-condent reset-padding">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
                         <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-                    </div>
-                    <div class="row reset-margin">
+                    
+                        <div class="row reset-margin">
                                     <div class="col-12 reset-padding">
                                         <span class="color-choice reset-margin">Color choice</span>
                                         <ul class="d-flex color-selector mt-2">
@@ -123,8 +120,8 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                    </div>
-                    <nav aria-label="Page navigation example">
+                        </div>
+                        <nav aria-label="Page navigation example">
                             <ul class="pagination justify-content-center">
                                <li class="page-item"><a class="page-link" href="#">1</a></li>
                                 <li class="page-item disabled">
@@ -136,8 +133,8 @@
                                 </li>
                                 
                             </ul>
-                    </nav>
-                    <div class="btn-group">
+                        </nav>
+                        <div class="btn-group">
                             <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
                                 Left-aligned but right aligned when large screen
                             </button>
@@ -146,8 +143,9 @@
                                 <button class="dropdown-item" type="button">Another action</button>
                                 <button class="dropdown-item" type="button">Something else here</button>
                             </div>
+                        </div>
+                            <button class="apply">APPLY</button>
                     </div>
-                     <button class="apply">APPLY</button>
 
                 </div>
                 <div class="content-wrapper content-3">

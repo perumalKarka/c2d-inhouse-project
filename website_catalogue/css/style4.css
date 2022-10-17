@@ -180,15 +180,28 @@
 	color: #777;
 	padding-left: 15px;
 	font-family: Cambria, Georgia, serif;
-	border-left: 8px solid rgba(63,148,148, 0.1);
+	/* border-left: 8px solid rgba(63,148,148, 0.1); */
 }
-.content-1 img.tap-page-icon{
-	padding:10px 10px;
+
+.content .content-1 img.tap-page-icon{
+	max-width:100%;
 }
-.content-1 label.home-page-label{
+.content .content-1 .label-content{
+	align-self:flex-end;
+	
+}
+.label-content label{
 	color:#E0E0E0;
 	font-size:20px;
-	font-family:'robotoregular';
-	vertical-align: bottom;
-
+}
+.content-1 .tap-page-slider.active:hover{
+	background-color: #3EBDCC;
+}
+.content-2 .custom-para{
+	margin:0px 137px 7px 30px;
+}
+.content-2 .custom-para p{
+	margin-bottom:20px;
+	font-size:14px;
+	color:#AAAAAA;
 }
