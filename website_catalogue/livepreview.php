@@ -93,26 +93,35 @@
             </div>
             
             <div class="content">
-                <div class="content-wrapper content-1 row reset-margin">
-                    <div class="tap-page-slider col-6 mt-2 mb-2">
-                        <img src="images/homepageicon.png" class="tap-page-icon"> </div>
-                    <div class="col-6 mt-2 mb-2 label-content"> <label class="home-page-label">Home Page</label></div>
-                   <div class="tap-page-slider-1 col-6 mt-2 mb-2">
-                        <img src="images/homepageicon.png" class="tap-page-icon"> </div>
-                   <div class="col-6 mt-2 mb-2 label-content"> <label class="home-page-label">Product Range <br> Page</label></div>
-                   <div class="tap-page-slider-3 col-6 mt-2 mb-2">
-                        <img src="images/homepageicon.png" class="tap-page-icon"> </div>
-                   <div class="col-6 mt-2 mb-2 label-content"> <label class="home-page-label">Transaction Page</label></div>
-                    
+                <div class="content-wrapper content-1">
+                    <div class="row active">
+                        <div class="tap-page-slider col-6">
+                            <img src="images/homepageicon.png" class="tap-page-icon"> 
+                        </div>
+                        <div class="col-6 label-content"> <label class="home-page-label">Home Page</label></div>
+                    </div>
+                    <div class="row">
+                        <div class="tap-page-slider-1 col-6">
+                            <img src="images/homepageicon.png" class="tap-page-icon"> 
+                        </div>
+                        <div class="col-6 label-content"> <label class="home-page-label">Product Range <br> Page</label></div>
+                    </div>
+                    <div class="row">
+                        <div class="tap-page-slider-3 col-6">
+                            <img src="images/homepageicon.png" class="tap-page-icon"> 
+                        </div>
+                        <div class="col-6 label-content"> <label class="home-page-label">Transaction Page</label></div>
+                    </div>
                 </div>
+
                 <div class="content-wrapper content-2">
-                   <div class="custom-para">
-                        <p class="custom-condent reset-padding">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                   <div class="custom-wrapper">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
                         <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
                     
                         <div class="row reset-margin">
                                     <div class="col-12 reset-padding">
-                                        <span class="color-choice reset-margin">Color choice</span>
+                                        <span class="color-choice reset-margin">Color Palette</span>
                                         <ul class="d-flex color-selector mt-2">
                                             <li style="background: #9D4EDD;"></li>
                                             <li style="background: #FF570A;"></li>
@@ -121,22 +130,19 @@
                                         </ul>
                                     </div>
                         </div>
-                        <nav aria-label="Page navigation example">
-                            <ul class="pagination justify-content-center">
-                               <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item disabled">
-                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item">
-                                    <a class="page-link" href="#">Next</a>
-                                </li>
-                                
-                            </ul>
-                        </nav>
+                        <div class="pre-next-bar">
+                            <a class="float-left">
+                                <span class="icon"><img src="images/left-right-refresh.png" /></span>
+                                <label>Previous</label>
+                            </a>
+                            <a class="float-right">
+                                <span class="icon"><img src="images/right-left-refresh.png" /></span>
+                                <label>Next</label>
+                            </a>
+                        </div>
                         <div class="btn-group">
-                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
-                                Left-aligned but right aligned when large screen
+                            <button type="button" class="btn btn-secondary btn-block dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+                                Fresh & Bright
                             </button>
                             <div class="dropdown-menu dropdown-menu-lg-right">
                                 <button class="dropdown-item" type="button">Action</button>
@@ -144,27 +150,44 @@
                                 <button class="dropdown-item" type="button">Something else here</button>
                             </div>
                         </div>
-                            <button class="apply">APPLY</button>
+                        <div class="mt-4 text-center">
+                            <button class="apply-logo">APPLY</button>
+                        </div>
+                            
                     </div>
 
                 </div>
-                <div class="content-wrapper content-3">
-                    <h2>Portfolio</h2>
-                    <p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.</p>
-                    <h3>Examples</h3>
-                    <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
+                <div class="content-wrapper content-3 pr-3">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+                    <div class="text-center mb-3">
+                        <button type="button" class="btn btn-primary upload-sm">Upload logo</button>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren </p>
                 </div>
-                <div class="content-wrapper content-4">
-                    <h2>Contact</h2>
-                    <p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic.</p>
-                    <h3>Get in touch</h3>
-                    <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing. </p>
+                <div class="content-wrapper content-4 footer">
+                    <div class="row active">
+                        <div class="tap-page-slider col-6">
+                            <img src="images/homepageicon.png" class="img-fluid tap-page-icon"> 
+                        </div>
+                        <div class="col-6 label-content"> <label class="home-page-label">Footer 1</label></div>
+                    </div>
+                    <div class="row">
+                        <div class="tap-page-slider-1 col-6">
+                            <img src="images/homepageicon.png" class="img-fluid tap-page-icon"> 
+                        </div>
+                        <div class="col-6 label-content"> <label class="home-page-label">Footer 2</label></div>
+                    </div>
+                    <div class="row">
+                        <div class="tap-page-slider-3 col-6">
+                            <img src="images/homepageicon.png" class="img-fluid tap-page-icon"> 
+                        </div>
+                        <div class="col-6 label-content"> <label class="home-page-label">Footer 3</label></div>
+                    </div>
                 </div>
-                <div class="content-wrapper content-5">
-                    <h2>Contact 5</h2>
-                    <p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic.</p>
-                    <h3>Get in touch</h3>
-                    <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing. </p>
+                <div class="content-wrapper content-5 pr-3">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et </p>
                 </div>
             </div>
         </section>    

@@ -1,9 +1,42 @@
+@font-face {
+	font-family: 'robotoregular';
+	src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+		 url('../fonts/roboto-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  
+  }
+  @font-face {
+	font-family: 'robotolight';
+	src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+		 url('../fonts/roboto-light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
+  @font-face {
+	font-family: 'robotothin';
+	src: url('../fonts/roboto-thin-webfont.woff2') format('woff2'),
+		 url('../fonts/roboto-thin-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  
+  }
+  @font-face {
+	font-family: 'futura_bk_btbook';
+	src: url('../fonts/futura_bk_bt_book-webfont.woff2') format('woff2'),
+		 url('../fonts/futura_bk_bt_book-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  
+  }
+
 .tabs {
     position: absolute;
 	top:50%;
 	margin: 40px auto;
 	width: 0;
-	box-shadow: 1px 1px 2px rgb(0 0 0 / 10%);
+	max-height: 600px;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 10%);
     border-radius: 3px;
 	background: #383838;
 }
@@ -105,8 +138,8 @@
     position: relative;
     width: auto;
 	bottom: 420px;
-    height: 420px;
-    overflow: hidden;
+    height: 520px;
+    overflow: scroll;
     
 }
 
@@ -130,7 +163,21 @@
 	-ms-transform: translateY(-450px);
 	transform: translateY(-450px);
 }
-
+.content .content-wrapper.content-1,
+.content .content-wrapper.footer{
+	padding: 30px 0;
+	left:75px;
+}
+.content-wrapper .active{
+	background-color: #3EBDCC;
+}
+.content-wrapper .row:first-child{
+	padding-top: 24px;
+}
+.content-wrapper .row{
+	margin:0 0 13px 0;	
+	padding-bottom: 16px;
+}
 .tab-group{
 	overflow: hidden;
 	width:75px;
@@ -171,17 +218,7 @@
 .content div h3{
 	color: #398080;
 }
-.content div p {
-	font-size: 14px;
-	line-height: 22px;
-	font-style: italic;
-	text-align: left;
-	margin: 0;
-	color: #777;
-	padding-left: 15px;
-	font-family: Cambria, Georgia, serif;
-	/* border-left: 8px solid rgba(63,148,148, 0.1); */
-}
+
 
 .content .content-1 img.tap-page-icon{
 	max-width:100%;
@@ -197,11 +234,84 @@
 .content-1 .tap-page-slider.active:hover{
 	background-color: #3EBDCC;
 }
-.content-2 .custom-para{
-	margin:0px 137px 7px 30px;
+.content-2 .custom-wrapper{
+	max-width: 380px;
+    padding-left: 32px;
 }
-.content-2 .custom-para p{
-	margin-bottom:20px;
-	font-size:14px;
+.content-2 .custom-wrapper p{
+	font-size: 14px;
+    line-height: 24px;
+    font-family: 'robotoregular';
+    color: #AAAAAA;
+    margin-bottom: 18px;
+}
+.content-wrapper .color-selector li{
+	width: 41px;
+    height: 41px;
+    color: transparent;
+    border-radius:6px;
+    margin-right: 30px;
+}
+.content-wrapper .color-choice{
+	font-size: 14px;
+	line-height: 25px;
+	color:#ffffff;
+	font-family: 'robotoregular';
+	font-weight: bold;
+}
+.pre-next-bar{
+	overflow: hidden;
+}
+.pre-next-bar label{
 	color:#AAAAAA;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'robotoregular';
+}
+.pre-next-bar .icon{
+	background: #1F1F1F;
+	border-radius: 5px;
+	padding: 6px 9px 9px 9px;
+	margin-right: 30px;
+}
+.custom-wrapper .btn-group{
+	display: inherit;
+}
+.custom-wrapper .dropdown-toggle {
+    background: #1f1f1f;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    padding: 12px 0;
+    border-radius: 5px;
+	margin-top: 20px;
+}
+.apply-logo{
+	font-family: 'robotoregular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 160px;
+    padding: 7px 0px;
+    background: #3EBDCC;
+    border-color: #3EBDCC;
+    border-radius: 8px;
+}
+.upload-sm{
+	background: #1F1F1F 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #0000009e;
+    border: 1px solid #3EBDCC;
+    border-radius: 6px;
+    opacity: 1;
+    text-align: center;
+    font-size: 18px;
+	line-height: 24px;
+    letter-spacing: 0px;
+    color: #3EBDCC;
+    opacity: 1;
+    padding: 14px 37px;
 }
