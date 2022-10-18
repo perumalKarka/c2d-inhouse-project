@@ -59,7 +59,7 @@
             <div class="container container-970">
               <h2>Lorem ipsum dolor sit amet, consetetur</h2>
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos </p>
-              <button type="button" class="landing-button btn btn-primary btn-c2d-primary-md">Voir nos offres</button>
+              <button type="button" class="landing-button btn btn-primary btn-c2d-primary-md"><a href="./website_catalogue/index.php">Voir nos offres</a></button>
             </div>
           </section>
           <!-- condent section 2 -->
@@ -92,7 +92,7 @@
                                       <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                       <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                       <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
-                                      <button type="button" class=" btn btn-primary btn-c2d-primary-md"><a href="http://localhost/Comorins/c2d-inhouse-project/website_catalogue/">En savoir plus</a></button>
+                                      <button type="button" class=" btn btn-primary btn-c2d-primary-md">En savoir plus</button>
                                   </ul>
                                 </div>
                              </div>
