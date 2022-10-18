@@ -36,7 +36,8 @@
                     <h4 class="section-center__title">WEBSITE TEMPLATES</h4>
                     <h2 class="section-sub__title">Lorem ipsum dolor sit amet, conseteur sadiscing elitr,sed</h2>
                     <p class="website-subcondent"> Lorem ipsum dolor sit amet,conseteur sadiscing elitr,sed diamnonumyeirmod tempor invidunt ut labore et doloremagne aliquam erat,sed iam voluptu.Atvero</p>
-                    <button type="button" class="click-mail"  data-toggle="modal" data-target="#exampleModal-1">Let's Go <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></button>
+                    <!-- <button type="button" class="click-mail"  data-toggle="modal" data-target="#exampleModal-1">Let's Go <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></button> -->
+                    <a href="catelogue.php" class="click-mail" >Let's Go <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></button>
                 </div>
             </div>
         </section>

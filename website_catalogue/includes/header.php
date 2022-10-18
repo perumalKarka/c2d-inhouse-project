@@ -43,16 +43,19 @@
                               <div class="main-nav collapse navbar-collapse" id="navbarCollapse">
                                   <ul id="menu-site-menu" class="navbar-nav ml-auto ">
                                     <li class="nav-item"><a href="index.php" class="nav-link">Accueil</a></li>
-                                    <li class="nav-item"><a href="about.php" class="nav-link">Qui sommes-nous </a></li>
-                                    <li class="nav-item menu-item-has-children">
+                                    <li class="nav-item"><a href="catelogue.php" class="nav-link">Website Catalogue</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Meeting Rooms</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Infrastructure</a></li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Phoning Solutions</a></li>
+                                    <!-- <li class="nav-item menu-item-has-children">
                                       <a href="javascript:void(0)" class="nav-link">Nos Services</a>
                                       <ul class="sub-menu">
                                         <li class="menu-item"><a href="small_business.php" class="nav-link">Pour les petites entreprises</a></li>
                                         <li class="menu-item"><a href="home_office.php" class="nav-link">Pour les télétravailleurs </a></li>
                                         <li class="menu-item"><a href="services.php" class="nav-link">Tous les services</a></li>
                                       </ul>
-                                    </li>
-                                    <li class="nav-item"><a href="how_we_work.php" class="nav-link">Notre approche</a></li>
+                                    </li> -->
+                                    
                                     <li class="nav-item lang-item menu-item-has-children">
                                       <a href="javascript:void(0)" class="nav-link"><img src="images/fr-Flag.png" class="flag"/></a>
                                       <ul class="sub-menu">

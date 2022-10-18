@@ -18,7 +18,7 @@
     <link rel="apple-touch-icon" href="images/favicon-ico.png" />
     <meta name="msapplication-TileImage" content="images/favicon-ico.png" />
 </head>
-<body class="index-page">
+<body class="preview-page">
     <div class="container-fluid site-fluid">
         <section class="header-section">
             <div class="container container-85 reset-padding">

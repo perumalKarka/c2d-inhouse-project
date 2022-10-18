@@ -211,7 +211,7 @@ padding:45px 0 4px 0;
 color:#ffffff;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 18px;
 line-height:28px;
 padding:0;
 }
@@ -2181,6 +2181,7 @@ ul.socialmedia_network li a{
 
 /** Wishlist right-sidebar component **/
 #wish{
+  display: none;
   right: 0;
   top: -122px;
   width: 60px;
@@ -2192,6 +2193,10 @@ ul.socialmedia_network li a{
   background-color: #3EBDCC;
   cursor: pointer;
   box-shadow: 0 5px 4px 0 rgb(0 0 0 / 26%);
+}
+.preview-page #wish,
+.catelogue-page #wish{
+  display: block;
 }
 #wish img {
   position: absolute;
