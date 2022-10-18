@@ -59,7 +59,8 @@
             <div class="container container-970">
               <h2>Lorem ipsum dolor sit amet, consetetur</h2>
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos </p>
-              <button type="button" class="landing-button btn btn-primary btn-c2d-primary-md"><a href="./website_catalogue/index.php">Voir nos offres</a></button>
+              
+              <a href="./website_catalogue/index.php" class="landing-button btn btn-primary btn-c2d-primary-md">Voir nos offres</a>
             </div>
           </section>
           <!-- condent section 2 -->
