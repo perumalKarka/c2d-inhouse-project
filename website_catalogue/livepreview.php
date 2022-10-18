@@ -23,7 +23,7 @@
         <section class="header-section">
             <div class="container container-85 reset-padding">
                 <?php include 'includes/mobile-menu.php'; ?>
-                <header class="site-header site-navbar site-navbar-target overlay-header">
+                <header class="site-header site-navbar site-navbar-target overlay-header livepreview-header-sec">
                     <?php include 'includes/header.php'; ?>
                 </header>
             </div>
@@ -49,8 +49,8 @@
                     <div class="col-6 preview-button reset-padding">
                     <button type="button" class="like-button"><i class="fa fa-thumbs-up "></i> Like template</button>
 
-                    <button type="button" class="whistlist-button"><i class="fa fa-bookmark"></i>Add to Wishlist</button>
-                    <button type="button" class="copyright-button" ><i class="fa fa-copyright"></i>Buy Copyright*</button>
+                    <button type="button" class="whistlist-button "> <i class="fa fa-bookmark"></i>Add to Wishlist</button>
+                    <button type="button" class="copyright-button" data-toggle="modal" data-target="#exampleModal-2"><i class="fa fa-copyright"></i>Buy Copyright*</button>
                     
                     </div>
                 </div>
@@ -82,13 +82,14 @@
                 </div>
                 <input id="tab-4" type="radio" name="radio-set" class="tab-selector-4" />
                 <div for="tab-4" class="label tab-label-4">
-                    <img class="d-block i-icon" src="images/footer-icon.png" width="29" height="33" />
-                    Footer
+                    <i class="fa fa-pencil d-block"></i>
+                    Business name
                 </div>
                 <input id="tab-5" type="radio" name="radio-set" class="tab-selector-5" />
                 <div for="tab-5" class="label tab-label-5">
-                    <i class="fa fa-pencil d-block"></i>
-                    Business name
+                    <img class="d-block i-icon" src="images/footer-icon.png" width="29" height="33" />
+                    Footer
+                   
                 </div>
             </div>
             
@@ -164,7 +165,14 @@
                     </div>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren </p>
                 </div>
-                <div class="content-wrapper content-4 footer">
+                
+                <div class="content-wrapper content-4 pr-3">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+                    <input type="text" class="form-control bussiness-text" id="exampleFormControlInput1" placeholder="Lorem ipsum dolor sit amet, consetetur">
+                    
+                    <p class="mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et </p>
+                </div>
+                <div class="content-wrapper content-5 footer">
                     <div class="row active">
                         <div class="tap-page-slider col-6">
                             <img src="images/homepageicon.png" class="img-fluid tap-page-icon"> 
@@ -184,11 +192,7 @@
                         <div class="col-6 label-content"> <label class="home-page-label">Footer 3</label></div>
                     </div>
                 </div>
-                <div class="content-wrapper content-5 pr-3">
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et </p>
-                </div>
+                
             </div>
         </section>    
 

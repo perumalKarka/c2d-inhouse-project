@@ -85,7 +85,7 @@
                 <div class="input-group mb-3">
                     <input type="text" class="form-control site-search-name" placeholder="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed" aria-label="Recipient's username" aria-describedby="basic-addon2">
                     <div class="input-group-append">
-                        <button class="btn  preview site-livepreview-button" type="button" id="inputGroupFileAddon04">Live preview</button>
+                         <button class="btn  preview site-livepreview-button" type="button" id="inputGroupFileAddon04"><a href="livepreview.php">Live preview</a></button>
                     </div>
                 </div>
                 </form>

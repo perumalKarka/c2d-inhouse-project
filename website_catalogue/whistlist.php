@@ -629,7 +629,7 @@
                             </div>
                         </div>
                         <div class="container container-90 text-right">
-                            <button type="button" class="btn btn-primary btn-c2d-primary-md mt-5">Submit</button>
+                            <button type="button" class="btn btn-primary btn-c2d-primary-md mt-5" data-toggle="modal" data-target="#exampleModal-1">Submit</button>
                         </div>
                         
             

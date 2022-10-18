@@ -92,7 +92,7 @@
                                       <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                       <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                       <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
-                                      <button type="button" class=" btn btn-primary btn-c2d-primary-md">En savoir plus</button>
+                                      <button type="button" class=" btn btn-primary btn-c2d-primary-md"><a href="http://localhost/Comorins/c2d-inhouse-project/website_catalogue/">En savoir plus</a></button>
                                   </ul>
                                 </div>
                              </div>

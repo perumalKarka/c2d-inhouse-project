@@ -90,29 +90,29 @@
 
             <div id="news_slide" class="products-outer">
                 <ul class="voxNews products-inner reset-padding">
-                    <li><img class="carosal_image" src="images/Group 109.png"></li>
-                    <li><img class="carosal_image" src="images/Group 1199.png"></li>
-                    <li><img class="carosal_image" src="images/Group 111.png"></li>
-                    <li><img class="carosal_image" src="images/Group 109.png"></li>
-                    <li><img class="carosal_image" src="images/Group 1199.png"></li>
-                    <li><img class="carosal_image" src="images/Group 111.png"></li>
-                    <li><img class="carosal_image" src="images/Group 109.png"></li>
-                    <li><img class="carosal_image" src="images/Group 1199.png"></li>
-                    <li><img class="carosal_image" src="images/Group 111.png"></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 109.png"></a></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 1199.png"></a></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 111.png"></a></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 109.png"></a></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 1199.png"></a></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 111.png"></a></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 109.png"></a></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 1199.png"></a></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 111.png"></a></li>
                 </ul>
             </div>
 
             <div id="news_slide" class="products-outer">
                 <ul class="voxNews1 products-inner reset-padding">
-                    <li><img class="carosal_image" src="images/Group 113.png"></li>
-                    <li><img class="carosal_image" src="images/Group 1199.png"></li>
-                    <li><img class="carosal_image" src="images/Group 111.png"></li>
-                    <li><img class="carosal_image" src="images/Group 113.png"></li>
-                    <li><img class="carosal_image" src="images/Group 1199.png"></li>
-                    <li><img class="carosal_image" src="images/Group 111.png"></li>
-                    <li><img class="carosal_image" src="images/Group 113.png"></li>
-                    <li><img class="carosal_image" src="images/Group 1199.png"></li>
-                    <li><img class="carosal_image" src="images/Group 111.png"></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 113.png"></a></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 1199.png"></a></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 111.png"></a></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 113.png"></a></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 1199.png"></a></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 111.png"></a></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 113.png"></a></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 1199.png"></a></li>
+                    <li><a href ="catelogue.php"><img class="carosal_image" src="images/Group 111.png"></a></li>
                     
                 </ul>
             </div>

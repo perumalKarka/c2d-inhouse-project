@@ -115,7 +115,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" >Live Preview</button></div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" data-toggle="modal" data-target="#exampleModal-1"  >Live Preview</button></div>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +142,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" >Live Preview</button></div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin"  data-toggle="modal" data-target="#exampleModal-1" >Live Preview</button></div>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" >Live Preview</button></div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" data-toggle="modal" data-target="#exampleModal-1"  >Live Preview</button></div>
                                 </div>
                             </div>
                         </div>
@@ -196,7 +196,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" >Live Preview</button></div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" data-toggle="modal" data-target="#exampleModal-1"  >Live Preview</button></div>
                                 </div>
                             </div>
                         </div>
@@ -223,7 +223,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" >Live Preview</button></div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" data-toggle="modal" data-target="#exampleModal-1"  >Live Preview</button></div>
                                 </div>
                             </div>
                         </div>
