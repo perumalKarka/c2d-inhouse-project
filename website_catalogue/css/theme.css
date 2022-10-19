@@ -527,7 +527,7 @@ opacity: 1;
   max-width: 91%;
   margin:0 auto;
 }
-button.click-mail{
+.click-mail{
   border:none;
   padding:25px 77px;
   border-radius: 8px;
@@ -1220,7 +1220,8 @@ padding:30px 70px 30px 50px;
 
 
 /* logo name overlay */
-.index-page .modal-backdrop{
+.index-page .modal-backdrop,
+.preview-page .modal-backdrop{
   background-color: #383838;
   opacity: 1;
 }
