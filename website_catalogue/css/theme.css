@@ -1199,15 +1199,13 @@ opacity: 1;
 .upload-logo{
   padding-left:50px;
 }
-p.logo-subcondent{
-text-align: left;
-font-size:18px;
-letter-spacing: 0px;
-color: #AAAAAA;
-opacity: 1;
-padding-left:50px;
-padding-right:70px;
-padding:30px 70px 30px 50px;
+p{
+  text-align: left;
+  font-size:18px;
+  letter-spacing: 0px;
+  color: #AAAAAA;
+  opacity: 1;
+  padding:30px 70px 30px 0px;
 }
 .site-name{
   margin-top:80px;
@@ -2314,4 +2312,107 @@ ul.socialmedia_network li a{
   font-size: 24px;
   line-height: 40px;
   font-family: 'robotolight';
+}
+
+.img-preview{
+  max-width: 85%;
+  margin: 91px 0 0 50px;
+}
+.edit-panel-tools{
+  
+}
+.edit-panel-border{
+  border:1px dotted #fff;
+  padding: 42px 20px 63px 20px;
+}
+.edit-panel-image{
+  overflow: hidden;
+  flex: 1 1 auto;
+  margin-left: 20px;
+}
+.editpanel-img-type{
+  overflow: hidden;
+
+}
+.editpanel-img-type label,.editpanel-img-size{
+  font-family: 'Poppins';
+  color:#707070;
+  font-size: 18px;
+  line-height: 25px;
+}
+.edit-panel-border hr{
+  border:1px solid #707070;
+  margin:55px 0;
+}
+.pic-view{
+  vertical-align: middle;
+}
+#rright{
+  margin-left: 15px;
+}
+.img-preview h3{
+  font-size: 35px;
+  line-height: 40px;
+  color:#ffffff;
+  font-weight: 500;
+  font-family: 'robotoregular';
+  margin-bottom: 30px;
+}
+.tool-label{
+  font-size: 20px!important;
+  line-height: 34px;
+  color:#ffffff;
+  font-style:normal;
+}
+.requestmodal_content .upload-logo{
+  margin-bottom: 96px;
+}
+.img-preview-btn-actions{
+  overflow: hidden;
+}
+.btn-primary-outline{
+  background: transparent;
+  border:1px solid #3EBDCC;
+  color:#fff;
+}
+.file-upload-wrapper{
+  position: relative;
+  width: 100%;
+  height: 78.5px;
+}
+.file-upload-wrapper input#file {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  height: 78.5px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  cursor: pointer;
+  width: 250px;
+}
+.file-upload-wrapper:before {
+  content: "Upload Logo";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 232px;
+  background: #1F1F1F;
+  border:1px solid #3EBDCC;
+  border-radius: 6px;
+  color: #3EBDCC;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.015em;
+  padding: 21.5px 0;
+  z-index: 25;
+  text-align: center;
+  pointer-events: none;
 }

@@ -301,6 +301,7 @@ $(document).on('click', '.banner-left-col a[href^=\\#]', function () {
 
 /**** Sound Engg page scripts Starts ****/
 $(document).ready(function() {
+  
   let inputTagValue = $('input.tag-trap').val();
   let trackLists  = [];
   
@@ -746,6 +747,5 @@ setupNews1(vox_news1);
 
 
 // acordian plus symbol
-
 
 

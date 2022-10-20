@@ -66,11 +66,68 @@
                     <p class="logo-condent pt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea</p>
                 </div>
                 <hr class="horizontal-line"/>
+                
+                <div class="upload-logo border-0 ">
+                    <p class="logo-subcondent reset-margin">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+                    <form method="post" action="upload.php" enctype="multipart/form-data">
+                        <div class="file-upload-wrapper">
+                        <input type="file" class="btn btn-primary skip" name="file" id="file" />
+                        <input type="hidden" name="rotation" id="rotation" value="0"/>
+                        </div>
+                        <!-- <button type="button" class="btn btn-primary skip" data-dismiss="modal" >Upload logo</button> -->
+                        <div class="img-preview" style="display: none;">
+                            <h3>Edit your logo</h3>
+                            <div class="row m-0">
+                                <div class="col-5 edit-panel-tools p-0">
+                                    <div class="edit-panel-border">
+                                        <div class="editpanel-img-type mb-4">
+                                            <label class="fl-name float-left">Image</label>
+                                            <label class="fl-type float-right"></label>
+                                        </div>
+                                        <div class="editpanel-img-size">
+                                            <h5 class="mb-2">Original Image Size (px)</h5>
+                                            <span class="mr-2">W: <span class="pr-W">700</span></span>|<span class="ml-2">H: <span class="pr-H">300</span></span>
+                                        </div>
+                                        <hr />
+                                        <div class="form-group row m-0 mb-3">
+                                            <div class="col-9">
+                                                <label class="tool-label">Remove Background</label>
+                                            </div>
+                                            <div class="col-3">
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="form-group row m-0">
+                                            <div class="col">
+                                                <label class="tool-label">Rotate</label>
+                                            </div>
+                                            <div class="col">
+                                                <span id="rright" class="float-right"><img src="images/right-angle.png" /></span>
+                                                <span id="rleft" class="float-right"><img src="images/left-angle.png" /></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                </div>
+                                <div class="picpreview-col col-7 p-0">
+                                    <div class="edit-panel-image d-flex align-items-center align-self-stretch">
+                                        <div id="imgPreview" ></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="img-preview-btn-actions mt-4">
+                                <button type="button" class="btn btn-primary btn-primary-outline btn-c2d-primary-sm float-left" name="submit" value="Upload">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-c2d-primary-sm float-right" name="submit" value="Upload">Upload</button>
+                            </div>
+                            
+                        </div>
 
-                <div class="modal-header upload-logo border-0 ">
-                    <button type="button" class="btn btn-primary skip" data-dismiss="modal" >Upload logo</button>
+                        
+                    </form>
+                    
                 </div>
-                <p class="logo-subcondent reset-margin">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+                
             </div>
         </div>
 
@@ -82,14 +139,14 @@
                 </div>
                 <hr class="horizontal-line"/>
                 <form class="request-popup-form pt-0 pb-0">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control site-search-name" placeholder="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                         <button class="btn  preview site-livepreview-button" type="button" id="inputGroupFileAddon04"><a href="livepreview.php" style="color:#fff;">Live preview</a></button>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control site-search-name" placeholder="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn  preview site-livepreview-button" type="button" id="inputGroupFileAddon04"><a href="livepreview.php" style="color:#fff;">Live preview</a></button>
+                        </div>
                     </div>
-                </div>
                 </form>
-                <p class="logo-subcondent reset-margin">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                <p class="logo-subcondent ml-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
             </div>
         </div>
     </div>

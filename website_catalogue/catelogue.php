@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="css/js-offcanvas.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -301,7 +302,7 @@
 						<div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>   
 						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
 					</div>
-				        <--Left and right controls -->
+				        <!-- Left and right controls -->
 						 <a class="carousel-control-prev slide_position prev-section" href="#demo_2" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
 					    <a class="carousel-control-next slide_position next-section" href="#demo_2" data-slide="next"><span class="carousel-control-next-icon"></span></a>
                 </div>
@@ -337,7 +338,79 @@
     <script src="js/main.js"></script>
     
     <script type="text/javascript">
+        $(document).ready(function() {
+            $(document).on('change', '#file', function() {
+                filePreview(this);
+            });
+
+
+            function filePreview(input) {
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+
+                    var url = URL.createObjectURL(input.files[0]);
+                    var img = new Image();
+                    img.src = url;
+                    img.onload = function()
+                    {
+                        $(".pr-W").html(this.width);
+                        $(".pr-H").html(this.height);
+                        $(".fl-type").html(input.files[0].type)
+                    }
+                    
+                    reader.onload = function (e) {
+                        $('#imgPreview + img').remove();
+                        $('#imgPreview').after('<img src="'+e.target.result+'" class="pic-view" style="max-width:100%"/>');
+                    };
+                    reader.readAsDataURL(input.files[0]);
+                    $('.img-preview').show();
+                }else{
+                    $('#imgPreview + img').remove();
+                    $('.img-preview').hide();
+                    
+                }
+
+                
+            }
+        });
+
 		$( function(){
+                
+            var rotation = 0;
+            $("#rright").click(function() {
+                rotation = (rotation -90) % 360;
+                $(".pic-view").css({'transform': 'rotate('+rotation+'deg)'});
+                $(".pic-view").parent().height($(".pic-view").height())
+                if(rotation != 0){
+                    $(".pic-view").css({'height': 'auto','max-width':'100%'});
+                }else{
+                    $(".pic-view").css({'height': 'auto','max-width':'100%'});
+                }
+                $('#rotation').val(rotation);
+                $('.pr-W').html("");
+                $('.pr-W').html($(".pic-view").width());
+                $('.pr-H').html("");
+                $('.pr-H').html($(".pic-view").height());
+                // $(".pic-view").css({'height': $(".pic-view").height()});
+                
+                
+            });
+            
+            $("#rleft").click(function() {
+                rotation = (rotation + 90) % 360;
+                $(".pic-view").css({'transform': 'rotate('+rotation+'deg)'});
+                $(".pic-view").parent().height($(".pic-view").height())
+                if(rotation != 0){
+                    $(".pic-view").css({'height': 'auto','max-width':'100%'});
+                }else{
+                    $(".pic-view").css({'height': 'auto','max-width':'100%'});
+                }
+                $('#rotation').val(rotation);
+                $('.pr-W').html("");
+                $('.pr-W').html($(".pic-view").width());
+                $('.pr-H').html("");
+                $('.pr-H').html($(".pic-view").height());
+            });
 
 
 			$( document ).on( "create.offcanvas", function( e ){

@@ -53,17 +53,20 @@
     filter: alpha(opacity=0);
 	cursor: pointer;
 }
+.tabs input#tab-1{
+	top: 36px;
+}
 .tabs input#tab-2{
-	top: 84px;
+	top: 107px;
 }
 .tabs input#tab-3{
-	top: 155px;
+	top: 179px;
 }
 .tabs input#tab-4{
-	top: 227px;
+	top: 251px;
 } 
 .tabs input#tab-5{
-	top: 299px;
+	top: 323px;
 }
 .tabs .label {
 	font-size: 12px;
@@ -119,7 +122,6 @@
 }
 .tab-label-5 {
     z-index: 0;
-	padding-top: 20px!important;
 	line-height: 15px;
 }
 
@@ -167,6 +169,7 @@
 .content .content-wrapper.footer{
 	padding: 30px 0;
 	left:75px;
+	width: 100%;
 }
 .content-wrapper .active{
 	background-color: #3EBDCC;
