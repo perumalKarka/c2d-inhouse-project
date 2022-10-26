@@ -12,7 +12,7 @@
       <link rel="stylesheet" href="fonts/icomoon/style.css">
       <link rel="stylesheet" href="css/style.css" />
       <link rel="stylesheet" href="css/mobile_style.css" />
-      <link rel="stylesheet" href="css/responsive.css" />
+      <link rel="stylesheet" href="css/responsive-new.css" />
       <style>
           /* Some custom styles to beautify this example */
 
@@ -28,13 +28,13 @@
       <meta name="msapplication-TileImage" content="images/favicon-ico.png" />
   </head>
   
-  <body class="page-homeoffice fr-site">
+  <body class="page-homeoffice land-page-new fr-site">
     <div class="container-fluid reset-padding">
           <section class="banner--with--content homeoffice--banner" style="background-image: url('images/landpagebanner.jpg');">
               <div class="top-sticky-bar text-center">
                       <p>site web en cours de construction, la mise à jour va être sympa :-)</p>
               </div>
-              <div class="container container-1280 reset-padding">
+              <div class="container container-90 reset-padding">
                   <?php include 'includes/mobile-menu.php'; ?>       
                   <header class="site-header site-navbar site-navbar-target">
                       <?php include 'includes/header.php'; ?>
@@ -42,7 +42,7 @@
 
                   <div class="banner-content homeOffice-banner " style="background-image: url('images/landing-page illustration.png');">
                     <div class="row reset-margin">
-                        <div class="col-lg-6 col-md-6 col-sm-12 banner-left-col">
+                        <div class=" col-xl-12 col-lg-12 col-md-6 col-sm-12 banner-left-col">
                         <h1>Lorem ipsum dolor sit</h1>
                         <p>Lorem ipsum dolor sit amet. consetetur sadispacing elitr. 
                           sed diam nonumy eirmod tempor invidunt ut labore ed delore magna aliquyam erat, 
@@ -56,7 +56,7 @@
           </section>
           <!-- condent-section -->
           <section data-target="homemade_solutions " class="homeofficepage-title-section text-center homemade_solutions-content">
-            <div class="container container-970">
+            <div class="container container-90">
               <h2>Lorem ipsum dolor sit amet, consetetur</h2>
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos </p>
               
@@ -65,16 +65,16 @@
           </section>
           <!-- condent section 2 -->
           <section data-target="homemade_solutions " class="homeofficepage-title-section homemade_solutions-content-2 text-center ">
-            <div class="container container-1280">
+            <div class="container container-90">
               <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed </h2>
-              <p class="container container-970">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos  </p>
+              <p class="container container-90">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos  </p>
             </div>
           </section>
           <!-- card-section -->
           <section class=" lading-page-card">
-              <div class="container container-1160 d-none d-sm-block">
+              <div class="container container-90 d-none d-sm-block reset-padding">
                   <div class="row justify-content-center reset-margin">
-                        <div class="landpage-block col-lg-4 col-md-12 col-sm-12 reset-padding">
+                        <div class="landpage-block col-xl-12 col-lg-4 col-md-12 col-sm-12 reset-padding">
                           <div class=" card">
                               <div class="land-page-header d-table " style="height: 134px;">
                                 <div class="land-page-header-inner d-table-cell align-middle">
@@ -99,7 +99,7 @@
                              </div>
                            </div>
                         </div>
-                        <div class="landpage-block col-lg-4 col-md-12 col-sm-12 reset-padding">
+                        <div class="landpage-block col-xl-12 col-lg-4 col-md-12 col-sm-12 reset-padding">
                           <div class=" card">
                             <div class="land-page-header d-table " style="height: 134px;">
                               <div class="land-page-header-inner d-table-cell align-middle">
@@ -124,7 +124,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="landpage-block col-lg-4 col-md-12 col-sm-12 reset-padding mr-0">
+                        <div class="landpage-block col-xl-12 col-lg-4 col-md-12 col-sm-12 reset-padding mr-0">
                           <div class=" card">
                             <div class="land-page-header d-table " style="height: 134px;">
                               <div class="land-page-header-inner d-table-cell align-middle">
@@ -155,11 +155,11 @@
            </section>
         <!-- phoning solution -->
         <section class="phoningsolution">
-          <div class="container container-1160  phoning-solution-pricing-list">
+          <div class="container container-90  phoning-solution-pricing-list">
             <div class="row reset-margin">
-                <div class="col-6 phoning-solution-pricing-list-style">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12  phoning-solution-pricing-list-style">
                     <h2>PHONING SOLUTION</h2>
-                    <p>Lorem ipsum dolor sit amet</p>
+                    <p>Lorem ipsum </p><p class="d-lg-none">dolor sit amet</p>
                     <div class="pricing-list-condent pb-0">
                               <ul class="service-body--lists reset-margin">
                                 <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem</li>
@@ -170,7 +170,7 @@
                               </ul>
                     </div>
                 </div>
-                <div class="col-6 phoningsolution-right-side-image">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 phoningsolution-right-side-image">
                   <img src="images/phoningicon.jpg">
                 </div>
              </div>
@@ -179,11 +179,11 @@
         </section>
         <!-- landing-page last-condent -->
         <section data-target="homemade_solutions " class="homeofficepage-title-section landing-page-last-condent text-center mb-0">
-          <p class="container container-970 mb-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos  </p>
+          <p class="container container-90 mb-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos  </p>
         </section>
         <!-- highlight-footer -->
         <section class="heightlight-footer-box">
-            <div class="container container-1160">
+            <div class="container container-90">
               <div class="row reset-margin">
                 <div class="col-lg-8 col-md-12 col-sm-12 box-content">
                   <h4 class="box-title">Lorem ipsum dolor sit amet, consetetur </h4>
