@@ -47,20 +47,20 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: auto;
-    height: 74vh;
+    height: 63vh;
     margin-bottom: 0px;
   }
   body.land-page-new .homeoffice--banner .banner-content {
     background-color: transparent;
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 90%;
-    height: 50vh;
+    background-position: top;
+    background-size: 95%;
+    height: 100vh;
   }
   body.land-page-new .homeoffice--banner .banner-left-col h1 {
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 62px;
     color: #005579;
     margin-bottom: 5px;
@@ -105,7 +105,7 @@
     font-family: "robotolight";
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 34px;
     color: #005579;
     max-width: 460px;
@@ -371,20 +371,20 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: auto;
-    height: 100vh;
-    margin-bottom: 72px;
+    height: 78vh;
+   
   }
   body.land-page-new .homeoffice--banner .banner-content {
     background-color: transparent;
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 90%;
-    height: 67vh;
+    background-position: top;
+    background-size: 97%;
+    height: 100vh;
   }
   body.land-page-new .homeoffice--banner .banner-left-col h1 {
     font-style: normal;
     font-weight: 500;
-    font-size: 44px;
+    font-size: 35px;
     line-height: 62px;
     color: #005579;
     margin-bottom: 10px;
@@ -429,7 +429,7 @@
     font-family: "robotolight";
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 34px;
     color: #005579;
     max-width: 460px;
@@ -700,8 +700,8 @@
   body.land-page-new .homeoffice--banner .banner-content {
     background-color: transparent;
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 90%;
+    background-position: top;
+    background-size: 95%;
     height: 90vh;
   }
   body.land-page-new .homeoffice--banner .banner-left-col h1 {
