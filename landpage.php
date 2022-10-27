@@ -40,7 +40,7 @@
                       <?php include 'includes/header.php'; ?>
                   </header>
 
-                  <div class="banner-content homeOffice-banner " style="background-image: url('images/landing-page illustration.png');">
+                  <div class="banner-content homeOffice-banner " style="background-image: url('images/landing-page-illustration.png');">
                     <div class="row reset-margin">
                         <div class=" col-xl-12 col-lg-12 col-md-12 col-sm-12 banner-left-col">
                         <h1>Lorem ipsum dolor sit</h1>
