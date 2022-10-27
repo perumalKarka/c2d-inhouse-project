@@ -2946,11 +2946,11 @@ margin-right:0;
 .service-lists-box .service{
 padding: 51px 15px;
 }
-.service-body{
+.landing-body{
 padding:34px 0 52px 0;
 border-bottom: 1px solid #C4C4C4;
 }
-.service-body ul{
+.landing-body ul{
 list-style: none;
 margin:0 0 0 25px;
 font-style: normal;
@@ -2959,13 +2959,13 @@ font-size: 18px;
 line-height: 21px;
 color: #878787;
 }
-.service-body ul li{
+.landing-body ul li{
 padding-bottom:23px;
 display:inline-flex;
 width:100%;
 
 }
-.service-body ul li i{
+.landing-body ul li i{
 color:#3EBDCC;
 margin-right:15.5px;
 }

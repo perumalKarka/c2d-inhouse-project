@@ -191,7 +191,7 @@ $(document).ready(function() {
                 });
 
         if(jQuery(window).width() < 250) return false;
-                jQuery('.service-body .service-body--lists').each(function($){
+                jQuery('.page-service .service-body .service-body--lists').each(function($){
                                         if(jQuery(this).height() > Bodyheight){
                                             Bodyheight = jQuery(this).height();
                                         }

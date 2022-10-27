@@ -42,7 +42,7 @@
 
                   <div class="banner-content homeOffice-banner " style="background-image: url('images/landing-page illustration.png');">
                     <div class="row reset-margin">
-                        <div class=" col-xl-12 col-lg-12 col-md-6 col-sm-12 banner-left-col">
+                        <div class=" col-xl-12 col-lg-12 col-md-12 col-sm-12 banner-left-col">
                         <h1>Lorem ipsum dolor sit</h1>
                         <p>Lorem ipsum dolor sit amet. consetetur sadispacing elitr. 
                           sed diam nonumy eirmod tempor invidunt ut labore ed delore magna aliquyam erat, 
@@ -67,84 +67,87 @@
           <section data-target="homemade_solutions " class="homeofficepage-title-section homemade_solutions-content-2 text-center ">
             <div class="container container-90">
               <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed </h2>
-              <p class="container container-90">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos  </p>
+              <p class="container sub-paragraph container-90">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos  </p>
             </div>
           </section>
           <!-- card-section -->
           <section class=" lading-page-card">
               <div class="container container-90 d-none d-sm-block reset-padding">
                   <div class="row justify-content-center reset-margin">
-                        <div class="landpage-block col-xl-12 col-lg-4 col-md-12 col-sm-12 reset-padding">
+                        <div class="landpage-block col-lg-4 col-md-12 reset-padding">
                           <div class=" card">
-                              <div class="land-page-header d-table " style="height: 134px;">
+                              <div class="land-page-header d-table">
                                 <div class="land-page-header-inner d-table-cell align-middle">
-                                  <span>bundles</span><label>pas de coûts cachés</label>
+                                  <span>Bundles</span><label>pas de coûts cachés</label>
                                   <h2>Site Web</h2>
                                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                                 </div>
                               </div>
                               <hr>
-                              <div class="service-body border-0 reset-padding">
+                              <div class="landing-body border-0 reset-padding">
                                 <div class="land-page-header-inner pt-0">
-                                  <ul class="service-body--lists reset-margin" style="height: 276px;">
+                                  <ul class="landing-body--lists reset-margin" >
                                       <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                       <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                       <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                       <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                       <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                       <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
-                                      <button type="button" class=" btn btn-primary btn-c2d-primary-md">En savoir plus</button>
+                                      
                                   </ul>
+                                  <button type="button" class=" btn btn-primary btn-c2d-primary-md">En savoir plus</button>
                                 </div>
                              </div>
                            </div>
                         </div>
-                        <div class="landpage-block col-xl-12 col-lg-4 col-md-12 col-sm-12 reset-padding">
+                        <div class="landpage-block col-lg-4 col-md-12 reset-padding">
                           <div class=" card">
-                            <div class="land-page-header d-table " style="height: 134px;">
+                            <div class="land-page-header d-table">
                               <div class="land-page-header-inner d-table-cell align-middle">
-                                <span>bundles</span><label>pas de coûts cachés</label>
+                                <span>Bundles</span><label>pas de coûts cachés</label>
                                 <h2>Site Web</h2>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                               </div>
                             </div>
                             <hr>
-                            <div class="service-body border-0 reset-padding">
+                            <div class="landing-body border-0 reset-padding">
                               <div class="land-page-header-inner pt-0">
-                                <ul class="service-body--lists reset-margin" style="height: 276px;">
+                                <ul class="landing-body--lists reset-margin" >
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
-                                    <button type="button" class="btn btn-primary btn-c2d-primary-md">En savoir plus</button>
+                                    
                                 </ul>
+                                <button type="button" class="btn btn-primary btn-c2d-primary-md">En savoir plus</button>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div class="landpage-block col-xl-12 col-lg-4 col-md-12 col-sm-12 reset-padding mr-0">
-                          <div class=" card">
-                            <div class="land-page-header d-table " style="height: 134px;">
+                        <div class="landpage-block col-lg-4 col-md-12 reset-padding mr-0">
+                          <div class=" card last-card">
+                            <div class="land-page-header d-table">
                               <div class="land-page-header-inner d-table-cell align-middle">
-                                <span>bundles</span><label>pas de coûts cachés</label>
+                                <span>Bundles</span><label>pas de coûts cachés</label>
                                 <h2>Site Web</h2>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
                               </div>
                             </div>
                             <hr>
-                            <div class="service-body border-0 reset-padding">
+                            <div class="landing-body border-0 reset-padding">
                               <div class="land-page-header-inner pt-0">
-                                <ul class="service-body--lists reset-margin" style="height: 276px;">
+                                <ul class="landing-body--lists reset-margin">
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
-                                    <button type="button" class="btn btn-primary btn-c2d-primary-md">En savoir plus</button>
+                                    
                                 </ul>
+                                <button type="button" class="btn btn-primary btn-c2d-primary-md">En savoir plus</button>
                               </div>
                             </div>
                           </div>
@@ -157,11 +160,11 @@
         <section class="phoningsolution">
           <div class="container container-90  phoning-solution-pricing-list">
             <div class="row reset-margin">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12  phoning-solution-pricing-list-style">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12  phoning-solution-pricing-list-style">
                     <h2>PHONING SOLUTION</h2>
-                    <p>Lorem ipsum </p><p class="d-lg-none">dolor sit amet</p>
+                    <p>Lorem ipsum dolor sit amet</p>
                     <div class="pricing-list-condent pb-0">
-                              <ul class="service-body--lists reset-margin">
+                              <ul class="landing-body--lists reset-margin">
                                 <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem</li>
                                 <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem</li>
                                 <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem</li>
@@ -170,7 +173,7 @@
                               </ul>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 phoningsolution-right-side-image">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 phoningsolution-right-side-image reset-padding">
                   <img src="images/phoningicon.jpg">
                 </div>
              </div>
@@ -182,7 +185,7 @@
           <p class="container container-90 mb-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos  </p>
         </section>
         <!-- highlight-footer -->
-        <section class="heightlight-footer-box">
+        <section class="heightlight-footer-box d-md-none d-lg-block">
             <div class="container container-90">
               <div class="row reset-margin">
                 <div class="col-lg-8 col-md-12 col-sm-12 box-content">
