@@ -12,7 +12,7 @@
       <link rel="stylesheet" href="fonts/icomoon/style.css">
       <link rel="stylesheet" href="css/style.css" />
       <link rel="stylesheet" href="css/mobile_style.css" />
-      <link rel="stylesheet" href="css/responsive-new.css" />
+<link rel="stylesheet" href="css/responsive-new.css" />
       <style>
           /* Some custom styles to beautify this example */
 
@@ -28,7 +28,8 @@
       <meta name="msapplication-TileImage" content="images/favicon-ico.png" />
   </head>
   
-  <body class="page-homeoffice land-page-new fr-site">
+<body class="page-homeoffice land-page-new fr-site">
+
     <div class="container-fluid reset-padding">
           <section class="banner--with--content homeoffice--banner" style="background-image: url('images/landpagebanner.jpg');">
               <div class="top-sticky-bar text-center">
