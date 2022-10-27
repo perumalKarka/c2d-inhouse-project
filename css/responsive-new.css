@@ -226,9 +226,7 @@
     border-radius: 8px;
     border: none;
   }
-  .landpage-block .card.last-card {
-    margin-right: 0px;
-  }
+ 
   body.land-page-new .land-page-header {
     background-color: #e6f0ff;
   }
@@ -451,7 +449,7 @@
     font-size: 23px;
     font-family: "robotoregular";
     letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: left;
+    text-align:inherit;
     letter-spacing: 0px;
     color: #005579;
     opacity: 1;
@@ -553,9 +551,7 @@
     border-radius: 8px;
     border: none;
   }
-  .landpage-block .card.last-card {
-    margin-right: 0px;
-  }
+ 
   body.land-page-new .land-page-header {
     background-color: #e6f0ff;
   }
@@ -777,7 +773,7 @@
     font-size: 24px;
     font-family: "robotoregular";
     letter-spacing: var(--unnamed-character-spacing-0);
-    text-align: left;
+    text-align: inherit;
     letter-spacing: 0px;
     color: #005579;
     opacity: 1;
@@ -822,11 +818,7 @@
     width:100%;
     max-width: 98%;
   }
-  body.land-page-new .homeofficepage-title-section.homemade_solutions-content-2 .sub-paragraph.container-90{
-    width: 100%;
-    max-width: 90%;
-
-  }
+ 
   body.land-page-new .pricing-list-condent ul li {
     padding-bottom: 16px;
   }
@@ -884,7 +876,7 @@
   }
   /* cardsection */
   body.land-page-new .lading-page-card {
-    padding-bottom: 186px;
+    padding-bottom: 100px;
   }
   .landpage-block .card {
     margin-right: 23px;

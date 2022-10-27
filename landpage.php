@@ -56,7 +56,7 @@
           </section>
           <!-- condent-section -->
           <section data-target="homemade_solutions " class="homeofficepage-title-section text-center homemade_solutions-content">
-            <div class="container container-90">
+            <div class="container container-85">
               <h2>Lorem ipsum dolor sit amet, consetetur</h2>
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos </p>
               
@@ -66,8 +66,8 @@
           <!-- condent section 2 -->
           <section data-target="homemade_solutions " class="homeofficepage-title-section homemade_solutions-content-2 text-center ">
             <div class="container container-90">
-              <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed </h2>
-              <p class="container sub-paragraph container-90">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos  </p>
+              <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr </h2>
+              <p >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos  </p>
             </div>
           </section>
           <!-- card-section -->
