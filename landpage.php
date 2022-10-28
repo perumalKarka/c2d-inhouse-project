@@ -60,7 +60,7 @@
               <h2>Lorem ipsum dolor sit amet, consetetur</h2>
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos </p>
               
-              <a href="./website_catalogue/index.php" class="landing-button btn btn-primary btn-c2d-primary-md">Voir nos offres</a>
+              <a href="./website_catalogue/index.php" class="landing-button btn btn-primary btn-c2d-primary-md d-none d-md-block">Voir nos offres</a>
             </div>
           </section>
           <!-- condent section 2 -->
@@ -77,7 +77,7 @@
                         <div class="landpage-block col-lg-4 col-md-12 reset-padding">
                           <div class=" card">
                               <div class="land-page-header d-table">
-                                <div class="land-page-header-inner d-table-cell align-middle">
+                                <div class="land-page-header-inner land-page-header-title-inner d-table-cell align-middle">
                                   <span>Bundles</span><label>pas de coûts cachés</label>
                                   <h2>Site Web</h2>
                                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
@@ -86,7 +86,7 @@
                               <hr>
                               <div class="landing-body border-0 reset-padding">
                                 <div class="land-page-header-inner pt-0">
-                                  <ul class="landing-body--lists reset-margin" >
+                                  <ul class="landing-body--lists reset-margin d-sm-none d-md-block" >
                                       <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                       <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                       <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
@@ -103,7 +103,7 @@
                         <div class="landpage-block col-lg-4 col-md-12 reset-padding">
                           <div class=" card">
                             <div class="land-page-header d-table">
-                              <div class="land-page-header-inner d-table-cell align-middle">
+                              <div class="land-page-header-inner land-page-header-title-inner d-table-cell align-middle">
                                 <span>Bundles</span><label>pas de coûts cachés</label>
                                 <h2>Site Web</h2>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
@@ -112,7 +112,7 @@
                             <hr>
                             <div class="landing-body border-0 reset-padding">
                               <div class="land-page-header-inner pt-0">
-                                <ul class="landing-body--lists reset-margin" >
+                                <ul class="landing-body--lists reset-margin d-sm-none d-md-block" >
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
@@ -129,7 +129,7 @@
                         <div class="landpage-block col-lg-4 col-md-12 reset-padding mr-0">
                           <div class=" card last-card">
                             <div class="land-page-header d-table">
-                              <div class="land-page-header-inner d-table-cell align-middle">
+                              <div class="land-page-header-inner land-page-header-title-inner d-table-cell align-middle">
                                 <span>Bundles</span><label>pas de coûts cachés</label>
                                 <h2>Site Web</h2>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
@@ -138,7 +138,7 @@
                             <hr>
                             <div class="landing-body border-0 reset-padding">
                               <div class="land-page-header-inner pt-0">
-                                <ul class="landing-body--lists reset-margin">
+                                <ul class="landing-body--lists reset-margin d-sm-none d-md-block">
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
@@ -159,12 +159,12 @@
         <!-- phoning solution -->
         <section class="phoningsolution">
           <div class="container container-90  phoning-solution-pricing-list">
-            <div class="row reset-margin">
+            <div class="row row-reverse reset-margin">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12  phoning-solution-pricing-list-style">
-                    <h2>PHONING SOLUTION</h2>
+                    <h2 class="d-sm-none d-md-block">PHONING SOLUTION</h2>
                     <p>Lorem ipsum dolor sit amet</p>
                     <div class="pricing-list-condent pb-0">
-                              <ul class="landing-body--lists reset-margin">
+                              <ul class="landing-body--lists reset-margin ">
                                 <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem</li>
                                 <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem</li>
                                 <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem</li>
@@ -174,7 +174,8 @@
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 phoningsolution-right-side-image reset-padding">
-                  <img src="images/phoningicon.jpg">
+                   <h2 class="d-sm-block d-md-none d-none">PHONING SOLUTION</h2>
+                  <img src="images/phoningicon.jpg" class="w-100">
                 </div>
              </div>
           </div>
