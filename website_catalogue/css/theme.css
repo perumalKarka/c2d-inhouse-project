@@ -734,6 +734,9 @@ letter-spacing: 0px;
 color: #AAAAAA;
 opacity: 1;
 }
+.feature-video__condent p.main-content-feature{
+  color:white;
+}
 
 /* website builder */
 
