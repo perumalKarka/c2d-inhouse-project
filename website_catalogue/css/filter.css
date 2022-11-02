@@ -1,0 +1,146 @@
+@font-face {
+font-family: 'robotoregular';
+src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-regular-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+
+}
+@font-face {
+font-family: 'robotolight';
+src: url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-light-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'robotothin';
+src: url('../fonts/roboto-thin-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-thin-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+
+}
+@font-face {
+font-family: 'futura_bk_btbook';
+src: url('../fonts/futura_bk_bt_book-webfont.woff2') format('woff2'),
+        url('../fonts/futura_bk_bt_book-webfont.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+
+}
+  
+/* Filter section */
+  .bootstrap-tagsinput .label-info {
+    background-color: #383838;
+    padding: 6px 18px;
+    font-size: 16px;
+    font-family: 'robotolight';
+    margin-right: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out, border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  
+  .megamenu-li {
+    position: static;
+    margin-right:32px;
+  }
+  .wrapper.navbar{
+    padding:0;
+  }
+  .navbar-expand-lg .navbar-nav .megamenu-li a.nav-link{
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 34px;
+    font-family: 'robotolight';
+    padding:0;
+  }
+  .megamenu {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 15px;
+  }
+  .tagsBox{
+    position: absolute;
+    z-index: 9999;
+    display:none;
+    margin-left: 12px;
+  }
+  .megamenu-li.show .tagsBox.show{
+    display: block;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu.megamenu{
+    background:#1f1f1f;
+    top:48px;
+  }
+  .bootstrap-tagsinput input{
+    display:none;
+  }
+  
+  .filter-option-lists .contactform-check--label{
+    color: #ffffff;
+    font-size:18px;
+    line-height:30px;
+    
+    margin-bottom: 18px;
+  }
+  .filter-option-lists .checkmark{
+    width: 25px;
+    height: 25px;
+    background: transparent;
+    border: 3px solid #383838;
+    border-radius: 4px; 
+  }
+  .filter-option-lists li{
+    margin-right:35px;
+  }
+  .row.filter-option-lists li{
+    margin-right:0;
+  }
+  .filter-option-lists span.checked-color{
+    margin-left: 30px;
+    font-family: 'robotolight';
+  }
+  .filter-option-lists .contactform-check--label:hover input ~ .checkmark {
+    background:transparent;
+  }
+  .filter-option-lists .contactform-check--label input:checked ~ .checkmark {
+    background-color: #5E5E5E;
+    border:4px solid #383838;
+  }
+  .filter-option-lists .checkmark:after{
+    border: solid #FFF;
+    border-width: 0 2px 2px 0;
+    left: 6px;
+    top: 1px;
+    width: 5px;
+    height: 12px;
+  }
+  .filter-option-lists input[type=checkbox]:checked + span.checkmark + span.checked-color{
+    color: #FFFFFF;
+  }
+  .tagsBox .bootstrap-tagsinput{
+    background: transparent;
+    border: inherit;
+  }
+  .cat-sub-title{
+    font-size:20px;
+    font-family: 'robotoregular';
+    font-weight:bold;
+    color:#ffffff;
+    margin-bottom: 14px;
+  }
