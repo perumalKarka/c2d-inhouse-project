@@ -132,7 +132,7 @@
                             <h1 clas="price_amount">XXX€</h1>
                             <p class="price_condent">for one page website</p>
                         </div>
-                        <div class="col-2 seperate my-auto">&</div>
+                        <div class="col-2 seperate my-auto d-none d-md-block">&</div>
                         <div class="col-5 price-list-right reset-padding">
                             <h1 clas="price_amount">XXX€</h1>
                             <p class="price_condent">for two/three page website</p>
@@ -183,7 +183,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 feature-video__condent reversed-feature-direction reset-padding">
+                    <div class="col-lg-4 feature-video__condent  reset-padding">
                         <div class="feature-right-condent">
                             <img class="video_icon" src="images/videoicon.png">
                             <div class="feature-condent-sec">
@@ -201,7 +201,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 feature-video__condent reversed-feature-direction reset-padding mt-5">
+                    <div class="col-lg-4 feature-video__condent last-child-condent reset-padding ">
                         <div class="feature-right-condent">
                             <img class="video_icon" src="images/videoicon.png">
                             <div class="feature-condent-sec">
@@ -210,7 +210,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 feature-video__condent reset-padding mt-5">
+                    <div class="col-lg-4 feature-video__condent last-child-condent reset-padding ">
                         <div class="feature-left-condent">
                             <img class="video_icon" src="images/videoicon.png">
                             <div class="feature-condent-sec">
