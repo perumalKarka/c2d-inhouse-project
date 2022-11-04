@@ -72,7 +72,7 @@
                                         <div class="dropdown-menu megamenu" aria-labelledby="dropdown01">
                                             <div class="row">
                                                 <div class="col-sm-12 col-lg-12">
-                                                    <ul class="d-flex filter-option-lists">
+                                                    <ul id="my_UL" class="d-flex filter-option-lists">
                                                         <li>
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Monopage">
@@ -96,10 +96,11 @@
                                     <li class="nav-item dropdown megamenu-li">
                                         <a class="nav-link dropdown-toggle" href="" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Business Type</a>
                                         <div class="dropdown-menu megamenu" aria-labelledby="dropdown02">
+                                            <input type="text" id="myInput" class="myfilter_textbox" onkeyup="myFilter()" placeholder="Search for your preference" />
                                             <div class="row m-0">
                                                 <div class="col-sm-4 col-lg-4 p-0">
                                                     <h3 class="cat-sub-title">B2C</h3>
-                                                    <ul class="row filter-option-lists m-0">
+                                                    <ul id="b2c_UL" class="row filter-option-lists m-0">
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Grocery Shop">
@@ -146,7 +147,7 @@
                                                 </div>
                                                 <div class="col-sm-4 col-lg-4 pl-4 pr-4">
                                                     <h3 class="cat-sub-title">Category 2</h3>
-                                                    <ul class="row filter-option-lists m-0">
+                                                    <ul id="cat2_UL" class="row myUL filter-option-lists m-0">
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Communications">
@@ -193,7 +194,7 @@
                                                 </div>
                                                 <div class="col-sm-4 col-lg-4 p-0">
                                                     <h3 class="cat-sub-title">Category 3</h3>
-                                                    <ul class="row filter-option-lists m-0">
+                                                    <ul id="cat3_UL" class="row filter-option-lists m-0">
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Cosmetics">
@@ -241,7 +242,7 @@
 
                                                 <div class="col-sm-4 col-lg-4 p-0">
                                                     <h3 class="cat-sub-title">Health</h3>
-                                                    <ul class="row filter-option-lists m-0">
+                                                    <ul id="health_UL" class="row filter-option-lists m-0">
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Physiotheraphy">
@@ -264,8 +265,8 @@
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown megamenu-li">
-                                        <a class="nav-link dropdown-toggle" href="" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Color Schemee</a>
-                                        <div class="dropdown-menu megamenu" aria-labelledby="dropdown02">
+                                        <a class="nav-link dropdown-toggle" href="" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Color Schemee</a>
+                                        <div class="dropdown-menu megamenu" aria-labelledby="dropdown03">
                                             <div class="row">
                                                 <div class="col-sm-12 col-lg-12">
                                                     <ul class="d-flex filter-option-lists">
@@ -273,46 +274,45 @@
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Blue">
                                                                 <span class="checkmark"></span>
-                                                                <span class="checked-color">Blue</span>
+                                                                <span class="checked-color"><img src="images/colo-blue.png" class="img-color-pic"/>Blue</span>
                                                             </label>
                                                         </li>
                                                         <li>
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Green">
                                                                     <span class="checkmark"></span>
-                                                                    <span class="checked-color">Green</span>
+                                                                    <span class="checked-color"><img src="images/colo-green.png" class="img-color-pic"/>Green</span>
                                                             </label>
                                                         </li>
                                                         <li>
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="White">
                                                                     <span class="checkmark"></span>
-                                                                    <span class="checked-color">White</span>
+                                                                    <span class="checked-color"><img src="images/colo-white.png" class="img-color-pic"/>White</span>
                                                             </label>
                                                         </li>
                                                         <li>
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Brown">
                                                                     <span class="checkmark"></span>
-                                                                    <span class="checked-color">Brown</span>
+                                                                    <span class="checked-color"><img src="images/colo-brown.png" class="img-color-pic"/>Brown</span>
                                                             </label>
                                                         </li>
                                                         <li>
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Black">
                                                                     <span class="checkmark"></span>
-                                                                    <span class="checked-color">Black</span>
+                                                                    <span class="checked-color"><img src="images/colo-black.png" class="img-color-pic"/>Black</span>
                                                             </label>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
-                                            
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown megamenu-li">
-                                        <a class="nav-link dropdown-toggle" href="" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Style</a>
-                                        <div class="dropdown-menu megamenu" aria-labelledby="dropdown02">
+                                        <a class="nav-link dropdown-toggle" href="" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Style</a>
+                                        <div class="dropdown-menu megamenu" aria-labelledby="dropdown04">
                                             <div class="row">
                                                 <div class="col-sm-12 col-lg-12">
                                                     <ul class="d-flex filter-option-lists">
@@ -359,14 +359,16 @@
                                     </li>
                                   
                                 </ul>
+
+                                <div class="tagsBox">
+                                        <input type="text" data-role="tagsinput" id="tagsinput" name="tags" class="form-control">
+                                </div>
                                 
                             </div>
                             
                         </nav>
                         
-                        <div class="tagsBox">
-                                <input type="text" data-role="tagsinput" id="tagsinput" name="tags" class="form-control">
-                        </div>
+                        
                     </div>
                     <div class="col-5 request p-0">
                     <button type="button" class="request-sector" data-toggle="modal" data-target="#exampleModal">Request a new sector</button>
@@ -404,7 +406,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" data-toggle="modal" data-target="#exampleModal-1" >Live Preview</button></div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1" >Live Preview</button></div>
                                 </div>
                             </div>
                         </div>
@@ -431,7 +433,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" data-toggle="modal" data-target="#exampleModal-1"  >Live Preview</button></div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1"  >Live Preview</button></div>
                                 </div>
                             </div>
                         </div>
@@ -458,7 +460,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin"  data-toggle="modal" data-target="#exampleModal-1" >Live Preview</button></div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview live_preview reset-margin"  data-toggle="modal" data-target="#exampleModal-1" >Live Preview</button></div>
                                 </div>
                             </div>
                         </div>
@@ -485,7 +487,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" data-toggle="modal" data-target="#exampleModal-1"  >Live Preview</button></div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1"  >Live Preview</button></div>
                                 </div>
                             </div>
                         </div>
@@ -512,7 +514,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" data-toggle="modal" data-target="#exampleModal-1"  >Live Preview</button></div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1"  >Live Preview</button></div>
                                 </div>
                             </div>
                         </div>
@@ -539,7 +541,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview reset-margin" data-toggle="modal" data-target="#exampleModal-1"  >Live Preview</button></div>
+                                    <div class="col-6 reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1"  >Live Preview</button></div>
                                 </div>
                             </div>
                         </div>
@@ -595,7 +597,7 @@
 						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
 					</div>
 				        <--Left and right controls -->
-						 <a class="carousel-control-prev slide_position prev-section" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+						<a class="carousel-control-prev slide_position prev-section" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
 					    <a class="carousel-control-next slide_position next-section" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
                 </div>
             </div>
@@ -775,31 +777,20 @@
             var filterDiv = $(".filter-option").width();
             $(".dropdown-menu.megamenu").width(filterDiv);
             $(".bootstrap-tagsinput").width(filterDiv);
-            $(".megamenu-li .dropdown-toggle").each(function (inde, item) {
-                $(item).click(function (event) {
-                    if(inde == 0){
-                        $(".tagsBox").css("top","150px");
-                        $(this).next().height("130px");
-                    }
-                    else{
-                        var filterDivHeight = $(this).next().height();
-                        $(".tagsBox").css("top",filterDivHeight+80);
-                        $(this).next().height(filterDivHeight+100);
-                    }
-                    
-                    if($(this).parent().hasClass('show')){
-                        $(".tagsBox").hide();
-                    }
-                    else{
-                        $(".tagsBox").show();
-                    }
-                });
-                
-            });
-
             
-            $('.dropdown-menu,.tagsBox,.cardsection,.filter-option .request,.header-section,.catalogue-firstSection').on("click.bs.dropdown", function (e) {  
-                e.stopPropagation();                            
+            $('.dropdown-menu,.tagsBox').on("click.bs.dropdown", function (e) {  
+                e.stopPropagation();                          
+            });
+            
+            $('.dropdown').on('show.bs.dropdown', function () {
+                $(this).parents('.navbar-nav').addClass('active');
+                var checkboxDiv = $(this).find('.megamenu').height();
+                $(".tagsBox").css("top",checkboxDiv+91);
+
+            });
+            $('.dropdown').on('hide.bs.dropdown', function () {
+                $(this).parents('.navbar-nav').removeClass('active');
+                $(".tagsBox").css("top","48px");
             });
             
             $(".wrapper input[type='checkbox']").each(function (inde, item) {
@@ -814,6 +805,7 @@
 
                 });
             });
+
             //trace the tag remove event, then, based on the tags to checked/unchecked the checkbox
             $("#tagsinput").on('itemRemoved', function () {
                 var valarray = $("#tagsinput").val().split(",");
@@ -828,6 +820,62 @@
             });
 
 		});
+
+        function myFilter() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+
+            b2c_ul = document.getElementById("b2c_UL");
+            b2c_li = b2c_ul.getElementsByTagName("li");
+            for (i = 0; i < b2c_li.length; i++) {
+                a = b2c_li[i].getElementsByTagName("label")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    b2c_li[i].style.display = "";
+                } else {
+                    b2c_li[i].style.display = "none";
+                }
+            }
+
+            cat2_ul = document.getElementById("cat2_UL");
+            cat2_li = cat2_ul.getElementsByTagName("li");
+            for (i = 0; i < cat2_li.length; i++) {
+                a = cat2_li[i].getElementsByTagName("label")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    cat2_li[i].style.display = "";
+                } else {
+                    cat2_li[i].style.display = "none";
+                }
+            }
+
+            cat3_ul = document.getElementById("cat3_UL");
+            cat3_li = cat3_ul.getElementsByTagName("li");
+            for (i = 0; i < cat3_li.length; i++) {
+                a = cat3_li[i].getElementsByTagName("label")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    cat3_li[i].style.display = "";
+                } else {
+                    cat3_li[i].style.display = "none";
+                }
+            }
+
+            health_ul = document.getElementById("health_UL");
+            health_li = health_ul.getElementsByTagName("li");
+            for (i = 0; i < health_li.length; i++) {
+                a = health_li[i].getElementsByTagName("label")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    health_li[i].style.display = "";
+                } else {
+                    health_li[i].style.display = "none";
+                }
+            }
+        }
+
+        
     </script>
 </body>
 </html>

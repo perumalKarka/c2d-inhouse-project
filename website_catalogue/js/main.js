@@ -444,179 +444,179 @@ function handleClick(cb) {
 
 // Mythium Archive: https://archive.org/details/mythium/
 
-jQuery(function ($) {
-  'use strict'
-  var supportsAudio = !!document.createElement('audio').canPlayType;
-  if (supportsAudio) {
-      // initialize plyr
-      var player = new Plyr('#audio1', {
-          controls: [
-              'restart',
-              'play',
-              'progress',
-              'current-time',
-              'duration',
-              'mute',
-              'volume',
-              'download'
-          ]
-      });
-      // initialize playlist and controls
-      var index = 0,
-          playing = false,
-          mediaPath = 'https://archive.org/download/mythium/',
-          extension = '',
-          tracks = [{
-              "track": 1,
-              "name": "On the beach",
-              "artist": "artist name",
-              "thumb": "images/track-thumb-2.png",
-              "duration": "2:46",
-              "file": "JLS_ATI"
-          }, {
-              "track": 2,
-              "name": "Bora Bora",
-              "artist": "artist name",
-              "thumb": "images/trackthumbnai-thumbnail.png",
-              "duration": "8:30",
-              "file": "BS_TF"
-          }, {
-              "track": 3,
-              "name": "Chill out",
-              "artist": "artist name",
-              "thumb": "images/track-thumb-3.png",
-              "duration": "5:01",
-              "file": "BS_ATKM"
-          }, {
-              "track": 4,
-              "name": "Jakarta",
-              "artist": "artist name",
-              "thumb": "images/track-thumb-4.png",
-              "duration": "8:31",
-              "file": "BSFM_TF"
-          }, {
-              "track": 5,
-              "name": "Chill out",
-              "artist": "artist name",
-              "thumb": "images/track-thumb-3.png",
-              "duration": "5:05",
-              "file": "BSFM_ATKM"
-          }],
-          buildPlaylist = $.each(tracks, function(key, value) {
-              var trackNumber = value.track,
-                  trackName = value.name,
-                  trackArtist = value.artist,
-                  trackThumb = value.thumb,
-                  trackDuration = value.duration;
-              if (trackNumber.toString().length === 1) {
-                  trackNumber = '0' + trackNumber;
-              }
+// jQuery(function ($) {
+//   'use strict'
+//   var supportsAudio = !!document.createElement('audio').canPlayType;
+//   if (supportsAudio) {
+//       // initialize plyr
+//       var player = new Plyr('#audio1', {
+//           controls: [
+//               'restart',
+//               'play',
+//               'progress',
+//               'current-time',
+//               'duration',
+//               'mute',
+//               'volume',
+//               'download'
+//           ]
+//       });
+//       // initialize playlist and controls
+//       var index = 0,
+//           playing = false,
+//           mediaPath = 'https://archive.org/download/mythium/',
+//           extension = '',
+//           tracks = [{
+//               "track": 1,
+//               "name": "On the beach",
+//               "artist": "artist name",
+//               "thumb": "images/track-thumb-2.png",
+//               "duration": "2:46",
+//               "file": "JLS_ATI"
+//           }, {
+//               "track": 2,
+//               "name": "Bora Bora",
+//               "artist": "artist name",
+//               "thumb": "images/trackthumbnai-thumbnail.png",
+//               "duration": "8:30",
+//               "file": "BS_TF"
+//           }, {
+//               "track": 3,
+//               "name": "Chill out",
+//               "artist": "artist name",
+//               "thumb": "images/track-thumb-3.png",
+//               "duration": "5:01",
+//               "file": "BS_ATKM"
+//           }, {
+//               "track": 4,
+//               "name": "Jakarta",
+//               "artist": "artist name",
+//               "thumb": "images/track-thumb-4.png",
+//               "duration": "8:31",
+//               "file": "BSFM_TF"
+//           }, {
+//               "track": 5,
+//               "name": "Chill out",
+//               "artist": "artist name",
+//               "thumb": "images/track-thumb-3.png",
+//               "duration": "5:05",
+//               "file": "BSFM_ATKM"
+//           }],
+//           buildPlaylist = $.each(tracks, function(key, value) {
+//               var trackNumber = value.track,
+//                   trackName = value.name,
+//                   trackArtist = value.artist,
+//                   trackThumb = value.thumb,
+//                   trackDuration = value.duration;
+//               if (trackNumber.toString().length === 1) {
+//                   trackNumber = '0' + trackNumber;
+//               }
               
 
-              $('#plList').append('<li class="track-block all reggae"> \
-                  <ul class="single-track-list"> \
-                      <li><div class="heart"></div></li> \
-                      <li> \
-                          <div class="track-thumbnail-box">\
-                              <img src="' + trackThumb + '" class="track-thumbnail" />\
-                          </div>\
-                          <div class="track-thumbnail-widget-content">\
-                              <h3>' + trackName + '</h3>\
-                              <span class="track-artist">' + trackArtist +'</span>\
-                          </div>\
-                      </li>\
-                      <li>\
-                        <img src="images/music-bar.png"  class="music-bar-icon"/>\
-                        <span class="track-time-stamp">' + trackDuration + '</span>\
-                      </li>\
-                      <li>\
-                        <a href="javascript:void(0)" class="trackadd-btn" data-trackname="' + trackName + '">Add</a>\
-                      </li>\
-                  </ul>\
-              </li>');
+//               $('#plList').append('<li class="track-block all reggae"> \
+//                   <ul class="single-track-list"> \
+//                       <li><div class="heart"></div></li> \
+//                       <li> \
+//                           <div class="track-thumbnail-box">\
+//                               <img src="' + trackThumb + '" class="track-thumbnail" />\
+//                           </div>\
+//                           <div class="track-thumbnail-widget-content">\
+//                               <h3>' + trackName + '</h3>\
+//                               <span class="track-artist">' + trackArtist +'</span>\
+//                           </div>\
+//                       </li>\
+//                       <li>\
+//                         <img src="images/music-bar.png"  class="music-bar-icon"/>\
+//                         <span class="track-time-stamp">' + trackDuration + '</span>\
+//                       </li>\
+//                       <li>\
+//                         <a href="javascript:void(0)" class="trackadd-btn" data-trackname="' + trackName + '">Add</a>\
+//                       </li>\
+//                   </ul>\
+//               </li>');
 
-          }),
+//           }),
 
-          trackCount = tracks.length,
-          npAction = $('#npAction'),
-          npTitle = $('#npTitle'),
-          audio = $('#audio1').on('play', function () {
-              playing = true;
-              npAction.text('Now Playing...');
-          }).on('pause', function () {
-              playing = false;
-              npAction.text('Paused...');
-          }).on('ended', function () {
-              npAction.text('Paused...');
-              if ((index + 1) < trackCount) {
-                  index++;
-                  loadTrack(index);
-                  audio.play();
-              } else {
-                  audio.pause();
-                  index = 0;
-                  loadTrack(index);
-              }
-          }).get(0),
-          btnPrev = $('#btnPrev').on('click', function () {
-              if ((index - 1) > -1) {
-                  index--;
-                  loadTrack(index);
-                  if (playing) {
-                      audio.play();
-                  }
-              } else {
-                  audio.pause();
-                  index = 0;
-                  loadTrack(index);
-              }
-          }),
-          btnNext = $('#btnNext').on('click', function () {
-              if ((index + 1) < trackCount) {
-                  index++;
-                  loadTrack(index);
-                  if (playing) {
-                      audio.play();
-                  }
-              } else {
-                  audio.pause();
-                  index = 0;
-                  loadTrack(index);
-              }
-          }),
-          li = $('#plList li').on('click', function () {
+//           trackCount = tracks.length,
+//           npAction = $('#npAction'),
+//           npTitle = $('#npTitle'),
+//           audio = $('#audio1').on('play', function () {
+//               playing = true;
+//               npAction.text('Now Playing...');
+//           }).on('pause', function () {
+//               playing = false;
+//               npAction.text('Paused...');
+//           }).on('ended', function () {
+//               npAction.text('Paused...');
+//               if ((index + 1) < trackCount) {
+//                   index++;
+//                   loadTrack(index);
+//                   audio.play();
+//               } else {
+//                   audio.pause();
+//                   index = 0;
+//                   loadTrack(index);
+//               }
+//           }).get(0),
+//           btnPrev = $('#btnPrev').on('click', function () {
+//               if ((index - 1) > -1) {
+//                   index--;
+//                   loadTrack(index);
+//                   if (playing) {
+//                       audio.play();
+//                   }
+//               } else {
+//                   audio.pause();
+//                   index = 0;
+//                   loadTrack(index);
+//               }
+//           }),
+//           btnNext = $('#btnNext').on('click', function () {
+//               if ((index + 1) < trackCount) {
+//                   index++;
+//                   loadTrack(index);
+//                   if (playing) {
+//                       audio.play();
+//                   }
+//               } else {
+//                   audio.pause();
+//                   index = 0;
+//                   loadTrack(index);
+//               }
+//           }),
+//           li = $('#plList li').on('click', function () {
               
-              var id = parseInt($(this).index());
-              if (id !== index) {
-                playTrack(id);
-              }
-          }),
-          loadTrack = function (id) {
-              $('.plSel').removeClass('plSel');
-              $('#plList li:eq(' + id + ')').addClass('plSel');
-              npTitle.text(tracks[id].name);
-              index = id;
-              audio.src = mediaPath + tracks[id].file + extension;
-              updateDownload(id, audio.src);
-          },
-          updateDownload = function (id, source) {
-              player.on('loadedmetadata', function () {
-                  $('a[data-plyr="download"]').attr('href', source);
-              });
-          },
-          playTrack = function (id) {
-              loadTrack(id);
-              audio.play();
-          };
-      extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
-      loadTrack(index);
-  } else {
-      // no audio support
-      $('.column').addClass('hidden');
-      var noSupport = $('#audio1').text();
-      $('.container').append('<p class="no-support">' + noSupport + '</p>');
-  }
-});
+//               var id = parseInt($(this).index());
+//               if (id !== index) {
+//                 playTrack(id);
+//               }
+//           }),
+//           loadTrack = function (id) {
+//               $('.plSel').removeClass('plSel');
+//               $('#plList li:eq(' + id + ')').addClass('plSel');
+//               npTitle.text(tracks[id].name);
+//               index = id;
+//               audio.src = mediaPath + tracks[id].file + extension;
+//               updateDownload(id, audio.src);
+//           },
+//           updateDownload = function (id, source) {
+//               player.on('loadedmetadata', function () {
+//                   $('a[data-plyr="download"]').attr('href', source);
+//               });
+//           },
+//           playTrack = function (id) {
+//               loadTrack(id);
+//               audio.play();
+//           };
+//       extension = audio.canPlayType('audio/mpeg') ? '.mp3' : audio.canPlayType('audio/ogg') ? '.ogg' : '';
+//       loadTrack(index);
+//   } else {
+//       // no audio support
+//       $('.column').addClass('hidden');
+//       var noSupport = $('#audio1').text();
+//       $('.container').append('<p class="no-support">' + noSupport + '</p>');
+//   }
+// });
 
 
 
