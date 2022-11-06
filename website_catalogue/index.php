@@ -132,7 +132,7 @@
                             <h1 clas="price_amount">XXX€</h1>
                             <p class="price_condent">for one page website</p>
                         </div>
-                        <div class="col-2 seperate my-auto">&</div>
+                        <div class="col-2 seperate my-auto d-none d-md-block">&</div>
                         <div class="col-5 price-list-right reset-padding">
                             <h1 clas="price_amount">XXX€</h1>
                             <p class="price_condent">for two/three page website</p>
@@ -183,7 +183,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 feature-video__condent reversed-feature-direction reset-padding">
+                    <div class="col-lg-4 feature-video__condent  reset-padding">
                         <div class="feature-right-condent">
                             <img class="video_icon" src="images/videoicon.png">
                             <div class="feature-condent-sec">
@@ -201,7 +201,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 feature-video__condent reversed-feature-direction reset-padding mt-5">
+                    <div class="col-lg-4 feature-video__condent last-child-condent reset-padding ">
                         <div class="feature-right-condent">
                             <img class="video_icon" src="images/videoicon.png">
                             <div class="feature-condent-sec">
@@ -210,7 +210,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 feature-video__condent reset-padding mt-5">
+                    <div class="col-lg-4 feature-video__condent last-child-condent reset-padding ">
                         <div class="feature-left-condent">
                             <img class="video_icon" src="images/videoicon.png">
                             <div class="feature-condent-sec">
@@ -233,35 +233,35 @@
                     <ul class="reset-marin">
                         <span class="default-line"></span>
                         <span class="draw-line"></span>
-                        <li class="row" data-before="1">
-                            <div class="col-lg-6 col-md-6 col-sm-6 timeline_image-1 reset-padding"><img src="images/timeline-pic-1.png" /></div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 timeline_condent ">
+                        <li class="row first-row" data-before="1">
+                            <div class="col-lg-6 col-md-6 col-sm-12 timeline_image-1 reset-padding"><img src="images/timeline-pic-1.png" /></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 timeline_condent ">
                                 <h2>Lorem ipsum dolor sit</h2>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                             </div>
                         </li>
                         <li class="row hidden reversed-condent" data-before="2">
-                            <div class="col-lg-6 col-md-6 col-sm-6 timeline_condent condent-left-side">
+                            <div class="col-lg-6 col-md-6 col-sm-12 timeline_condent condent-left-side">
                                 <h2>Lorem ipsum dolor sit</h2>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 timeline_image-2"><img src="images/timeline-pic-2.png" /></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 timeline_image-2"><img src="images/timeline-pic-2.png" /></div>
                         </li>
                         <li class="row hidden" data-before="3">
-                            <div class="col-lg-6 col-md-6 col-md-6 col-sm-6 timeline_image-1"><img src="images/timeline-pic-3.png" /></div>
-                            <div class="col-lg-6 col-md-6  col-sm-6 timeline_condent">
+                            <div class="col-lg-6 col-md-6 col-md-6 col-sm-12 timeline_image-1"><img src="images/timeline-pic-3.png" /></div>
+                            <div class="col-lg-6 col-md-6  col-sm-12 timeline_condent">
                                 <h2>Lorem ipsum dolor sit</h2>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                             </div>
                         </li>
                         <li class="row hidden reversed-condent" data-before="4">
-                            <div class="col-lg-6 col-md-6 col-sm-6 timeline_condent condent-left-side">
+                            <div class="col-lg-6 col-md-6 col-sm-12 timeline_condent condent-left-side">
                                 <h2>Lorem ipsum dolor sit</h2>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-md-6 col-sm-6 timeline_image-2"><img src="images/timeline-pic-4.png" /></div>
+                            <div class="col-lg-6 col-md-6 col-md-6 col-sm-12 timeline_image-2"><img src="images/timeline-pic-4.png" /></div>
                         </li>
-                        <div class="col-md-6 col-lg-12 col-sm-6  col timeline_button text-center "><button type="button" class="click-mail" data-toggle="modal" data-target="#exampleModal-2">Let's Build <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></button>
+                        <div class="col-md-6 col-lg-12 col-sm-12 col timeline_button text-center "><button type="button" class="click-mail" data-toggle="modal" data-target="#exampleModal-2">Let's Build <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></button>
                             <div>
                     </ul>
                 </div>
