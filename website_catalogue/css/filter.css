@@ -175,4 +175,27 @@ font-style: normal;
     color: #ffffff;
     opacity: 1; /* Firefox */
   }
+
+  .megamenu-li .dropdown-toggle:after{
+    font-family: 'FontAwesome';
+    content: "\f107";
+    border:none;
+    margin-left: 9px;
+    position: relative;
+    top: 5px;
+  }
+  .megamenu-li.show .dropdown-toggle:after{
+    content: "\f106";
+    
+  }
+  
+  /* #faq .card .card-header a:after {
+    font-family: 'FontAwesome';
+    content: "\f068";
+    color:#878787;
+    float: right;
+  }
+  #faq .card .card-header a.collapsed:after {
+    content: "\f067";
+  } */
   

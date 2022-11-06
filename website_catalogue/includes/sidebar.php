@@ -52,7 +52,7 @@
         </div>
 
         <div class="wishlist-footer-box">
-              <a href="./website_catalogue/whistlist.php" class="wish-visit">Visit catalogue</a>
+              <a href="./whistlist.php" class="wish-visit">Visit catalogue</a>
               <a href="#" class="wish-checkout">Check out</a>
         </div>
     </div>
