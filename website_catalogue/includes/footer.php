@@ -1,5 +1,5 @@
 <footer>
-            <div class="container container-85 " style="padding:0 20px">
+            <div class="container container-85 " >
               <div class="row footer-top reset-margin">
                 <div class="footer-col-1 col-md-2 col-sm-12 reset-padding">
                   <img src="images/site-white.logo.png" alt="footer-logo">

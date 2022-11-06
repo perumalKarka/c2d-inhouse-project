@@ -226,7 +226,7 @@ padding:0 48.3px 0 0;
 padding:0;
 }
 .site-navigation ul.navbar-nav li:hover a.nav-link{
-color:#005579;
+color:#FFFFFF;
 }
 
 /***** Submenu design *****/
@@ -538,6 +538,9 @@ opacity: 1;
   background-color: #3EBDCC;
   font-size: 28px;
 }
+.click-mail:hover{
+  color:#fff;
+}
 .section-sub__title{
 padding-top:46px;
 color: var(--unnamed-color-ffffff);
@@ -733,6 +736,9 @@ font-size:23px;
 letter-spacing: 0px;
 color: #AAAAAA;
 opacity: 1;
+}
+.feature-video__condent p.main-content-feature{
+  color:white;
 }
 
 /* website builder */
@@ -2309,7 +2315,9 @@ ul.socialmedia_network li a{
   line-height: 40px;
   font-family: 'robotolight';
 }
-
+.wish-visit:hover{
+  color:#ffffff;
+}
 /** Image upload and preview **/
 .img-preview{
   max-width: 85%;
