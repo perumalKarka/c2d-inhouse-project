@@ -234,7 +234,7 @@
                         <span class="default-line"></span>
                         <span class="draw-line"></span>
                         <li class="row first-row" data-before="1">
-                            <div class="col-lg-6 col-md-6 col-sm-12 timeline_image-1 reset-padding"><img src="images/timeline-pic-1.png" /></div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 timeline_image-1  reset-padding"><img src="images/timeline-pic-1.png" /></div>
                             <div class="col-lg-6 col-md-6 col-sm-12 timeline_condent ">
                                 <h2>Lorem ipsum dolor sit</h2>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
