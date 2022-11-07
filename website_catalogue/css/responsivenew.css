@@ -356,6 +356,11 @@
             padding-top: 20px !important;
             padding-bottom: 50px;
         }
+        .timeline_image-1 img:first-child{
+            margin:30px 50px 0px 50px;
+            
+        }
+
         .timeline_image-1 img {
             margin: 0px 50px;
            max-width:80%;
@@ -428,6 +433,7 @@
                 transition: 0.5s ease-in-out, background-color 0.2s ease-out, color 0.1s ease-out, border 0.1s ease-out;
                 margin: 51px 0px 181px 0px;
             }
+            
             section.website-builder .click-mail {
                 border: none;
                 padding: 18px 100px;
@@ -1072,12 +1078,14 @@
     width: 100%;
   }
   .timeline_image-1 img {
-    margin-right: 50px;
-  }
-  .timeline_image-2 img {
-    margin-left: 50px;
-    max-width: 85%;
-  }
+    margin:0px  50px 0px 0px!important;
+    max-width:85%;
+   }
+   .timeline_image-2 img {
+     margin: 0px 0px 0px 50px!important;
+     max-width:85%;
+   
+   }
   .website-builder .timeline_button {
     margin: 0 auto;
   }
@@ -1191,15 +1199,8 @@
         padding-top: 77px !important;
         padding-bottom: 76px;
     }
-    .timeline_image-1 img {
-        margin-right: 0 auto!important;
-       max-width:90%;
-      }
-      .timeline_image-2 img {
-        margin-left: 50px;
-        max-width:90%;
+   
       
-      }
       .timeline ul li.in-view::before {
         content: attr(data-before);
         position: absolute;
@@ -1265,6 +1266,7 @@
             width:100%;
             max-width: 80%;
           }
+         
   
 
   
@@ -1512,14 +1514,7 @@
     max-width: 90%;
     width: 100%;
   }
-  .timeline_image-1 img {
-    max-width:80%;
-    margin-right: 50px;
-  }
-  .timeline_image-2 img {
-    max-width:80%;
-    margin-left: 50px;
-  }
+  
   .footer-top {
     padding-bottom: 39.5px;
     border-bottom: 1px solid#0874A2;
@@ -1599,6 +1594,7 @@
     background-color: #3ebdcc;
     font-size: 26px;
   }
+  
 
  
 
@@ -1763,10 +1759,7 @@
     padding-top: 130px !important;
     padding-bottom: 110px;
   }
-  .timeline_image-1 img {
-    margin-right: 50px;
-    
-  }
+ 
   .timeline_condent h2 {
     text-align: left;
     font-size: 40px;
@@ -1861,15 +1854,7 @@
     width: 100%;
     max-width: 75%;
   }
-  .timeline_image-1 img {
-    margin-right: 0 auto!important;
-   max-width:90%;
-  }
-  .timeline_image-2 img {
-    margin-left: 50px;
-    max-width:90%;
-  
-  }
+ 
   .support-guidance .container-90 {
     max-width: 90%;
     width: 100%;
