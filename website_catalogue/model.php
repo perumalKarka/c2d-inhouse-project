@@ -2,7 +2,7 @@
     <div id="message"></div>
     <div class="modal-dialog container-80 requestform-popup-page">
         
-        <h2 class="form-heading">Request for a new sector</h2>
+    <h2 class="form-heading d-block d-sm-block d-md-none d-xl-block">Request for a new sector</h2>
         <div class="modal-content requestmodal_content">
             <div class="requestmodal_content">
                 <div class="modal-header border-0">
@@ -11,6 +11,7 @@
                     </button>
                 </div> 
                 <form class="request-popup-form request-model-1">
+                <h2 class="form-heading d-none d-sm-none d-md-block d-xl-none">Request for a new sector</h2>
                     <div class="form-group">
                         <label for="exampleFormControlInput1 formleft-sub-title">Give a name to the sector that you wish.</label>
                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
@@ -29,9 +30,9 @@
                     </div>
 
                     <h3 class="request-condent ">This site is protected by reCAPTCHA and the Google<span style="color:white;"> Privacy Policy </span>and <span style="color:white;">Terms of Conditions</span> apply.</h3>
-                    <div class="row reset-margin pt-5">
-                        <div class="col-6 robotimage reset-padding g-recaptcha"data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
-                        <div class="col-6 submit reset-padding align-self-center"><button type="button" id="success" class="click-mail">submit</button></div>
+                    <div class="row  roboto-sec reset-margin pt-5">
+                        <div class="col-lg-6 col-md-12 robotimage reset-padding g-recaptcha"data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+                        <div class="col-lg-6  col-md-12  submit reset-padding align-self-center"><button type="button" id="success" class="click-mail">submit</button></div>
                     </div>
                 </form>
             </div>
@@ -46,7 +47,7 @@
 <!-- Modal -->
 <div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" data-backdrop="static" aria-hidden="true">
     
-    <div class="modal-dialog container-80 requestform-popup-page">
+    <div class="modal-dialog container-80 requestform-popup-page logo-upload">
         <div class="modal-content">
             <div class="row skip-row reset-margin ">
                                 <div class="col-6"><h2 class= "form-heading">Lorem ipsum dolor sit amet, consetetur </h2></div>
