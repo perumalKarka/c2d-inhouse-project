@@ -23,23 +23,23 @@
                           <div class="site-logo">
                             <a href="index.php" class="navbar-brand">
                                   <img src="images/C2Dlogo-black.png" alt="SiteLogo" class="dark-logo" style="width:183px;height:48px;">
-                                  <img src="images/C2Dlogo-white.png" alt="SiteLogo" class="white-logo" style="width:183px;height:48px;"> 
+                                  <img src="images/C2Dlogo-white.png" alt="SiteLogo" class="white-logo" style="width:183px;height:48px;">
                             </a>
                           </div>
                         </div>
                         <div class="col-xl-9 col-lg-9 col-7 text-right">
-                          <!-- Hide for French version   
-                          <span class="home-search-bar d-lg-none"> 
+                          <!-- Hide for French version
+                          <span class="home-search-bar d-lg-none">
                             <a href="javascript:void(0)" class="text-black site-menu-toggle search-form-tigger" data-toggle="search-form" >
                               <span class="icon-menu-bar h3 text-white"><img src="images/header-search.png" style="width:19px;height:19px;"/></span>
                             </a>
                           </span>-->
-                          <span class="d-inline-block d-lg-none">
+                          <span class="d-inline-block d-xl-none">
                             <a href="javascript:void(0)" class="text-black site-menu-toggle js-menu-toggle">
                               <span class="icon-menu-bar h3 text-white"><img src="images/bar.png" /></span>
                             </a>
                           </span>
-                          <nav class="site-navigation navbar navbar-expand-lg navbar-light bg-light reset-padding">
+                          <nav class="site-navigation navbar navbar-expand-xl navbar-light bg-light reset-padding">
                               <div class="main-nav collapse navbar-collapse" id="navbarCollapse">
                                   <ul id="menu-site-menu" class="navbar-nav ml-auto ">
                                     <li class="nav-item"><a href="index.php" class="nav-link">Accueil</a></li>
@@ -55,7 +55,7 @@
                                         <li class="menu-item"><a href="services.php" class="nav-link">Tous les services</a></li>
                                       </ul>
                                     </li> -->
-                                    
+
                                     <li class="nav-item lang-item menu-item-has-children">
                                       <a href="javascript:void(0)" class="nav-link"><img src="images/fr-Flag.png" class="flag"/></a>
                                       <ul class="sub-menu">
@@ -89,8 +89,8 @@
                                         </li>
                                       </ul>
                                     </li>
-                                  </ul>   
-                                  <!-- Hide for French version   
+                                  </ul>
+                                  <!-- Hide for French version
                                   <ul id="menu-site-menu" class="navbar-nav ml-auto ">
                                     <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
                                     <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
@@ -186,9 +186,7 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue aliquet molestie iaculis in enim. Consequat</p>
                                   </li>
                                 </ul>
-                              </div>  
+                              </div>
                             </div>
                         </div>
-</div>  
-
-
+</div>
