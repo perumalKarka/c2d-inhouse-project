@@ -62,7 +62,7 @@
             <div class="container container-90 reset-padding">
                 <div class="row filter-option reset-margin">
                     <div class="col-7 align-self-center p-0">
-                        <nav class="wrapper navbar navbar-expand-lg rounded">
+                        <nav class="wrapper navbar navbar-expand-md rounded d-none d-md-block">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
@@ -358,17 +358,219 @@
                                             
                                         </div>
                                     </li>
-                                  
                                 </ul>
-
                                 <div class="tagsBox">
                                         <input type="text" data-role="tagsinput" id="tagsinput" name="tags" class="form-control">
                                 </div>
-                                
                             </div>
-                            
                         </nav>
-                        
+
+                        <nav class="d-block d-md-none header-nav">
+                            <div class="hamburger">
+                                <img src="images/menu-filter-bar.svg"  class="filter-bar filter-open-bar" />
+                                <div class="filter-close-bar">
+                                    <div class="row m-0">
+                                        <a class="col filter-bar text-center">Close</a>
+                                        <a class="col apply-filter text-center">Apply</a>
+                                    </div>
+                                </div>
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                </svg> -->
+                            </div>
+                            <ul class="menu">
+                                <li class="has-submenu">
+                                    <a href="#" class="active">Categories</a>
+                                    <input type="text" id="myInput" class="myfilter_textbox" onkeyup="myFilter()" placeholder="Search by Categorise" />
+                                    <ul class="sub-menu filter-option-lists active" id="sports-sub" style="padding-top:6vh;">
+                                        <li class="sub-title">
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Monopage">
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Monopage</span>
+                                            </label>
+                                        </li>
+                                        <li class="sub-title">
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Multipage">
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Multipage</span>
+                                            </label>
+                                        </li>
+                                        
+                                    </ul>  
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="#">Business Type</a>
+                                    <input type="text" id="myInput" class="myfilter_textbox" onkeyup="myFilter()" placeholder="Search by Business" />
+                                    <ul class="sub-menu filter-option-lists" style="padding-top:7vh;">
+                                        <h3 class="title">Category 1</h3>
+                                        <li class="sub-title">
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Wine Shop">
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Wine Shop</span>
+                                            </label>
+                                        </li>
+                                        <li class="sub-title">
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Automotive">
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Automotive</span>
+                                            </label>
+                                        </li>
+                                        <li class="sub-title">
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Financial Services">
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Financial Services</span>
+                                            </label>
+                                        </li>
+                                        <li class="sub-title">
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Plumbing Services">
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Plumbing Services</span>
+                                            </label>
+                                        </li>
+                                        <li class="sub-title">
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Movers & Packers">
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Movers & Packers</span>
+                                            </label>
+                                        </li>
+                                        <h3 class="title">Category 2</h3>
+                                        <li class="sub-title">
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Postal Services">
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Postal Services</span>
+                                            </label>
+                                        </li>
+                                        <li class="sub-title">
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Pharmaceuticals">
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Pharmaceuticals</span>
+                                            </label>
+                                        </li>
+                                        <li class="sub-title">
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Transport Services">
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Transport Services</span>
+                                            </label>
+                                        </li>
+                                        <li class="sub-title">
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Aviation">
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Aviation</span>
+                                            </label>
+                                        </li>
+                                        <li class="sub-title">
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Cosmetics">
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Cosmetics</span>
+                                            </label>
+                                        </li>
+                                        <li class="sub-title">
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="E-commerce site">
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">E-commerce site</span>
+                                            </label>
+                                        </li>
+                                    </ul> 
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="#">Color Scheme</a>
+                                    <input type="text" id="myInput" class="myfilter_textbox" onkeyup="myFilter()" placeholder="Search by Color" />
+                                    <ul class="sub-menu filter-option-lists" style="padding-top:7.5vh;">
+                                        <li>
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Blue">
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color"><img src="images/colo-blue.png" class="img-color-pic"/>Blue</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Green">
+                                                    <span class="checkmark"></span>
+                                                    <span class="checked-color"><img src="images/colo-green.png" class="img-color-pic"/>Green</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="White">
+                                                    <span class="checkmark"></span>
+                                                    <span class="checked-color"><img src="images/colo-white.png" class="img-color-pic"/>White</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Brown">
+                                                    <span class="checkmark"></span>
+                                                    <span class="checked-color"><img src="images/colo-brown.png" class="img-color-pic"/>Brown</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Black">
+                                                    <span class="checkmark"></span>
+                                                    <span class="checked-color"><img src="images/colo-black.png" class="img-color-pic"/>Black</span>
+                                            </label>
+                                        </li> 
+                                    </ul>
+                                </li>
+                                <li class="has-submenu">
+                                    <a href="#">Style</a>
+                                    <input type="text" id="myInput" class="myfilter_textbox" onkeyup="myFilter()" placeholder="Search by Color" />
+                                    <ul class="sub-menu filter-option-lists" style="padding-top:8.5vh;">
+                                        <li>
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Minimal">
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Minimal</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Masculine">
+                                                    <span class="checkmark"></span>
+                                                    <span class="checked-color">Masculine</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Nature-inspired">
+                                                    <span class="checkmark"></span>
+                                                    <span class="checked-color">Nature-inspired</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Feminine">
+                                                    <span class="checkmark"></span>
+                                                    <span class="checked-color">Feminine</span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <label class="contactform-check--label block-color">
+                                                <input class="contactform-check--input" type="checkbox" value="Grungy">
+                                                    <span class="checkmark"></span>
+                                                    <span class="checked-color">Grungy</span>
+                                            </label>
+                                        </li> 
+                                    </ul>
+                                </li>
+                                
+                                
+                            </ul>
+                        </nav>
                         
                     </div>
                     <div class="col-5 request p-0">
@@ -597,8 +799,7 @@
 						<div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>   
 						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
 					</div>
-				        <--Left and right controls -->
-						<a class="carousel-control-prev slide_position prev-section" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+				        <a class="carousel-control-prev slide_position prev-section" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
 					    <a class="carousel-control-next slide_position next-section" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
                 </div>
             </div>
@@ -878,5 +1079,6 @@
 
         
     </script>
+    <script type="text/javascript" src="js/filter.js"></script>
 </body>
 </html>
