@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,9 +15,9 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
-    
+
     <link rel="stylesheet" href="css/theme.css" />
-    <link rel="stylesheet" href="css/responsivenew.css"/>
+    <link rel="stylesheet" href="css/responsivenew.css" />
 
     <link rel="stylesheet" href="css/filter.css" />
 
@@ -27,9 +28,10 @@
     <meta name="msapplication-TileImage" content="images/favicon-ico.png" />
 
     <style type="text/css">
-        
+
     </style>
 </head>
+
 <body class="catelogue-page">
     <main class="container-fluid site-fluid c-offcanvas-content-wrap" role="main">
         <section class="header-section">
@@ -44,25 +46,27 @@
         <section class="catalogue-firstSection mb-5">
             <div class="container container-90 reset-padding">
                 <div class="row">
-                    <div class="col-6 catelogue-left-sub__title reset-padding"><p class="reset-margin">Lorem ipsum dolor sit amet, consetetur</p></div>
-                    <div class="col-6 catelogue-right-searchbar align-self-end reset-padding ">
+                    <div class="col-xl-6 col-lg-12 catelogue-left-sub__title reset-padding">
+                        <p class="reset-margin">Lorem ipsum dolor sit amet, consetetur</p>
+                    </div>
+                    <div class="col-xl-6 col-lg-12 catelogue-right-searchbar align-self-end reset-padding ">
                         <div class="input-group searchBox">
-                           <input class="form-control reset-padding mb-2" type="text" id="myFilter" placeholder="Search for your type of business..." aria-label="Search">
+                            <input class="form-control reset-padding mb-2" type="text" id="myFilter" placeholder="Search for your type of business..." aria-label="Search">
                             <div class="input-group-append align-self-center mb-2">
-                                <span class="fa fa-search form-control-feedback searchicon"id="basic-text1"></span>
+                                <span class="fa fa-search form-control-feedback searchicon" id="basic-text1"></span>
                             </div>
                         </div>
                     </div>
-                        
+
                 </div>
             </div>
-        </section> 
+        </section>
         <!-- filter section -->
         <section class="filtersection">
             <div class="container container-90 reset-padding">
                 <div class="row filter-option reset-margin">
                     <div class="col-7 align-self-center p-0">
-                        <nav class="wrapper navbar navbar-expand-md rounded d-none d-md-block">
+                        <nav class="wrapper navbar navbar-expand-md rounded">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
@@ -84,14 +88,14 @@
                                                         <li>
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Multipage">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Multipage</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Multipage</span>
                                                             </label>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
-                                            
+
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown megamenu-li">
@@ -112,8 +116,8 @@
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Financial Services">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Financial Services</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Financial Services</span>
                                                             </label>
                                                         </li>
                                                         <li class="col-6 p-0">
@@ -126,22 +130,22 @@
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Plumbing Services">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Plumbing Services</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Plumbing Services</span>
                                                             </label>
                                                         </li>
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Automotive">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Automotive</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Automotive</span>
                                                             </label>
                                                         </li>
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Movers & Packers">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Movers & Packers</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Movers & Packers</span>
                                                             </label>
                                                         </li>
                                                     </ul>
@@ -159,8 +163,8 @@
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Transport Services">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Transport Services</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Transport Services</span>
                                                             </label>
                                                         </li>
                                                         <li class="col-6 p-0">
@@ -173,22 +177,22 @@
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Aviation">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Aviation</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Aviation</span>
                                                             </label>
                                                         </li>
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Pharmaceuticals">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Pharmaceuticals</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Pharmaceuticals</span>
                                                             </label>
                                                         </li>
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Food Services">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Food Services</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Food Services</span>
                                                             </label>
                                                         </li>
                                                     </ul>
@@ -206,8 +210,8 @@
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Tourism & Hospitality">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Tourism & Hospitality</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Tourism & Hospitality</span>
                                                             </label>
                                                         </li>
                                                         <li class="col-6 p-0">
@@ -220,22 +224,22 @@
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Real Estate">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Real Estate</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Real Estate</span>
                                                             </label>
                                                         </li>
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Banking Services">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Banking Services</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Banking Services</span>
                                                             </label>
                                                         </li>
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Healthcare">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Healthcare</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Healthcare</span>
                                                             </label>
                                                         </li>
                                                     </ul>
@@ -254,15 +258,15 @@
                                                         <li class="col-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Dentist">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Dentist</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Dentist</span>
                                                             </label>
                                                         </li>
-                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
-                                            
+
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown megamenu-li">
@@ -275,35 +279,35 @@
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Blue">
                                                                 <span class="checkmark"></span>
-                                                                <span class="checked-color"><img src="images/colo-blue.png" class="img-color-pic"/>Blue</span>
+                                                                <span class="checked-color"><img src="images/colo-blue.png" class="img-color-pic" />Blue</span>
                                                             </label>
                                                         </li>
                                                         <li>
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Green">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color"><img src="images/colo-green.png" class="img-color-pic"/>Green</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color"><img src="images/colo-green.png" class="img-color-pic" />Green</span>
                                                             </label>
                                                         </li>
                                                         <li>
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="White">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color"><img src="images/colo-white.png" class="img-color-pic"/>White</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color"><img src="images/colo-white.png" class="img-color-pic" />White</span>
                                                             </label>
                                                         </li>
                                                         <li>
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Brown">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color"><img src="images/colo-brown.png" class="img-color-pic"/>Brown</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color"><img src="images/colo-brown.png" class="img-color-pic" />Brown</span>
                                                             </label>
                                                         </li>
                                                         <li>
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Black">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color"><img src="images/colo-black.png" class="img-color-pic"/>Black</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color"><img src="images/colo-black.png" class="img-color-pic" />Black</span>
                                                             </label>
                                                         </li>
                                                     </ul>
@@ -327,47 +331,51 @@
                                                         <li>
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Masculine">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Masculine</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Masculine</span>
                                                             </label>
                                                         </li>
                                                         <li>
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Nature-inspired">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Nature-inspired</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Nature-inspired</span>
                                                             </label>
                                                         </li>
                                                         <li>
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Feminine">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Feminine</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Feminine</span>
                                                             </label>
                                                         </li>
                                                         <li>
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Grungy">
-                                                                    <span class="checkmark"></span>
-                                                                    <span class="checked-color">Grungy</span>
+                                                                <span class="checkmark"></span>
+                                                                <span class="checked-color">Grungy</span>
                                                             </label>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
-                                            
+
                                         </div>
                                     </li>
+
                                 </ul>
+
                                 <div class="tagsBox">
-                                        <input type="text" data-role="tagsinput" id="tagsinput" name="tags" class="form-control">
+                                    <input type="text" data-role="tagsinput" id="tagsinput" name="tags" class="form-control">
                                 </div>
+
                             </div>
+
                         </nav>
 
                         <nav class="d-block d-md-none header-nav">
                             <div class="hamburger">
-                                <img src="images/menu-filter-bar.svg"  class="filter-bar filter-open-bar" />
+                                <img src="images/menu-filter-bar.svg" class="filter-bar filter-open-bar" />
                                 <div class="filter-close-bar">
                                     <div class="row m-0">
                                         <a class="col filter-bar text-center">Close</a>
@@ -397,8 +405,8 @@
                                                 <span class="checked-color">Multipage</span>
                                             </label>
                                         </li>
-                                        
-                                    </ul>  
+
+                                    </ul>
                                 </li>
                                 <li class="has-submenu">
                                     <a href="#">Business Type</a>
@@ -483,7 +491,7 @@
                                                 <span class="checked-color">E-commerce site</span>
                                             </label>
                                         </li>
-                                    </ul> 
+                                    </ul>
                                 </li>
                                 <li class="has-submenu">
                                     <a href="#">Color Scheme</a>
@@ -493,37 +501,37 @@
                                             <label class="contactform-check--label block-color">
                                                 <input class="contactform-check--input" type="checkbox" value="Blue">
                                                 <span class="checkmark"></span>
-                                                <span class="checked-color"><img src="images/colo-blue.png" class="img-color-pic"/>Blue</span>
+                                                <span class="checked-color"><img src="images/colo-blue.png" class="img-color-pic" />Blue</span>
                                             </label>
                                         </li>
                                         <li>
                                             <label class="contactform-check--label block-color">
                                                 <input class="contactform-check--input" type="checkbox" value="Green">
-                                                    <span class="checkmark"></span>
-                                                    <span class="checked-color"><img src="images/colo-green.png" class="img-color-pic"/>Green</span>
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color"><img src="images/colo-green.png" class="img-color-pic" />Green</span>
                                             </label>
                                         </li>
                                         <li>
                                             <label class="contactform-check--label block-color">
                                                 <input class="contactform-check--input" type="checkbox" value="White">
-                                                    <span class="checkmark"></span>
-                                                    <span class="checked-color"><img src="images/colo-white.png" class="img-color-pic"/>White</span>
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color"><img src="images/colo-white.png" class="img-color-pic" />White</span>
                                             </label>
                                         </li>
                                         <li>
                                             <label class="contactform-check--label block-color">
                                                 <input class="contactform-check--input" type="checkbox" value="Brown">
-                                                    <span class="checkmark"></span>
-                                                    <span class="checked-color"><img src="images/colo-brown.png" class="img-color-pic"/>Brown</span>
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color"><img src="images/colo-brown.png" class="img-color-pic" />Brown</span>
                                             </label>
                                         </li>
                                         <li>
                                             <label class="contactform-check--label block-color">
                                                 <input class="contactform-check--input" type="checkbox" value="Black">
-                                                    <span class="checkmark"></span>
-                                                    <span class="checked-color"><img src="images/colo-black.png" class="img-color-pic"/>Black</span>
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color"><img src="images/colo-black.png" class="img-color-pic" />Black</span>
                                             </label>
-                                        </li> 
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="has-submenu">
@@ -540,63 +548,63 @@
                                         <li>
                                             <label class="contactform-check--label block-color">
                                                 <input class="contactform-check--input" type="checkbox" value="Masculine">
-                                                    <span class="checkmark"></span>
-                                                    <span class="checked-color">Masculine</span>
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Masculine</span>
                                             </label>
                                         </li>
                                         <li>
                                             <label class="contactform-check--label block-color">
                                                 <input class="contactform-check--input" type="checkbox" value="Nature-inspired">
-                                                    <span class="checkmark"></span>
-                                                    <span class="checked-color">Nature-inspired</span>
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Nature-inspired</span>
                                             </label>
                                         </li>
                                         <li>
                                             <label class="contactform-check--label block-color">
                                                 <input class="contactform-check--input" type="checkbox" value="Feminine">
-                                                    <span class="checkmark"></span>
-                                                    <span class="checked-color">Feminine</span>
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Feminine</span>
                                             </label>
                                         </li>
                                         <li>
                                             <label class="contactform-check--label block-color">
                                                 <input class="contactform-check--input" type="checkbox" value="Grungy">
-                                                    <span class="checkmark"></span>
-                                                    <span class="checked-color">Grungy</span>
+                                                <span class="checkmark"></span>
+                                                <span class="checked-color">Grungy</span>
                                             </label>
-                                        </li> 
+                                        </li>
                                     </ul>
                                 </li>
-                                
-                                
+
+
                             </ul>
                         </nav>
-                        
+
                     </div>
                     <div class="col-5 request p-0">
-                    <button type="button" class="request-sector" data-toggle="modal" data-target="#exampleModal">Request a new sector</button>
-                    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button> -->
+                        <button type="button" class="request-sector" data-toggle="modal" data-target="#exampleModal">Request a new sector</button>
+                        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button> -->
                     </div>
                 </div>
             </div>
 
-            
-        </section> 
+
+        </section>
         <!-- card section -->
         <section class="cardsection">
             <div class="container container-90 reset-padding">
                 <div class="row catelogu_template_item reset-margin">
-                    <div class="card_block col-6 reset-padding">
+                    <div class="card_block col-xl-6 col-lg-4 col-md-6 reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
-                            <i class="fa fa-bookmark"></i>
-                            <i class="fa fa-thumbs-up like "></i>
-                            
+                                <i class="fa fa-bookmark"></i>
+                                <i class="fa fa-thumbs-up like "></i>
+
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button"  >MINIMAL</button>
+                                <button type="button">MINIMAL</button>
                                 <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span>1245 liked this design</span>
+                                <span class="d-none d-md-block">1245 likes</span>
                                 <h3>We must give title here</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
@@ -609,48 +617,26 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1" >Live Preview</button></div>
+                                    <div class="col-6 d-none d-xl-block  reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+
+                                </div>
+                                <div class="row card-last-button-sec ">
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card_block col-6 reset-padding">
-                        <div class="card website_template">
-                            <div class="card_image"><img src="images/cardImages.png" class="card-img"> 
-                            <i class="fa fa-bookmark"></i>
-                            <i class="fa fa-thumbs-up  "></i>
-                            </div>
-                            <div class="card_body mt-3">
-                                <button type="button"  >MINIMAL</button>
-                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span>1245 liked this design</span>
-                                <h3>We must give title here</h3>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
-                                <div class="row reset-margin">
-                                    <div class="col-6 reset-padding">
-                                        <span class="color-choice reset-margin">Color choice</span>
-                                        <ul class="d-flex color-selector mt-2">
-                                            <li style="background: #9D4EDD;"></li>
-                                            <li style="background: #FF570A;"></li>
-                                            <li style="background: #6EC630;"></li>
-                                            <li style="background: #EAAB3D;"></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1"  >Live Preview</button></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card_block col-6 reset-padding">
+                    <div class="card_block col-xl-6 col-lg-4 col-md-6 reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
-                            <i class="fa fa-bookmark"></i>
-                            <i class="fa fa-thumbs-up "></i>
+                                <i class="fa fa-bookmark"></i>
+                                <i class="fa fa-thumbs-up  "></i>
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button"  >MINIMAL</button>
+                                <button type="button">MINIMAL</button>
                                 <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span>1245 liked this design</span>
+                                <span class="d-none d-md-block">1245 likes</span>
                                 <h3>We must give title here</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
@@ -663,21 +649,25 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview live_preview reset-margin"  data-toggle="modal" data-target="#exampleModal-1" >Live Preview</button></div>
+                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                </div>
+                                <div class="row card-last-button-sec ">
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card_block col-6 reset-padding">
+                    <div class="card_block col-xl-6 col-lg-4 col-md-6 reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
-                            <i class="fa fa-bookmark"></i>
-                            <i class="fa fa-thumbs-up  "></i>
+                                <i class="fa fa-bookmark"></i>
+                                <i class="fa fa-thumbs-up "></i>
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button"  >MINIMAL</button>
+                                <button type="button">MINIMAL</button>
                                 <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span>1245 liked this design</span>
+                                <span class="d-none d-md-block">1245 likes</span>
                                 <h3>We must give title here</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
@@ -690,21 +680,25 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1"  >Live Preview</button></div>
+                                    <div class="col-6  d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                </div>
+                                <div class="row card-last-button-sec ">
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card_block col-6 reset-padding">
+                    <div class="card_block col-xl-6 col-lg-4 col-md-6 reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
-                            <i class="fa fa-bookmark"></i>
-                            <i class="fa fa-thumbs-up  "></i>
+                                <i class="fa fa-bookmark"></i>
+                                <i class="fa fa-thumbs-up  "></i>
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button"  >MINIMAL</button>
+                                <button type="button">MINIMAL</button>
                                 <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span>1245 liked this design</span>
+                                <span class="d-none d-md-block">1245 likes</span>
                                 <h3>We must give title here</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
@@ -717,21 +711,25 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1"  >Live Preview</button></div>
+                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                </div>
+                                <div class="row card-last-button-sec ">
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card_block col-6 reset-padding">
+                    <div class="card_block col-xl-6 col-lg-4 col-md-6 reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
-                             <i class="fa fa-bookmark"></i>
-                            <i class="fa fa-thumbs-up "></i>
+                                <i class="fa fa-bookmark"></i>
+                                <i class="fa fa-thumbs-up  "></i>
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button"  >MINIMAL</button>
+                                <button type="button">MINIMAL</button>
                                 <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span>1245 liked this design</span>
+                                <span class="d-none d-md-block">1245 likes</span>
                                 <h3>We must give title here</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
@@ -744,133 +742,360 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1"  >Live Preview</button></div>
+                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                </div>
+                                <div class="row card-last-button-sec ">
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="card_block col-xl-6 col-lg-4 col-md-6 reset-padding">
+                        <div class="card website_template">
+                            <div class="card_image"><img src="images/cardImages.png" class="card-img">
+                                <i class="fa fa-bookmark"></i>
+                                <i class="fa fa-thumbs-up "></i>
+                            </div>
+                            <div class="card_body mt-3">
+                                <button type="button">MINIMAL</button>
+                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
+                                <span class="d-none d-md-block">1245 likes</span>
+                                <h3>We must give title here</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <div class="row reset-margin">
+                                    <div class="col-6 reset-padding">
+                                        <span class="color-choice reset-margin">Color choice</span>
+                                        <ul class="d-flex color-selector mt-2">
+                                            <li style="background: #9D4EDD;"></li>
+                                            <li style="background: #FF570A;"></li>
+                                            <li style="background: #6EC630;"></li>
+                                            <li style="background: #EAAB3D;"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                </div>
+                                <div class="row card-last-button-sec ">
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_block col-xl-6 col-lg-4 col-md-6  reset-padding">
+                        <div class="card website_template">
+                            <div class="card_image"><img src="images/cardImages.png" class="card-img">
+                                <i class="fa fa-bookmark"></i>
+                                <i class="fa fa-thumbs-up "></i>
+                            </div>
+                            <div class="card_body mt-3">
+                                <button type="button">MINIMAL</button>
+                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
+                                <span class="d-none d-md-block">1245 likes</span>
+                                <h3>We must give title here</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <div class="row reset-margin">
+                                    <div class="col-6 reset-padding">
+                                        <span class="color-choice reset-margin">Color choice</span>
+                                        <ul class="d-flex color-selector mt-2">
+                                            <li style="background: #9D4EDD;"></li>
+                                            <li style="background: #FF570A;"></li>
+                                            <li style="background: #6EC630;"></li>
+                                            <li style="background: #EAAB3D;"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6  d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                </div>
+                                <div class="row card-last-button-sec ">
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_block col-xl-6 col-lg-4 col-md-6  reset-padding">
+                        <div class="card website_template">
+                            <div class="card_image"><img src="images/cardImages.png" class="card-img">
+                                <i class="fa fa-bookmark"></i>
+                                <i class="fa fa-thumbs-up "></i>
+                            </div>
+                            <div class="card_body mt-3">
+                                <button type="button">MINIMAL</button>
+                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
+                                <span class="d-none d-md-block">1245 likes</span>
+                                <h3>We must give title here</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <div class="row reset-margin">
+                                    <div class="col-6 reset-padding">
+                                        <span class="color-choice reset-margin">Color choice</span>
+                                        <ul class="d-flex color-selector mt-2">
+                                            <li style="background: #9D4EDD;"></li>
+                                            <li style="background: #FF570A;"></li>
+                                            <li style="background: #6EC630;"></li>
+                                            <li style="background: #EAAB3D;"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                </div>
+                                <div class="row card-last-button-sec ">
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_block col-xl-6 col-lg-4  d-none  d-lg-block d-xl-none  reset-padding">
+                        <div class="card website_template">
+                            <div class="card_image"><img src="images/cardImages.png" class="card-img">
+                                <i class="fa fa-bookmark"></i>
+                                <i class="fa fa-thumbs-up "></i>
+                            </div>
+                            <div class="card_body mt-3">
+                                <button type="button">MINIMAL</button>
+                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
+                                <span class="d-none d-md-block">1245 likes</span>
+                                <h3>We must give title here</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <div class="row reset-margin">
+                                    <div class="col-6 reset-padding">
+                                        <span class="color-choice reset-margin">Color choice</span>
+                                        <ul class="d-flex color-selector mt-2">
+                                            <li style="background: #9D4EDD;"></li>
+                                            <li style="background: #FF570A;"></li>
+                                            <li style="background: #6EC630;"></li>
+                                            <li style="background: #EAAB3D;"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                </div>
+                                <div class="row card-last-button-sec ">
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_block col-xl-6 col-lg-4 d-none  d-lg-block d-xl-none  reset-padding">
+                        <div class="card website_template">
+                            <div class="card_image"><img src="images/cardImages.png" class="card-img">
+                                <i class="fa fa-bookmark"></i>
+                                <i class="fa fa-thumbs-up "></i>
+                            </div>
+                            <div class="card_body mt-3">
+                                <button type="button">MINIMAL</button>
+                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
+                                <span class="d-none d-md-block">1245 likes</span>
+                                <h3>We must give title here</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <div class="row reset-margin">
+                                    <div class="col-6 reset-padding">
+                                        <span class="color-choice reset-margin">Color choice</span>
+                                        <ul class="d-flex color-selector mt-2">
+                                            <li style="background: #9D4EDD;"></li>
+                                            <li style="background: #FF570A;"></li>
+                                            <li style="background: #6EC630;"></li>
+                                            <li style="background: #EAAB3D;"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                </div>
+                                <div class="row card-last-button-sec ">
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_block col-xl-6 col-lg-4 d-none  d-lg-block d-xl-none  reset-padding">
+                        <div class="card website_template">
+                            <div class="card_image"><img src="images/cardImages.png" class="card-img">
+                                <i class="fa fa-bookmark"></i>
+                                <i class="fa fa-thumbs-up "></i>
+                            </div>
+                            <div class="card_body mt-3">
+                                <button type="button">MINIMAL</button>
+                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
+                                <span class="d-none d-md-block">1245 likes</span>
+                                <h3>We must give title here</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <div class="row reset-margin">
+                                    <div class="col-6 reset-padding">
+                                        <span class="color-choice reset-margin">Color choice</span>
+                                        <ul class="d-flex color-selector mt-2">
+                                            <li style="background: #9D4EDD;"></li>
+                                            <li style="background: #FF570A;"></li>
+                                            <li style="background: #6EC630;"></li>
+                                            <li style="background: #EAAB3D;"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                </div>
+                                <div class="row card-last-button-sec ">
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card_block col-xl-6 col-lg-4 d-none  d-lg-block d-xl-none  reset-padding">
+                        <div class="card website_template">
+                            <div class="card_image"><img src="images/cardImages.png" class="card-img">
+                                <i class="fa fa-bookmark"></i>
+                                <i class="fa fa-thumbs-up "></i>
+                            </div>
+                            <div class="card_body mt-3">
+                                <button type="button">MINIMAL</button>
+                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
+                                <span class="d-none d-md-block">1245 likes</span>
+                                <h3>We must give title here</h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <div class="row reset-margin">
+                                    <div class="col-6 reset-padding">
+                                        <span class="color-choice reset-margin">Color choice</span>
+                                        <ul class="d-flex color-selector mt-2">
+                                            <li style="background: #9D4EDD;"></li>
+                                            <li style="background: #FF570A;"></li>
+                                            <li style="background: #6EC630;"></li>
+                                            <li style="background: #EAAB3D;"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                </div>
+                                <div class="row card-last-button-sec ">
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
                 </div>
             </div>
         </section>
         <!-- page nation -->
         <section class="website-pagenation">
-            <div class="container container-90 reset-padding"style="overflow:hidden;">
-            <nav aria-label="Page navigation example website-pagenation-nav">
-                <ul class="pagination website-pagenation-nav_ul reset-margin">
-                    <li class="page-item website-pagenation-nav_ul_li">
-                    <a class="page-link" href="#" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    </li>
-                    <li class="page-item section-num"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item section-num"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item section-num"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item section-num"><a class="page-link" href="#">4</a></li>
-                    <li class="page-item section-num"><a class="page-link" href="#">5</a></li>
-                    <li class="page-item section-num">
-                    <a class="page-link reset-margin" href="#" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="container container-90 reset-padding" style="overflow:hidden;">
+                <nav aria-label="Page navigation example website-pagenation-nav">
+                    <ul class="pagination website-pagenation-nav_ul reset-margin">
+                        <li class="page-item website-pagenation-nav_ul_li">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item section-num"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item section-num"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item section-num"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item section-num"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item section-num"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item section-num">
+                            <a class="page-link reset-margin" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </section>
         <!-- slide show -->
         <section class="slide-show-recent_cardview">
-           
+
             <div id="demo_1" class="container container-90 carousel slide reset-padding " data-ride="carousel">
-            <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
-				<div class="carousel-inner inner-slide">
-					<div class="carousel-item">
-						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>    
-						<div class="col-md-4 ads"><img src="images/Group 1199.png"></div>   
-						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>   
-					</div>
-					<div class="carousel-item active">
-						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
-						<div class="col-md-4  ads"><img src="images/Group 1199.png"></div>   
-						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
-					</div>
-					<div class="carousel-item">
-						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
-						<div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>   
-						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
-					</div>
-				        <a class="carousel-control-prev slide_position prev-section" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-					    <a class="carousel-control-next slide_position next-section" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
+                <div class="carousel-inner inner-slide">
+                    <div class="carousel-item">
+                        <div class="col-4 col-md-4  ads"><img src="images/card-image-1.png"></div>
+                        <div class="col-4 col-md-4  ads"><img src="images/card-image-2.png"></div>
+                        <div class="col-4 col-md-4  ads"><img src="images/card-image-3.png"></div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="col-4 col-md-4   ads"><img src="images/card-image-1.png"></div>
+                        <div class="col-4 col-md-4   ads"><img src="images/card-image-2.png"></div>
+                        <div class="col-4 col-md-4   ads"><img src="images/card-image-3.png"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-4 col-md-4   ads"><img src="images/card-image-1.png"></div>
+                        <div class="col-4 col-md-4  ads"><img src="images/card-image-2.png"> </div>
+                        <div class="col-4 col-md-4   ads"><img src="images/card-image-3.png"></div>
+                    </div>
+                    <--Left and right controls -->
+                        <a class="carousel-control-prev slide_position prev-section" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                        <a class="carousel-control-next slide_position next-section" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
                 </div>
             </div>
-            <div id="demo_2" class="container container-90 carousel slide card_slide reset-padding"  style="margin-top:76px;"data-ride="carousel">
-            <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
-				<div class="carousel-inner inner-slide ">
-					<div class="carousel-item">
-						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>    
-						<div class="col-md-4 ads"><img src="images/Group 1199.png"></div>   
-						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>   
-					</div>
-					<div class="carousel-item active">
-						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
-						<div class="col-md-4  ads"><img src="images/Group 1199.png"></div>   
-						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
-					</div>
-					<div class="carousel-item">
-						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
-						<div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>   
-						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
-					</div>
-				        <!-- Left and right controls -->
-						 <a class="carousel-control-prev slide_position prev-section" href="#demo_2" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-					    <a class="carousel-control-next slide_position next-section" href="#demo_2" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+            <div id="demo_2" class="container container-90 carousel slide card_slide reset-padding d-none d-md-block d-lg-block" style="margin-top:76px;" data-ride="carousel">
+                <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
+                <div class="carousel-inner inner-slide ">
+                    <div class="carousel-item">
+                        <div class="col-md-4  ads"><img src="images/card-image-1.png"></div>
+                        <div class="col-md-4  ads"><img src="images/card-image-2.png"></div>
+                        <div class="col-md-4    ads"><img src="images/card-image-3.png"></div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="col-md-4  ads"><img src="images/card-image-1.png"></div>
+                        <div class="col-md-4  ads"><img src="images/card-image-2.png"></div>
+                        <div class="col-md-4   ads"><img src="images/card-image-3.png"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-4  ads"><img src="images/card-image-1.png"></div>
+                        <div class="col-md-4  ads"><img src="images/card-image-2.png"> </div>
+                        <div class="col-md-4   ads"><img src="images/card-image-3.png"></div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev slide_position prev-section" href="#demo_2" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                    <a class="carousel-control-next slide_position next-section" href="#demo_2" data-slide="next"><span class="carousel-control-next-icon"></span></a>
                 </div>
             </div>
         </section>
-        
-        
+
+
 
 
         <!-- footer -->
         <section class="footer-section">
-            <?php  include 'includes/footer.php'; ?>
+            <?php include 'includes/footer.php'; ?>
         </section>
     </main>
-    
-    <?php 
-        include 'includes/sidebar.php';
-        include 'model.php'; 
+
+    <?php
+    include 'includes/sidebar.php';
+    include 'model.php';
     ?>
 
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.js"></script>
-    
+
     <script src="js/modernizr.js"></script>
-    <script src="js/js-offcanvas.pkgd.js"></script> 
+    <script src="js/js-offcanvas.pkgd.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/mobile_menu.js"></script>
     <script src="js/main.js"></script>
-    
+
     <script type="text/javascript">
         $(document).ready(function() {
 
-            
 
-            // breakpoint and up  
-            $(window).resize(function(){
-                if ($(window).width() >= 980){	
+
+            // breakpoint and up
+            $(window).resize(function() {
+                if ($(window).width() >= 980) {
                     $(".megamenu").on("click", function(e) {
                         e.stopPropagation();
                     });
-                }	
-            });  
+                }
+            });
             $(document).on('change', '#file', function() {
                 filePreview(this);
             });
@@ -883,40 +1108,47 @@
                     var url = URL.createObjectURL(input.files[0]);
                     var img = new Image();
                     img.src = url;
-                    img.onload = function()
-                    {
+                    img.onload = function() {
                         $(".pr-W").html(this.width);
                         $(".pr-H").html(this.height);
                         $(".fl-type").html(input.files[0].type)
                     }
-                    
-                    reader.onload = function (e) {
+
+                    reader.onload = function(e) {
                         $('#imgPreview + img').remove();
-                        $('#imgPreview').after('<img src="'+e.target.result+'" class="pic-view" style="max-width:100%"/>');
+                        $('#imgPreview').after('<img src="' + e.target.result + '" class="pic-view" style="max-width:100%"/>');
                     };
                     reader.readAsDataURL(input.files[0]);
                     $('.img-preview').show();
-                }else{
+                } else {
                     $('#imgPreview + img').remove();
                     $('.img-preview').hide();
-                    
+
                 }
 
-                
+
             }
         });
 
-		$( function(){
-                
+        $(function() {
+
             var rotation = 0;
             $("#rright").click(function() {
-                rotation = (rotation -90) % 360;
-                $(".pic-view").css({'transform': 'rotate('+rotation+'deg)'});
+                rotation = (rotation - 90) % 360;
+                $(".pic-view").css({
+                    'transform': 'rotate(' + rotation + 'deg)'
+                });
                 $(".pic-view").parent().height($(".pic-view").height())
-                if(rotation != 0){
-                    $(".pic-view").css({'height': 'auto','max-width':'100%'});
-                }else{
-                    $(".pic-view").css({'height': 'auto','max-width':'100%'});
+                if (rotation != 0) {
+                    $(".pic-view").css({
+                        'height': 'auto',
+                        'max-width': '100%'
+                    });
+                } else {
+                    $(".pic-view").css({
+                        'height': 'auto',
+                        'max-width': '100%'
+                    });
                 }
                 $('#rotation').val(rotation);
                 $('.pr-W').html("");
@@ -924,18 +1156,26 @@
                 $('.pr-H').html("");
                 $('.pr-H').html($(".pic-view").height());
                 // $(".pic-view").css({'height': $(".pic-view").height()});
-                
-                
+
+
             });
-            
+
             $("#rleft").click(function() {
                 rotation = (rotation + 90) % 360;
-                $(".pic-view").css({'transform': 'rotate('+rotation+'deg)'});
+                $(".pic-view").css({
+                    'transform': 'rotate(' + rotation + 'deg)'
+                });
                 $(".pic-view").parent().height($(".pic-view").height())
-                if(rotation != 0){
-                    $(".pic-view").css({'height': 'auto','max-width':'100%'});
-                }else{
-                    $(".pic-view").css({'height': 'auto','max-width':'100%'});
+                if (rotation != 0) {
+                    $(".pic-view").css({
+                        'height': 'auto',
+                        'max-width': '100%'
+                    });
+                } else {
+                    $(".pic-view").css({
+                        'height': 'auto',
+                        'max-width': '100%'
+                    });
                 }
                 $('#rotation').val(rotation);
                 $('.pr-W').html("");
@@ -945,60 +1185,61 @@
             });
 
 
-			$( document ).on( "create.offcanvas", function( e ){
-				var dataOffcanvas = $( e.target ).data('offcanvas-component');
-				console.log(dataOffcanvas);
-				dataOffcanvas.onOpen =  function() {
-					console.log('Callback onOpen');
-				};
-				dataOffcanvas.onClose =  function() {
-					console.log('Callback onClose');
-				};
+            $(document).on("create.offcanvas", function(e) {
+                var dataOffcanvas = $(e.target).data('offcanvas-component');
+                console.log(dataOffcanvas);
+                dataOffcanvas.onOpen = function() {
+                    console.log('Callback onOpen');
+                };
+                dataOffcanvas.onClose = function() {
+                    console.log('Callback onClose');
+                };
 
-			} );
+            });
 
-			var leftOffcanvas;
-			function openOffcanvas () {
-				leftOffcanvas.open();
+            var leftOffcanvas;
+
+            function openOffcanvas() {
+                leftOffcanvas.open();
             }
             window.openOffcanvas = openOffcanvas;
 
-			$( '#left' ).on( "create.offcanvas", function( e ){
-				leftOffcanvas = $(this).data('offcanvas-component');
-				console.log(leftOffcanvas);
-			} );
+            $('#left').on("create.offcanvas", function(e) {
+                leftOffcanvas = $(this).data('offcanvas-component');
+                console.log(leftOffcanvas);
+            });
 
-			$('.js-open-offcanvas').on('click', function () {
+            $('.js-open-offcanvas').on('click', function() {
                 openOffcanvas();
-			});
+            });
 
-			$( document ).trigger( "enhance" );
+            $(document).trigger("enhance");
 
 
             //attatch click event to the checkbox, then, based on the checked checkboxes to add value to the tags input.
             var filterDiv = $(".filter-option").width();
             $(".dropdown-menu.megamenu").width(filterDiv);
             $(".bootstrap-tagsinput").width(filterDiv);
-            
-            $('.dropdown-menu,.tagsBox').on("click.bs.dropdown", function (e) {  
-                e.stopPropagation();                          
+
+            $('.dropdown-menu,.tagsBox').on("click.bs.dropdown", function(e) {
+                e.stopPropagation();
             });
-            
-            $('.dropdown').on('show.bs.dropdown', function () {
+
+            $('.dropdown').on('show.bs.dropdown', function() {
                 $(this).parents('.navbar-nav').addClass('active');
                 var checkboxDiv = $(this).find('.megamenu').height();
-                $(".tagsBox").css("top",checkboxDiv+91);
+                $(".tagsBox").css("top", checkboxDiv + 91);
 
             });
-            $('.dropdown').on('hide.bs.dropdown', function () {
+            $('.dropdown').on('hide.bs.dropdown', function() {
                 $(this).parents('.navbar-nav').removeClass('active');
-                $(".tagsBox").css("top","48px");
+                $(".tagsBox").css("top", "48px");
             });
-            
-            $(".wrapper input[type='checkbox']").each(function (inde, item) {
-                $(item).click(function () {
+
+            $(".wrapper input[type='checkbox']").each(function(inde, item) {
+                $(item).click(function() {
                     var checkedvalue = [];
-                    $(".wrapper input[type='checkbox']:checked").each(function (index, ele) {
+                    $(".wrapper input[type='checkbox']:checked").each(function(index, ele) {
                         checkedvalue.push($(ele).val());
                     })
                     var result = checkedvalue.join(",");
@@ -1009,19 +1250,18 @@
             });
 
             //trace the tag remove event, then, based on the tags to checked/unchecked the checkbox
-            $("#tagsinput").on('itemRemoved', function () {
+            $("#tagsinput").on('itemRemoved', function() {
                 var valarray = $("#tagsinput").val().split(",");
-                $(".wrapper input[type='checkbox']").each(function (index, item) {
+                $(".wrapper input[type='checkbox']").each(function(index, item) {
                     if (jQuery.inArray($(item).val(), valarray) != -1) {
                         $(item).prop("checked", true);
-                    }
-                    else {
+                    } else {
                         $(item).prop("checked", false);
                     }
                 });
             });
 
-		});
+        });
 
         function myFilter() {
             var input, filter, ul, li, a, i, txtValue;
@@ -1076,9 +1316,8 @@
                 }
             }
         }
-
-        
     </script>
-    <script type="text/javascript" src="js/filter.js"></script>
+    <script src="js/filter.js"></script>
 </body>
+
 </html>
