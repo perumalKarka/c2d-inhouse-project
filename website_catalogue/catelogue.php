@@ -66,7 +66,7 @@
             <div class="container container-90 reset-padding">
                 <div class="row filter-option reset-margin">
                     <div class="col-7 align-self-center p-0">
-                        <nav class="wrapper navbar navbar-expand-md rounded">
+                        <nav class="wrapper navbar navbar-expand-md rounded d-none d-md-block">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
@@ -364,18 +364,27 @@
                                     </li>
 
                                 </ul>
-
-                                <div class="tagsBox">
-                                    <input type="text" data-role="tagsinput" id="tagsinput" name="tags" class="form-control">
+                                <div class="tagsBoxDropdown">
+                                    <div class="tagsBox">
+                                        <input type="text" data-role="tagsinput" id="tagsinput" name="tags" class="form-control">
+                                    </div>
+                                    <div class="d-none d-md-block d-xl-none tab-apply-bar">
+                                            <div class="row m-0">
+                                                <a class="col filter-bar text-center">Close</a>
+                                                <a class="col apply-filter text-center">Apply</a>
+                                            </div>
+                                    </div>
                                 </div>
-
                             </div>
 
                         </nav>
 
                         <nav class="d-block d-md-none header-nav">
                             <div class="hamburger">
-                                <img src="images/menu-filter-bar.svg" class="filter-bar filter-open-bar" />
+                                <label class="filter-bar filter-open-bar">
+                                    <img src="images/menu-filter-bar.svg" />
+                                    Filters
+                                </label>
                                 <div class="filter-close-bar">
                                     <div class="row m-0">
                                         <a class="col filter-bar text-center">Close</a>
@@ -1220,20 +1229,19 @@
             var filterDiv = $(".filter-option").width();
             $(".dropdown-menu.megamenu").width(filterDiv);
             $(".bootstrap-tagsinput").width(filterDiv);
-
-            $('.dropdown-menu,.tagsBox').on("click.bs.dropdown", function(e) {
+            $(".tab-apply-bar").css("width", filterDiv);
+            $('.dropdown-menu,.tagsBoxDropdown').on("click.bs.dropdown", function(e) {
                 e.stopPropagation();
             });
 
             $('.dropdown').on('show.bs.dropdown', function() {
                 $(this).parents('.navbar-nav').addClass('active');
                 var checkboxDiv = $(this).find('.megamenu').height();
-                $(".tagsBox").css("top", checkboxDiv + 91);
-
+                $(".tagsBoxDropdown").css("top", checkboxDiv + 91);
             });
             $('.dropdown').on('hide.bs.dropdown', function() {
                 $(this).parents('.navbar-nav').removeClass('active');
-                $(".tagsBox").css("top", "48px");
+                $(".tagsBoxDropdown").css("top", "48px");
             });
 
             $(".wrapper input[type='checkbox']").each(function(inde, item) {
