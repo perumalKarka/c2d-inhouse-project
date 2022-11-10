@@ -824,125 +824,120 @@
     color: #383838;
     opacity: 1;
   }
-  .modal .logo-upload
-  {
-    max-width:80%;
-   margin-top: 40px !important;
-   margin-bottom: 85px !important;
-}
-.logo-content h2.logo-heading{
-font-size:24px;
-color: white;
-  padding:10px 0px 20px 0px;
-  margin: 0px;
+  .modal .logo-upload {
+    max-width: 80%;
+    margin-top: 40px !important;
+    margin-bottom: 85px !important;
+  }
+  .logo-content h2.logo-heading {
+    font-size: 24px;
+    color: white;
+    padding: 10px 0px 20px 0px;
+    margin: 0px;
 
-  line-height: inherit;
-  text-align: left;
-}
-.logo-heading {
-   padding: 0px 20px 20px 20px;
-}
-p.logo-subcondent{
- font-size:14px;
- margin-top:20px!important;
-}
-.logoupload-1 button.preview {
- margin-top:23px;
-   float: right;
-   background: var(--unnamed-color-3ebdcc) 0% 0% no-repeat padding-box;
-   background: #3EBDCC 0% 0% no-repeat padding-box;
-   border-radius: 6px;
-   padding: 7px 34px;
-   text-align: center;
-   font-size: 18px;
-   letter-spacing: 0px;
-   color: #FFFFFF;
-   opacity: 1;
-
-
-
-}
-.site-name {
-  margin-top: 60px;
-}
-.logo-skip{
- margin-left: -30px;
-float: right;
-margin-top: 0px;
-}
-.logo-skip a{
- padding: 7px 24px;
-}
-p.logo-condent {
- text-align: left;
- font-size: 14px;
- letter-spacing: 0px;
- color: #AAAAAA;
- opacity: 1;
- margin: 0px;
- padding-top:5px!important;
-}
-h2.logo-title {
-  margin-top:20px;
- font-size: 24px;
- letter-spacing: 0px;
- color: #3EBDCC;
- opacity: 1;
-}
-.file-upload-wrapper input#file {
- opacity: 0;
- position: absolute;
- top: 0;
- right: 0;
- bottom: 0;
- left: 0;
- z-index: 99;
- height: 78.5px;
- margin: 0;
- padding: 0;
- display: block;
- cursor: pointer;
- width: 250px;
-}
-.file-upload-wrapper:before {
-content: "Upload Logo";
-position: absolute;
-top: 0;
-left: 35%;
-display: inline-block;
-width: 169px;
-background: #1F1F1F;
-border:1px solid #3EBDCC;
-border-radius: 6px;
-color: #3EBDCC;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 28px;
-letter-spacing: -0.015em;
-padding: 13.5px 0;
-z-index: 25;
-text-align: center;
-pointer-events: none;
-}
-.logoupload_content .close{
-  color: #3ebdcc;
-  opacity: 1;
-  text-shadow: none;
-  font-size: 35px;
-  position: absolute;
-  right:22px;
-  top: -5%;
-
-}
-.upload-logo {
-  padding-right: 20px;
-  padding-left: 25px;
-  margin-bottom:25px!important;
-}
-form.logo-popup-form {
-  padding: 20px 25px;
-}
+    line-height: inherit;
+    text-align: left;
+  }
+  .logo-heading {
+    padding: 0px 20px 20px 20px;
+  }
+  p.logo-subcondent {
+    font-size: 14px;
+    margin-top: 20px !important;
+  }
+  .logoupload-1 button.preview {
+    margin-top: 23px;
+    float: right;
+    background: var(--unnamed-color-3ebdcc) 0% 0% no-repeat padding-box;
+    background: #3ebdcc 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    padding: 7px 34px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  .site-name {
+    margin-top: 60px;
+  }
+  .logo-skip {
+    margin-left: -30px;
+    float: right;
+    margin-top: 0px;
+  }
+  .logo-skip a {
+    padding: 7px 24px;
+  }
+  p.logo-condent {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #aaaaaa;
+    opacity: 1;
+    margin: 0px;
+    padding-top: 5px !important;
+  }
+  h2.logo-title {
+    margin-top: 20px;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #3ebdcc;
+    opacity: 1;
+  }
+  .file-upload-wrapper input#file {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    height: 78.5px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    width: 250px;
+  }
+  .file-upload-wrapper:before {
+    content: "Upload Logo";
+    position: absolute;
+    top: 0;
+    left: 35%;
+    display: inline-block;
+    width: 169px;
+    background: #1f1f1f;
+    border: 1px solid #3ebdcc;
+    border-radius: 6px;
+    color: #3ebdcc;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    padding: 13.5px 0;
+    z-index: 25;
+    text-align: center;
+    pointer-events: none;
+  }
+  .logoupload_content .close {
+    color: #3ebdcc;
+    opacity: 1;
+    text-shadow: none;
+    font-size: 35px;
+    position: absolute;
+    right: 22px;
+    top: -5%;
+  }
+  .upload-logo {
+    padding-right: 20px;
+    padding-left: 25px;
+    margin-bottom: 25px !important;
+  }
+  form.logo-popup-form {
+    padding: 20px 25px;
+  }
 }
 
 /* small device */
@@ -1428,7 +1423,6 @@ form.logo-popup-form {
     right: 4px;
     top: -9%;
   }
-  
 
   .thanksmessage-wrapper {
     margin-top: 25px;
@@ -1463,120 +1457,165 @@ form.logo-popup-form {
     color: #aaaaaa;
     opacity: 1;
   }
-  .modal .logo-upload
-  {
-    max-width:80%;
-   margin-top: 40px !important;
-   margin-bottom: 105px !important;
-}
-.logo-content h2.logo-heading{
-font-size:34px;
-color: white;
-  padding:0px 0px 20px 0px;
-  margin: 0px;
+  .modal .logo-upload {
+    max-width: 80%;
+    margin-top: 40px !important;
+    margin-bottom: 105px !important;
+  }
+  .logo-content h2.logo-heading {
+    font-size: 34px;
+    color: white;
+    padding: 0px 0px 20px 0px;
+    margin: 0px;
 
-  line-height: inherit;
-  text-align: left;
+    line-height: inherit;
+    text-align: left;
+  }
+  .logo-heading {
+    padding: 25px 20px 20px 20px;
+  }
+  p.logo-subcondent {
+    font-size: 14px;
+    margin-top: 20px !important;
+  }
+  .logoupload-1 button.preview {
+    margin-top: 23px;
+    float: right;
+    background: var(--unnamed-color-3ebdcc) 0% 0% no-repeat padding-box;
+    background: #3ebdcc 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    padding: 17px 34px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  .logo-skip {
+    margin-left: -30px;
+    float: right;
+    margin-top: 0px;
+  }
+  .logo-skip a {
+    padding: 7px 24px;
+  }
+  p.logo-condent {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #aaaaaa;
+    opacity: 1;
+    margin: 0px;
+    padding-top: 5px !important;
+  }
+  h2.logo-title {
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #3ebdcc;
+    opacity: 1;
+  }
+  .file-upload-wrapper input#file {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    height: 78.5px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    width: 250px;
+  }
+  .file-upload-wrapper:before {
+    content: "Upload Logo";
+    position: absolute;
+    top: 0;
+    left: 55%;
+    display: inline-block;
+    width: 169px;
+    background: #1f1f1f;
+    border: 1px solid #3ebdcc;
+    border-radius: 6px;
+    color: #3ebdcc;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    padding: 13.5px 0;
+    z-index: 25;
+    text-align: center;
+    pointer-events: none;
+  }
+  .logoupload_content .close {
+    color: #3ebdcc;
+    opacity: 1;
+    text-shadow: none;
+    font-size: 35px;
+    position: absolute;
+    right: 22px;
+    top: -3%;
+  }
+  .upload-logo {
+    padding-left: 25px;
+    margin-bottom: 0px;
+  }
+  form.logo-popup-form {
+    padding: 20px 25px;
+  }
+  .modal .by-copy-right-page .by-copyright-content button.close{
+    right: 28px;
+    top: 0%;
+    color: #3EBDCC;
+      opacity: 1;
+      text-shadow: none;
+      font-size: 50px;
+      position: absolute;
+  }
+  .modal .by-copy-right-page {
+    margin-top: 40px!important;
+    margin-bottom: 0px!important;
 }
-.logo-heading {
-   padding: 25px 20px 20px 20px;
+.by-copy-right-page-form label{
+  font-size:20px;
 }
-p.logo-subcondent{
- font-size:14px;
- margin-top:20px!important;
-}
-.logoupload-1 button.preview {
- margin-top:23px;
-   float: right;
-   background: var(--unnamed-color-3ebdcc) 0% 0% no-repeat padding-box;
-   background: #3EBDCC 0% 0% no-repeat padding-box;
-   border-radius: 6px;
-   padding: 17px 34px;
-   text-align: center;
-   font-size: 18px;
-   letter-spacing: 0px;
-   color: #FFFFFF;
-   opacity: 1;
-
-
-
-}
-.logo-skip{
- margin-left: -30px;
-float: right;
-margin-top: 0px;
-}
-.logo-skip a{
- padding: 7px 24px;
-}
-p.logo-condent {
- text-align: left;
- font-size: 14px;
- letter-spacing: 0px;
- color: #AAAAAA;
- opacity: 1;
- margin: 0px;
- padding-top:5px!important;
-}
-h2.logo-title {
- font-size: 24px;
- letter-spacing: 0px;
- color: #3EBDCC;
- opacity: 1;
-}
-.file-upload-wrapper input#file {
- opacity: 0;
- position: absolute;
- top: 0;
- right: 0;
- bottom: 0;
- left: 0;
- z-index: 99;
- height: 78.5px;
- margin: 0;
- padding: 0;
- display: block;
- cursor: pointer;
- width: 250px;
-}
-.file-upload-wrapper:before {
-content: "Upload Logo";
-position: absolute;
-top: 0;
-left: 55%;
-display: inline-block;
-width: 169px;
-background: #1F1F1F;
-border:1px solid #3EBDCC;
-border-radius: 6px;
-color: #3EBDCC;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 28px;
-letter-spacing: -0.015em;
-padding: 13.5px 0;
-z-index: 25;
-text-align: center;
-pointer-events: none;
-}
-.logoupload_content .close{
-  color: #3ebdcc;
-  opacity: 1;
-  text-shadow: none;
-  font-size: 35px;
-  position: absolute;
-  right:22px;
-  top: -3%;
-
-}
-.upload-logo {
-  padding-left: 25px;
+label.copyright-field{
+  margin-left:75%;
   margin-bottom:0px;
 }
-form.logo-popup-form {
-  padding: 20px 25px;
+.buy-message-subcondent h3 {
+  
+  font-size: 15px;
+  padding-top: 0px;
+  padding-bottom: 25px;
 }
+.message-subcondent {
+  font-size:15px;
+  text-align: center;
+  padding-top: 10px;
+}
+.Buy-Copyright-cahee{
+  text-align: -webkit-center;
+}
+button.Buy-Copyright{
+  padding: 10px 60px;
+  
+}
+.by-copy-right-page-form h2{
+  font-size:34px;
+  text-align: left;
+}
+img.copy-right-template {
+  width: 246px;
+}
+.request-popup-form .form-group:nth-child(odd) {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 }
 
 /* medium device */
@@ -2163,7 +2202,7 @@ form.logo-popup-form {
     left: 50%;
     bottom: 140px;
     position: absolute;
-    top:inherit;
+    top: inherit;
   }
   .catalogue-firstSection .searchBox input {
     background-color: transparent;
@@ -2190,7 +2229,7 @@ form.logo-popup-form {
     color: #383838;
     opacity: 1;
   }
-  .filtersection{
+  .filtersection {
     position: relative;
   }
   .request {
@@ -2198,7 +2237,7 @@ form.logo-popup-form {
     left: 52%;
     top: 50px;
   }
-  .catelogue-page .cardsection{
+  .catelogue-page .cardsection {
     margin-top: 58px;
   }
   .card_body button {
@@ -2290,58 +2329,54 @@ form.logo-popup-form {
     width: 100%;
     max-width: 90%;
   }
-  .modal .logo-upload
-   {
-     max-width:85%;
+  .modal .logo-upload {
+    max-width: 85%;
     margin-top: 134px !important;
     margin-bottom: 120px !important;
-}
-.logo-content h2.logo-heading{
- font-size:40px;
- color: white;
-   padding:0px 0px 20px 0px;
-   margin: 0px;
+  }
+  .logo-content h2.logo-heading {
+    font-size: 40px;
+    color: white;
+    padding: 0px 0px 20px 0px;
+    margin: 0px;
 
-   line-height: inherit;
-   text-align: left;
-}
-.logo-heading {
+    line-height: inherit;
+    text-align: left;
+  }
+  .logo-heading {
     padding: 40px 50px 20px 50px;
-}
-p.logo-subcondent{
-  margin-top:20px!important;
-}
-.logoupload-1 button.preview {
-  margin-top:23px;
+  }
+  p.logo-subcondent {
+    margin-top: 20px !important;
+  }
+  .logoupload-1 button.preview {
+    margin-top: 23px;
     float: right;
     background: var(--unnamed-color-3ebdcc) 0% 0% no-repeat padding-box;
-    background: #3EBDCC 0% 0% no-repeat padding-box;
+    background: #3ebdcc 0% 0% no-repeat padding-box;
     border-radius: 6px;
     padding: 16px 49px;
     text-align: center;
     font-size: 24px;
     letter-spacing: 0px;
-    color: #FFFFFF;
+    color: #ffffff;
     opacity: 1;
-
-
-
-}
-.logo-skip{
-  margin-left: 20px;
-float: right;
-margin-top: 21px;
-}
-.logo-skip a{
-  padding: 16px 94px;
-}
-h2.logo-title {
+  }
+  .logo-skip {
+    margin-left: 20px;
+    float: right;
+    margin-top: 21px;
+  }
+  .logo-skip a {
+    padding: 16px 94px;
+  }
+  h2.logo-title {
     font-size: 50px;
     letter-spacing: 0px;
-    color: #3EBDCC;
+    color: #3ebdcc;
     opacity: 1;
-}
-.file-upload-wrapper input#file {
+  }
+  .file-upload-wrapper input#file {
     opacity: 0;
     position: absolute;
     top: 0;
@@ -2355,50 +2390,91 @@ h2.logo-title {
     display: block;
     cursor: pointer;
     width: 250px;
+  }
+  .file-upload-wrapper:before {
+    content: "Upload Logo";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 232px;
+    background: #1f1f1f;
+    border: 1px solid #3ebdcc;
+    border-radius: 6px;
+    color: #3ebdcc;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    padding: 21.5px 0;
+    z-index: 25;
+    text-align: center;
+    pointer-events: none;
+  }
+  a.logo-skip {
+    background: #1f1f1f 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 8px #0000009e;
+    border: 1px solid #3ebdcc;
+    border-radius: 6px;
+    opacity: 1;
+    text-align: left;
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #3ebdcc;
+    opacity: 1;
+    padding: 16px 80px;
+  }
+  .upload-logo {
+    padding: 40px 50px 0px 50px;
+  }
+  .site-name {
+    margin-top: 80px;
+  }
+  .modal .by-copy-right-page .by-copyright-content button.close{
+    right: 28px;
+    top: 0%;
+    color: #3EBDCC;
+      opacity: 1;
+      text-shadow: none;
+      font-size: 35px;
+      position: absolute;
+  }
+  .modal .by-copy-right-page {
+    margin-top: 78px!important;
+    margin-bottom: 0px!important;
 }
-.file-upload-wrapper:before {
-  content: "Upload Logo";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  width: 232px;
-  background: #1F1F1F;
-  border:1px solid #3EBDCC;
-  border-radius: 6px;
-  color: #3EBDCC;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: -0.015em;
-  padding: 21.5px 0;
-  z-index: 25;
+.by-copy-right-page-form label{
+  font-size:20px;
+}
+label.copyright-field{
+  margin-left:75%;
+  margin-bottom:0px;
+}
+.buy-message-subcondent h3 {
+  
+  font-size: 15px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+.message-subcondent {
+  font-size:15px;
   text-align: center;
-  pointer-events: none;
+  padding-top: 10px;
 }
-a.logo-skip{
-   
-  background: #1F1F1F 0% 0% no-repeat padding-box;
-  box-shadow: 0px 4px 8px #0000009e;
-  border: 1px solid #3EBDCC;
-  border-radius: 6px;
-  opacity: 1;
-  text-align: left;
-  font-size: 25px;
-  letter-spacing: 0px;
-  color: #3EBDCC;
-  opacity: 1;
-  padding: 16px 80px;
-
+.Buy-Copyright-cahee{
+  text-align: -webkit-center;
 }
-.upload-logo {
-  padding: 40px 50px 0px 50px;
+button.Buy-Copyright{
+  padding: 10px 60px;
+  
 }
-.site-name {
-  margin-top: 80px;
+.request-popup-form .form-group:nth-child(odd) {
+  padding-left: 0px;
+  padding-right: 20px;
 }
 
+}
 
 /* large device */
 
@@ -2898,53 +2974,107 @@ a.logo-skip{
     bottom: 140px;
     position: absolute;
   }
-  .logo-content h2.logo-heading{
-    font-size:60px;
+  .logo-content h2.logo-heading {
+    font-size: 60px;
     color: white;
-      padding:0px 0px 20px 0px;
-      margin: 0px;
-  
-      line-height: inherit;
-      text-align: left;
+    padding: 0px 0px 20px 0px;
+    margin: 0px;
+
+    line-height: inherit;
+    text-align: left;
   }
-  .modal .logo-upload
-     {
-       max-width:85%;
-      margin-top: 83px !important;
-      margin-bottom: 160px !important;
+  .modal .logo-upload {
+    max-width: 85%;
+    margin-top: 83px !important;
+    margin-bottom: 160px !important;
   }
-  p.logo-subcondent{
-    margin-top:20px!important;
+  p.logo-subcondent {
+    margin-top: 20px !important;
   }
-  
+
   .logo-heading {
-      padding: 50px 50px 20px 50px;
+    padding: 50px 50px 20px 50px;
   }
   .logoupload-1 button.preview {
-    margin-top:25px;
-      float: right;
-      background: var(--unnamed-color-3ebdcc) 0% 0% no-repeat padding-box;
-      background: #3EBDCC 0% 0% no-repeat padding-box;
-      border-radius: 6px;
-      padding: 16px 49px;
-      text-align: center;
-      font-size: 24px;
-      letter-spacing: 0px;
-      color: #FFFFFF;
-      opacity: 1;
-  
-  
-  
+    margin-top: 25px;
+    float: right;
+    background: var(--unnamed-color-3ebdcc) 0% 0% no-repeat padding-box;
+    background: #3ebdcc 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    padding: 16px 49px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
   }
-  .logo-skip{
+  .logo-skip {
     margin-right: 40px;
-  float: right;
-  margin-top: 27px;
+    float: right;
+    margin-top: 27px;
   }
- 
+  .modal .by-copy-right-page {
+    margin-top: 100px!important;
+    margin-bottom: 44px!important;
+}
+.by-copy-right-page form.by-copy-right-page-form{
+  padding:0px!important;
+}
+img.copy-right-template{
+  width:246px;
+}
+label.copy-title{
+  font-size:38px;
+}
+label.copy-subtitle{
+  font-size:28px;
+}
+.by-copyright-content input{
+  padding: 23px 20px;
+}
+.buy-message-subcondent{
+  padding-top:0px;
+  text-align: left;
+}
+.buy-message-subcondent h3{
+  max-width:70%;
+  font-size:18px;
+  padding-top:0px;
+  padding-bottom:40px;
+
+}
+.copyright-field label{
+  top: -255%;
+    position: absolute;
+    left: 48%;
+    font-size: 20px;
+    font-family: 'roboto-regular';
+
+}
+form.by-copy-right-page-form{
+  margin-top:46px;
+}
+button.Buy-Copyright{
+  float:right;
+}
+.modal .by-copy-right-page .by-copyright-content button.close{
+  right: -13px;
+  top: -3%;
+  color: #3EBDCC;
+    opacity: 1;
+    text-shadow: none;
+    font-size: 35px;
+    position: absolute;
+}
+.Buy-Copyright-cahee{
+  text-align: left;
 }
 
-/* extra large device */
+label.copyright-field {
+  margin-left: 15%;
+  margin-bottom: 0px;
+}
+}
 
 /* large scape */
 @media (min-width: 1200px) {
@@ -3349,7 +3479,7 @@ a.logo-skip{
   }
   .form-group {
     margin-bottom: 0px;
-    margin-top: 50px !important;
+    margin-top: 48px !important;
   }
   .requestmodal_content h3 {
     font-size: 18px;
@@ -3557,38 +3687,73 @@ a.logo-skip{
     font-size: 60px;
     line-height: inherit;
     text-align: inherit;
-}
-.modal .logo-upload
-   {
+  }
+  .modal .logo-upload {
     margin-top: 150px !important;
     margin-bottom: 160px !important;
-}
-.logoupload_content button.close{
-  color: #3ebdcc;
+  }
+  .logoupload_content button.close {
+    color: #3ebdcc;
     opacity: 1;
     text-shadow: none;
     font-size: 35px;
     position: absolute;
     right: -19px;
     top: -13%;
-}
-p.logo-condent {
-  text-align: left;
-  font-size: 24px;
-  letter-spacing: 0px;
-  color: #AAAAAA;
-  opacity: 1;
-  margin: 0px;
-  padding-top: 5px!important;
-}
-p.logo-subcondent {
-  font-size:18px;
-  margin-top: 20px!important;
-}
-.logo-skip {
-  margin: 0px;
-  float: left;
-  
-}
+  }
+  p.logo-condent {
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #aaaaaa;
+    opacity: 1;
+    margin: 0px;
+    padding-top: 5px !important;
+  }
+  p.logo-subcondent {
+    font-size: 18px;
+    margin-top: 20px !important;
+  }
+  .logo-skip {
+    margin: 0px;
+    float: left;
+  }
+  .modal .by-copy-right-page{
+    margin-top:147px!important;
+    margin-bottom:100px!important;
 
+  }
+  .copyright-field label{
+    position:unset;
+  
+  }
+  label.copy-title {
+    font-size: 24px;
+}
+label.copy-subtitle {
+  font-size: 20px;
+}
+img.copy-right-template {
+  width: 150px;
+}
+ 
+  .buy-message-subcondent label{
+    font-size:20px;
+    margin-bottom:15px;
+  }
+  button.Buy-Copyright{
+    font-size:24px;
+    padding:13px 92px;
+
+  }
+  .Buy-Copyright-cahee{
+    align-self: flex-end;
+  }
+  .buy-message-subcondent h3 {
+    max-width: 100%;
+  }
+  label.copyright-field {
+    margin-left: 68%;
+    margin-bottom: 0px;
+  }
 }
