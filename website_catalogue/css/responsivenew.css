@@ -824,6 +824,125 @@
     color: #383838;
     opacity: 1;
   }
+  .modal .logo-upload
+  {
+    max-width:80%;
+   margin-top: 40px !important;
+   margin-bottom: 85px !important;
+}
+.logo-content h2.logo-heading{
+font-size:24px;
+color: white;
+  padding:10px 0px 20px 0px;
+  margin: 0px;
+
+  line-height: inherit;
+  text-align: left;
+}
+.logo-heading {
+   padding: 0px 20px 20px 20px;
+}
+p.logo-subcondent{
+ font-size:14px;
+ margin-top:20px!important;
+}
+.logoupload-1 button.preview {
+ margin-top:23px;
+   float: right;
+   background: var(--unnamed-color-3ebdcc) 0% 0% no-repeat padding-box;
+   background: #3EBDCC 0% 0% no-repeat padding-box;
+   border-radius: 6px;
+   padding: 7px 34px;
+   text-align: center;
+   font-size: 18px;
+   letter-spacing: 0px;
+   color: #FFFFFF;
+   opacity: 1;
+
+
+
+}
+.site-name {
+  margin-top: 60px;
+}
+.logo-skip{
+ margin-left: -30px;
+float: right;
+margin-top: 0px;
+}
+.logo-skip a{
+ padding: 7px 24px;
+}
+p.logo-condent {
+ text-align: left;
+ font-size: 14px;
+ letter-spacing: 0px;
+ color: #AAAAAA;
+ opacity: 1;
+ margin: 0px;
+ padding-top:5px!important;
+}
+h2.logo-title {
+  margin-top:20px;
+ font-size: 24px;
+ letter-spacing: 0px;
+ color: #3EBDCC;
+ opacity: 1;
+}
+.file-upload-wrapper input#file {
+ opacity: 0;
+ position: absolute;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ z-index: 99;
+ height: 78.5px;
+ margin: 0;
+ padding: 0;
+ display: block;
+ cursor: pointer;
+ width: 250px;
+}
+.file-upload-wrapper:before {
+content: "Upload Logo";
+position: absolute;
+top: 0;
+left: 35%;
+display: inline-block;
+width: 169px;
+background: #1F1F1F;
+border:1px solid #3EBDCC;
+border-radius: 6px;
+color: #3EBDCC;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 28px;
+letter-spacing: -0.015em;
+padding: 13.5px 0;
+z-index: 25;
+text-align: center;
+pointer-events: none;
+}
+.logoupload_content .close{
+  color: #3ebdcc;
+  opacity: 1;
+  text-shadow: none;
+  font-size: 35px;
+  position: absolute;
+  right:22px;
+  top: -5%;
+
+}
+.upload-logo {
+  padding-right: 20px;
+  padding-left: 25px;
+  margin-bottom:25px!important;
+}
+form.logo-popup-form {
+  padding: 20px 25px;
+}
 }
 
 /* small device */
@@ -1309,6 +1428,7 @@
     right: 4px;
     top: -9%;
   }
+  
 
   .thanksmessage-wrapper {
     margin-top: 25px;
@@ -1343,6 +1463,120 @@
     color: #aaaaaa;
     opacity: 1;
   }
+  .modal .logo-upload
+  {
+    max-width:80%;
+   margin-top: 40px !important;
+   margin-bottom: 105px !important;
+}
+.logo-content h2.logo-heading{
+font-size:34px;
+color: white;
+  padding:0px 0px 20px 0px;
+  margin: 0px;
+
+  line-height: inherit;
+  text-align: left;
+}
+.logo-heading {
+   padding: 25px 20px 20px 20px;
+}
+p.logo-subcondent{
+ font-size:14px;
+ margin-top:20px!important;
+}
+.logoupload-1 button.preview {
+ margin-top:23px;
+   float: right;
+   background: var(--unnamed-color-3ebdcc) 0% 0% no-repeat padding-box;
+   background: #3EBDCC 0% 0% no-repeat padding-box;
+   border-radius: 6px;
+   padding: 17px 34px;
+   text-align: center;
+   font-size: 18px;
+   letter-spacing: 0px;
+   color: #FFFFFF;
+   opacity: 1;
+
+
+
+}
+.logo-skip{
+ margin-left: -30px;
+float: right;
+margin-top: 0px;
+}
+.logo-skip a{
+ padding: 7px 24px;
+}
+p.logo-condent {
+ text-align: left;
+ font-size: 14px;
+ letter-spacing: 0px;
+ color: #AAAAAA;
+ opacity: 1;
+ margin: 0px;
+ padding-top:5px!important;
+}
+h2.logo-title {
+ font-size: 24px;
+ letter-spacing: 0px;
+ color: #3EBDCC;
+ opacity: 1;
+}
+.file-upload-wrapper input#file {
+ opacity: 0;
+ position: absolute;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ z-index: 99;
+ height: 78.5px;
+ margin: 0;
+ padding: 0;
+ display: block;
+ cursor: pointer;
+ width: 250px;
+}
+.file-upload-wrapper:before {
+content: "Upload Logo";
+position: absolute;
+top: 0;
+left: 55%;
+display: inline-block;
+width: 169px;
+background: #1F1F1F;
+border:1px solid #3EBDCC;
+border-radius: 6px;
+color: #3EBDCC;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 28px;
+letter-spacing: -0.015em;
+padding: 13.5px 0;
+z-index: 25;
+text-align: center;
+pointer-events: none;
+}
+.logoupload_content .close{
+  color: #3ebdcc;
+  opacity: 1;
+  text-shadow: none;
+  font-size: 35px;
+  position: absolute;
+  right:22px;
+  top: -3%;
+
+}
+.upload-logo {
+  padding-left: 25px;
+  margin-bottom:0px;
+}
+form.logo-popup-form {
+  padding: 20px 25px;
+}
 }
 
 /* medium device */
@@ -2056,7 +2290,115 @@
     width: 100%;
     max-width: 90%;
   }
+  .modal .logo-upload
+   {
+     max-width:85%;
+    margin-top: 134px !important;
+    margin-bottom: 120px !important;
 }
+.logo-content h2.logo-heading{
+ font-size:40px;
+ color: white;
+   padding:0px 0px 20px 0px;
+   margin: 0px;
+
+   line-height: inherit;
+   text-align: left;
+}
+.logo-heading {
+    padding: 40px 50px 20px 50px;
+}
+p.logo-subcondent{
+  margin-top:20px!important;
+}
+.logoupload-1 button.preview {
+  margin-top:23px;
+    float: right;
+    background: var(--unnamed-color-3ebdcc) 0% 0% no-repeat padding-box;
+    background: #3EBDCC 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    padding: 16px 49px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+
+
+}
+.logo-skip{
+  margin-left: 20px;
+float: right;
+margin-top: 21px;
+}
+.logo-skip a{
+  padding: 16px 94px;
+}
+h2.logo-title {
+    font-size: 50px;
+    letter-spacing: 0px;
+    color: #3EBDCC;
+    opacity: 1;
+}
+.file-upload-wrapper input#file {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    height: 78.5px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    width: 250px;
+}
+.file-upload-wrapper:before {
+  content: "Upload Logo";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 232px;
+  background: #1F1F1F;
+  border:1px solid #3EBDCC;
+  border-radius: 6px;
+  color: #3EBDCC;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.015em;
+  padding: 21.5px 0;
+  z-index: 25;
+  text-align: center;
+  pointer-events: none;
+}
+a.logo-skip{
+   
+  background: #1F1F1F 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 8px #0000009e;
+  border: 1px solid #3EBDCC;
+  border-radius: 6px;
+  opacity: 1;
+  text-align: left;
+  font-size: 25px;
+  letter-spacing: 0px;
+  color: #3EBDCC;
+  opacity: 1;
+  padding: 16px 80px;
+
+}
+.upload-logo {
+  padding: 40px 50px 0px 50px;
+}
+.site-name {
+  margin-top: 80px;
+}
+
 
 /* large device */
 
@@ -2556,6 +2898,50 @@
     bottom: 140px;
     position: absolute;
   }
+  .logo-content h2.logo-heading{
+    font-size:60px;
+    color: white;
+      padding:0px 0px 20px 0px;
+      margin: 0px;
+  
+      line-height: inherit;
+      text-align: left;
+  }
+  .modal .logo-upload
+     {
+       max-width:85%;
+      margin-top: 83px !important;
+      margin-bottom: 160px !important;
+  }
+  p.logo-subcondent{
+    margin-top:20px!important;
+  }
+  
+  .logo-heading {
+      padding: 50px 50px 20px 50px;
+  }
+  .logoupload-1 button.preview {
+    margin-top:25px;
+      float: right;
+      background: var(--unnamed-color-3ebdcc) 0% 0% no-repeat padding-box;
+      background: #3EBDCC 0% 0% no-repeat padding-box;
+      border-radius: 6px;
+      padding: 16px 49px;
+      text-align: center;
+      font-size: 24px;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+  
+  
+  
+  }
+  .logo-skip{
+    margin-right: 40px;
+  float: right;
+  margin-top: 27px;
+  }
+ 
 }
 
 /* extra large device */
@@ -3164,4 +3550,45 @@
     margin-top: 150px !important;
     margin-bottom: 160px !important;
   }
+  .logoupload-1 h2.form-heading {
+    color: white;
+    padding-bottom: 75px;
+    margin: 0px;
+    font-size: 60px;
+    line-height: inherit;
+    text-align: inherit;
+}
+.modal .logo-upload
+   {
+    margin-top: 150px !important;
+    margin-bottom: 160px !important;
+}
+.logoupload_content button.close{
+  color: #3ebdcc;
+    opacity: 1;
+    text-shadow: none;
+    font-size: 35px;
+    position: absolute;
+    right: -19px;
+    top: -13%;
+}
+p.logo-condent {
+  text-align: left;
+  font-size: 24px;
+  letter-spacing: 0px;
+  color: #AAAAAA;
+  opacity: 1;
+  margin: 0px;
+  padding-top: 5px!important;
+}
+p.logo-subcondent {
+  font-size:18px;
+  margin-top: 20px!important;
+}
+.logo-skip {
+  margin: 0px;
+  float: left;
+  
+}
+
 }

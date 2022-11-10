@@ -1,7 +1,7 @@
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" data-backdrop="static" aria-hidden="true">
     <div id="message"></div>
     <div class="modal-dialog container-80 requestform-popup-page">
-        
+
     <h2 class="form-heading d-block d-sm-block d-md-none d-xl-block">Request for a new sector</h2>
         <div class="modal-content requestmodal_content">
             <div class="requestmodal_content">
@@ -9,7 +9,7 @@
                     <button type="button" class="close" data-dismiss="modal"  aria-label="Close">
                         <img src="images/closeicon.png">
                     </button>
-                </div> 
+                </div>
                 <form class="request-popup-form request-model-1">
                 <h2 class="form-heading d-none d-sm-none d-md-block d-xl-none">Request for a new sector</h2>
                     <div class="form-group">
@@ -36,40 +36,40 @@
                     </div>
                 </form>
             </div>
-            
+
         </div>
     </div>
 
-    
+
 </div>
 <!-- logo upload 1-->
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" data-backdrop="static" aria-hidden="true">
-    
+<div class="modal fade logoupload-1" id="exampleModal-1" tabindex="-1" aria-labelledby="exampleModalLabel" data-backdrop="static" aria-hidden="true">
+
     <div class="modal-dialog container-80 requestform-popup-page logo-upload">
-        <div class="modal-content">
+        <div class="modal-content logo-content">
             <div class="row skip-row reset-margin ">
-                                <div class="col-6"><h2 class= "form-heading">Lorem ipsum dolor sit amet, consetetur </h2></div>
-                                <div class="col-6 reset-padding align-self-center text-right">
-                                    <a class="btn btn-primary skip" href="#">Skip</a>
+                                <div class="col-xl-8 col-lg-12 col-md-12 col-8"><h2 class= "form-heading logo-heading">Lorem ipsum dolor sit amet, consetetur </h2></div>
+                                <div class="col-xl-4 col-4 d-block d-md-none d-xl-block logo-skip reset-padding align-self-center text-right">
+                                    <a class="btn btn-primary skip " href="#">Skip</a>
                                 </div>
             </div>
-            <div class="requestmodal_content">
+            <div class="requestmodal_content logoupload_content">
                 <div class="modal-header border-0">
                     <button type="button" class="close" data-dismiss="modal"  aria-label="Close">
                         <img src="images/closeicon.png">
                     </button>
-                </div> 
+                </div>
                 <div class="logo-heading">
-                
+
                     <h2 class="logo-title">Your Logo</h2>
                     <p class="logo-condent pt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea</p>
                 </div>
                 <hr class="horizontal-line"/>
-                
+
                 <div class="upload-logo border-0 ">
-                    <p class="logo-subcondent reset-margin">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+
                     <form method="post" action="upload.php" enctype="multipart/form-data">
                         <div class="file-upload-wrapper">
                         <input type="file" class="btn btn-primary skip" name="file" id="file" />
@@ -95,7 +95,7 @@
                                                 <label class="tool-label">Remove Background</label>
                                             </div>
                                             <div class="col-3">
-                                                
+
                                             </div>
                                         </div>
                                         <div class="form-group row m-0">
@@ -108,8 +108,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
-                                    
+
+
                                 </div>
                                 <div class="picpreview-col col-7 p-0">
                                     <div class="edit-panel-image d-flex align-items-center align-self-stretch">
@@ -121,14 +121,15 @@
                                 <button type="button" class="btn btn-primary btn-primary-outline btn-c2d-primary-sm float-left" name="submit" value="Upload">Cancel</button>
                                 <button type="submit" class="btn btn-primary btn-c2d-primary-sm float-right" name="submit" value="Upload">Upload</button>
                             </div>
-                            
+
                         </div>
 
-                        
+
                     </form>
-                    
+                    <p class="logo-subcondent ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+
                 </div>
-                
+
             </div>
         </div>
 
@@ -139,17 +140,27 @@
                     <p class="logo-condent pt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor </p>
                 </div>
                 <hr class="horizontal-line"/>
-                <form class="request-popup-form pt-0 pb-0">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control site-search-name" placeholder="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        <div class="input-group-append">
-                            <button class="btn  preview site-livepreview-button" type="button" id="inputGroupFileAddon04"><a href="livepreview.php" style="color:#fff;">Live preview</a></button>
-                        </div>
+                <form class="request-popup-form logo-popup-form pt-0 pb-0">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control site-search-name" placeholder="Lorem ipsum dolor sit amet," aria-label="Recipient's username" aria-describedby="basic-addon2">
+
+                </div>
+                <p class="logo-subcondent ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
                     </div>
                 </form>
-                <p class="logo-subcondent ml-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                
             </div>
+            <a class="btn btn-primary skip logo-skip d-none d-md-block d-xl-none" href="#">Skip</a>
+            <button class="btn  preview site-livepreview-button d-block d-md-block" type="button" id="inputGroupFileAddon04"><a href="livepreview.php" style="color:#fff;">Live preview</a></button>
+
         </div>
+        
+
+        
+        
+        
+
+
     </div>
 
 </div>
@@ -160,7 +171,7 @@
 <!-- Modal -->
 <div class="modal fade" id="exampleModal-1-a" tabindex="-1" aria-labelledby="exampleModalLabel" data-backdrop="static" aria-hidden="true">
     <div class="modal-dialog container-80 requestform-popup-page">
-        
+
 
         <div class="modal-content">
             <div class="row skip-row reset-margin ">
@@ -174,9 +185,9 @@
                     <button type="button" class="close" data-dismiss="modal"  aria-label="Close">
                         <img src="images/closeicon.png">
                     </button>
-                </div> 
+                </div>
                 <div class="logo-heading">
-                
+
                     <h2 class="logo-title">Your Logo</h2>
                     <p class="logo-condent pt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea</p>
                 </div>
@@ -199,7 +210,7 @@
                 <form class="request-popup-form pt-0 pb-0">
                 <div class="input-group mb-3">
                     <input type="text" class="form-control site-search-name" placeholder="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    
+
                 </div>
                 </form>
                 <p class="logo-subcondent reset-margin">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
@@ -208,11 +219,3 @@
     </div>
 
 </div>
-
-
-
-
-
-
-    
-
