@@ -938,7 +938,63 @@
   form.logo-popup-form {
     padding: 20px 25px;
   }
+  .modal .by-copy-right-page .by-copyright-content button.close{
+    right: 28px;
+    top: 0%;
+    color: #3EBDCC;
+      opacity: 1;
+      text-shadow: none;
+      font-size: 50px;
+      position: absolute;
+  }
+  .modal .by-copy-right-page {
+    margin-top: 40px!important;
+    margin-bottom: 0px!important;
 }
+.by-copy-right-page-form label{
+  font-size:13px;
+}
+label.copyright-field{
+  margin-left:75%;
+  margin-bottom:0px;
+}
+.buy-message-subcondent h3 {
+  
+  font-size: 14px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+.message-subcondent {
+  font-size:15px;
+  text-align: center;
+  padding-top: 10px;
+}
+.Buy-Copyright-cahee{
+  text-align: -webkit-center;
+}
+button.Buy-Copyright{
+  padding: 10px 60px;
+  
+}
+.by-copy-right-page-form h2{
+  font-size:20px;
+  text-align: left;
+}
+img.copy-right-template {
+  width: 100px;
+}
+.request-popup-form .form-group:nth-child(odd) {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.copyright-title {
+  display: inline-block;
+  margin-left: 5px;
+  align-self: flex-end;
+  margin-bottom: 0px;
+}
+}
+
 
 /* small device */
 
@@ -1580,7 +1636,7 @@
     margin-bottom: 0px!important;
 }
 .by-copy-right-page-form label{
-  font-size:20px;
+  font-size:16px;
 }
 label.copyright-field{
   margin-left:75%;
@@ -1609,12 +1665,13 @@ button.Buy-Copyright{
   text-align: left;
 }
 img.copy-right-template {
-  width: 246px;
+  width: 150px;
 }
 .request-popup-form .form-group:nth-child(odd) {
   padding-left: 0px;
   padding-right: 0px;
 }
+
 
 }
 
@@ -2472,6 +2529,12 @@ button.Buy-Copyright{
 .request-popup-form .form-group:nth-child(odd) {
   padding-left: 0px;
   padding-right: 20px;
+}
+.copyright-title {
+  display: inline-block;
+  margin-left: 30px;
+  align-self: flex-end;
+  margin-bottom: 0px;
 }
 
 }

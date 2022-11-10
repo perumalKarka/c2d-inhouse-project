@@ -125,7 +125,7 @@
                             </div>
                         </div>
                         <div class="row reset-margin message-subcondent buy-message-subcondent">
-                        <label for="inputPassword4" class="field copyright-field d-block d-lg-none"> <span class="required copyright-required">*</span> Fields required</label>
+                        <label for="inputPassword4" class="field copyright-field d-none d-md-block d-lg-none"> <span class="required copyright-required">*</span> Fields required</label>
                             <h3 class="message-condent">This site is protected by reCAPTCHA and the Google<span style="color:white;"> Privacy Policy </span>and <span style="color:white;">Terms of Conditions</span> apply.</h3>
                             
                             <div class="col-xl-6 col-lg-6 col-md-12 robotimage reset-padding g-recaptcha Buy-Copyright-cahee"data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
