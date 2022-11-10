@@ -62,8 +62,8 @@ font-style: normal;
   }
   .wrapper .navbar-nav .megamenu-li a.nav-link{
     color: #ffffff;
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: 30px;
     font-family: 'robotolight';
     padding:0;
   }
@@ -386,10 +386,19 @@ font-style: normal;
     border-left: 1px solid #5D5D5D;
   }
   .tab-apply-bar{
-    position: absolute;
-    right: 0;
-    left: 0;
-    z-index: 9999;
+    background: #1F1F1F;
+    box-shadow: 0 -3px 6px 0 rgb(0 0 0 / 52%);
+    padding: 16px 0;
+  }
+  .tab-apply-bar a{
+    color:#ffffff;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+
+  }
+  .tab-apply-bar .apply-filter{
+    color:#F4A41D;
   }
   .menu {
     display: none;

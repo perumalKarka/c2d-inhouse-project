@@ -263,6 +263,7 @@ color:#FFFFFF;
   border-radius: 4px;
   background: #3EBDCC;
   padding: 24px 0 29px 22px;
+  height:auto;
 }
 .main-nav ul li.lang-item ul{
   right: 0;

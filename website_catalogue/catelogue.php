@@ -103,45 +103,45 @@
                                         <div class="dropdown-menu megamenu" aria-labelledby="dropdown02">
                                             <input type="text" id="myInput" class="myfilter_textbox" onkeyup="myFilter()" placeholder="Search for your preference" />
                                             <div class="row m-0">
-                                                <div class="col-sm-4 col-lg-4 p-0">
+                                                <div class="col-sm-4 col-lg-3 col-xl-4 p-0">
                                                     <h3 class="cat-sub-title">B2C</h3>
                                                     <ul id="b2c_UL" class="row filter-option-lists m-0">
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Grocery Shop">
                                                                 <span class="checkmark"></span>
                                                                 <span class="checked-color">Grocery Shop</span>
                                                             </label>
                                                         </li>
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Financial Services">
                                                                 <span class="checkmark"></span>
                                                                 <span class="checked-color">Financial Services</span>
                                                             </label>
                                                         </li>
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Wine Shop">
                                                                 <span class="checkmark"></span>
                                                                 <span class="checked-color">Wine Shop</span>
                                                             </label>
                                                         </li>
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Plumbing Services">
                                                                 <span class="checkmark"></span>
                                                                 <span class="checked-color">Plumbing Services</span>
                                                             </label>
                                                         </li>
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Automotive">
                                                                 <span class="checkmark"></span>
                                                                 <span class="checked-color">Automotive</span>
                                                             </label>
                                                         </li>
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Movers & Packers">
                                                                 <span class="checkmark"></span>
@@ -150,45 +150,45 @@
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                <div class="col-sm-4 col-lg-4 pl-4 pr-4">
+                                                <div class="col-sm-4 col-lg-3 col-xl-4 pl-4 pr-4">
                                                     <h3 class="cat-sub-title">Category 2</h3>
                                                     <ul id="cat2_UL" class="row myUL filter-option-lists m-0">
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Communications">
                                                                 <span class="checkmark"></span>
                                                                 <span class="checked-color">Communications</span>
                                                             </label>
                                                         </li>
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Transport Services">
                                                                 <span class="checkmark"></span>
                                                                 <span class="checked-color">Transport Services</span>
                                                             </label>
                                                         </li>
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Postal Services">
                                                                 <span class="checkmark"></span>
                                                                 <span class="checked-color">Postal Services</span>
                                                             </label>
                                                         </li>
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Aviation">
                                                                 <span class="checkmark"></span>
                                                                 <span class="checked-color">Aviation</span>
                                                             </label>
                                                         </li>
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Pharmaceuticals">
                                                                 <span class="checkmark"></span>
                                                                 <span class="checked-color">Pharmaceuticals</span>
                                                             </label>
                                                         </li>
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Food Services">
                                                                 <span class="checkmark"></span>
@@ -197,45 +197,45 @@
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                <div class="col-sm-4 col-lg-4 p-0">
+                                                <div class="col-sm-4 col-lg-3 col-xl-4 p-0">
                                                     <h3 class="cat-sub-title">Category 3</h3>
                                                     <ul id="cat3_UL" class="row filter-option-lists m-0">
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Cosmetics">
                                                                 <span class="checkmark"></span>
                                                                 <span class="checked-color">Cosmetics</span>
                                                             </label>
                                                         </li>
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Tourism & Hospitality">
                                                                 <span class="checkmark"></span>
                                                                 <span class="checked-color">Tourism & Hospitality</span>
                                                             </label>
                                                         </li>
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="E-commerce site">
                                                                 <span class="checkmark"></span>
                                                                 <span class="checked-color">E-commerce site</span>
                                                             </label>
                                                         </li>
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Real Estate">
                                                                 <span class="checkmark"></span>
                                                                 <span class="checked-color">Real Estate</span>
                                                             </label>
                                                         </li>
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Banking Services">
                                                                 <span class="checkmark"></span>
                                                                 <span class="checked-color">Banking Services</span>
                                                             </label>
                                                         </li>
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Healthcare">
                                                                 <span class="checkmark"></span>
@@ -245,17 +245,17 @@
                                                     </ul>
                                                 </div>
 
-                                                <div class="col-sm-4 col-lg-4 p-0">
+                                                <div class="col-sm-4 col-lg-3 col-xl-4 p-0">
                                                     <h3 class="cat-sub-title">Health</h3>
                                                     <ul id="health_UL" class="row filter-option-lists m-0">
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Physiotheraphy">
                                                                 <span class="checkmark"></span>
                                                                 <span class="checked-color">Physiotheraphy</span>
                                                             </label>
                                                         </li>
-                                                        <li class="col-6 p-0">
+                                                        <li class="col-lg-12 col-xl-6 p-0">
                                                             <label class="contactform-check--label block-color">
                                                                 <input class="contactform-check--input" type="checkbox" value="Dentist">
                                                                 <span class="checkmark"></span>
@@ -1229,7 +1229,7 @@
             var filterDiv = $(".filter-option").width();
             $(".dropdown-menu.megamenu").width(filterDiv);
             $(".bootstrap-tagsinput").width(filterDiv);
-            $(".tab-apply-bar").css("width", filterDiv);
+            //$(".tab-apply-bar").css("width", filterDiv);
             $('.dropdown-menu,.tagsBoxDropdown').on("click.bs.dropdown", function(e) {
                 e.stopPropagation();
             });
