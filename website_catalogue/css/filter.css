@@ -91,6 +91,7 @@ font-style: normal;
     font-size:18px;
     line-height:30px;
     margin-bottom: 18px;
+    margin-right: 25px;
   }
   .sub-menu.filter-option-lists .contactform-check--label{
     font-size: 15px;
@@ -153,12 +154,24 @@ font-style: normal;
   .filtersection .navbar-nav.active + .tagsBoxDropdown{
     display: block; 
   }
-
+  @media screen and (min-width: 768px) {
+    .catelogue-page .cardsection {
+      margin-top:0;
+    }
+    .tagsBox{
+      height: 130px;
+      overflow: scroll;
+    }
+  }
   @media screen and (min-width: 992px) {
     .catelogue-page .cardsection {
       margin-top:0;
     }
+    .tagsBox{
+      height: 90px;
+    }
   }
+  
   .myfilter_textbox{
     background-image: url("../images/search_icon.png");
     background-position: 10px 12px;
@@ -344,7 +357,9 @@ font-style: normal;
     color: #fff;
     margin: 0;
   }
-
+  .hamburger .filter-open-bar:hover{
+    cursor:pointer;
+  }
   .hamburger .filter-close-bar,
   .hamburger.nav-open .filter-open-bar{
     display: none;
@@ -388,12 +403,12 @@ font-style: normal;
   .tab-apply-bar{
     background: #1F1F1F;
     box-shadow: 0 -3px 6px 0 rgb(0 0 0 / 52%);
-    padding: 16px 0;
+    padding:14px 0;
   }
   .tab-apply-bar a{
     color:#ffffff;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 26px;
     text-transform: uppercase;
 
   }

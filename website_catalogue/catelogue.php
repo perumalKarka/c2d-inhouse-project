@@ -545,7 +545,7 @@
                                 </li>
                                 <li class="has-submenu">
                                     <a href="#">Style</a>
-                                    <input type="text" id="myInput" class="myfilter_textbox" onkeyup="myFilter()" placeholder="Search by Color" />
+                                    <input type="text" id="myInput" class="myfilter_textbox" onkeyup="myFilter()" placeholder="Search by Style" />
                                     <ul class="sub-menu filter-option-lists" style="padding-top:8.5vh;">
                                         <li>
                                             <label class="contactform-check--label block-color">
@@ -1224,7 +1224,11 @@
 
             $(document).trigger("enhance");
 
-
+            $('.tab-apply-bar .filter-bar').on('click', function() {
+                $(".dropdown-menu.megamenu,.dropdown.megamenu-li").removeClass("show");
+                $(".navbar-nav").removeClass("active")
+            });
+            
             //attatch click event to the checkbox, then, based on the checked checkboxes to add value to the tags input.
             var filterDiv = $(".filter-option").width();
             $(".dropdown-menu.megamenu").width(filterDiv);
@@ -1236,15 +1240,20 @@
 
             $('.dropdown').on('show.bs.dropdown', function() {
                 $(this).parents('.navbar-nav').addClass('active');
+                
                 var checkboxDiv = $(this).find('.megamenu').height();
                 $(".tagsBoxDropdown").css("top", checkboxDiv + 91);
+                if ($(window).width() < 1200) {
+                    $(this).find('.megamenu').height(checkboxDiv+100);
+                }
+                
             });
             $('.dropdown').on('hide.bs.dropdown', function() {
                 $(this).parents('.navbar-nav').removeClass('active');
                 $(".tagsBoxDropdown").css("top", "48px");
             });
 
-            $(".wrapper input[type='checkbox']").each(function(inde, item) {
+            $(".wrapper input[type='checkbox']").each(function(inde, item){
                 $(item).click(function() {
                     var checkedvalue = [];
                     $(".wrapper input[type='checkbox']:checked").each(function(index, ele) {
@@ -1323,6 +1332,8 @@
                     health_li[i].style.display = "none";
                 }
             }
+
+
         }
     </script>
     <script src="js/filter.js"></script>
