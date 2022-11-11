@@ -65,7 +65,7 @@
         <section class="filtersection">
             <div class="container container-90 reset-padding">
                 <div class="row filter-option reset-margin">
-                    <div class="col-7 align-self-center p-0">
+                    <div class="col-7 col-md-12 col-lg-9 align-self-center p-0">
                         <nav class="wrapper navbar navbar-expand-md rounded d-none d-md-block">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
@@ -362,7 +362,11 @@
 
                                         </div>
                                     </li>
-
+                                    <li class="nav-item megamenu-li liked-li">
+                                        <a class="nav-link">
+                                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Liked <span class="badge badge-light">10</span>
+                                        </a>
+                                    </li>
                                 </ul>
                                 <div class="tagsBoxDropdown">
                                     <div class="tagsBox">
@@ -419,8 +423,8 @@
                                 </li>
                                 <li class="has-submenu">
                                     <a href="#">Business Type</a>
-                                    <input type="text" id="myInput" class="myfilter_textbox" onkeyup="myFilter()" placeholder="Search by Business" />
-                                    <ul class="sub-menu filter-option-lists" style="padding-top:7vh;">
+                                    <input type="text" id="myInput-tab" class="myfilter_textbox" onkeyup="myTabFilter()" placeholder="Search by Business" />
+                                    <ul id="b2c_tabUL" class="sub-menu filter-option-lists" style="padding-top:7vh;">
                                         <h3 class="title">Category 1</h3>
                                         <li class="sub-title">
                                             <label class="contactform-check--label block-color">
@@ -504,8 +508,8 @@
                                 </li>
                                 <li class="has-submenu">
                                     <a href="#">Color Scheme</a>
-                                    <input type="text" id="myInput" class="myfilter_textbox" onkeyup="myFilter()" placeholder="Search by Color" />
-                                    <ul class="sub-menu filter-option-lists" style="padding-top:7.5vh;">
+                                    <input type="text" id="myInput-tab" class="myfilter_textbox" onkeyup="myTabFilter()" placeholder="Search by Color" />
+                                    <ul id="color_tabUL" class="sub-menu filter-option-lists" style="padding-top:7.5vh;">
                                         <li>
                                             <label class="contactform-check--label block-color">
                                                 <input class="contactform-check--input" type="checkbox" value="Blue">
@@ -590,7 +594,7 @@
                         </nav>
 
                     </div>
-                    <div class="col-5 request p-0">
+                    <div class="col-5 col-md-12 col-lg-3 request p-0">
                         <button type="button" class="request-sector" data-toggle="modal" data-target="#exampleModal">Request a new sector</button>
                         <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button> -->
                     </div>
@@ -1032,9 +1036,8 @@
                         <div class="col-4 col-md-4  ads"><img src="images/card-image-2.png"> </div>
                         <div class="col-4 col-md-4   ads"><img src="images/card-image-3.png"></div>
                     </div>
-                    <--Left and right controls -->
-                        <a class="carousel-control-prev slide_position prev-section" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-                        <a class="carousel-control-next slide_position next-section" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                    <a class="carousel-control-prev slide_position prev-section" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                    <a class="carousel-control-next slide_position next-section" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
                 </div>
             </div>
             <div id="demo_2" class="container container-90 carousel slide card_slide reset-padding d-none d-md-block d-lg-block" style="margin-top:76px;" data-ride="carousel">
@@ -1280,11 +1283,39 @@
 
         });
 
+        function myTabFilter() {
+            var input, filter, ul, li, a, i, txtValue;
+            input = document.getElementById("myInput-tab");
+            filter = input.value.toUpperCase();
+            
+            b2c_ul = document.getElementById("b2c_tabUL");
+            b2c_li = b2c_ul.getElementsByTagName("li");
+            for (i = 0; i < b2c_li.length; i++) {
+                a = b2c_li[i].getElementsByTagName("label")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    b2c_li[i].style.display = "";
+                } else {
+                    b2c_li[i].style.display = "none";
+                }
+            }
+
+            color_ul = document.getElementById("color_tabUL");
+            color_li = color_ul.getElementsByTagName("li");
+            for (i = 0; i < color_li.length; i++) {
+                a = color_li[i].getElementsByTagName("label")[0];
+                txtValue = a.textContent || a.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    color_li[i].style.display = "";
+                } else {
+                    color_li[i].style.display = "none";
+                }
+            }
+        }
         function myFilter() {
             var input, filter, ul, li, a, i, txtValue;
             input = document.getElementById("myInput");
             filter = input.value.toUpperCase();
-
             b2c_ul = document.getElementById("b2c_UL");
             b2c_li = b2c_ul.getElementsByTagName("li");
             for (i = 0; i < b2c_li.length; i++) {

@@ -67,6 +67,22 @@ font-style: normal;
     font-family: 'robotolight';
     padding:0;
   }
+  .liked-li a.nav-link{
+    line-height: 40px!important;
+  }
+  .liked-li a.nav-link i{
+    margin-right: 8px;
+  }
+  .liked-li a.nav-link .badge{
+    border:1px solid #3EBDCC;
+    background: transparent;
+    color:#ffffff;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 7px;
+    border-radius: 50%;
+  }
+
   .megamenu {
     position: absolute;
     width: 100%;
@@ -94,7 +110,7 @@ font-style: normal;
     margin-right: 25px;
   }
   .sub-menu.filter-option-lists .contactform-check--label{
-    font-size: 15px;
+    font-size: 14px;
   }
   .sub-menu.filter-option-lists .contactform-check--label{
     margin-bottom: 0;
@@ -154,6 +170,8 @@ font-style: normal;
   .filtersection .navbar-nav.active + .tagsBoxDropdown{
     display: block; 
   }
+
+
   @media screen and (min-width: 768px) {
     .catelogue-page .cardsection {
       margin-top:0;
@@ -471,7 +489,7 @@ font-style: normal;
     position: fixed;
     top: 0;
     right: 0;
-    width: 60%;
+    width: 65%;
     height: 100vh;
     background: #1f1f1f;
     overflow: auto;
