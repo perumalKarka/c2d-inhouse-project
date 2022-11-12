@@ -45,7 +45,7 @@
         </section>
         
         <!-- top animation -->
-        <section class="whistlist-slide-section">
+        <section class="whistlist-slide-section d-none d-xl-block">
             <div class="container container-90 reset-padding">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators whislist-carousel-indicator">
@@ -79,11 +79,18 @@
 
         </section>
         <!-- end top animation -->
+            <section class="whistlist-thanks-condent d-block d-xl-none">
+                <div class="container container-85 reset-padding">
+                    <h2 >MY WISHLIST</h1>
+                    <h4> Thanks for showing interest in our services.</h4>
+                    <p>Want to learn more about our services? Select the services you want to enquire about from your wishlist and submit.</p>
+                </div>
+            </section>
         <!-- maintaince-section -->
 
         
         
-        <div id="main" class="accordian-top-section ">
+        <div id="main" class="accordian-top-section">
         
             <div class="accordion" id="faq">
                             <div class="card mb-5">
@@ -119,7 +126,7 @@
                                 </div>
 
                                 <div id="faq2" class="collapse container container-90 reset-padding" aria-labelledby="faqhead2" data-parent="#faq">
-                                <button type="button" class="template-button">Go to Templates</button>
+                                <button type="button" class="template-button d-none d-xl-block">Go to Templates</button>
                                     <div class="card-body">
                                         <div class="row reset-margin">
                                                 <div class="col-6"><h2 class="accordian-sub-title">LOREM IPSUM</h2></div>
@@ -134,7 +141,7 @@
                                         </div>      
                                     
                                         <div class="row slider-acordien-view reset-margin">
-                                            <div class="col-2 accoridan-slider-sec reset-padding"><img src="images/accoridanimage1.jpg" class="mw-100">
+                                            <div class="col-xl-2 col-6  accoridan-slider-sec reset-padding"><img src="images/accoridanimage1.jpg" class="mw-100">
                                                     <div class="form-group checkboxTop-block ">
                                                         <label class="contactform-check--label block-color">
                                                             <input class="contactform-check--input" type="checkbox" value="option1">
@@ -143,7 +150,7 @@
                                                         </label>
                                                         </div>
                                             </div>
-                                            <div class="col-2 accoridan-slider-sec reset-padding"><img src="images/accordianimage-2.jpg" class="mw-100">
+                                            <div class="col-xl-2 col-6  accoridan-slider-sec reset-padding"><img src="images/accordianimage-2.jpg" class="mw-100">
                                                     <div class="form-group checkboxTop-block ">
                                                         <label class="contactform-check--label block-color">
                                                             <input class="contactform-check--input" type="checkbox" value="option1">
@@ -152,7 +159,17 @@
                                                         </label>
                                                     </div>
                                             </div>
-                                            <div class="col-2 accoridan-slider-sec  reset-padding"><img src="images/accordianimage-3.jpg" class="mw-100">
+                                            <div class="col-xl-2 col-6   d-none  d-xl-block accoridan-slider-sec  reset-padding"><img src="images/accordianimage-3.jpg" class="mw-100">
+                                                    <div class="form-group checkboxTop-block ">
+                                                        <label class="contactform-check--label block-color">
+                                                            <input class="contactform-check--input" type="checkbox" value="option1">
+                                                            <span class="checkmark"></span>
+                                                            <span class="checked-color">Starter kit</span>
+                                                        </label>
+                                                    </div>
+                                                
+                                            </div>
+                                            <div class="col-xl-2 col-6  d-block  d-xl-none accoridan-slider-sec  reset-padding"><img src="images/accordianimage-2.jpg" class="mw-100">
                                                     <div class="form-group checkboxTop-block ">
                                                         <label class="contactform-check--label block-color">
                                                             <input class="contactform-check--input" type="checkbox" value="option1">
@@ -162,6 +179,38 @@
                                                     </div>
                                                 
                                             </div>
+                                          
+                                            <div class="col-xl-2 col-6  d-block d-xl-none accoridan-slider-sec  reset-padding"><img src="images/accordianimage-3.jpg" class="mw-100">
+                                                    <div class="form-group checkboxTop-block ">
+                                                        <label class="contactform-check--label block-color">
+                                                            <input class="contactform-check--input" type="checkbox" value="option1">
+                                                            <span class="checkmark"></span>
+                                                            <span class="checked-color">Starter kit</span>
+                                                        </label>
+                                                    </div>
+                                                
+                                            </div>
+                                            <div class="col-xl-2 col-6   d-block d-xl-none accoridan-slider-sec reset-padding"><img src="images/accordianimage-2.jpg" class="mw-100">
+                                                    <div class="form-group checkboxTop-block ">
+                                                        <label class="contactform-check--label block-color">
+                                                            <input class="contactform-check--input" type="checkbox" value="option1">
+                                                            <span class="checkmark"></span>
+                                                            <span class="checked-color">Coming Soon Page</span>
+                                                        </label>
+                                                    </div>
+                                            </div>
+                                            <div class="col-xl-2 col-6  d-block d-xl-none accoridan-slider-sec  reset-padding"><img src="images/accordianimage-3.jpg" class="mw-100">
+                                                    <div class="form-group checkboxTop-block ">
+                                                        <label class="contactform-check--label block-color">
+                                                            <input class="contactform-check--input" type="checkbox" value="option1">
+                                                            <span class="checkmark"></span>
+                                                            <span class="checked-color">Starter kit</span>
+                                                        </label>
+                                                    </div>
+                                                
+                                            </div>
+                                           
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -173,7 +222,7 @@
                                 </div>
 
                                 <div id="faq3" class="collapse container container container-90 reset-padding" aria-labelledby="faqhead3" data-parent="#faq">
-                                    <button type="button" class="template-button">Go to Meeting room</button>
+                                    <button type="button" class="template-button d-none d-xl-block">Go to Meeting room</button>
                                     <div class="card-body">
                                         <div class="row reset-margin">
                                                     <div class="col-6 p-0"><h2 class="accordian-sub-title">LOREM IPSUM</h2></div>
@@ -193,7 +242,7 @@
                                                     <span class="checkmark"></span>
                                                     <span class="checked-color">Starter Kit</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between">
+                                                <div class="d-flex justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -202,7 +251,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center" style="max-width:150px;">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
@@ -218,7 +267,7 @@
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Starter Kit</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between">
+                                                <div class="d-flex justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -227,11 +276,13 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center" style="max-width:150px;">
                                                         <div class="id-box">
-                                                            <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
+                                                            <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0 " data-field="quantity">
+                                                            
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
-                                                            <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
+                                                            <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0 " data-field="quantity">
+                                                            
                                                         </div>
                                                     </div>
                                                 </div>
@@ -240,7 +291,7 @@
                                             <hr style="border-top:1px solid #707070;">
                                             <div class="row reset-margin">
                                                     <div class="col-6 p-0"><h2 class="accordian-sub-title">Add ons</h2></div>
-                                                    <div class="col-6 p-0 text-right">
+                                                    <div class="col-6 p-0 text-right d-none d-xl-block">
                                                         <i class="fa fa-question-circle" style="font-size:24px;color:#3EBDCC"></i>
                                                     </div>
                                             </div> 
@@ -250,7 +301,7 @@
                                                     <span class="checkmark"></span>
                                                     <span class="checked-color">Reservation Tablet</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between">
+                                                <div class="d-flex justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -274,7 +325,7 @@
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Wireless Presentation Pod</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between">
+                                                <div class="d-flex justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -298,7 +349,7 @@
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Wireless Presentation Pod</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between">
+                                                <div class="d-flex justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -322,7 +373,7 @@
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Wired LAN for desktop (6 persons)</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between">
+                                                <div class="d-flex justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -346,7 +397,7 @@
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Wireless Internet guest access</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between">
+                                                <div class="d-flex justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -370,7 +421,7 @@
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">2nd Meeting Room Screen</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between">
+                                                <div class="d-flex justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -405,7 +456,7 @@
                                 </div>
 
                                 <div id="faq5" class="collapse container container container-90 reset-padding" aria-labelledby="faqhead4" data-parent="#faq">
-                                    <button type="button" class="template-button">Go to Infrastructure</button>
+                                    <button type="button" class="template-button d-none d-xl-block">Go to Infrastructure</button>
                                     <div class="card-body">
                                         <div class="row reset-margin">
                                                     <div class="col-6 p-0"><h2 class="accordian-sub-title">LOREM IPSUM</h2></div>
@@ -425,7 +476,7 @@
                                                     <span class="checkmark"></span>
                                                     <span class="checked-color">Starter Kit</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between">
+                                                <div class="d-flex justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -450,7 +501,7 @@
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Starter Kit</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between">
+                                                <div class="d-flex justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -472,7 +523,7 @@
                                             <hr style="border-top:1px solid #707070;">
                                             <div class="row reset-margin">
                                                     <div class="col-6 p-0"><h2 class="accordian-sub-title">Add ons</h2></div>
-                                                    <div class="col-6 p-0 text-right">
+                                                    <div class="col-6 p-0 text-right d-none d-xl-block">
                                                         <i class="fa fa-question-circle" style="font-size:24px;color:#3EBDCC"></i>
                                                     </div>
                                             </div> 
@@ -482,7 +533,7 @@
                                                     <span class="checkmark"></span>
                                                     <span class="checked-color">Reservation Tablet</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between">
+                                                <div class="d-flex justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -506,7 +557,7 @@
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Wireless Presentation Pod</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between">
+                                                <div class="d-flex justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -530,7 +581,7 @@
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Wireless Presentation Pod</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between">
+                                                <div class="d-flex justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -554,7 +605,7 @@
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Wired LAN for desktop (6 persons)</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between">
+                                                <div class="d-flex justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -578,7 +629,7 @@
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Wireless Internet guest access</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between">
+                                                <div class="d-flex justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -602,7 +653,7 @@
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">2nd Meeting Room Screen</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between">
+                                                <div class="d-flex justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -629,7 +680,7 @@
                                 
                             </div>
                         </div>
-                        <div class="container container-90 text-right">
+                        <div class="container container-90 text-right acordian-button">
                             <button type="button" class="btn btn-primary btn-c2d-primary-md mt-5" data-toggle="modal" data-target="#exampleModal-1">Submit</button>
                         </div>
                         
