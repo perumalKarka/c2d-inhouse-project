@@ -11,7 +11,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Corporate design</h5>
                     <p class="card-text">3 Page website</p>
-                    <a href="#" class="card-link remove">Remove</a>
+                    <a href="#" class="card-link remove" value="1">Remove</a>
                     <a href="#" class="card-link preview">Preview</a>
                   </div>
                 </div>
@@ -27,7 +27,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Corporate design</h5>
                     <p class="card-text">3 Page website</p>
-                    <a href="#" class="card-link remove">Remove</a>
+                    <a href="#" class="card-link remove" value="2">Remove</a>
                     <a href="#" class="card-link preview">Preview</a>
                   </div>
                 </div>
@@ -43,7 +43,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Corporate design</h5>
                     <p class="card-text">3 Page website</p>
-                    <a href="#" class="card-link remove">Remove</a>
+                    <a href="#" class="card-link remove" value="3">Remove</a>
                     <a href="#" class="card-link preview">Preview</a>
                   </div>
                 </div>

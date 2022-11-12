@@ -64,32 +64,40 @@
         <!-- Tab component -->
         <section class="tabs">
             <div class="tab-group">
-                <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1"/>
-                <div for="tab-1" class="label tab-label-1">
-                    <i class="fa fa-file d-block"></i>
-                    Pages
+                <div class="tabgroup-wrapper">
+                    <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1"/>
+                    <div for="tab-1" class="label tab-label-1">
+                        <i class="fa fa-file d-block"></i>
+                        Pages
+                    </div>
                 </div>
-                <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
-                <div for="tab-2" class="label tab-label-2">
-                  <img class="d-block i-icon" src="images/color-pic.png" width="25" height="25" />
-                    Custom
-                    
+                <div class="tabgroup-wrapper">
+                    <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
+                    <div for="tab-2" class="label tab-label-2">
+                    <img class="d-block i-icon" src="images/color-pic.png" width="25" height="25" />
+                        Custom
+                    </div>
                 </div>
-                <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
-                <div for="tab-3" class="label tab-label-3">
-                   <i class="fa fa-image d-block"></i>
-                    Logo
+                <div class="tabgroup-wrapper">
+                    <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
+                    <div for="tab-3" class="label tab-label-3">
+                    <i class="fa fa-image d-block"></i>
+                        Logo
+                    </div>
                 </div>
-                <input id="tab-4" type="radio" name="radio-set" class="tab-selector-4" />
-                <div for="tab-4" class="label tab-label-4">
-                    <i class="fa fa-pencil d-block"></i>
-                    Business name
+                <div class="tabgroup-wrapper">
+                    <input id="tab-4" type="radio" name="radio-set" class="tab-selector-4" />
+                    <div for="tab-4" class="label tab-label-4">
+                        <i class="fa fa-pencil d-block"></i>
+                        Business name
+                    </div>
                 </div>
-                <input id="tab-5" type="radio" name="radio-set" class="tab-selector-5" />
-                <div for="tab-5" class="label tab-label-5">
-                    <img class="d-block i-icon" src="images/footer-icon.png" width="29" height="33" />
-                    Footer
-                   
+                <div class="tabgroup-wrapper">
+                    <input id="tab-5" type="radio" name="radio-set" class="tab-selector-5" />
+                    <div for="tab-5" class="label tab-label-5">
+                        <img class="d-block i-icon" src="images/footer-icon.png" width="29" height="33" />
+                        Footer
+                    </div>
                 </div>
             </div>
             

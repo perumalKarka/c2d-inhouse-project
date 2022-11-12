@@ -1096,6 +1096,13 @@
     <script src="js/main.js"></script>
 
     <script type="text/javascript">
+        $(document).ready(function(){
+            $(".wishlist-container .remove").each(function(inde, item){
+                $(item).click(function() {
+                    
+                });
+            });
+        });
         $(document).ready(function() {
 
 
@@ -1268,6 +1275,7 @@
 
                 });
             });
+
 
             //trace the tag remove event, then, based on the tags to checked/unchecked the checkbox
             $("#tagsinput").on('itemRemoved', function() {
