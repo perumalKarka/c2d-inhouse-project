@@ -17,10 +17,8 @@
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
     <link rel="stylesheet" href="css/theme.css" />
-    <link rel="stylesheet" href="css/responsivenew.css" />
-
     <link rel="stylesheet" href="css/filter.css" />
-
+    <link rel="stylesheet" href="css/responsivenew.css" />
     <link rel="stylesheet" href="css/mobile_style.css" />
     <link rel="icon" href="images/favicon-ico.png" sizes="32x32" />
     <link rel="icon" href="images/favicon-ico.png" sizes="32x32" />

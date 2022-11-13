@@ -1148,15 +1148,10 @@
   .slider-acordien-view .checkmark {
     position: absolute;
     top: 4px;
-    height: 13px;
-    width: 13px;
     background-color: #fff;
     border: 1px solid #7E7E7E;
   }
-  .checkmark {
-    height: 13px;
-    width: 13px;
-  }
+  
   .acordian-button button{
     width: 283px;
   }
@@ -1228,6 +1223,15 @@
   .icon-sm{
     width: 0.5rem;
     height: 1.5rem;
+  }
+
+  .filter-option-lists .checkmark:after {
+      border: solid #FFF;
+      border-width: 0 2px 2px 0;
+      left: 6px;
+      top: 1px;
+      width: 5px;
+      height: 12px;
   }
 }
 
@@ -3015,7 +3019,13 @@
     width: 1rem;
     height: 1.5rem;
   }
-
+  .megamenu-li{
+    margin-right: 20px;
+  }
+  .wrapper .navbar-nav .megamenu-li a.nav-link{
+    font-size: 18px;
+    line-height: 28px;
+  }
 
 
 
@@ -3787,9 +3797,11 @@
     width: 1rem;
     height: 1.5rem;
   }
+  .megamenu-li{
+    margin-right: 25px;
+  }
 
-
-
+  
 
 }
 
@@ -4661,6 +4673,16 @@
   .icon-sm{
     width: 2rem;
     height: 2rem;
+  }
+
+  .megamenu-li{
+    margin-right: 32px;
+  }
+
+  .wrapper .navbar-nav .megamenu-li a.nav-link{
+    font-size: 20px;
+    line-height: 30px;
+    
   }
 }
  
