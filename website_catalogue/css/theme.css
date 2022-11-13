@@ -1368,9 +1368,9 @@ label.copy-subtitle{
   }
   .livepreview-firstSection .live-preview-right-sub__title p{
     font-size:26px;
+    line-height: 36px;
     font-family: 'robotothin';
     color:#AAAAAA;
-    line-height: 32px;
   }
   .filtersection button{
     margin-right: 15px;
