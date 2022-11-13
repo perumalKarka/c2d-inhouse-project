@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="stylesheet" type="text/css" href="css/style4.css" />
     <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/responsivenew.css" />
     <link rel="stylesheet" href="css/mobile_style.css" />
     <link rel="icon" href="images/favicon-ico.png" sizes="32x32" />
     <link rel="icon" href="images/favicon-ico.png" sizes="32x32" />
@@ -31,9 +32,9 @@
         <!-- live preview -->
         <section class="livepreview-firstSection">
             <div class="container container-90 reset-padding">
-                <div class="row">
-                    <div class="col-6 live-preview-left-sub__title reset-padding"><p class="reset-margin">Lorem ipsum dolor sit amet, consetetur</p></div>
-                    <div class="col-6 live-preview-right-sub__title align-self-end reset-padding ">
+                <div class="row reset-margin">
+                    <div class="col-xl-6 live-preview-left-sub__title reset-padding"><p class="reset-margin">Lorem ipsum dolor sit amet, consetetur</p></div>
+                    <div class="col-xl-6 live-preview-right-sub__title align-self-end reset-padding ">
                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p> 
                     </div>
                         
@@ -44,14 +45,12 @@
         <section class="filtersection">
             <div class="container container-90 reset-padding">
                 <div class="row filter-option reset-margin">
-                    <div class="col-6 reset-padding">
+                    <div class="col-xl-4 reset-padding">
                     </div>
-                    <div class="col-6 preview-button reset-padding">
-                    <button type="button" class="like-button"><i class="fa fa-thumbs-up "></i> Like template</button>
-
-                    <button type="button" class="whistlist-button "> <i class="fa fa-bookmark"></i>Add to Wishlist</button>
-                    <button type="button" class="copyright-button" data-toggle="modal" data-target="#exampleModal-2"><i class="fa fa-copyright"></i>Buy Copyright*</button>
-                    
+                    <div class="col-xl-8 preview-button reset-padding">
+                        <button type="button" class="like-button"><i class="fa fa-thumbs-up "></i> <span class="m-0 p-0 pre-label">Like template</span></button>
+                        <button type="button" class="whistlist-button "> <i class="fa fa-bookmark"></i> <span class="m-0 p-0 pre-label">Add to Wishlist</span></button>
+                        <button type="button" class="copyright-button" data-toggle="modal" data-target="#exampleModal-2"><i class="fa fa-copyright"></i> <span class="m-0 p-0 pre-label">Buy Copyright*</span></button>
                     </div>
                 </div>
             </div>
