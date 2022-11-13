@@ -18,18 +18,12 @@
     <link rel="apple-touch-icon" href="images/favicon-ico.png" />
     <meta name="msapplication-TileImage" content="images/favicon-ico.png" />
     <style>
-        icon-shape {
+        .icon-shape {
             display: inline-flex;
             align-items: center;
             justify-content: center;
             text-align: center;
             vertical-align: middle;
-        }
-
-        .icon-sm {
-            width: 2rem;
-            height: 2rem;
-            
         }
     </style>
 </head>
@@ -121,12 +115,13 @@
                             <div class="card mb-5">
                                 <div class="card-header container container-90 reset-padding  accordian-second " id="faqhead2">
                                     <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq2"
-                                    aria-expanded="true" aria-controls="faq2"><label class="title">Lorem ipsum<span class="title-span">(6)</span></label></a>
-                                    
+                                        aria-expanded="false" aria-controls="faq2">
+                                        <label class="title">Lorem ipsum<span class="title-span">(6)</span></label>
+                                        <button type="button" class="template-button">Go to Templates</button>
+                                    </a>
                                 </div>
 
                                 <div id="faq2" class="collapse container container-90 reset-padding" aria-labelledby="faqhead2" data-parent="#faq">
-                                <button type="button" class="template-button d-none d-xl-block">Go to Templates</button>
                                     <div class="card-body">
                                         <div class="row reset-margin">
                                                 <div class="col-6"><h2 class="accordian-sub-title">LOREM IPSUM</h2></div>
@@ -141,16 +136,21 @@
                                         </div>      
                                     
                                         <div class="row slider-acordien-view reset-margin">
-                                            <div class="col-xl-2 col-6  accoridan-slider-sec reset-padding"><img src="images/accoridanimage1.jpg" class="mw-100">
+                                            <div class="col-xl-3 col-6 accoridan-slider-sec reset-padding">
+                                                <div class="accord-slide-inner-box">
+                                                    <img src="images/accoridanimage1.jpg" class="mw-100">
                                                     <div class="form-group checkboxTop-block ">
                                                         <label class="contactform-check--label block-color">
                                                             <input class="contactform-check--input" type="checkbox" value="option1">
                                                             <span class="checkmark"></span>
                                                             <span class="checked-color">Starter Kit</span>
                                                         </label>
-                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="col-xl-2 col-6  accoridan-slider-sec reset-padding"><img src="images/accordianimage-2.jpg" class="mw-100">
+                                            <div class="col-xl-3 col-6 accoridan-slider-sec reset-padding">
+                                                <div class="accord-slide-inner-box">
+                                                    <img src="images/accordianimage-2.jpg" class="mw-100">
                                                     <div class="form-group checkboxTop-block ">
                                                         <label class="contactform-check--label block-color">
                                                             <input class="contactform-check--input" type="checkbox" value="option1">
@@ -158,8 +158,11 @@
                                                             <span class="checked-color">Coming Soon Page</span>
                                                         </label>
                                                     </div>
+                                                </div>
                                             </div>
-                                            <div class="col-xl-2 col-6   d-none  d-xl-block accoridan-slider-sec  reset-padding"><img src="images/accordianimage-3.jpg" class="mw-100">
+                                            <div class="col-xl-3 col-6 accoridan-slider-sec  reset-padding">
+                                                <div class="accord-slide-inner-box">
+                                                    <img src="images/accordianimage-3.jpg" class="mw-100">
                                                     <div class="form-group checkboxTop-block ">
                                                         <label class="contactform-check--label block-color">
                                                             <input class="contactform-check--input" type="checkbox" value="option1">
@@ -167,9 +170,11 @@
                                                             <span class="checked-color">Starter kit</span>
                                                         </label>
                                                     </div>
-                                                
+                                                </div>
                                             </div>
-                                            <div class="col-xl-2 col-6  d-block  d-xl-none accoridan-slider-sec  reset-padding"><img src="images/accordianimage-2.jpg" class="mw-100">
+                                            <div class="col-xl-3 col-6 d-xl-none accoridan-slider-sec  reset-padding">
+                                                <div class="accord-slide-inner-box">
+                                                    <img src="images/accordianimage-2.jpg" class="mw-100">
                                                     <div class="form-group checkboxTop-block ">
                                                         <label class="contactform-check--label block-color">
                                                             <input class="contactform-check--input" type="checkbox" value="option1">
@@ -177,10 +182,11 @@
                                                             <span class="checked-color">Coming Soon Page</span>
                                                         </label>
                                                     </div>
-                                                
+                                                </div>
                                             </div>
-                                          
-                                            <div class="col-xl-2 col-6  d-block d-xl-none accoridan-slider-sec  reset-padding"><img src="images/accordianimage-3.jpg" class="mw-100">
+                                            <div class="col-xl-3 col-6 d-xl-none accoridan-slider-sec  reset-padding">
+                                                <div class="accord-slide-inner-box">
+                                                    <img src="images/accordianimage-3.jpg" class="mw-100">
                                                     <div class="form-group checkboxTop-block ">
                                                         <label class="contactform-check--label block-color">
                                                             <input class="contactform-check--input" type="checkbox" value="option1">
@@ -188,9 +194,11 @@
                                                             <span class="checked-color">Starter kit</span>
                                                         </label>
                                                     </div>
-                                                
+                                                </div>    
                                             </div>
-                                            <div class="col-xl-2 col-6   d-block d-xl-none accoridan-slider-sec reset-padding"><img src="images/accordianimage-2.jpg" class="mw-100">
+                                            <div class="col-xl-3 col-6 d-xl-none accoridan-slider-sec reset-padding">
+                                                <div class="accord-slide-inner-box">
+                                                    <img src="images/accordianimage-2.jpg" class="mw-100">
                                                     <div class="form-group checkboxTop-block ">
                                                         <label class="contactform-check--label block-color">
                                                             <input class="contactform-check--input" type="checkbox" value="option1">
@@ -198,8 +206,11 @@
                                                             <span class="checked-color">Coming Soon Page</span>
                                                         </label>
                                                     </div>
+                                                </div>
                                             </div>
-                                            <div class="col-xl-2 col-6  d-block d-xl-none accoridan-slider-sec  reset-padding"><img src="images/accordianimage-3.jpg" class="mw-100">
+                                            <div class="col-xl-3 col-6 d-xl-none accoridan-slider-sec  reset-padding">
+                                                <div class="accord-slide-inner-box">
+                                                    <img src="images/accordianimage-3.jpg" class="mw-100">
                                                     <div class="form-group checkboxTop-block ">
                                                         <label class="contactform-check--label block-color">
                                                             <input class="contactform-check--input" type="checkbox" value="option1">
@@ -207,10 +218,8 @@
                                                             <span class="checked-color">Starter kit</span>
                                                         </label>
                                                     </div>
-                                                
+                                                </div>
                                             </div>
-                                           
-                                            
                                         </div>
                                     </div>
                                 </div>
@@ -218,11 +227,14 @@
                             <div class="card mb-5">
                                 <div class="card-header container container container-90 accordian-third reset-padding " id="faqhead3">
                                     <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq3"
-                                    aria-expanded="true" aria-controls="faq3"><label class="title">Lorem ipsum<span class="title-span">(6)</span></label></a>
+                                    aria-expanded="false" aria-controls="faq3">
+                                        <label class="title">Lorem ipsum<span class="title-span">(6)</span></label>
+                                        <button type="button" class="template-button">Go to Meeting room</button>
+                                    </a>
                                 </div>
 
                                 <div id="faq3" class="collapse container container container-90 reset-padding" aria-labelledby="faqhead3" data-parent="#faq">
-                                    <button type="button" class="template-button d-none d-xl-block">Go to Meeting room</button>
+                                    
                                     <div class="card-body">
                                         <div class="row reset-margin">
                                                     <div class="col-6 p-0"><h2 class="accordian-sub-title">LOREM IPSUM</h2></div>
@@ -242,7 +254,7 @@
                                                     <span class="checkmark"></span>
                                                     <span class="checked-color">Starter Kit</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between accordian-para">
+                                                <div class="justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -251,7 +263,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group quality-increment justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
@@ -261,13 +273,13 @@
                                                 </div>
                                                 
                                             </div>
-                                            <div class="form-group checkboxTop-block mt-2 ">
+                                            <div class="form-group checkboxTop-block">
                                                 <label class="contactform-check--label block-color">
                                                        <input class="contactform-check--input" type="checkbox" value="option1">
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Starter Kit</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between accordian-para">
+                                                <div class="justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -276,7 +288,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group quality-increment justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0 " data-field="quantity">
                                                             
@@ -301,7 +313,7 @@
                                                     <span class="checkmark"></span>
                                                     <span class="checked-color">Reservation Tablet</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between accordian-para">
+                                                <div class="justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -310,7 +322,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
@@ -319,13 +331,13 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="form-group checkboxTop-block mt-2 ">
+                                            <div class="form-group checkboxTop-block">
                                                 <label class="contactform-check--label block-color">
                                                        <input class="contactform-check--input" type="checkbox" value="option1">
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Wireless Presentation Pod</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between accordian-para">
+                                                <div class="justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -334,7 +346,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
@@ -343,13 +355,13 @@
                                                     </div>
                                                 </div>        
                                             </div>
-                                            <div class="form-group checkboxTop-block mt-2 ">
+                                            <div class="form-group checkboxTop-block">
                                                 <label class="contactform-check--label block-color">
                                                        <input class="contactform-check--input" type="checkbox" value="option1">
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Wireless Presentation Pod</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between accordian-para">
+                                                <div class="justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -358,7 +370,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
@@ -367,13 +379,13 @@
                                                     </div>
                                                 </div>        
                                             </div>
-                                            <div class="form-group checkboxTop-block mt-2 ">
+                                            <div class="form-group checkboxTop-block">
                                                 <label class="contactform-check--label block-color">
                                                        <input class="contactform-check--input" type="checkbox" value="option1">
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Wired LAN for desktop (6 persons)</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between accordian-para">
+                                                <div class="justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -382,7 +394,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
@@ -391,13 +403,13 @@
                                                     </div>
                                                 </div>        
                                             </div>
-                                            <div class="form-group checkboxTop-block mt-2 ">
+                                            <div class="form-group checkboxTop-block">
                                                 <label class="contactform-check--label block-color">
                                                        <input class="contactform-check--input" type="checkbox" value="option1">
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Wireless Internet guest access</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between accordian-para">
+                                                <div class="justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -406,7 +418,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
@@ -415,13 +427,13 @@
                                                     </div>
                                                 </div>         
                                             </div>
-                                            <div class="form-group checkboxTop-block mt-2 ">
+                                            <div class="form-group checkboxTop-block">
                                                 <label class="contactform-check--label block-color">
                                                        <input class="contactform-check--input" type="checkbox" value="option1">
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">2nd Meeting Room Screen</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between accordian-para">
+                                                <div class="justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -430,7 +442,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
@@ -452,11 +464,14 @@
                             <div class="card mb-8">
                                 <div class="card-header container container container-90 accordian-third reset-padding " id="faqhead5">
                                     <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq5"
-                                    aria-expanded="true" aria-controls="faq5"><label class="title">Infrastructure & Security</label><span class="title-span">(6)</span></a>
+                                    aria-expanded="false" aria-controls="faq5">
+                                        <label class="title">Infrastructure & Security <span class="title-span">(6)</span></label>
+                                        <button type="button" class="template-button">Go to Infrastructure</button>
+                                    </a>
                                 </div>
 
                                 <div id="faq5" class="collapse container container container-90 reset-padding" aria-labelledby="faqhead4" data-parent="#faq">
-                                    <button type="button" class="template-button d-none d-xl-block">Go to Infrastructure</button>
+                                    
                                     <div class="card-body">
                                         <div class="row reset-margin">
                                                     <div class="col-6 p-0"><h2 class="accordian-sub-title">LOREM IPSUM</h2></div>
@@ -476,7 +491,7 @@
                                                     <span class="checkmark"></span>
                                                     <span class="checked-color">Starter Kit</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between accordian-para">
+                                                <div class="justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -485,7 +500,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
@@ -495,13 +510,13 @@
                                                 </div>
                                                 
                                             </div>
-                                            <div class="form-group checkboxTop-block mt-2 ">
+                                            <div class="form-group checkboxTop-block">
                                                 <label class="contactform-check--label block-color">
                                                        <input class="contactform-check--input" type="checkbox" value="option1">
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Starter Kit</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between accordian-para">
+                                                <div class="justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -510,7 +525,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
@@ -533,7 +548,7 @@
                                                     <span class="checkmark"></span>
                                                     <span class="checked-color">Reservation Tablet</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between accordian-para">
+                                                <div class="justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -542,7 +557,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
@@ -551,13 +566,13 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="form-group checkboxTop-block mt-2 ">
+                                            <div class="form-group checkboxTop-block">
                                                 <label class="contactform-check--label block-color">
                                                        <input class="contactform-check--input" type="checkbox" value="option1">
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Wireless Presentation Pod</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between accordian-para">
+                                                <div class="justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -566,7 +581,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
@@ -575,13 +590,13 @@
                                                     </div>
                                                 </div>        
                                             </div>
-                                            <div class="form-group checkboxTop-block mt-2 ">
+                                            <div class="form-group checkboxTop-block">
                                                 <label class="contactform-check--label block-color">
                                                        <input class="contactform-check--input" type="checkbox" value="option1">
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Wireless Presentation Pod</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between accordian-para">
+                                                <div class="justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -590,7 +605,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
@@ -599,13 +614,13 @@
                                                     </div>
                                                 </div>        
                                             </div>
-                                            <div class="form-group checkboxTop-block mt-2 ">
+                                            <div class="form-group checkboxTop-block">
                                                 <label class="contactform-check--label block-color">
                                                        <input class="contactform-check--input" type="checkbox" value="option1">
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Wired LAN for desktop (6 persons)</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between accordian-para">
+                                                <div class="justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -614,7 +629,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
@@ -623,13 +638,13 @@
                                                     </div>
                                                 </div>        
                                             </div>
-                                            <div class="form-group checkboxTop-block mt-2 ">
+                                            <div class="form-group checkboxTop-block">
                                                 <label class="contactform-check--label block-color">
                                                        <input class="contactform-check--input" type="checkbox" value="option1">
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">Wireless Internet guest access</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between accordian-para">
+                                                <div class="justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -638,7 +653,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
@@ -647,13 +662,13 @@
                                                     </div>
                                                 </div>         
                                             </div>
-                                            <div class="form-group checkboxTop-block mt-2 ">
+                                            <div class="form-group checkboxTop-block">
                                                 <label class="contactform-check--label block-color">
                                                        <input class="contactform-check--input" type="checkbox" value="option1">
                                                         <span class="checkmark"></span>
                                                         <span class="checked-color">2nd Meeting Room Screen</span>
                                                 </label>
-                                                <div class="d-flex justify-content-between accordian-para">
+                                                <div class="justify-content-between accordian-para">
                                                     <p class="meeting-para">
                                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
                                                         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
@@ -662,7 +677,7 @@
                                                         consetetur 
 
                                                     </p>    
-                                                    <div class="input-group justify-content-end align-items-center" style="max-width:150px;">
+                                                    <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
                                                             Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
