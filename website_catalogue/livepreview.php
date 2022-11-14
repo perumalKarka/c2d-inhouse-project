@@ -62,145 +62,170 @@
         
         <!-- Tab component -->
         <section class="tabs">
-            <div class="tab-group">
-                <div class="tabgroup-wrapper">
-                    <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1"/>
-                    <div for="tab-1" class="label tab-label-1">
-                        <i class="fa fa-file d-block"></i>
-                        Pages
+            <div class="tabs-inner-box">
+                <div class="tab-group">
+                    <div class="tabgroup-wrapper align-self-center">
+                        <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1"/>
+                        <div for="tab-1" class="label tab-label-1">
+                            <img src="images/page-i-icon.png" class="d-block i-icon"/>
+                            <!-- <i class="fa fa-file d-block"></i> -->
+                            Pages
+                        </div>
+                    </div>
+                    <div class="tabgroup-wrapper align-self-center">
+                        <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
+                        <div for="tab-2" class="label tab-label-2">
+                            <img src="images/color-i-icon.png" class="d-block i-icon"/>
+                            Colors
+                        </div>
+                    </div>
+                    <div class="tabgroup-wrapper align-self-center">
+                        <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
+                        <div for="tab-3" class="label tab-label-3">
+                            <img src="images/upload-i-icon.png" class="d-block i-icon"/>
+                            Logo
+                        </div>
+                    </div>
+                    <div class="tabgroup-wrapper align-self-center">
+                        <input id="tab-4" type="radio" name="radio-set" class="tab-selector-4" />
+                        <div for="tab-4" class="label tab-label-4">
+                            <img src="images/business-i-icon.png" class="d-block i-icon"/>
+                            Business
+                        </div>
+                    </div>
+                    <div class="tabgroup-wrapper align-self-center">
+                        <input id="tab-5" type="radio" name="radio-set" class="tab-selector-5" />
+                        <div for="tab-5" class="label tab-label-5">
+                            <img src="images/footer-i-icon.png" class="d-block i-icon"/>
+                            Footer
+                        </div>
                     </div>
                 </div>
-                <div class="tabgroup-wrapper">
-                    <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
-                    <div for="tab-2" class="label tab-label-2">
-                    <img class="d-block i-icon" src="images/color-pic.png" width="25" height="25" />
-                        Custom
+
+                <div class="content">
+                    <div class="content-wrapper content-1">
+                        <div class="row active">
+                            <div class="tap-page-slider col-sm-12 col-xl-6">
+                                <img src="images/homepageicon.png" class="tap-page-icon"> 
+                                <h3 class="tab-home-page-label d-none">
+                                    Home Page
+                                </h3>
+                            </div>
+                            <div class="col-xl-6 label-content"> <label class="home-page-label">Home Page</label></div>
+                        </div>
+                        <div class="row">
+                            <div class="tap-page-slider col-sm-12 col-xl-6">
+                                <img src="images/homepageicon.png" class="tap-page-icon">
+                                <h3 class="tab-home-page-label d-none">
+                                    Product Range Page
+                                </h3> 
+                            </div>
+                            <div class="col-xl-6 label-content"> <label class="home-page-label">Product Range <br> Page</label></div>
+                        </div>
+                        <div class="row">
+                            <div class="tap-page-slider col-sm-12 col-xl-6">
+                                <img src="images/homepageicon.png" class="tap-page-icon">
+                                <h3 class="tab-home-page-label d-none">
+                                    Transaction Page
+                                </h3> 
+                            </div>
+                            <div class="col-xl-6 label-content"> <label class="home-page-label">Transaction Page</label></div>
+                        </div>
                     </div>
-                </div>
-                <div class="tabgroup-wrapper">
-                    <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
-                    <div for="tab-3" class="label tab-label-3">
-                    <i class="fa fa-image d-block"></i>
-                        Logo
+
+                    <div class="content-wrapper content-2">
+                    <div class="custom-wrapper">
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                            <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                        
+                            <div class="row reset-margin">
+                                        <div class="col-12 reset-padding">
+                                            <span class="color-choice reset-margin">Color Palette</span>
+                                            <ul class="d-flex color-selector mt-2">
+                                                <li style="background: #9D4EDD;"></li>
+                                                <li style="background: #FF570A;"></li>
+                                                <li style="background: #6EC630;"></li>
+                                                <li style="background: #EAAB3D;"></li>
+                                            </ul>
+                                        </div>
+                            </div>
+                            <div class="pre-next-bar">
+                                <a class="float-left">
+                                    <span class="icon"><img src="images/left-right-refresh.png" /></span>
+                                    <label>Previous</label>
+                                </a>
+                                <a class="float-right">
+                                    <span class="icon"><img src="images/right-left-refresh.png" /></span>
+                                    <label>Next</label>
+                                </a>
+                            </div>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-secondary btn-block dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
+                                    Fresh & Bright
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-lg-right">
+                                    <button class="dropdown-item" type="button">Action</button>
+                                    <button class="dropdown-item" type="button">Another action</button>
+                                    <button class="dropdown-item" type="button">Something else here</button>
+                                </div>
+                            </div>
+                            <div class="mt-4 text-center">
+                                <button class="apply-logo">APPLY</button>
+                            </div>
+                                
+                        </div>
+
                     </div>
-                </div>
-                <div class="tabgroup-wrapper">
-                    <input id="tab-4" type="radio" name="radio-set" class="tab-selector-4" />
-                    <div for="tab-4" class="label tab-label-4">
-                        <i class="fa fa-pencil d-block"></i>
-                        Business name
+                    <div class="content-wrapper content-3 pr-3">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+                        <div class="text-center mb-3">
+                            <button type="button" class="btn btn-primary upload-sm">Upload logo</button>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren </p>
                     </div>
-                </div>
-                <div class="tabgroup-wrapper">
-                    <input id="tab-5" type="radio" name="radio-set" class="tab-selector-5" />
-                    <div for="tab-5" class="label tab-label-5">
-                        <img class="d-block i-icon" src="images/footer-icon.png" width="29" height="33" />
-                        Footer
+                    
+                    <div class="content-wrapper content-4 pr-3">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
+                        <input type="text" class="form-control bussiness-text" id="exampleFormControlInput1" placeholder="Lorem ipsum dolor sit amet, consetetur">
+                        
+                        <p class="mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et </p>
                     </div>
-                </div>
+                    <div class="content-wrapper content-5 footer">
+                        <div class="row active">
+                            <div class="tap-page-slider col-sm-12 col-xl-6">
+                                <img src="images/homepageicon.png" class="tap-page-icon"> 
+                                <h3 class="tab-home-page-label d-none">
+                                    Footer - 1
+                                </h3>
+                            </div>
+                            <div class="col-xl-6 label-content"> <label class="home-page-label">Footer - 1</label></div>
+                        </div>
+                        <div class="row">
+                            <div class="tap-page-slider col-sm-12 col-xl-6">
+                                <img src="images/homepageicon.png" class="tap-page-icon">
+                                <h3 class="tab-home-page-label d-none">
+                                    Footer - 2
+                                </h3> 
+                            </div>
+                            <div class="col-xl-6 label-content"> <label class="home-page-label">Footer - 2</label></div>
+                        </div>
+                        <div class="row">
+                            <div class="tap-page-slider col-sm-12 col-xl-6">
+                                <img src="images/homepageicon.png" class="tap-page-icon">
+                                <h3 class="tab-home-page-label d-none">
+                                    Footer - 3
+                                </h3> 
+                            </div>
+                            <div class="col-xl-6 label-content"> <label class="home-page-label">Footer - 3</label></div>
+                        </div>
+                        
+                    </div>
+                </div> <!-- content div end --->
+
             </div>
             
-            <div class="content">
-                <div class="content-wrapper content-1">
-                    <div class="row active">
-                        <div class="tap-page-slider col-6">
-                            <img src="images/homepageicon.png" class="tap-page-icon"> 
-                        </div>
-                        <div class="col-6 label-content"> <label class="home-page-label">Home Page</label></div>
-                    </div>
-                    <div class="row">
-                        <div class="tap-page-slider-1 col-6">
-                            <img src="images/homepageicon.png" class="tap-page-icon"> 
-                        </div>
-                        <div class="col-6 label-content"> <label class="home-page-label">Product Range <br> Page</label></div>
-                    </div>
-                    <div class="row">
-                        <div class="tap-page-slider-3 col-6">
-                            <img src="images/homepageicon.png" class="tap-page-icon"> 
-                        </div>
-                        <div class="col-6 label-content"> <label class="home-page-label">Transaction Page</label></div>
-                    </div>
-                </div>
-
-                <div class="content-wrapper content-2">
-                   <div class="custom-wrapper">
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
-                        <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-                    
-                        <div class="row reset-margin">
-                                    <div class="col-12 reset-padding">
-                                        <span class="color-choice reset-margin">Color Palette</span>
-                                        <ul class="d-flex color-selector mt-2">
-                                            <li style="background: #9D4EDD;"></li>
-                                            <li style="background: #FF570A;"></li>
-                                            <li style="background: #6EC630;"></li>
-                                            <li style="background: #EAAB3D;"></li>
-                                        </ul>
-                                    </div>
-                        </div>
-                        <div class="pre-next-bar">
-                            <a class="float-left">
-                                <span class="icon"><img src="images/left-right-refresh.png" /></span>
-                                <label>Previous</label>
-                            </a>
-                            <a class="float-right">
-                                <span class="icon"><img src="images/right-left-refresh.png" /></span>
-                                <label>Next</label>
-                            </a>
-                        </div>
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-secondary btn-block dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
-                                Fresh & Bright
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-lg-right">
-                                <button class="dropdown-item" type="button">Action</button>
-                                <button class="dropdown-item" type="button">Another action</button>
-                                <button class="dropdown-item" type="button">Something else here</button>
-                            </div>
-                        </div>
-                        <div class="mt-4 text-center">
-                            <button class="apply-logo">APPLY</button>
-                        </div>
-                            
-                    </div>
-
-                </div>
-                <div class="content-wrapper content-3 pr-3">
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
-                    <div class="text-center mb-3">
-                        <button type="button" class="btn btn-primary upload-sm">Upload logo</button>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren </p>
-                </div>
-                
-                <div class="content-wrapper content-4 pr-3">
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
-                    <input type="text" class="form-control bussiness-text" id="exampleFormControlInput1" placeholder="Lorem ipsum dolor sit amet, consetetur">
-                    
-                    <p class="mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et </p>
-                </div>
-                <div class="content-wrapper content-5 footer">
-                    <div class="row active">
-                        <div class="tap-page-slider col-6">
-                            <img src="images/homepageicon.png" class="img-fluid tap-page-icon"> 
-                        </div>
-                        <div class="col-6 label-content"> <label class="home-page-label">Footer 1</label></div>
-                    </div>
-                    <div class="row">
-                        <div class="tap-page-slider-1 col-6">
-                            <img src="images/homepageicon.png" class="img-fluid tap-page-icon"> 
-                        </div>
-                        <div class="col-6 label-content"> <label class="home-page-label">Footer 2</label></div>
-                    </div>
-                    <div class="row">
-                        <div class="tap-page-slider-3 col-6">
-                            <img src="images/homepageicon.png" class="img-fluid tap-page-icon"> 
-                        </div>
-                        <div class="col-6 label-content"> <label class="home-page-label">Footer 3</label></div>
-                    </div>
-                </div>
-                
-            </div>
+            
+            
         </section>    
 
 
@@ -225,7 +250,40 @@
 
     <script type="text/javascript">
         
+        $(window).on('load', function(){
+            function resizelabelOverlays(){
+                var tapIcon = $(".tap-page-slider .tap-page-icon").width();
+                $(".tab-home-page-label").width(tapIcon);
+			}
+			resizelabelOverlays();
+			$(window).resize(function(){ 
+                resizelabelOverlays();
+			});
+			$(document).ready(function(){
+                resizelabelOverlays();
+			});
+		});
+        
+        $(function() {
+            $('body').on('click', '.tabs input', function(e) {
+                $('body').addClass('leftsidebar-menu');
+            });
 
+            $(document).mouseup(function(e) {
+                var tab_container = $(".tabs .content");
+                if (!tab_container.is(e.target) && tab_container.has(e.target).length === 0) {
+                if ( $('body').hasClass('leftsidebar-menu') ) {
+                            $('body').removeClass('leftsidebar-menu');
+                        }
+                }
+                $('.tabs input').prop('checked', false)
+            });
+        });
+
+        
+        
     </script>
+
+    
 </body>
 </html>
