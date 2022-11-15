@@ -3835,8 +3835,9 @@
     text-align: left;
   }
   .filtersection{
-    border: none;
-    padding: 60px 0;
+    border-top: 2px solid #383838;
+    border-bottom: 2px solid #383838;
+    padding: 0px ;
   }
 
 
@@ -4742,6 +4743,16 @@ section.template-carosal .prev-slider{
 }
 section.template-carosal .next-slider{
   right:-91px;
+}
+.catalogue-firstSection .searchBox input {
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  font-size: 14px;
+  font-family: "robotolight";
+  letter-spacing: 0px;
+  color: #aaaaaa;
+  opacity: 1;
 }
 }
  

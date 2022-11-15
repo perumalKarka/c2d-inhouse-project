@@ -44,10 +44,10 @@
         <section class="catalogue-firstSection mb-5">
             <div class="container container-90 reset-padding">
                 <div class="row">
-                    <div class="col-xl-6 col-lg-12 catelogue-left-sub__title reset-padding">
+                    <div class="col--md-6 col-xl-7 col-lg-12 catelogue-left-sub__title reset-padding">
                         <p class="reset-margin">Lorem ipsum dolor sit amet, consetetur</p>
                     </div>
-                    <div class="col-xl-6 col-lg-12 catelogue-right-searchbar align-self-end reset-padding ">
+                    <div class="col-md-6 col-xl-5 col-lg-12 catelogue-right-searchbar align-self-end reset-padding ">
                         <div class="input-group searchBox">
                             <input class="form-control reset-padding mb-2" type="text" id="myFilter" placeholder="Search for your type of business..." aria-label="Search">
                             <div class="input-group-append align-self-center mb-2">
