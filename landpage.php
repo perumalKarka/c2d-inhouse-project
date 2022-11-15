@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="fonts/icomoon/style.css">
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/mobile_style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
   <link rel="stylesheet" href="css/responsive-new.css" />
   <style>
     /* Some custom styles to beautify this example */

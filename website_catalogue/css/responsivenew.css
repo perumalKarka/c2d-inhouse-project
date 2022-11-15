@@ -1249,9 +1249,6 @@
     border: none;
     padding: 25px 0 0 0;
   }
-  .filter-option{
-    text-align: center;
-  }
   .pre-label{
     display: none;
   }
@@ -2623,7 +2620,7 @@
   .request {
     position: absolute;
     right: 40px;
-    top: 50px;
+    top: 130px;
   }
   .catelogue-page .cardsection {
     margin-top: 58px;
@@ -3063,9 +3060,6 @@
   .filtersection{
     border: none;
     padding: 60px 0;
-  }
-  .filter-option{
-    text-align: center;
   }
   .pre-label{
     display: inline-block;
@@ -3857,9 +3851,6 @@
   .filtersection{
     border: none;
     padding: 60px 0;
-  }
-  .filter-option{
-    text-align: center;
   }
 
 }
@@ -4665,6 +4656,14 @@
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+  }
+  .filter-option-lists .checkmark:after{
+    border: solid #FFF;
+    border-width: 0 2px 2px 0;
+    left: 6px;
+    top: 1px;
+    width: 5px;
+    height: 12px;
   }
   .id-box {
     border: 1px solid #3EBDCC;
