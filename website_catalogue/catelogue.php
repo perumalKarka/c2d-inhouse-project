@@ -632,8 +632,9 @@
 
                                 </div>
                                 <div class="row card-last-button-sec ">
-                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    
                                     <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
                                 </div>
                             </div>
                         </div>
@@ -663,8 +664,9 @@
                                     <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
-                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                   
                                     <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
                                 </div>
                             </div>
                         </div>
@@ -694,8 +696,9 @@
                                     <div class="col-6  d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
-                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    
                                     <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
                                 </div>
                             </div>
                         </div>
@@ -725,8 +728,9 @@
                                     <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
-                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    
                                     <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
                                 </div>
                             </div>
                         </div>
@@ -756,8 +760,9 @@
                                     <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
-                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    
                                     <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
                                 </div>
                             </div>
                         </div>
@@ -787,8 +792,9 @@
                                     <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
-                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    
                                     <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
                                 </div>
                             </div>
                         </div>
@@ -818,8 +824,9 @@
                                     <div class="col-6  d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
-                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    
                                     <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
                                 </div>
                             </div>
                         </div>
@@ -849,8 +856,9 @@
                                     <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
-                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    
                                     <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
                                 </div>
                             </div>
                         </div>
@@ -880,8 +888,9 @@
                                     <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
-                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    
                                     <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
                                 </div>
                             </div>
                         </div>
@@ -911,8 +920,9 @@
                                     <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
-                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    
                                     <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
                                 </div>
                             </div>
                         </div>
@@ -942,8 +952,9 @@
                                     <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
-                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    
                                     <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
                                 </div>
                             </div>
                         </div>
@@ -973,8 +984,9 @@
                                     <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
-                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
+                                    
                                     <button type="button" class="preview live_preview d-block d-xl-none customize reset-margin" data-toggle="modal" data-target="#exampleModal-1">Customize</button>
+                                    <button type="button" class="preview live_preview d-block d-xl-none  reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button>
                                 </div>
 
                             </div>
