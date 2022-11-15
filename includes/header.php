@@ -34,12 +34,12 @@
                               <span class="icon-menu-bar h3 text-white"><img src="images/header-search.png" style="width:19px;height:19px;"/></span>
                             </a>
                           </span>-->
-                          <span class="d-inline-block d-lg-none">
+                          <span class="d-inline-block d-xl-none">
                             <a href="javascript:void(0)" class="text-black site-menu-toggle js-menu-toggle">
                               <span class="icon-menu-bar h3 text-white"><img src="images/bar.png" /></span>
                             </a>
                           </span>
-                          <nav class="site-navigation navbar navbar-expand-lg navbar-light bg-light reset-padding">
+                          <nav class="site-navigation navbar navbar-expand-xl navbar-light bg-light reset-padding">
                               <div class="main-nav collapse navbar-collapse" id="navbarCollapse">
                                   <ul id="menu-site-menu" class="navbar-nav ml-auto ">
                                     <li class="nav-item"><a href="index.php" class="nav-link">Accueil</a></li>

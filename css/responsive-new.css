@@ -392,8 +392,8 @@
   }
   body.land-page-new .box-link {
     position: absolute;
-    left: 62%;
-    bottom: 27%;
+    left: 48%;
+    bottom: 33%;
   }
   body.land-page-new .box-btn {
     padding: 9px 15px;
@@ -418,7 +418,7 @@
   .mobile-fixed-footer{
     background: #FBFDFF;
     box-shadow: 0px 0px 9px rgb(0 0 0 / 25%);
-    position: fixed;
+    position: sticky;
     height: 70px;
     bottom: 0;
     z-index: 999;
@@ -1527,6 +1527,11 @@
   .fr-site .box-btn {
     width: 283px;
   }
+  body.land-page-new .box-link {
+    position: absolute;
+    left: 62%;
+    bottom: 50px;
+}
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */

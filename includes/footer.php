@@ -49,7 +49,7 @@
   <img src="images/scroll-top.png" width="30" height="25"/>
 </a>
 
-<div class="mobile-fixed-footer container-fluid d-block d-md-none">
+<div class="mobile-fixed-footer container-fluid d-block d-lg-none">
   <div class="mobile-fixed-row  row reset-margin">
     <div class="home-holder holder col reset-padding">
       <a class="tap-holder" href="index.php">
