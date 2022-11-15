@@ -414,6 +414,94 @@
     padding: 21px 0;
     margin-top: 10px;
   }
+
+  .mobile-fixed-footer{
+    background: #FBFDFF;
+    box-shadow: 0px 0px 9px rgb(0 0 0 / 25%);
+    position: fixed;
+    height: 70px;
+    bottom: 0;
+    z-index: 999;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+  }
+  .mobile-fixed-row{
+    height: 100%;
+  }
+  img.plushover-icon{
+      width: 5vw;
+  }
+  .holder{
+    position: relative;
+  }
+  .tap-holder{
+      display: inline-flex;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      -moz-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+  }
+  .active-holder-icon,
+  .page-home .home-holder .holder-icon,
+  .page-service .service-holder .holder-icon,
+  .page-about .wish-holder .holder-icon,
+  .tap-holder .label{
+      display:none;
+  }
+  .page-home .home-holder .active-holder-icon,
+  .page-service .service-holder .active-holder-icon,
+  .page-about .wish-holder .active-holder-icon,
+  .page-home .home-holder .label,
+  .page-service .service-holder .label,
+  .page-about .wish-holder .label{
+      display:block;
+  }
+  .holder-span{
+      position: relative;
+  }
+  .tap-holder .label{
+    margin:0 0 0 4px;
+    color:#ffffff;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'robotoregular';
+    font-size: 18px;
+    line-height:26px;
+
+  }
+  .holder-span img{
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      -moz-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+  }
+  .holder-span .holder-icon{
+      width:28px;
+  }
+  .page-home .home-holder .holder-span,
+  .page-service .service-holder .holder-span,
+  .page-about .wish-holder .holder-span{
+      width:28px;
+      height:26px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 6px;
+  }
+  .page-home .home-holder .tap-holder,
+  .page-service .service-holder .tap-holder,
+  .page-about .wish-holder .tap-holder{
+      padding: 8px 16px 8px 16px;
+      background: #3EBDCC;
+      border-radius: 8px;
+  }
 }
 
 /* * // Small devices (landscape phones, 576px and up) */
@@ -782,6 +870,8 @@
     padding: 21px 0;
     margin-top: 10px;
   }
+
+  
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -1116,6 +1206,10 @@
     padding: 21px 0;
     margin-top: 24px;
   }
+
+  
+
+  
 }
 
 /* // Large devices (desktops, 992px and up) */
