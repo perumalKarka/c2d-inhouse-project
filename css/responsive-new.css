@@ -1751,4 +1751,9 @@
   .fr-site .box-btn {
     width: 400px;
   }
+  body.land-page-new .box-link {
+    position: absolute;
+    left: 62%;
+    bottom: 38%;
+}
 }

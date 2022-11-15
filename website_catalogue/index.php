@@ -49,50 +49,53 @@
         <!-- template slider -->
         <section class="template-carosal">
 
-            <!-- <div class="carousel-inner reset-padding">
-					<div class="carousel-item">
-						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>    
-						<div class="col-md-4 ads"><img src="images/Group 1199.png"></div>   
-						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>   
-					</div>
-					<div class="carousel-item active">
-						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
-						<div class="col-md-4  ads"><img src="images/Group 1199.png"></div>   
-						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
-					</div>
-					<div class="carousel-item">
-						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
-						<div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>   
-						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
-					</div>
-				        Left and right controls -->
-            <!-- <a class="carousel-control-prev" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-					    <a class="carousel-control-next" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+        <div id="demo_1" class="container container-90 carousel slide reset-padding " data-ride="carousel">
+                
+                <div class="carousel-inner inner-slide">
+                    <div class="carousel-item">
+                        <div class="col-4 col-md-4  ads"><img src="images/Group 109.png"></div>
+                        <div class="col-4 col-md-4  ads"><img src="images/Group 1199.png"></div>
+                        <div class="col-4 col-md-4  ads"><img src="images/Group 111.png"></div>
+                    </div>
+                    <div class="carousel-item active">
+                        <div class="col-4 col-md-4  ads"><img src="images/Group 109.png"></div>
+                        <div class="col-4 col-md-4  ads"><img src="images/Group 1199.png"></div>
+                        <div class="col-4 col-md-4  ads"><img src="images/Group 111.png"></div>
+                    </div>
+                    <div class="carousel-item">
+                    <div class="col-4 col-md-4  ads"><img src="images/Group 109.png"></div>
+                        <div class="col-4 col-md-4  ads"><img src="images/Group 1199.png"></div>
+                        <div class="col-4 col-md-4  ads"><img src="images/Group 111.png"></div>
+                    </div>
+                    <a class="carousel-control-prev slide_position prev-section prev-slider" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                    <a class="carousel-control-next slide_position next-section next-slider" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
                 </div>
             </div>
-            <div id="demo_1" class="container container-90 carousel slide reset-padding mt-4" data-ride="carousel">
-				<div class="carousel-inner reset-padding">
-					<div class="carousel-item">
-						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>    
-						<div class="col-md-4 ads"><img src="images/Group 1199.png"></div>   
-						<div class="col-md-4 ads"><img src="images/Group 109.png"></div>   
-					</div>
-					<div class="carousel-item active">
-						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
-						<div class="col-md-4  ads"><img src="images/Group 1199.png"></div>   
-						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
-					</div>
-					<div class="carousel-item">
-						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>    
-						<div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>   
-						<div class="col-md-4  ads"><img src="images/Group 109.png"></div>   
-					</div>
-				        Left and right controls -->
-            <!-- <a class="carousel-control-prev" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-					    <a class="carousel-control-next" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
-                </div> -->
+            <div id="demo_2" class="container container-90 carousel slide card_slide reset-padding d-none d-md-block d-lg-block" style="margin-top:76px;" data-ride="carousel">
+                
+                <div class="carousel-inner inner-slide ">
+                    <div class="carousel-item">
+                    <div class="col-4 col-md-4  ads"><img src="images/Group 109.png"></div>
+                        <div class="col-4 col-md-4  ads"><img src="images/Group 1199.png"></div>
+                        <div class="col-4 col-md-4  ads"><img src="images/Group 111.png"></div>
+                    </div>
+                    <div class="carousel-item active">
+                    <div class="col-4 col-md-4  ads"><img src="images/Group 109.png"></div>
+                        <div class="col-4 col-md-4  ads"><img src="images/Group 1199.png"></div>
+                        <div class="col-4 col-md-4  ads"><img src="images/Group 111.png"></div>
+                    </div>
+                    <div class="carousel-item">
+                    <div class="col-4 col-md-4  ads"><img src="images/Group 109.png"></div>
+                        <div class="col-4 col-md-4  ads"><img src="images/Group 1199.png"></div>
+                        <div class="col-4 col-md-4  ads"><img src="images/Group 111.png"></div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev slide_position prev-section prev-slider" href="#demo_2" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                    <a class="carousel-control-next slide_position next-section next-slider" href="#demo_2" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                </div>
+            </div>
 
-            <div id="news_slide" class="products-outer">
+            <!-- <div id="news_slide" class="products-outer">
                 <ul class="voxNews products-inner reset-padding">
                     <li><a href="catelogue.php"><img class="carosal_image" src="images/Group 109.png"></a></li>
                     <li><a href="catelogue.php"><img class="carosal_image" src="images/Group 1199.png"></a></li>
@@ -119,7 +122,7 @@
                     <li><a href="catelogue.php"><img class="carosal_image" src="images/Group 111.png"></a></li>
 
                 </ul>
-            </div>
+            </div> -->
         </section>
         <!-- end template slider -->
         <!-- pricing -->
