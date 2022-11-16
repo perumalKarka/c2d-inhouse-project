@@ -51,19 +51,19 @@
             <div id="demo_1" class="container container-90 carousel slide reset-padding mt-4 index-page-carousel-2" data-ride="carousel">
                 <div class="carousel-inner reset-padding">
                     <div class="carousel-item">
-                        <div class="col-md-4 ads"><img src="images/Group 109.png"></div>
-                        <div class="col-md-4 ads"><img src="images/Group 1199.png"></div>
-                        <div class="col-md-4 ads"><img src="images/Group 109.png"></div>
+                        <div class="col-4 ads reset-padding"><img src="images/Group 109.png"></div>
+                        <div class="col-4 ads reset-padding"><img src="images/Group 1199.png"></div>
+                        <div class="col-4 ads reset-padding"><img src="images/Group 109.png"></div>
                     </div>
                     <div class="carousel-item active">
-                        <div class="col-md-4  ads"><img src="images/Group 109.png"></div>
-                        <div class="col-md-4  ads"><img src="images/Group 1199.png"></div>
-                        <div class="col-md-4  ads"><img src="images/Group 109.png"></div>
+                        <div class="col-4  ads reset-padding"><img src="images/Group 109.png"></div>
+                        <div class="col-4  ads reset-padding"><img src="images/Group 1199.png"></div>
+                        <div class="col-4  ads reset-padding"><img src="images/Group 109.png"></div>
                     </div>
                     <div class="carousel-item">
-                        <div class="col-md-4  ads"><img src="images/Group 109.png"></div>
-                        <div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>
-                        <div class="col-md-4  ads"><img src="images/Group 109.png"></div>
+                        <div class="col-4  ads reset-padding"><img src="images/Group 109.png"></div>
+                        <div class="col-4  ads reset-padding"><img src="images/Group 1199.png"> </div>
+                        <div class="col-4  ads reset-padding"><img src="images/Group 109.png"></div>
                     </div>
                     Left and right controls
                     <a class="carousel-control-prev prev-slider" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
@@ -73,14 +73,14 @@
             <div id="demo_2" class="container container-90 carousel slide reset-padding index-page-carousel-2" data-ride="carousel">
                 <div class="carousel-inner reset-padding">
                     <div class="carousel-item">
-                        <div class="col-md-4 ads"><img src="images/Group 109.png"></div>
-                        <div class="col-md-4 ads"><img src="images/Group 1199.png"></div>
-                        <div class="col-md-4 ads"><img src="images/Group 109.png"></div>
+                        <div class="col-md-4 ads reset-padding"><img src="images/Group 109.png"></div>
+                        <div class="col-md-4 ads reset-padding"><img src="images/Group 1199.png"></div>
+                        <div class="col-md-4 ads reset-padding"><img src="images/Group 109.png"></div>
                     </div>
                     <div class="carousel-item active">
-                        <div class="col-md-4  ads"><img src="images/Group 109.png"></div>
-                        <div class="col-md-4  ads"><img src="images/Group 1199.png"></div>
-                        <div class="col-md-4  ads"><img src="images/Group 109.png"></div>
+                        <div class="col-md-4  ads reset-padding"><img src="images/Group 109.png"></div>
+                        <div class="col-md-4  ads reset-padding"><img src="images/Group 1199.png"></div>
+                        <div class="col-md-4  ads reset-padding"><img src="images/Group 109.png"></div>
                     </div>
                     <div class="carousel-item">
                         <div class="col-md-4  ads"><img src="images/Group 109.png"></div>
