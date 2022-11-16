@@ -26,7 +26,204 @@
     <meta name="msapplication-TileImage" content="images/favicon-ico.png" />
 
     <style type="text/css">
+        .delete_sidebar_wish {
+            height: 100%;
+            width: 0;
+            position:absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            transition: 0.5s;
+        }
+        .wishlist-container .no-gutters{
+            display:flex;
+        }
+        .delete_sidebar_wish .wish-icon-box{
+            height:46%;
+            border-radius:9px;
+            position: relative;
+            
+        }
+        .wish-icon-box i{
+            color:#fff;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            font-size:21px;
+        }
+        .wish-remove-bx{
+            background:#FF3D00;
+            margin-bottom: 10%;
+        }
+        .wish-close-bx{
+            background:#d1d1d1;
+        }
 
+        @media (min-width: 380px) {
+            .wishlist-bar h2{
+                font-size:15px;
+                line-height:22px;
+                letter-spacing: 2px;
+                padding: 15px 0;
+            }
+            .wishlist-container .card-title {
+                font-size: 15px;
+                line-height: 20px;
+                margin: 0px 0 2px 0;
+            }
+            .wishlist-container .card-text {
+                font-size: 12px;
+                line-height: 22px;
+                margin: 0 0 12% 0;
+            }
+            .wishlist-container .remove,
+            .wishlist-container .preview {
+                font-size: 11px;
+                width: 41%;
+                padding: 2px 0;
+                text-align: center;
+                border-radius: 3px;
+            }
+            .wishlist-container .card{
+                margin-top: 40px;
+            }
+            .wish-visit{
+                font-size: 16px;
+                line-height: 30px;
+            }
+            .wish-checkout {
+                font-size: 16px;
+                width: 40%;
+                padding: 4px 0;
+                border-radius: 4px;
+            }
+            .wishlist-bar{
+                width:80%;
+            }
+            .wishlist-container .card-img{
+                height:auto;
+            }
+        }
+        @media (min-width: 575px) {
+            .wishlist-bar{
+                width:480px;
+            }
+            .wishlist-container .card{
+                margin-top: 45px;
+            }
+            .wish-visit{
+                font-size: 16px;
+                line-height: 30px;
+            }
+            .wish-checkout {
+                font-size: 16px;
+                width: 40%;
+                padding: 4px 0;
+                border-radius: 4px;
+            }
+            .wishlist-container .card-text {
+                margin: 0 0 32% 0;
+            }
+        }
+        @media (min-width: 768px) {
+            .wishlist-bar h2{
+                font-size:18px;
+                line-height:26px;
+                letter-spacing: 2px;
+                padding: 20px 0;
+            }
+            .wishlist-container .card-title {
+                font-size: 18px;
+                line-height: 25px;
+                margin: 0px 0 3px 0;
+            }
+            .wishlist-container .card-text {
+                font-size: 14px;
+                line-height: 24px;
+                margin: 0 0 28% 0;
+            }
+            .wishlist-container .remove,
+            .wishlist-container .preview {
+                font-size: 13px;
+                width: 45%;
+                padding: 3px 0;
+                text-align: center;
+                border-radius: 4px;
+            }
+            .wishlist-container .card{
+                margin-top: 50px;
+            }
+            .wish-visit{
+                font-size: 17px;
+                line-height: 30px;
+            }
+            .wish-checkout {
+                font-size: 17px;
+                width: 40%;
+                padding: 4px 0;
+                border-radius: 5px;
+            }
+        }
+        @media (min-width: 992px) {
+            .wishlist-container .card-text{
+                margin: 0 0 13% 0;
+            }
+        }
+        @media (min-width: 1200px) {
+            .wishlist-bar h2{
+                font-size:22px;
+                line-height:30px;
+                letter-spacing: 3px;
+                padding: 25px 0;
+            }
+            .wishlist-container .card-title {
+                font-size: 22px;
+                font-family: 'robotoregular';
+                line-height: 30px;
+                font-weight: bold;
+                color: #ffffff;
+                margin: 0px 0 4px 0;
+            }
+            .wishlist-container .card-text {
+                font-size: 18px;
+                font-family: 'robotolight';
+                line-height: 30px;
+                color: #ffffff;
+                margin: 0 0 40px 0;
+            }
+            .wishlist-container .remove {
+                font-size: 18px;
+                width: 100px;
+                padding: 4px 0;
+                text-align: center;
+                border-radius: 6px;
+            }
+            .wishlist-container .preview {
+                color: #ffffff;
+                font-size: 18px;
+                width: 100px;
+                padding: 4px 0;
+                border-radius: 6px;
+            }
+            .wishlist-container .card{
+                margin-top: 60px;
+            }
+            .wish-visit{
+                font-size: 24px;
+                line-height: 40px;
+            }
+            .wish-checkout {
+                font-size: 24px;
+                width: 200px;
+                padding: 4px 0;
+                border-radius: 8px;
+            }
+            .wishlist-container .card-img {
+                height: 143px;
+            }
+        }
     </style>
 </head>
 
@@ -1108,11 +1305,48 @@
     <script type="text/javascript">
         $(document).ready(function(){
             $(".wishlist-container .remove").each(function(inde, item){
-                $(item).click(function() {
+                $(item).click(function(event) {
                     
+                    $(this).next().hide();
+                    if ($(window).width() >= 575) {
+                        $(this).parent().parent().prev().parent().prev().css({
+                            'width' : '70px'
+                        });
+                    }
+                    else{
+                        $(this).parent().parent().prev().parent().prev().css({
+                            'width' : '15%'
+                        });
+                    }
+                    $(this).parent().parent().prev().parent().css({
+                        'margin-left' : '18%',
+                    });
+                    $(this).hide();
+                    event.preventDefault();
                 });
             });
+
+            $(".wish-close-bx").each(function(inde, item){
+                $(item).click(function(event) {
+                    $(this).parent().css({
+                        'width' : '0'
+                    });
+                    $(this).parent().next().css({
+                        'margin-left' : '0'
+                    });
+                    $(this).parent().next().find('.card-link.preview').show();
+                    $(this).parent().next().find('.card-link.remove').show();
+                });
+            });
+
+            
         });
+        // $.myjQuery = function() {
+        //     console.log($(this))
+        // };
+        // function closeNav(){
+        //     $.myjQuery();
+        // }
         $(document).ready(function() {
 
 
