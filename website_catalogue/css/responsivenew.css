@@ -35,7 +35,7 @@
   max-width: 65%;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 380px) {
   .website-animation .container-75 {
     width: 100%;
     max-width: 80%;
