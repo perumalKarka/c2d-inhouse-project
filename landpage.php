@@ -160,7 +160,7 @@
     <section class="phoningsolution">
       <div class="container container-90  phoning-solution-pricing-list">
         <div class="row row-reverse reset-margin">
-          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12  phoning-solution-pricing-list-style">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12  phoning-solution-pricing-list-style reset-padding">
             <h2 class="d-none d-md-block">PHONING SOLUTION</h2>
             <p>Lorem ipsum dolor sit amet</p>
             <div class="pricing-list-condent pb-0">
@@ -169,8 +169,9 @@
                 <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem</li>
                 <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem</li>
                 <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem</li>
-                <button type="button" class="phoning-button  btn btn-primary btn-c2d-primary-md">En savoir plus</button>
+               
               </ul>
+              <button type="button" class="phoning-button  btn btn-primary btn-c2d-primary-md">En savoir plus</button>
             </div>
           </div>
           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 phoningsolution-right-side-image reset-padding">

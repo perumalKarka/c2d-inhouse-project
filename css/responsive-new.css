@@ -34,8 +34,7 @@
   width: 100%;
   max-width: 65%;
 }
-
-@media (min-width: 400px) {
+@media (min-width: 380px) {
   body.land-page-new .banner--with--content.homeoffice--banner {
     position: relative;
     background-color: transparent;
@@ -55,7 +54,7 @@
   body.land-page-new .homeoffice--banner .banner-left-col h1 {
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 62px;
     color: #005579;
     margin-bottom: 5px;
@@ -72,8 +71,8 @@
     margin-bottom: 20px;
   }
   body.land-page-new .homemade_solutions-content {
-    padding-top: 60px;
-    margin-bottom: 60px;
+    padding-top: 50px;
+    margin-bottom: 50px;
   }
   body.land-page-new .homemade_solutions-content-2 {
     margin-bottom: 70px;
@@ -81,13 +80,14 @@
   body.land-page-new .homemade_solutions-content h2 {
     font-weight: bold;
     text-align: center;
-    font-size: 24px;
-    font-family: "robotoregular";
+    font-size: 25px;
+    line-height:30px;
+    font-family: "roboto";
     letter-spacing: 0px;
     color: #005579;
     opacity: 1;
     margin-bottom: 17px;
-    line-height: 20px;
+    
   }
   body.land-page-new .homeofficepage-title-section p {
     font-family: "robotoregular";
@@ -104,18 +104,18 @@
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 34px;
+    line-height: 28px;
     color: #005579;
     max-width: 460px;
     margin-bottom: 0px;
   }
   body.land-page-new .homemade_solutions-content-2 h2 {
-    line-height: 24px;
+    line-height: 32px;
     font-size: 22px;
     font-weight: bold;
     letter-spacing: var(--unnamed-character-spacing-0);
     text-align: center;
-    font: normal normal medium 44px/62px Roboto;
+   ;
     letter-spacing: 0px;
     color: #005579;
     opacity: 1;
@@ -157,7 +157,7 @@
     font-weight: bold;
   }
   body.land-page-new .phoning-solution-pricing-list-style p {
-    font-size: 24px;
+    font-size: 20px;
     letter-spacing: var(--unnamed-character-spacing-0);
     text-align: left;
     margin-top: 50px;
@@ -173,7 +173,7 @@
     border: none;
   }
   body.land-page-new .pricing-list-condent ul li {
-    padding-bottom: 13px;
+    padding-bottom: 20px;
   }
   body.land-page-new button.phoning-button {
     margin-top: 31px;
@@ -202,7 +202,7 @@
     padding-bottom: 20px !important;
   }
   body.land-page-new .landing-page-last-condent p {
-    font-size: 18px;
+    font-size: 15px;
     font-family: "robotoregular";
     text-align: center;
   }
@@ -210,16 +210,16 @@
   body.land-page-new h4.box-title {
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height:34px;
-    line-height: 55px;
+    font-size: 17px;
+    line-height:24px;
+    text-align: center;
     color: #ffffff;
     font-family: "robotoregular";
   }
   body.land-page-new p.box-para {
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-ffffff);
-    text-align: left;
+    text-align: center;
     font-size: 12px;
     letter-spacing: 0px;
     color: #ffffff;
@@ -230,7 +230,7 @@
   }
   /* cardsection */
   body.land-page-new .lading-page-card {
-    padding-bottom: 37px;
+    padding-bottom: 20px;
   }
   .landpage-block .card {
     margin-bottom: 30px;
@@ -377,7 +377,467 @@
   }
   body.land-page-new .fr-site .btn-c2d-primary,
   .fr-site .box-btn {
-    width: 33%;
+    width: 40%;
+    margin:0 auto;
+  }
+  body.land-page-new .heightlight-footer-box {
+    background: #f4a41d;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    padding-bottom:20px;
+    margin-top: 0px;
+  }
+
+  body.land-page-new .box-content {
+    padding: 30px 0 30px 0;
+  }
+  
+  body.land-page-new .box-btn {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  body.land-page-new .phoningsolution .row {
+    flex-wrap: wrap-reverse;
+  }
+  .phoningsolution h2 {
+    color: #f4a41d;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 36px;
+  }
+  footer {
+    background: #005579;
+    padding: 21px 0;
+    margin-top: 10px;
+  }
+
+  .mobile-fixed-footer{
+    background: #FBFDFF;
+    box-shadow: 0px 0px 9px rgb(0 0 0 / 25%);
+    position: sticky;
+    height: 70px;
+    bottom: 0;
+    z-index: 999;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+  }
+  .mobile-fixed-row{
+    height: 100%;
+  }
+  img.plushover-icon{
+      width: 5vw;
+  }
+  .holder{
+    position: relative;
+  }
+  .tap-holder{
+      display: inline-flex;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      -moz-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+  }
+  .active-holder-icon,
+  .page-home .home-holder .holder-icon,
+  .page-service .service-holder .holder-icon,
+  .page-about .wish-holder .holder-icon,
+  .tap-holder .label{
+      display:none;
+  }
+  .page-home .home-holder .active-holder-icon,
+  .page-service .service-holder .active-holder-icon,
+  .page-about .wish-holder .active-holder-icon,
+  .page-home .home-holder .label,
+  .page-service .service-holder .label,
+  .page-about .wish-holder .label{
+      display:block;
+  }
+  .holder-span{
+      position: relative;
+  }
+  .tap-holder .label{
+    margin:0 0 0 4px;
+    color:#ffffff;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'robotoregular';
+    font-size: 18px;
+    line-height:26px;
+
+  }
+  .holder-span img{
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      -moz-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+  }
+  .holder-span .holder-icon{
+      width:28px;
+  }
+  .page-home .home-holder .holder-span,
+  .page-service .service-holder .holder-span,
+  .page-about .wish-holder .holder-span{
+      width:28px;
+      height:26px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 6px;
+  }
+  .page-home .home-holder .tap-holder,
+  .page-service .service-holder .tap-holder,
+  .page-about .wish-holder .tap-holder{
+      padding: 8px 16px 8px 16px;
+      background: #3EBDCC;
+      border-radius: 8px;
+  }
+}
+
+@media (min-width: 400px) {
+  body.land-page-new .banner--with--content.homeoffice--banner {
+    position: relative;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: auto;
+    height: 100vh;
+    margin-bottom: 0px;
+  }
+  body.land-page-new .homeoffice--banner .banner-content {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 100vh;
+  }
+  body.land-page-new .homeoffice--banner .banner-left-col h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 62px;
+    color: #005579;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  body.land-page-new .homeoffice--banner .banner-left-col p {
+    font-family: "robotolight";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #005579;
+    max-width: 460px;
+    margin-bottom: 20px;
+  }
+  body.land-page-new .homemade_solutions-content {
+    padding-top: 60px;
+    margin-bottom: 60px;
+  }
+  body.land-page-new .homemade_solutions-content-2 {
+    margin-bottom: 70px;
+  }
+  body.land-page-new .homemade_solutions-content h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    line-height:34px;
+    font-family: "roboto";
+    letter-spacing: 0px;
+    color: #005579;
+    opacity: 1;
+    margin-bottom: 17px;
+    
+  }
+  
+  body.land-page-new .homeoffice--banner .banner-left-col p {
+    font-family: "robotolight";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 34px;
+    color: #005579;
+    max-width: 460px;
+    margin-bottom: 0px;
+  }
+  body.land-page-new .homemade_solutions-content-2 h2 {
+    line-height: 34px;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: center;
+   
+    letter-spacing: 0px;
+    color: #005579;
+    opacity: 1;
+    margin-bottom: 17px;
+  }
+
+  body.land-page-new .lading-page-card .container-90 .card .land-page-header {
+    position: relative;
+  }
+
+  body.land-page-new .homemade_solutions-content-2 p {
+    font-size: 18px;
+    font-family: "robotoregular";
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: inherit;
+    letter-spacing: 0px;
+    color: #005579;
+    opacity: 1;
+    line-height: 24px;
+  }
+  /* phoning solution */
+
+  body.land-page-new section.phoningsolution {
+    background-color: #e6f0ff;
+    padding-top: 31px;
+    padding-bottom: 30px;
+  }
+  body.land-page-new .phoning-solution-pricing-list-style {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  body.land-page-new .phoning-solution-pricing-list-style h2 {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 4.4px;
+    color: #f4a41d;
+    opacity: 1;
+    margin-bottom: 3px;
+    font-weight: bold;
+  }
+  body.land-page-new .phoning-solution-pricing-list-style p {
+    font-size: 24px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 0px;
+    color: #00344a;
+    opacity: 1;
+  }
+  body.land-page-new
+    .phoning-solution-pricing-list-style
+    .pricing-list-condent {
+    padding-top: 11px;
+    border: none;
+  }
+  body.land-page-new .pricing-list-condent ul li {
+    padding-bottom: 16px;
+  }
+  body.land-page-new button.phoning-button {
+    margin-top: 31px;
+  }
+  body.land-page-new .phoningsolution-right-side-image img {
+    max-width: 100%;
+  }
+  body.land-page-new .pricing-list-condent ul {
+    list-style: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 21px;
+    color: #878787;
+  }
+  body.land-page-new .pricing-list-condent ul li i {
+    color: #3ebdcc;
+    margin-right: 15.5px;
+  }
+  body.land-page-new .landing-page-last-condent .container-90 {
+    width: 100%;
+    max-width: 75%;
+  }
+  body.land-page-new .landing-page-last-condent {
+    padding-top: 20px;
+    padding-bottom: 20px !important;
+  }
+  body.land-page-new .landing-page-last-condent p {
+    font-size: 18px;
+    line-height:28px;
+    font-family: "robotoregular";
+    text-align: center;
+  }
+
+  body.land-page-new h4.box-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height:34px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "robotoregular";
+  }
+  body.land-page-new p.box-para {
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  body.land-page-new section.heightlight-footer-box-1 {
+    padding: 88px 0 105px 0;
+  }
+  /* cardsection */
+  body.land-page-new .lading-page-card {
+    padding-bottom: 37px;
+  }
+  .landpage-block .card {
+    margin-bottom: 30px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px 3px rgb(0 0 0 / 25%);
+    border-radius: 8px;
+    border: none;
+  }
+
+  body.land-page-new .land-page-header {
+    background-color: #e6f0ff;
+  }
+  body.land-page-new .land-page-header-inner {
+    padding: 36px 34px 48px 34px;
+  }
+  body.land-page-new .land-page-header-inner.land-page-header-title-inner {
+    padding: 25px 25px 93px 25px;
+  }
+  body.land-page-new .land-page-header-inner span {
+    padding: 6px;
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    background: #f4a41d 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    margin-right: 13px;
+  }
+  body.land-page-new .land-page-header-inner label {
+    text-align: left;
+    font: normal normal 300 16px/23px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+  body.land-page-new .land-page-header-inner h2 {
+    padding-top: 23px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal bold 35px/40px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+  body.land-page-new .land-page-header-inner p {
+    padding-top: 5px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    text-align: left;
+    font: normal normal 300 16px/23px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+  body.land-page-new .landpage-block hr {
+    border: 2px solid#F4A41D;
+    margin-left: 10px;
+    margin-right: 53px;
+    position: relative;
+    bottom: 16px;
+  }
+  body.land-page-new .page-card-button {
+    padding: 14px 104px 14px 104px;
+  }
+  body.land-page-new .landpage-block .card button.page-card-button {
+    padding: 14px 100px 14px 100px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  body.land-page-new .landing-body ul {
+    list-style: none;
+    margin: 0 0 0 25px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #878787;
+  }
+  .landing-body ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+
+  body.land-page-new .landing-body ul li {
+    padding-bottom: 12px;
+    display: inline-flex;
+    width: 100%;
+  }
+  body.land-page-new .landing-body ul li i {
+    color: #3ebdcc;
+    margin-right: 13px;
+  }
+  body.land-page-new .lading-page-card .btn-c2d-primary-md {
+    margin-top: 20px;
+    font-family: "robotoregular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+    width: 87%;
+    padding: 12px 0px;
+    background: #3ebdcc;
+    border-color: #3ebdcc;
+    border-radius: 8px;
+    position: absolute;
+    top: 178px;
+    left: 20px;
+  }
+  body.land-page-new .btn-c2d-primary-md {
+    font-family: "robotoregular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    padding: 12px 0px;
+    background: #3ebdcc;
+    border-color: #3ebdcc;
+    border-radius: 8px;
+  }
+  body.land-page-new .homeofficepage-title-section .btn-c2d-primary-md {
+    font-family: "robotoregular";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+    width: 283px;
+    padding: 12px 0px;
+    background: #3ebdcc;
+    border-color: #3ebdcc;
+    border-radius: 8px;
+  }
+  body.land-page-new .fr-site .btn-c2d-primary,
+  .fr-site .box-btn {
+    width: 45%;
   }
   body.land-page-new .heightlight-footer-box {
     background: #f4a41d;
@@ -390,11 +850,7 @@
   body.land-page-new .box-content {
     padding: 30px 0 30px 0;
   }
-  body.land-page-new .box-link {
-    position: absolute;
-    left: 48%;
-    bottom: 33%;
-  }
+
   body.land-page-new .box-btn {
     padding: 9px 15px;
     font-size: 13px;
@@ -528,6 +984,7 @@
     font-size: 35px;
     line-height: 62px;
     color: #005579;
+    font-family: "roboto";
     margin-bottom: 5px;
     font-weight: bold;
   }
@@ -551,7 +1008,7 @@
   body.land-page-new .homemade_solutions-content h2 {
     text-align: center;
     font-size: 26px;
-    font-family: "robotoregular";
+    font-family: "roboto";
     letter-spacing: 0px;
     color: #005579;
     opacity: 1;
@@ -562,7 +1019,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 28px;
     text-align: center;
     color: #005579;
     margin-bottom: 0px;
@@ -602,7 +1059,7 @@
     letter-spacing: 0px;
     color: #005579;
     opacity: 1;
-    line-height: 24px;
+    line-height: 28px;
   }
   /* phoning solution */
 
@@ -641,7 +1098,7 @@
     border: none;
   }
   body.land-page-new .pricing-list-condent ul li {
-    padding-bottom: 13px;
+    padding-bottom: 19px;
   }
   body.land-page-new button.phoning-button {
     margin-top: 31px;
@@ -679,8 +1136,8 @@
   body.land-page-new p.box-para {
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-ffffff);
-    text-align: left;
-    font-size: 12px;
+    text-align: center;
+    font-size: 16px;
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 1;
@@ -811,7 +1268,7 @@
     line-height: 28px;
     text-align: center;
     color: #ffffff;
-    width: 89%;
+    width: 100%;
     padding: 12px 0px;
     background: #3ebdcc;
     border-color: #3ebdcc;
@@ -833,7 +1290,7 @@
   }
   body.land-page-new .fr-site .btn-c2d-primary,
   .fr-site .box-btn {
-    width: 33%;
+    width: 42%;
   }
   body.land-page-new .heightlight-footer-box {
     background: #f4a41d;
@@ -846,11 +1303,7 @@
   body.land-page-new .box-content {
     padding: 30px 0 30px 0;
   }
-  body.land-page-new .box-link {
-    position: absolute;
-    left: 62%;
-    bottom: 25px;
-  }
+  
   body.land-page-new .box-btn {
     padding: 9px 24px;
     font-size: 18px;
@@ -927,10 +1380,10 @@
     margin-bottom: 21px;
   }
   body.land-page-new .homeofficepage-title-section p {
-    font-family: "robotolight";
+    font-family: "roboto";
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 34px;
     text-align: center;
     color: #005579;
@@ -1264,7 +1717,7 @@
     margin-bottom: 39px;
   }
   body.land-page-new .homeofficepage-title-section p {
-    font-family: "robotolight";
+    font-family: "roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -1277,8 +1730,8 @@
     font-family: "robotolight";
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 23px;
+    line-height: 33px;
     color: #005579;
     max-width: 460px;
     margin-bottom: 16px;
@@ -1294,7 +1747,7 @@
     margin-bottom: 19px;
   }
   body.land-page-new .homemade_solutions-content-2 p {
-    font-size: 23px;
+    font-size: 22px;
     line-height:33px;
     font-family: "robotoregular";
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -1375,6 +1828,7 @@
     font-size: 30px;
     line-height: 55px;
     color: #ffffff;
+    text-align: left;;
     font-family: "robotoregular";
   }
   body.land-page-new p.box-para {
@@ -1469,7 +1923,7 @@
     margin: 0 0 0 25px;
     font-style: normal;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 21px;
     color: #878787;
     column-count: unset;
@@ -1527,11 +1981,7 @@
   .fr-site .box-btn {
     width: 283px;
   }
-  body.land-page-new .box-link {
-    position: absolute;
-    left: 62%;
-    bottom: 50px;
-}
+ 
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -1837,9 +2287,5 @@
   .fr-site .box-btn {
     width: 400px;
   }
-  body.land-page-new .box-link {
-    position: absolute;
-    left: 62%;
-    bottom: 38%;
-}
+ 
 }
