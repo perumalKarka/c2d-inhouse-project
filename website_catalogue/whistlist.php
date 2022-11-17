@@ -208,18 +208,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-xl-3 col-6 d-xl-none accoridan-slider-sec  reset-padding">
-                                                <div class="accord-slide-inner-box">
-                                                    <img src="images/accordianimage-3.jpg" class="mw-100">
-                                                    <div class="form-group checkboxTop-block ">
-                                                        <label class="contactform-check--label block-color">
-                                                            <input class="contactform-check--input" type="checkbox" value="option1">
-                                                            <span class="checkmark"></span>
-                                                            <span class="checked-color">Starter kit</span>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                           
                                         </div>
                                     </div>
                                 </div>
