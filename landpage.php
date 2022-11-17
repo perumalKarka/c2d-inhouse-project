@@ -16,10 +16,22 @@
   <style>
     /* Some custom styles to beautify this example */
 
-    .demo-content {
+    .demo-content{
       padding: 25px;
       font-size: 18px;
       background: #abb1b8;
+    }
+
+    .landcard_arrow:after {
+        font-family: 'FontAwesome';
+        content: "\f107";
+        border: none;
+        margin-left: 9px;
+        position: relative;
+        top: 0;
+    }
+    .megamenu-li.show .dropdown-toggle:after {
+        content: "\f106";
     }
   </style>
   <link rel="icon" href="images/favicon-ico.png" sizes="32x32" />
@@ -72,31 +84,32 @@
     </section>
     <!-- card-section -->
     <section class=" lading-page-card">
-      <div class="container container-90 d-none d-sm-block reset-padding">
+      <div class="container container-90 reset-padding">
         <div class="row justify-content-center reset-margin">
           <div class="landpage-block col-lg-4 col-md-12 reset-padding">
             <div class=" card">
-              <div class="land-page-header d-table">
-                <div class="land-page-header-inner land-page-header-title-inner d-table-cell align-middle">
+              <div class="land-page-header">
+                <div class="land-page-header-inner land-page-header-title-inner">
                   <span>Bundles</span><label>pas de coûts cachés</label>
                   <h2>Site Web</h2>
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                  <button type="button" class="btn btn-primary btn-c2d-primary-md d-block d-md-none">En savoir plus</button>
                 </div>
               </div>
               <hr>
               <div class="landing-body border-0 reset-padding">
                 <div class="land-page-header-inner pt-0">
-                  <ul class="landing-body--lists reset-margin d-sm-none d-md-block">
+                  <ul class="landing-body--lists reset-margin">
                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
-
                   </ul>
-                  <button type="button" class=" btn btn-primary btn-c2d-primary-md">En savoir plus</button>
+                  <button type="button" class=" btn btn-primary btn-c2d-primary-md d-none d-md-block">En savoir plus</button>
                 </div>
+                <a class="landcard_arrow float-right d-block d-md-none">Show features</a>
               </div>
             </div>
           </div>
@@ -107,12 +120,13 @@
                   <span>Bundles</span><label>pas de coûts cachés</label>
                   <h2>Site Web</h2>
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                  <button type="button" class="btn btn-primary btn-c2d-primary-md d-block d-md-none">En savoir plus</button>
                 </div>
               </div>
               <hr>
               <div class="landing-body border-0 reset-padding">
                 <div class="land-page-header-inner pt-0">
-                  <ul class="landing-body--lists reset-margin d-sm-none d-md-block">
+                  <ul class="landing-body--lists reset-margin">
                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
@@ -121,8 +135,9 @@
                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
 
                   </ul>
-                  <button type="button" class="btn btn-primary btn-c2d-primary-md">En savoir plus</button>
+                  <button type="button" class="btn btn-primary btn-c2d-primary-md d-none d-md-block">En savoir plus</button>
                 </div>
+                <a class="landcard_arrow float-right d-block d-md-none">Show features</a>
               </div>
             </div>
           </div>
@@ -133,12 +148,13 @@
                   <span>Bundles</span><label>pas de coûts cachés</label>
                   <h2>Site Web</h2>
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+                  <button type="button" class="btn btn-primary btn-c2d-primary-md d-block d-md-none">En savoir plus</button>
                 </div>
               </div>
               <hr>
               <div class="landing-body border-0 reset-padding">
                 <div class="land-page-header-inner pt-0">
-                  <ul class="landing-body--lists reset-margin d-sm-none d-md-block">
+                  <ul class="landing-body--lists reset-margin">
                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
@@ -147,8 +163,9 @@
                     <li><i class="fa fa-check-circle" aria-hidden="true"></i>Lorem ipsum dolor sit amet</li>
 
                   </ul>
-                  <button type="button" class="btn btn-primary btn-c2d-primary-md">En savoir plus</button>
+                  <button type="button" class="btn btn-primary btn-c2d-primary-md d-none d-md-block">En savoir plus</button>
                 </div>
+                <a class="landcard_arrow float-right d-block d-md-none">Show features</a>
               </div>
             </div>
           </div>
@@ -215,6 +232,23 @@
   <script src="js/jquery.sticky.js"></script>
   <script src="js/mobile_menu.js"></script>
   <script src="js/main.js"></script>
+  <script type="text/javascript">
+    if ($(window).width() <= 768) {
+      $(".landcard_arrow").each(function(inde, item){
+            $(item).html("Show features");
+            $(item).click(function(event) {
+              $(this).parent().toggleClass("sticky-landingbody")
+              $(this).prev().toggleClass("show");
+              if($(this).prev().hasClass('show')){
+                $(item).html("Hide features");
+              }
+              else{
+                $(item).html("Show features");
+              }
+            });
+      });
+    }
+  </script>
 </body>
 
 </html>

@@ -34,14 +34,14 @@
   width: 100%;
   max-width: 65%;
 }
-@media (min-width: 380px) {
+@media (min-width: 360px) {
   body.land-page-new .banner--with--content.homeoffice--banner {
     position: relative;
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: auto;
-    height: 100vh;
+    background-size: inherit;
+    height: 76vh;
     margin-bottom: 0px;
   }
   body.land-page-new .homeoffice--banner .banner-content {
@@ -49,7 +49,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    height: 100vh;
+    height: 80vh;
   }
   body.land-page-new .homeoffice--banner .banner-left-col h1 {
     font-style: normal;
@@ -135,6 +135,24 @@
     color: #005579;
     opacity: 1;
     line-height: 24px;
+  }
+  .landing-body.sticky-landingbody{
+    position: absolute;
+    top: 95%;
+    background: #fff;
+    z-index: 1;
+    width:100%;
+  }
+  .landcard_arrow{
+    margin-right: 25px;
+    color:#878787;
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    bottom: 13px;
+  }
+  .landcard_arrow:hover,.landcard_arrow:focus,.landcard_arrow :active{
+    color:#878787;
   }
   /* phoning solution */
 
@@ -243,11 +261,20 @@
   body.land-page-new .land-page-header {
     background-color: #e6f0ff;
   }
-  body.land-page-new .land-page-header-inner {
+  body.land-page-new .landing-body .land-page-header-inner {
+    visibility:hidden;
+    opacity:0;
+    transition:visibility 0.3s linear,opacity 0.3s linear;
+    height: 0;
+  }
+  body.land-page-new .landing-body .land-page-header-inner.show{
+    visibility:visible;
+    opacity:1;
+    height: auto;
     padding: 36px 34px 48px 34px;
   }
-  body.land-page-new .land-page-header-inner.land-page-header-title-inner {
-    padding: 25px 25px 93px 25px;
+  body.land-page-new .land-page-header .land-page-header-inner{
+    padding: 25px;
   }
   body.land-page-new .land-page-header-inner span {
     padding: 6px;
@@ -289,8 +316,8 @@
   }
   body.land-page-new .landpage-block hr {
     border: 2px solid#F4A41D;
-    margin-left: 10px;
-    margin-right: 53px;
+    margin-left: 25px;
+    margin-right: 25px;
     position: relative;
     bottom: 16px;
   }
@@ -314,12 +341,6 @@
     line-height: 21px;
     color: #878787;
   }
-  .landing-body ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-  }
-
   body.land-page-new .landing-body ul li {
     padding-bottom: 12px;
     display: inline-flex;
@@ -338,7 +359,7 @@
     line-height: 28px;
     text-align: center;
     color: #ffffff;
-    width: 87%;
+    width: 100%;
     padding: 12px 0px;
     background: #3ebdcc;
     border-color: #3ebdcc;
@@ -347,6 +368,10 @@
     top: 178px;
     left: 20px;
   }
+  body.land-page-new .lading-page-card .land-page-header .btn-c2d-primary-md{
+    position: inherit;
+  }
+    
   body.land-page-new .btn-c2d-primary-md {
     font-family: "robotoregular";
     font-style: normal;
@@ -388,7 +413,6 @@
     padding-bottom:20px;
     margin-top: 0px;
   }
-
   body.land-page-new .box-content {
     padding: 30px 0 30px 0;
   }
@@ -508,8 +532,8 @@
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: auto;
-    height: 100vh;
+    background-size: inherit;
+    height: 70vh;
     margin-bottom: 0px;
   }
   body.land-page-new .homeoffice--banner .banner-content {
@@ -517,7 +541,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    height: 100vh;
+    height: 80vh;
   }
   body.land-page-new .homeoffice--banner .banner-left-col h1 {
     font-style: normal;
@@ -703,11 +727,8 @@
   body.land-page-new .land-page-header {
     background-color: #e6f0ff;
   }
-  body.land-page-new .land-page-header-inner {
-    padding: 36px 34px 48px 34px;
-  }
-  body.land-page-new .land-page-header-inner.land-page-header-title-inner {
-    padding: 25px 25px 93px 25px;
+  body.land-page-new .land-page-header .land-page-header-inner{
+    padding: 25px;
   }
   body.land-page-new .land-page-header-inner span {
     padding: 6px;
@@ -749,8 +770,8 @@
   }
   body.land-page-new .landpage-block hr {
     border: 2px solid#F4A41D;
-    margin-left: 10px;
-    margin-right: 53px;
+    margin-left: 25px;
+    margin-right: 25px;
     position: relative;
     bottom: 16px;
   }
@@ -774,12 +795,6 @@
     line-height: 21px;
     color: #878787;
   }
-  .landing-body ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-  }
-
   body.land-page-new .landing-body ul li {
     padding-bottom: 12px;
     display: inline-flex;
@@ -798,7 +813,7 @@
     line-height: 28px;
     text-align: center;
     color: #ffffff;
-    width: 87%;
+    width: 100%;
     padding: 12px 0px;
     background: #3ebdcc;
     border-color: #3ebdcc;
@@ -1160,11 +1175,8 @@
   body.land-page-new .land-page-header {
     background-color: #e6f0ff;
   }
-  body.land-page-new .land-page-header-inner {
-    padding: 36px 34px 48px 34px;
-  }
-  body.land-page-new .land-page-header-inner.land-page-header-title-inner {
-    padding: 25px 25px 93px 25px;
+  body.land-page-new .land-page-header .land-page-header-inner{
+    padding: 25px;
   }
   body.land-page-new .land-page-header-inner span {
     padding: 6px;
@@ -1204,13 +1216,6 @@
     color: #000000;
     opacity: 1;
   }
-  body.land-page-new .landpage-block hr {
-    border: 2px solid#F4A41D;
-    margin-left: 10px;
-    margin-right: 53px;
-    position: relative;
-    bottom: 16px;
-  }
   body.land-page-new .page-card-button {
     padding: 14px 104px 14px 104px;
   }
@@ -1231,13 +1236,8 @@
     line-height: 21px;
     color: #878787;
   }
-  .landing-body ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-  }
 
- 
+  
   body.land-page-new .landing-body ul li i {
     color: #3ebdcc;
     margin-right: 13px;
@@ -1251,7 +1251,7 @@
     line-height: 28px;
     text-align: center;
     color: #ffffff;
-    width: 87%;
+    width: 100%;
     padding: 12px 0px;
     background: #3ebdcc;
     border-color: #3ebdcc;
@@ -1419,6 +1419,13 @@
     color: #005579;
     opacity: 1;
   }
+  body.land-page-new .landpage-block hr {
+    border: 2px solid#F4A41D;
+    margin-left: 10px;
+    margin-right: 53px;
+    position: relative;
+    bottom: 16px;
+  }
   /* phoning solution */
   body.land-page-new section.phoningsolution {
     background-color: #e6f0ff;
@@ -1526,6 +1533,11 @@
   }
   body.land-page-new .land-page-header-inner {
     padding: 36px 34px 48px 34px;
+  }
+  body.land-page-new .landing-body .land-page-header-inner {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
   }
   body.land-page-new .land-page-header-inner span {
     padding: 6px;
@@ -2002,8 +2014,8 @@
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100vh;
-    height: 100vh;
+    background-size: contain;
+    height: 78vh;
   }
   body.land-page-new .homeoffice--banner .banner-left-col h1 {
     font-style: normal;
@@ -2288,4 +2300,21 @@
     width: 400px;
   }
  
+}
+
+@media (min-width:570px) and (max-height:500px){
+  body.land-page-new .banner--with--content.homeoffice--banner,
+  body.land-page-new .homeoffice--banner .banner-content{
+    background-image: none!important;
+  }
+}
+@media (min-width:768px) and (min-height:1024px){
+  body.land-page-new .banner--with--content.homeoffice--banner{
+    background-size: cover;
+    height: 70vh;
+  }
+  body.land-page-new .homeoffice--banner .banner-content{
+    background-size: 100%;
+    height: 70vh;
+  }
 }
