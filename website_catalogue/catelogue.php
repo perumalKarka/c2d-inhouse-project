@@ -240,7 +240,7 @@
         <!-- top section -->
         <section class="catalogue-firstSection mb-5">
             <div class="container container-90 reset-padding">
-                <div class="row">
+                <div class="row reset-margin">
                     <div class="col--md-6 col-xl-7 col-lg-12 catelogue-left-sub__title reset-padding">
                         <p class="reset-margin">Lorem ipsum dolor sit amet, consetetur</p>
                     </div>
@@ -798,9 +798,12 @@
 
 
         </section>
+
         <!-- card section -->
         <section class="cardsection">
+            
             <div class="container container-90 reset-padding">
+            <h2 class= "d-block d-md-none">Lorem ipsum dolor sit amet (17)</h2>
                 <div class="row catelogu_template_item reset-margin">
                     <div class="card_block col-xl-6 col-lg-4 col-md-6 reset-padding">
                         <div class="card website_template">
@@ -1225,7 +1228,7 @@
         <!-- slide show -->
         <section class="slide-show-recent_cardview">
 
-            <div id="demo_1" class="container container-90 carousel slide reset-padding " data-ride="carousel">
+            <div id="demo_1" class="container container-90 carousel slide reset-padding  d-none d-md-block d-lg-block" data-ride="carousel">
                 <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
                 <div class="carousel-inner inner-slide">
                     <div class="carousel-item">
@@ -1247,6 +1250,28 @@
                     <a class="carousel-control-next slide_position next-section" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
                 </div>
             </div>
+            <!-- mobile carosul -->
+            <div id="demo_1" class="container container-90 carousel slide reset-padding d-block d-md-none d-lg-none" data-ride="carousel">
+                <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
+                <div class="carousel-inner inner-slide">
+                    <div class="carousel-item">
+                        <div class="col-6 ads"><img src="images/card-image-1.png"></div>
+                        <div class="col-6   ads"><img src="images/card-image-2.png"></div>
+                        
+                    </div>
+                    <div class="carousel-item active">
+                    <div class="col-6 ads"><img src="images/card-image-1.png"></div>
+                        <div class="col-6   ads"><img src="images/card-image-2.png"></div>
+                    </div>
+                    <div class="carousel-item">
+                    <div class="col-6 ads"><img src="images/card-image-1.png"></div>
+                        <div class="col-6   ads"><img src="images/card-image-2.png"></div>
+                    </div>
+                    <a class="carousel-control-prev slide_position prev-section" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                    <a class="carousel-control-next slide_position next-section" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                </div>
+            </div>
+             <!-- mobile carosul -->
             <div id="demo_2" class="container container-90 carousel slide card_slide reset-padding d-none d-md-block d-lg-block" style="margin-top:76px;" data-ride="carousel">
                 <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
                 <div class="carousel-inner inner-slide ">
