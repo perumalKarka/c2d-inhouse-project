@@ -432,8 +432,7 @@
     margin-bottom: 36px;
   }
   footer {
-    background: #005579;
-    padding: 21px 0;
+    padding: 38px 0 26px 0;
     margin-top: 10px;
   }
 
@@ -524,6 +523,49 @@
       background: #3EBDCC;
       border-radius: 8px;
   }
+
+  /* Footer layout */
+  footer {
+    background: #005579;
+    padding: 38px 0 26px 0;
+  }
+  .footer-top {
+    padding-bottom: 0px;
+    border-bottom: 1px solid#0874A2;
+  }
+  footer .footer-col-1 {
+    text-align: center;
+    margin-bottom: 27px;
+  }
+  .menus-container ul {
+    list-style: none;
+    display: contents;
+    margin: 0;
+    justify-content: space-between;
+    padding-left: 12%;
+    text-align: center;
+  }
+  .menus-container ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: underline !important;
+  }
+  footer li.list-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .footer-bottom {
+    padding-top: 8px;
+  }
+  .footer-bottom p {
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+  }
+  .footer-section {
+    margin-top: 18px;
+  }
 }
 
 @media (min-width: 400px) {
@@ -533,7 +575,7 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: inherit;
-    height: 70vh;
+    height: 80vh;
     margin-bottom: 0px;
   }
   body.land-page-new .homeoffice--banner .banner-content {
@@ -881,9 +923,7 @@
     margin-bottom: 36px;
   }
   footer {
-    background: #005579;
-    padding: 21px 0;
-    margin-top: 10px;
+    padding: 38px 0 26px 0;
   }
 
   .mobile-fixed-footer{
@@ -1319,9 +1359,7 @@
     margin-bottom: 36px;
   }
   footer {
-    background: #005579;
-    padding: 21px 0;
-    margin-top: 10px;
+    padding: 38px 0 26px 0;
   }
 
   
@@ -1666,10 +1704,47 @@
   .fr-site .box-btn {
     width: 283px;
   }
+
+  /* Footer layout */
   footer {
-    background: #005579;
-    padding: 21px 0;
-    margin-top: 24px;
+    padding: 30px 0 26px 0;
+    margin-top: 14px;
+  }
+  footer .container-85 {
+    padding: 0px;
+  }
+  .footer-top {
+    padding-bottom: 39.5px;
+    border-bottom: 1px solid#0874A2;
+  }
+  footer .footer-col-1 {
+    text-align: inherit;
+    margin-bottom: 0px;
+  }
+  .menus-container ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    padding-left: 12%;
+  }
+  footer li.list-item {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .menus-container ul li a {
+      color: white;
+      font-size: 16px;
+      text-decoration: underline !important;
+  }
+  .footer-bottom {
+    padding-top: 20px;
+  }
+  .footer-bottom p {
+    text-align: right;
+    color: white;
+    font-size: 20px;
+    margin: 0;
   }
 
   
@@ -1993,6 +2068,17 @@
   .fr-site .box-btn {
     width: 283px;
   }
+
+
+  .footer-top {
+    padding-bottom: 39.5px;
+    border-bottom: 1px solid#0874A2;
+  }
+  .menus-container ul li a {
+    color: white;
+    font-size: 17px;
+    text-decoration: underline !important;
+  }
  
 }
 
@@ -2299,10 +2385,44 @@
   .fr-site .box-btn {
     width: 400px;
   }
+
+  /* Footer design starts (19-09-22) */
+  .footer-section{
+    margin-top: 28px;
+  }
+  footer{
+    background: #005579;
+    padding: 30px 0 26px 0;
+  }
+  .menus-container ul{
+    list-style: none;
+      display:flex;
+      margin: 0;
+      justify-content: space-between;
+      padding-left:12%;
+  }
+  .menus-container ul li a{
+    color:white;
+    font-size: 20px;
+    text-decoration: underline !important;
+  }
+  .footer-top{
+    padding-bottom:39.5px;
+    border-bottom:1px solid#0874A2;
+  }
+  .footer-bottom{
+    padding-top:20px;
+  }
+  .footer-bottom p{
+    text-align: right;
+    color:white;
+    font-size: 20px;
+    margin:0;
+  }
  
 }
 
-@media (min-width:570px) and (max-height:500px){
+@media (min-width:570px) and (max-height:550px){
   body.land-page-new .banner--with--content.homeoffice--banner,
   body.land-page-new .homeoffice--banner .banner-content{
     background-image: none!important;

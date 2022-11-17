@@ -1,4 +1,4 @@
-<footer>
+<!-- <footer>
             <div class="container-fluid" style="padding:0 20px">
               <div class="row reset-margin">
                 <div class="footer-col-1 col-lg-6 col-md-5 col-sm-12 align-self-center reset-padding">
@@ -12,12 +12,12 @@
                         </ul>
                       </nav>
                       <div class="d-block d-sm-none text-center mt-4">
-                        <!--<form class="input-group-lg input-group c2d-newsletter-form" id="c2d-newsletter">
+                        <form class="input-group-lg input-group c2d-newsletter-form" id="c2d-newsletter">
                               <input type="text" id="email" class="form-control" placeholder="Vous désirez être contacté ?" aria-label="Recipient's username" aria-describedby="button-addon2">
                               <div class="input-group-append"><button class="btn c2d-newsletter-btn" id="submit"> <b>Envoyer</b></button>
                               </div>
                               <label id="info"></label>
-                        </form>-->
+                        </form>
                         <p class="mb-copyright">Copyright (c) 2021 Converge2digital. All Rights Reserved</p>
                       </div>
                     </div>
@@ -44,6 +44,27 @@
               </div>
             
             </div>
+</footer> -->
+<footer>
+            <div class="container container-85 " >
+              <div class="row footer-top reset-margin">
+                <div class="footer-col-1 col-md-2 col-sm-12 reset-padding">
+                  <img src="images/site-white.logo.png" alt="footer-logo">
+                </div> 
+                <div class="footer-col-2 col-md-10 col-sm-12 align-self-center reset-padding">
+                  <nav class="menus-container">
+                    <ul class="menu-list">
+                      <li class="list-item"><a href="">Politique de confidentialité</a></li>
+                      <li class="lits-item"><a href="">Conditions generales d’utilisation</a></li>
+                      <li class="list-item"><a href="">Notre portefeille</a></li>
+                    </ul>     
+                  </nav>
+                </div>
+              </div>
+              <div class="footer-bottom">
+                  <p>(c) Copy right</p>
+              </div>
+            
 </footer>
 <a href="javascript:void(0)" id="scrollBtn" >
   <img src="images/scroll-top.png" width="30" height="25"/>
