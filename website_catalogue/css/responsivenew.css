@@ -559,7 +559,7 @@
     border-radius: 8px;
     color: white;
     background-color: #3ebdcc;
-    font-size: 16px;
+    font-size: 14px;
   }
   .close img {
     width: 30px;
@@ -1800,7 +1800,7 @@ footer img.footer_logo{
   }
 
   form.request-popup-form {
-    padding: 0px 30px;
+    padding: 0px 10px;
   }
   .modal-dialog.container-80 {
     width: 100%;
@@ -1856,7 +1856,7 @@ footer img.footer_logo{
     padding: 13px 120px;
     color: var(--unnamed-color-ffffff);
     text-align: center;
-    font: normal normal bold 20px/20px Roboto;
+    font: normal normal bold 16px/20px Roboto;
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 1;
@@ -2182,7 +2182,7 @@ footer img.footer_logo{
     position: absolute;
   }
   .modal .by-copy-right-page {
-    margin-top: 40px !important;
+    margin-top: 20px !important;
     margin-bottom: 0px !important;
   }
   .by-copy-right-page-form label {
