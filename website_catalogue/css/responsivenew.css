@@ -1303,7 +1303,7 @@ footer img.footer_logo{
 }
 
 
-@media (min-width: 400px) {
+@media (min-width: 360px) {
   .website-animation .container-75 {
     width: 100%;
     max-width: 80%;
