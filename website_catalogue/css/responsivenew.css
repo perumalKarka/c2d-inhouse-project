@@ -1296,6 +1296,9 @@
   color: #ffffff;
   margin-bottom: 28px;
 }
+footer img.footer_logo{
+  width:50%;
+}
 
 }
 
@@ -2490,6 +2493,7 @@
 #faq .card .card-header a[aria-expanded="true"]:after {
   top: 7px;
 }
+
 }
 
 /* small device */
@@ -3233,6 +3237,7 @@
   font-size: 34px;
   
 }
+
 
 
 
@@ -4301,6 +4306,9 @@
     padding: 0px 0px 30px 0px;
     
   }
+  footer img.footer_logo{
+    width:150%;
+  }
 
 
   
@@ -5081,6 +5089,9 @@
 }
 #faq .card .card-header a[aria-expanded="true"]:after {
   top: 19px;
+}
+footer img.footer_logo{
+  width:135%;
 }
 
 
@@ -6001,6 +6012,9 @@ section.template-carosal .next-slider{
   max-width: 100%;
   
   margin-top: 50px;
+}
+footer img.footer_logo{
+  width:100%;
 }
 
 
