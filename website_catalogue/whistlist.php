@@ -89,6 +89,7 @@
             <div class="accordion" id="faq">
                             <div class="card mb-5">
                                 <div class="card-header container container-90 reset-padding" id="faqhead1">
+                                
                                     <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#faq1"
                                     aria-expanded="true" aria-controls="faq1"><label class="title">Maintenance <span style="color:#FFFFFF;">(Optional)</span></label></a>
                                 </div>
@@ -125,7 +126,7 @@
                                     <div class="card-body">
                                         <div class="row reset-margin">
                                                 <div class="col-6"><h2 class="accordian-sub-title">LOREM IPSUM</h2></div>
-                                                <div class="col-6">
+                                                <div class="col-6 reset-padding">
                                                     <div class="input-group searchBox">
                                                         <input class="form-control reset-padding " type="text" id="myFilter" placeholder="Search for more templates..." aria-label="Search">
                                                     <div class="input-group-append align-self-center">
@@ -138,7 +139,7 @@
                                         <div class="row slider-acordien-view reset-margin">
                                             <div class="col-xl-3 col-6 accoridan-slider-sec reset-padding">
                                                 <div class="accord-slide-inner-box">
-                                                    <img src="images/accoridanimage1.jpg" class="mw-100">
+                                                    <img src="images/accordianimage__1.png" class="mw-100">
                                                     <div class="form-group checkboxTop-block ">
                                                         <label class="contactform-check--label block-color">
                                                             <input class="contactform-check--input" type="checkbox" value="option1">
@@ -150,7 +151,7 @@
                                             </div>
                                             <div class="col-xl-3 col-6 accoridan-slider-sec reset-padding">
                                                 <div class="accord-slide-inner-box">
-                                                    <img src="images/accordianimage-2.jpg" class="mw-100">
+                                                    <img src="images/accordianimage__2.png" class="mw-100">
                                                     <div class="form-group checkboxTop-block ">
                                                         <label class="contactform-check--label block-color">
                                                             <input class="contactform-check--input" type="checkbox" value="option1">
@@ -162,7 +163,7 @@
                                             </div>
                                             <div class="col-xl-3 col-6 accoridan-slider-sec  reset-padding">
                                                 <div class="accord-slide-inner-box">
-                                                    <img src="images/accordianimage-3.jpg" class="mw-100">
+                                                    <img src="images/accordianimage__1.png" class="mw-100">
                                                     <div class="form-group checkboxTop-block ">
                                                         <label class="contactform-check--label block-color">
                                                             <input class="contactform-check--input" type="checkbox" value="option1">
@@ -174,7 +175,7 @@
                                             </div>
                                             <div class="col-xl-3 col-6 d-xl-none accoridan-slider-sec  reset-padding">
                                                 <div class="accord-slide-inner-box">
-                                                    <img src="images/accordianimage-2.jpg" class="mw-100">
+                                                    <img src="images/accordianimage__2.png" class="mw-100">
                                                     <div class="form-group checkboxTop-block ">
                                                         <label class="contactform-check--label block-color">
                                                             <input class="contactform-check--input" type="checkbox" value="option1">
@@ -186,7 +187,7 @@
                                             </div>
                                             <div class="col-xl-3 col-6 d-xl-none accoridan-slider-sec  reset-padding">
                                                 <div class="accord-slide-inner-box">
-                                                    <img src="images/accordianimage-3.jpg" class="mw-100">
+                                                    <img src="images/accordianimage__1.png" class="mw-100">
                                                     <div class="form-group checkboxTop-block ">
                                                         <label class="contactform-check--label block-color">
                                                             <input class="contactform-check--input" type="checkbox" value="option1">
@@ -198,7 +199,7 @@
                                             </div>
                                             <div class="col-xl-3 col-6 d-xl-none accoridan-slider-sec reset-padding">
                                                 <div class="accord-slide-inner-box">
-                                                    <img src="images/accordianimage-2.jpg" class="mw-100">
+                                                    <img src="images/accordianimage__2.png" class="mw-100">
                                                     <div class="form-group checkboxTop-block ">
                                                         <label class="contactform-check--label block-color">
                                                             <input class="contactform-check--input" type="checkbox" value="option1">
@@ -208,18 +209,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-xl-3 col-6 d-xl-none accoridan-slider-sec  reset-padding">
-                                                <div class="accord-slide-inner-box">
-                                                    <img src="images/accordianimage-3.jpg" class="mw-100">
-                                                    <div class="form-group checkboxTop-block ">
-                                                        <label class="contactform-check--label block-color">
-                                                            <input class="contactform-check--input" type="checkbox" value="option1">
-                                                            <span class="checkmark"></span>
-                                                            <span class="checked-color">Starter kit</span>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -300,7 +290,7 @@
                                                 </div>
                                             </div>
 
-                                            <hr style="border-top:1px solid #707070;">
+                                            <hr style="border-top:2px solid #383838;">
                                             <div class="row reset-margin">
                                                     <div class="col-6 p-0"><h2 class="accordian-sub-title">Add ons</h2></div>
                                                     <div class="col-6 p-0 text-right d-none d-xl-block">
@@ -535,7 +525,7 @@
                                                 </div>
                                             </div>
 
-                                            <hr style="border-top:1px solid #707070;">
+                                            <hr style="border-top:2px solid #383838;">
                                             <div class="row reset-margin">
                                                     <div class="col-6 p-0"><h2 class="accordian-sub-title">Add ons</h2></div>
                                                     <div class="col-6 p-0 text-right d-none d-xl-block">

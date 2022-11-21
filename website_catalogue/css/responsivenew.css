@@ -35,6 +35,17 @@
   max-width: 65%;
 }
 @media (min-width: 360px){
+  body.index-page .site-menu-toggle .icon-menu-bar {
+    width: 43px;
+    height: 40px;
+    background: #383838;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 6px;
+    display: block;
+    position: relative;
+    margin: 0;
+  }
+  
   .website-animation .container-75 {
     width: 100%;
     max-width: 80%;
@@ -540,7 +551,7 @@
     border-radius: 8px;
     color: white;
     background-color: #3ebdcc;
-    font-size: 16px;
+    font-size: 14px;
   }
   .close img {
     width: 30px;
@@ -755,6 +766,16 @@
     opacity: 1;
     margin-right: 8px;
   }
+  #faq .card .card-header a[aria-expanded="true"]:after {
+    top: 8px;
+}
+#faq .card .card-header a:after {
+  font-family: 'FontAwesome';
+  content: "\f068";
+  color: #878787;
+  position: absolute;
+  right: 13%;
+}
   .website-pagenation {
     padding-top: 26px;
     padding-bottom: 0px;
@@ -1151,8 +1172,8 @@
     padding:0px;
   }
   .acordian-button button{
-    width:100%;
-   
+    width:90%;
+   font-size:18px;
   }
   
   span.title-span {
@@ -1267,11 +1288,14 @@
   color: #ffffff;
   margin-bottom: 28px;
 }
+footer img.footer_logo{
+  width:50%;
+}
 
 }
 
 
-@media (min-width: 400px) {
+@media (min-width: 360px) {
   .website-animation .container-75 {
     width: 100%;
     max-width: 80%;
@@ -1749,31 +1773,33 @@
     color: white;
     padding-bottom: 10px;
     margin: 0px;
-    font-size: 25px;
+    font-size: 23px;
     line-height: inherit;
     text-align: center;
   }
 
   form.request-popup-form {
-    padding: 0px 30px;
+    padding: 0px 10px;
   }
   .modal-dialog.container-80 {
     width: 100%;
-    max-width: 90%;
+    max-width: 100%;
     margin: 50px auto;
   }
   .request-popup-form label {
-    font-size: 18px;
+    font-size: 16px;
   }
-  .form-group {
+  .send-us-popup-message-form .form-group {
+    padding-left:0px!important;
+    padding-right:0px!important;
     margin-bottom: 0px;
-    margin-top: 20px !important;
+    margin-top: 15px !important;
   }
   .accord-slide-inner-box .form-group{
     margin-top: 10px !important;
   }
   .requestmodal_content input {
-    padding: 20px 20px;
+    padding: 10px 20px;
     letter-spacing: 0px;
     color: white;
     font-family: "robotoregular";
@@ -1811,7 +1837,7 @@
     padding: 13px 120px;
     color: var(--unnamed-color-ffffff);
     text-align: center;
-    font: normal normal bold 20px/20px Roboto;
+    font: normal normal bold 15px/20px Roboto;
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 1;
@@ -2137,7 +2163,7 @@
     position: absolute;
   }
   .modal .by-copy-right-page {
-    margin-top: 40px !important;
+    margin-top: 20px !important;
     margin-bottom: 0px !important;
   }
   .by-copy-right-page-form label {
@@ -2185,7 +2211,7 @@
   }
   .send-us-popup-message .send-usmessage-content button.close {
     right: 41px;
-    top: 4%;
+    top: 2%;
   }
   .send-us-popup-message-form h2 {
     text-align: left;
@@ -2342,11 +2368,12 @@
     width: 283px;
   }
   .acordian-button{
-    max-width: 100%;
+    max-width: 70%;
     padding:0px;
   }
   .acordian-button button{
     width:100%;
+    font-size:20px;
    
   }
   
@@ -2356,11 +2383,7 @@
     color: #3EBDCC;
     margin-left: 10px;
   }
-  .acordian-button {
-    max-width: 69%;
-    padding: 0px 0px 30px 0px;
-    
-  }
+  
   section.whistlist-thanks-condent h2 {
     text-align: center;
     color: #F4A41D;
@@ -2441,6 +2464,17 @@
   .preview-button button{
     padding: 9px 12px;
   }
+  #faq .card .card-header a:after {
+    font-family: 'FontAwesome';
+    content: "\f068";
+    color: #878787;
+    position: absolute;
+    right: 10%;
+}
+#faq .card .card-header a[aria-expanded="true"]:after {
+  top: 7px;
+}
+
 }
 
 /* small device */
@@ -3155,11 +3189,7 @@
     font-size: 14px;
     line-height: 24px;
   }
-  p.meeting-para{
-    font-size: 14px;
-    line-height: 24px;
-    top: 10px;
-  }
+  
   .quality-increment{
     max-width: 100px;
   }
@@ -3188,6 +3218,7 @@
   font-size: 34px;
   
 }
+
 
 
 
@@ -4235,6 +4266,21 @@
   section.template-carosal .next-slider{
     right:-44px;
   }
+  #faq .card .card-header a:after {
+    font-family: 'FontAwesome';
+    content: "\f068";
+    color: #878787;
+    position: absolute;
+    right: 6%;
+  }
+  .acordian-button {
+    max-width: 100%;
+    padding: 0px 0px 30px 0px;
+    
+  }
+  footer img.footer_logo{
+    width:150%;
+  }
 
 
   
@@ -5013,6 +5059,16 @@
     display: inline-block;
     margin-left: -6px;
 }
+#faq .card .card-header a[aria-expanded="true"]:after {
+  top: 19px;
+}
+footer img.footer_logo{
+  width:135%;
+}
+.sendmesage-subcondent .send-recaptche {
+  text-align: center;
+}
+
 
 
 }
@@ -5743,7 +5799,7 @@
   }
   .accordian-top-section .searchBox{
     top: -7px;
-      width: 204px;
+      width: 250px;
       float: right;
       border-bottom: 1px solid#3EBDCC;
   }
@@ -5760,7 +5816,7 @@
     display: block;
     position: relative;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -5868,7 +5924,7 @@
   }
   .quality-increment{
     position: inherit;
-    max-width: 150px;
+    max-width: 144px;
   }
   .icon-sm{
     width: 2rem;
@@ -5926,6 +5982,14 @@ section.template-carosal .next-slider{
   font-size:24px;
   background-color: #3EBDCC;
   color:white;
+}
+.accordian-top-section{
+  max-width: 100%;
+  
+  margin-top: 50px;
+}
+footer img.footer_logo{
+  width:100%;
 }
 
 

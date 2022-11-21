@@ -2,7 +2,7 @@
             <div class="container container-85 " >
               <div class="row footer-top reset-margin">
                 <div class="footer-col-1 col-md-2 col-sm-12 reset-padding">
-                  <img src="images/site-white.logo.png" alt="footer-logo">
+                  <img src="images/image_footer__logo.png" alt="footer-logo" class="footer_logo">
                 </div> 
                 <div class="footer-col-2 col-md-10 col-sm-12 align-self-center reset-padding">
                   <nav class="menus-container">
