@@ -389,10 +389,12 @@
   .timeline_image-1 img {
     margin: 0px 50px;
     max-width: 80%;
+    height:180px;
   }
   .timeline_image-2 img {
     margin: 0px 50px;
     max-width: 80%;
+    height:180px;
   }
   .timeline ul li::before {
     width: auto;
@@ -456,7 +458,10 @@
     transition: 0.5s ease-in-out, background-color 0.2s ease-out,
       color 0.1s ease-out, border 0.1s ease-out;
     margin: 51px 0px 181px 0px;
+    background-color: #1f1f1f;
+    text-align: center;
   }
+  
 
   section.website-builder .click-mail {
     border: none;
@@ -471,14 +476,7 @@
     padding-top: 20px !important;
     padding-bottom: 50px;
   }
-  .timeline_image-1 img {
-    margin: 0px 50px;
-    max-width: 80%;
-  }
-  .timeline_image-2 img {
-    margin: 0px 32px;
-    max-width: 80%;
-  }
+  
   .timeline ul li::before {
     width: auto;
     height: auto;
@@ -535,12 +533,6 @@
   .timeline_condent.condent-left-side p {
     padding-right: 0px;
     padding-left: 0px;
-  }
-
-  .timeline ul li.in-view {
-    transition: 0.5s ease-in-out, background-color 0.2s ease-out,
-      color 0.1s ease-out, border 0.1s ease-out;
-    margin: 51px 0px 120px 0px;
   }
   section.website-builder .click-mail {
     border: none;
@@ -1686,14 +1678,7 @@
     padding-top: 20px !important;
     padding-bottom: 50px;
   }
-  .timeline_image-1 img {
-    margin: 0px 50px;
-    max-width: 80%;
-  }
-  .timeline_image-2 img {
-    margin: 0px 50px;
-    max-width: 80%;
-  }
+  
   .timeline ul li::before {
     width: auto;
     height: auto;
@@ -1750,12 +1735,6 @@
   .timeline_condent.condent-left-side p {
     padding-right: 30px;
     padding-left: 0px;
-  }
-
-  .timeline ul li.in-view {
-    transition: 0.5s ease-in-out, background-color 0.2s ease-out,
-      color 0.1s ease-out, border 0.1s ease-out;
-    margin: 51px 0px 181px 0px;
   }
 
   .close img {
@@ -3440,10 +3419,12 @@
   .timeline_image-1 img {
     margin: 0px 50px 0px 0px !important;
     max-width: 85%;
+    height: auto;
   }
   .timeline_image-2 img {
     margin: 0px 0px 0px 50px !important;
     max-width: 85%;
+    height: auto;
   }
   .website-builder .timeline_button {
     margin: 0 auto;
@@ -3550,14 +3531,7 @@
     padding-top: 77px !important;
     padding-bottom: 76px;
   }
-  .timeline_image-1 img {
-    margin-right: 0 auto !important;
-    max-width: 90%;
-  }
-  .timeline_image-2 img {
-    margin-left: 50px;
-    max-width: 90%;
-  }
+  
   .timeline ul li.in-view::before {
     content: attr(data-before);
     position: absolute;
@@ -3611,6 +3585,7 @@
     transition: 0.5s ease-in-out, background-color 0.2s ease-out,
       color 0.1s ease-out, border 0.1s ease-out;
     margin: 23px 0px;
+    background: transparent;
   }
   section.website-builder .click-mail {
     border: none;
@@ -3685,11 +3660,6 @@
   .timeline_condent.condent-left-side p {
     padding-right: 30px;
     padding-left: 0px;
-  }
-  .timeline ul li.in-view {
-    transition: 0.5s ease-in-out, background-color 0.2s ease-out,
-      color 0.1s ease-out, border 0.1s ease-out;
-    margin: 23px 0px;
   }
   section.website-builder .click-mail {
     border: none;

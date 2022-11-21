@@ -68,6 +68,7 @@
                         <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1"/>
                         <div for="tab-1" class="label tab-label-1">
                             <img src="images/page-i-icon.png" class="d-block i-icon"/>
+                            <img src="images/pageactive.png" class="d-block i-icon-active"/>
                             <!-- <i class="fa fa-file d-block"></i> -->
                             Pages
                         </div>
@@ -76,6 +77,7 @@
                         <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2" />
                         <div for="tab-2" class="label tab-label-2">
                             <img src="images/color-i-icon.png" class="d-block i-icon"/>
+                            <img src="images/coloractive.png" class="d-block i-icon-active"/>
                             Colors
                         </div>
                     </div>
@@ -83,6 +85,7 @@
                         <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3" />
                         <div for="tab-3" class="label tab-label-3">
                             <img src="images/upload-i-icon.png" class="d-block i-icon"/>
+                            <img src="images/logoactive.png" class="d-block i-icon-active"/>
                             Logo
                         </div>
                     </div>
@@ -90,16 +93,21 @@
                         <input id="tab-4" type="radio" name="radio-set" class="tab-selector-4" />
                         <div for="tab-4" class="label tab-label-4">
                             <img src="images/business-i-icon.png" class="d-block i-icon"/>
+                            <img src="images/bussinessactive.png" class="d-block i-icon-active"/>
                             Business
                         </div>
                     </div>
-                    <div class="tabgroup-wrapper align-self-center">
+                    <div class="tabgroup-wrapper align-self-center last-tabgroup-wrapper">
                         <input id="tab-5" type="radio" name="radio-set" class="tab-selector-5" />
                         <div for="tab-5" class="label tab-label-5">
                             <img src="images/footer-i-icon.png" class="d-block i-icon"/>
+                            <img src="images/footer-i-icon.png" class="d-block i-icon-active"/>
                             Footer
                         </div>
                     </div>
+                    
+                    <img src="images/awesome-arrow-circle-right.png" class="shiftRight-arrow tab-label-6 d-none d-xl-block" />
+                    
                 </div>
 
                 <div class="content">
@@ -220,8 +228,9 @@
                         </div>
                         
                     </div>
+                    <img src="images/closeicon.png" id="closeLeftside-Tab" />
                 </div> <!-- content div end --->
-
+                
             </div>
             
             
@@ -250,6 +259,7 @@
 
     <script type="text/javascript">
         
+
         $(window).on('load', function(){
             function resizelabelOverlays(){
                 var tapIcon = $(".tap-page-slider .tap-page-icon").width();
@@ -264,20 +274,16 @@
 			});
 		});
         
-        $(function() {
-            $('body').on('click', '.tabs input', function(e) {
-                $('body').addClass('leftsidebar-menu');
+        $(function(){
+            
+            $('body').on('click', '.shiftRight-arrow', function(e) {
+                $('section.tabs').toggleClass("rightTabs");
             });
-
-            $(document).mouseup(function(e) {
-                var tab_container = $(".tabs .content");
-                if (!tab_container.is(e.target) && tab_container.has(e.target).length === 0) {
-                if ( $('body').hasClass('leftsidebar-menu') ) {
-                            $('body').removeClass('leftsidebar-menu');
-                        }
-                }
+            $('body').on('click', '#closeLeftside-Tab', function(e) {
                 $('.tabs input').prop('checked', false)
             });
+
+            
         });
 
         
