@@ -1804,15 +1804,17 @@ footer img.footer_logo{
   }
   .modal-dialog.container-80 {
     width: 100%;
-    max-width: 90%;
+    max-width: 100%;
     margin: 50px auto;
   }
   .request-popup-form label {
     font-size: 16px;
   }
-  .form-group {
+  .send-us-popup-message-form .form-group {
+    padding-left:0px!important;
+    padding-right:0px!important;
     margin-bottom: 0px;
-    margin-top: 10px !important;
+    margin-top: 15px !important;
   }
   .accord-slide-inner-box .form-group{
     margin-top: 10px !important;
@@ -1856,7 +1858,7 @@ footer img.footer_logo{
     padding: 13px 120px;
     color: var(--unnamed-color-ffffff);
     text-align: center;
-    font: normal normal bold 16px/20px Roboto;
+    font: normal normal bold 15px/20px Roboto;
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 1;
@@ -2230,7 +2232,7 @@ footer img.footer_logo{
   }
   .send-us-popup-message .send-usmessage-content button.close {
     right: 41px;
-    top: 4%;
+    top: 2%;
   }
   .send-us-popup-message-form h2 {
     text-align: left;
@@ -5092,6 +5094,9 @@ footer img.footer_logo{
 }
 footer img.footer_logo{
   width:135%;
+}
+.sendmesage-subcondent .send-recaptche {
+  text-align: center;
 }
 
 
