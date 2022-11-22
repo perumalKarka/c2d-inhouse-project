@@ -49,9 +49,9 @@
                     </div>
                     <div class="col-xl-8 col-lg-10 col-sm-12 preview-button reset-padding">
                         
-                        <button type="button" class="like-button"><i class="fa fa-thumbs-up "></i> <span class="m-0 p-0 pre-label">Like template</span></button>
-                        <button type="button" class="whistlist-button "> <i class="fa fa-bookmark"></i> <span class="m-0 p-0 pre-label">Add to Wishlist</span></button>
-                        <button type="button" class="copyright-button" data-toggle="modal" data-target="#exampleModal-2"><i class="fa fa-copyright"></i> <span class="m-0 p-0 pre-label">Buy Copyright*</span></button>
+                        <button type="button" class="like-button"><img src="images/thumb_webicon.png" class="mr-2"><span class="m-0 p-0 pre-label">Like template</span></button>
+                        <button type="button" class="whistlist-button "> <img src="images/bookmarks_icon.png" class="mr-2"> <span class="m-0 p-0 pre-label">Add to Wishlist</span></button>
+                        <button type="button" class="copyright-button" data-toggle="modal" data-target="#exampleModal-2"><img src="images/certifi.png" class="mr-2"><span class="m-0 p-0 pre-label">Buy Copyright*</span></button>
                     </div>
                 </div>
             </div>
