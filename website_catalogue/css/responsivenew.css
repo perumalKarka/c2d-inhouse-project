@@ -3373,6 +3373,7 @@ footer img.footer_logo{
   }
   .footer-section {
     margin-top: 28px;
+    z-index: 0;
   }
   footer li.list-item {
     margin-top: 0px;
