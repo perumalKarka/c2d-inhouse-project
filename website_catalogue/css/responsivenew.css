@@ -3985,7 +3985,7 @@ footer img.footer_logo{
   }
   .send-us-popup-message-form .form-group:nth-child(odd) {
     padding-left: 0px;
-    padding-right: 20px;
+    padding-right: 20px!important;
   }
   .sendmesage-subcondent .send-recaptche {
     text-align: -webkit-center;
