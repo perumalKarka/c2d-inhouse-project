@@ -980,13 +980,13 @@
   }
   .send-us-popup-message .send-usmessage-content button.close {
     right: 41px;
-    top: 4%;
+    top: 0;
   }
   .send-us-popup-message-form h2 {
     text-align: left;
   }
   .send-usmessage-content form.send-us-popup-message-form {
-    padding: 30px !important;
+    padding: 11px !important;
   }
   .modal .send-us-popup-message {
     margin-top: 40px !important;
