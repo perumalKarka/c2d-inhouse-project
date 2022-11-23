@@ -301,11 +301,11 @@
                             </div>
                         </li>
                         <li class="row hidden reversed-condent" data-before="4">
-                            <div class="col-lg-6 col-md-6 col-sm-12 timeline_condent condent-left-side">
+                            <div class="col-lg-6 col-md-6 col-sm-12 timeline_condent condent-left-side ">
                                 <h2>Lorem ipsum dolor sit</h2>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-md-6 col-sm-12 timeline_image-2"><img src="images/timeline-pic-4.png" /></div>
+                            <div class="col-lg-6 col-md-6 col-md-6 col-sm-12 timeline_image-2 timeline-card-img"><img src="images/timeline-pic-4.png" /></div>
                         </li>
                         <div class="col-md-6 col-lg-12 col-sm-12 col timeline_button text-center "><button type="button" class="click-mail" data-toggle="modal" data-target="#exampleModal-2">Let's Build <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></button>
                             <div>
@@ -321,7 +321,7 @@
                     <h4 class="section-left__title">SUPPORT AND GUIDANCE</h4>
                     <p class="section-left-sub__title">Lorem ipsum dolor sit amet, consetetur</h3>
                     <p class="support-guidance-container-90__title__para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
-                    <a href="">Contact us-></a>
+                    <a href="">Contact us -></a>
                 </div>
             </div>
         </section>

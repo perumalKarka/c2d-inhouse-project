@@ -33,8 +33,8 @@
         <section class="livepreview-firstSection">
             <div class="container container-90 reset-padding">
                 <div class="row reset-margin">
-                    <div class="col-xl-6 live-preview-left-sub__title reset-padding"><p class="reset-margin">Lorem ipsum dolor sit amet, consetetur</p></div>
-                    <div class="col-xl-6 live-preview-right-sub__title align-self-end reset-padding ">
+                    <div class="col-xl-6 col-lg-12 col-sm-12 live-preview-left-sub__title reset-padding"><p class="reset-margin">Lorem ipsum dolor sit amet, consetetur</p></div>
+                    <div class="col-xl-6 col-lg-12 col-sm-12 live-preview-right-sub__title align-self-end reset-padding ">
                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p> 
                     </div>
                         
@@ -45,12 +45,13 @@
         <section class="filtersection">
             <div class="container container-90 reset-padding">
                 <div class="row filter-option reset-margin">
-                    <div class="col-xl-4 reset-padding">
+                    <div class="col-xl-4 col-lg-2 reset-padding">
                     </div>
-                    <div class="col-xl-8 preview-button reset-padding">
-                        <button type="button" class="like-button"><i class="fa fa-thumbs-up "></i> <span class="m-0 p-0 pre-label">Like template</span></button>
-                        <button type="button" class="whistlist-button "> <i class="fa fa-bookmark"></i> <span class="m-0 p-0 pre-label">Add to Wishlist</span></button>
-                        <button type="button" class="copyright-button" data-toggle="modal" data-target="#exampleModal-2"><i class="fa fa-copyright"></i> <span class="m-0 p-0 pre-label">Buy Copyright*</span></button>
+                    <div class="col-xl-8 col-lg-10 col-sm-12 preview-button reset-padding">
+                        
+                        <button type="button" class="like-button"><img src="images/thumb_webicon.png" class="mr-2"><span class="m-0 p-0 pre-label">Like template</span></button>
+                        <button type="button" class="whistlist-button "> <img src="images/bookmarks_icon.png" class="mr-2"> <span class="m-0 p-0 pre-label">Add to Wishlist</span></button>
+                        <button type="button" class="copyright-button" data-toggle="modal" data-target="#exampleModal-2"><img src="images/certifi.png" class="mr-2"><span class="m-0 p-0 pre-label">Buy Copyright*</span></button>
                     </div>
                 </div>
             </div>
