@@ -390,7 +390,7 @@
 	padding-right: 0!important;
 }
 #closeLeftside-Tab{
-	position: absolute;
+	position: fixed;
 	right: 0;
 	cursor: pointer;
 }
@@ -473,11 +473,13 @@
 		padding:0;
 		top: 50%;
     	transform: translateY(-50%);
+		font-size: 18px;
+    	line-height: 24px;
 	}
 	.tabs .label .i-icon,
 	.tabs .label .i-icon-active{
 		margin:0 auto 15px auto;
-		width: 50px;
+		width: auto;
 	}
 	.tabs input{
 		width: 100%;
@@ -612,7 +614,12 @@
 	}
 }
 @media (max-width: 768px){
-	.tabs .label .i-icon{
+	.tabs .label{
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.tabs .label .i-icon,
+	.tabs .label .i-icon, .tabs .label .i-icon-active{
 		width: 35px;
 	}
 	.content-2 .custom-wrapper p {
@@ -628,7 +635,6 @@
 		font-size: 14px;
 		line-height: 24px;
 	}
-	
 }
 @media (max-width: 575px){
 	.tab-group{
@@ -637,9 +643,13 @@
 	.tabgroup-wrapper{
 		height: 95px;
 	}
+	.tabs .label{
+		font-size: 10px;
+		line-height: 14px;
+	}
 	.tabs .label .i-icon,
 	.tabs .label .i-icon-active{
-		width: 25px;
+		width: 30px;
 	}
 	.content{
 		bottom:110px;
@@ -647,5 +657,22 @@
 	.content-2 .custom-wrapper p {
 		font-size: 12px;
 		line-height: 20px;
+	}
+	.content .content-wrapper.content-3 p, 
+	.content .content-wrapper.content-4 p{
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.content-wrapper .color-selector li{
+		width: 30px;
+    	height: 30px;
+		margin-right: 15px;
+	}
+	.content-4 input.bussiness-text{
+		width:100%;
+		font-size: 12px;
+		line-height: 14px;
+		height: 40px;
+		border-radius: 5px;
 	}
 }

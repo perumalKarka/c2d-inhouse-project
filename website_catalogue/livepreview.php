@@ -102,7 +102,7 @@
                         <input id="tab-5" type="radio" name="radio-set" class="tab-selector-5" />
                         <div for="tab-5" class="label tab-label-5">
                             <img src="images/footer-i-icon.png" class="d-block i-icon"/>
-                            <img src="images/footer-i-icon.png" class="d-block i-icon-active"/>
+                            <img src="images/footer-active.png" class="d-block i-icon-active"/>
                             Footer
                         </div>
                     </div>
@@ -113,7 +113,7 @@
 
                 <div class="content">
                     <div class="content-wrapper content-1">
-                        <div class="row active">
+                        <div class="row">
                             <div class="tap-page-slider col-sm-12 col-xl-6">
                                 <img src="images/homepageicon.png" class="tap-page-icon"> 
                                 <h3 class="tab-home-page-label d-none">

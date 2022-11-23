@@ -76,10 +76,11 @@
                         <input type="hidden" name="rotation" id="rotation" value="0"/>
                         </div>
                         <!-- <button type="button" class="btn btn-primary skip" data-dismiss="modal" >Upload logo</button> -->
+                        <p class="logo-subcondent d-none d-md-block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
                         <div class="img-preview" style="display: none;">
                             <h3>Edit your logo</h3>
                             <div class="row m-0">
-                                <div class="col-5 edit-panel-tools p-0">
+                                <div class="col-5 col-md-5 edit-panel-tools p-0">
                                     <div class="edit-panel-border">
                                         <div class="editpanel-img-type mb-4">
                                             <label class="fl-name float-left">Image</label>
@@ -91,18 +92,18 @@
                                         </div>
                                         <hr />
                                         <div class="form-group row m-0 mb-3">
-                                            <div class="col-9">
+                                            <div class="col-9 col-md-10 col-lg-9 p-0">
                                                 <label class="tool-label">Remove Background</label>
                                             </div>
-                                            <div class="col-3">
+                                            <div class="col-3 col-md-2 col-lg-3 p-0">
 
                                             </div>
                                         </div>
                                         <div class="form-group row m-0">
-                                            <div class="col">
+                                            <div class="col-4 col-md-4 p-0">
                                                 <label class="tool-label">Rotate</label>
                                             </div>
-                                            <div class="col">
+                                            <div class="col-8 col-md-8 p-0">
                                                 <span id="rright" class="float-right"><img src="images/right-angle.png" /></span>
                                                 <span id="rleft" class="float-right"><img src="images/left-angle.png" /></span>
                                             </div>
@@ -111,7 +112,17 @@
 
 
                                 </div>
-                                <div class="picpreview-col col-7 p-0">
+                                <div class="col-7 p-0 d-block d-md-none">
+                                    <p class="logo-subcondent">
+                                        Lorem ipsum dolor sit amet, consetetur sadipscing 
+                                        elitr, sed diam nonumy eirmod tempor invidunt ut labore 
+                                        et dolore magna aliquyam erat, sed diam voluptua. 
+                                        At vero eos et accusam et justo duo dolores et ea rebum. 
+                                        Stet clita kasd gubergren
+                                    </p>
+                                </div>
+
+                                <div class="picpreview-col col-md-7 p-0">
                                     <div class="edit-panel-image d-flex align-items-center align-self-stretch">
                                         <div id="imgPreview" ></div>
                                     </div>
@@ -126,7 +137,7 @@
 
 
                     </form>
-                    <p class="logo-subcondent ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+                    
 
                 </div>
 
