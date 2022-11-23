@@ -409,8 +409,12 @@
     height: auto;
     padding: 7px 14px;
   }
+  .timeline ul li.in-view.first-row{
+    margin-top: 0;
+    top: 35px;
+  }
   .timeline ul li.in-view.first-row::before {
-    top: 0;
+    top: -57px;
   }
   .timeline ul li.in-view::before {
     content: attr(data-before);
@@ -478,7 +482,7 @@
   }
 
   .timeline {
-    padding-top: 20px !important;
+    padding-top: 40px !important;
     padding-bottom: 50px;
   }
   
@@ -486,9 +490,6 @@
     width: auto;
     height: auto;
     padding: 7px 14px;
-  }
-  .timeline ul li.in-view.first-row::before {
-    top: 0;
   }
   .timeline ul li.in-view::before {
     content: attr(data-before);
@@ -1598,21 +1599,10 @@ footer img.footer_logo{
     flex-direction: row-reverse;
     margin: 20px 0px;
   }
-
-  .timeline {
-    padding-top: 20px !important;
-    padding-bottom: 50px;
-  }
-  
-
- 
-  .timeline ul li::before {
+ .timeline ul li::before {
     width: auto;
     height: auto;
     padding: 7px 14px;
-  }
-  .timeline ul li.in-view.first-row::before {
-    top: 0;
   }
   .timeline ul li.in-view::before {
     content: attr(data-before);
@@ -1635,29 +1625,15 @@ footer img.footer_logo{
     padding: 7px 14px;
     font-size: 12px;
   }
-  
-
- 
-
   .timeline ul li.in-view {
     transition: 0.5s ease-in-out, background-color 0.2s ease-out,
       color 0.1s ease-out, border 0.1s ease-out;
     margin: 51px 0px 181px 0px;
   }
-
- 
-  .timeline {
-    padding-top: 20px !important;
-    padding-bottom: 50px;
-  }
-  
   .timeline ul li::before {
     width: auto;
     height: auto;
     padding: 7px 14px;
-  }
-  .timeline ul li.in-view.first-row::before {
-    top: 0;
   }
   .timeline ul li.in-view::before {
     content: attr(data-before);
@@ -2685,19 +2661,10 @@ footer img.footer_logo{
     margin: 0 auto;
     line-height: 40px;
   }
-  .timeline {
-    padding-top: 20px !important;
-    padding-bottom: 50px;
-  }
- 
- 
   .timeline ul li::before {
     width: auto;
     height: auto;
     padding: 7px 14px;
-  }
-  .timeline ul li.in-view.first-row::before {
-    top: 0;
   }
   .timeline ul li.in-view::before {
     content: attr(data-before);
@@ -3506,6 +3473,13 @@ footer img.footer_logo{
   .timeline_condent.condent-left-side p {
     padding-right: 30px;
     padding-left: 0px;
+  }
+  .timeline ul li.in-view:first-child{
+    margin-top: 0;
+    top: 35px;
+  }
+  .timeline ul li.in-view.first-row::before{
+    top:-57px;
   }
   .timeline ul li.in-view {
     transition: 0.5s ease-in-out, background-color 0.2s ease-out,
@@ -4474,6 +4448,8 @@ footer img.footer_logo{
   .feature-right-condent {
     margin: 0px;
     max-width: fit-content;
+    float: inherit;
+    flex-direction: inherit;
   }
   .feature-left-condent,
   .feature-right-condent {
