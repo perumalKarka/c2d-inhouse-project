@@ -10,39 +10,39 @@
                 <form class="request-popup-form send-us-popup-message-form">
                     <h2 class="form-heading pb-2">Send us a message!</h2>
                         <div class="form-row reset-margin submission">
-                            <div class="form-group col-md-6 pt-2">
+                            <div class="form-group col-md-6 pt-3">
                             <label for="inputEmail4">First Name <span class="required">*</span></label>
                             <input type="text" class="form-control" id="inputEmail4">
                             </div>
-                            <div class="form-group col-md-6 pt-2">
+                            <div class="form-group col-md-6 pt-3">
                             <label for="inputPassword4">Last Name <span class="required">*</span></label>
                             <input type="text" class="form-control" id="inputPassword4">
                             </div>
-                            <div class="form-group col-md-6 pt-2">
+                            <div class="form-group col-md-6 pt-3">
                             <label for="inputPassword4">Company Name <span class="required">*</span></label>
                             <input type="text" class="form-control" id="inputPassword4">
                             </div>
-                            <div class="form-group col-md-6 pt-2">
+                            <div class="form-group col-md-6 pt-3">
                             <label for="inputPassword4">VAT Number <span class="required">*</span></label>
                             <input type="number" class="form-control" id="inputPassword4">
                             </div>
-                            <div class="form-group col-md-6 pt-2">
+                            <div class="form-group col-md-6 pt-3">
                             <label for="inputPassword4">Position in the company <span class="required">*</span></label>
                             <input type="text" class="form-control" id="inputPassword4">
                             </div>
-                            <div class="form-group col-md-6 pt-2">
+                            <div class="form-group col-md-6 pt-3">
                             <label for="inputPassword4">Size of the company<span class="required">*</span></label>
                             <input type="text" class="form-control" id="inputPassword4">
                             </div>
-                            <div class="form-group col-md-6 pt-2">
+                            <div class="form-group col-md-6 pt-3">
                             <label for="inputPassword4">Phone Number<span class="required">*</span></label>
                             <input type="number" class="form-control" id="inputPassword4">
                             </div>
-                            <div class="form-group col-md-6 pt-2">
+                            <div class="form-group col-md-6 pt-3">
                             <label for="inputPassword4">Email Address <span class="required">*</span></label>
                             <input type="text" class="form-control" id="inputPassword4">
                             </div>
-                            <div class="form-group email-message col-lg-12 pt-2">
+                            <div class="form-group email-message col-lg-12 pt-3">
                             <label for="inputAddress">Message</label>
                             <textarea class="form-control message" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>

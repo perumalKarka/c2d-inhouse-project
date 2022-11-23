@@ -1265,6 +1265,14 @@ footer img.footer_logo{
 .site-menu-toggle .icon-menu-bar {
   background-color: #383838!important;
 }
+.acordian-button button:focus{
+  background-color: #3ebdcc;
+  border-color: white;
+}
+.acordian-button button:focus{
+  background-color: #3ebdcc;
+  border-color: white;
+}
 
 }
 
@@ -5799,7 +5807,8 @@ footer img.footer_logo{
     display: table-cell;
   }
   #faq .card .card-header a[aria-expanded="true"]:after{
-    top:20px
+    top:35px;
+    right:54px;
   }
   .accoridan-slider-sec .accordian-para{
     display:flex;
