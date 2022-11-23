@@ -34,41 +34,38 @@
   width: 100%;
   max-width: 65%;
 }
-@media (min-width: 360px) {
+@media (min-width: 320px) {
   body.land-page-new .banner--with--content.homeoffice--banner {
     position: relative;
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: inherit;
-    height: 76vh;
+    background-size: cover;
+    height: 75vh;
     margin-bottom: 0px;
   }
   body.land-page-new .homeoffice--banner .banner-content {
     background-color: transparent;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: 100%;
-    height: 80vh;
+    height:75vh;
+    position: absolute;
+    top: 0;
+    width: 90%;
+    margin: 0 auto;
   }
-  body.land-page-new .homeoffice--banner .banner-left-col h1 {
+  body.land-page-new .homeoffice--banner .banner-content .banner-left-col{
+    margin-top: 20vh;
+  }
+  body.land-page-new .homeoffice--banner .banner-left-col h1{
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
-    line-height: 62px;
+    line-height: 40px;
     color: #005579;
     margin-bottom: 5px;
     font-weight: bold;
-  }
-  body.land-page-new .homeoffice--banner .banner-left-col p {
-    font-family: "robotolight";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 33px;
-    color: #005579;
-    max-width: 460px;
-    margin-bottom: 20px;
   }
   body.land-page-new .homemade_solutions-content {
     padding-top: 50px;
@@ -569,40 +566,17 @@
 }
 
 @media (min-width: 400px) {
-  body.land-page-new .banner--with--content.homeoffice--banner {
-    position: relative;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: inherit;
-    height: 80vh;
-    margin-bottom: 0px;
-  }
-  body.land-page-new .homeoffice--banner .banner-content {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    height: 80vh;
+  body.land-page-new .homeoffice--banner .banner-content .banner-left-col{
+    margin-top: 25vh;
   }
   body.land-page-new .homeoffice--banner .banner-left-col h1 {
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
-    line-height: 62px;
+    font-size: 25px;
+    line-height: 40px;
     color: #005579;
     margin-bottom: 5px;
     font-weight: bold;
-  }
-  body.land-page-new .homeoffice--banner .banner-left-col p {
-    font-family: "robotolight";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 33px;
-    color: #005579;
-    max-width: 460px;
-    margin-bottom: 20px;
   }
   body.land-page-new .homemade_solutions-content {
     padding-top: 60px;
@@ -1015,23 +989,16 @@
   }
 }
 
-/* * // Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   body.land-page-new .banner--with--content.homeoffice--banner {
-    position: relative;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: auto;
-    height: 100vh;
-    margin-bottom: 0px;
+    height: 90vh;
   }
   body.land-page-new .homeoffice--banner .banner-content {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    height: 100vh;
+    height: 90vh;
+  }
+  body.land-page-new .homeoffice--banner .banner-content .banner-left-col{
+    margin-top: 25vh;
   }
   body.land-page-new .homeoffice--banner .banner-left-col h1 {
     font-style: normal;
@@ -1367,21 +1334,8 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  body.land-page-new .banner--with--content.homeoffice--banner {
-    position: relative;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: auto;
-    height: 100vh;
-    margin-bottom: 0px;
-  }
-  body.land-page-new .homeoffice--banner .banner-content {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    height: 100vh;
+  body.land-page-new .homeoffice--banner .banner-content .banner-left-col{
+    margin-top: 25vh;
   }
   body.land-page-new .homeoffice--banner .banner-left-col h1 {
     font-style: normal;
@@ -1746,28 +1700,18 @@
     font-size: 20px;
     margin: 0;
   }
-
-  
-
-  
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   body.land-page-new .banner--with--content.homeoffice--banner {
-    position: relative;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: auto;
     height: 100vh;
   }
   body.land-page-new .homeoffice--banner .banner-content {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100vh;
     height: 100vh;
+  }
+  body.land-page-new .homeoffice--banner .banner-content .banner-left-col{
+    margin-top: 25vh;
   }
   body.land-page-new .homeoffice--banner .banner-left-col h1 {
     font-style: normal;
@@ -2085,23 +2029,7 @@
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   body.land-page-new .banner--with--content.homeoffice--banner {
-    position: relative;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 100%;
-    height: 100vh;
     margin-bottom: 142px;
-  }
-  body.land-page-new .homeoffice--banner .banner-left-col {
-    padding-top: 100px;
-  }
-  body.land-page-new .homeoffice--banner .banner-content {
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 78vh;
   }
   body.land-page-new .homeoffice--banner .banner-left-col h1 {
     font-style: normal;
@@ -2431,10 +2359,10 @@
 @media (min-width:768px) and (min-height:1024px){
   body.land-page-new .banner--with--content.homeoffice--banner{
     background-size: cover;
-    height: 70vh;
+    height: 85vh;
   }
   body.land-page-new .homeoffice--banner .banner-content{
     background-size: 100%;
-    height: 70vh;
+    height: 85vh;
   }
 }
