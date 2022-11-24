@@ -42,7 +42,7 @@
                             <label for="inputPassword4">Email Address <span class="required">*</span></label>
                             <input type="text" class="form-control" id="inputPassword4">
                             </div>
-                            <div class="form-group email-message col-lg-12 pt-3">
+                            <div class="form-group email-message col-lg-12 pt-3 pr-0">
                             <label for="inputAddress">Message</label>
                             <textarea class="form-control message" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
@@ -85,46 +85,46 @@
                             <div class="row reset-margin">
                                 <img src="images/copyright.jpg" class="copy-right-template">
                                 <p class="copyright-title">
-                                <label class="copy-title">For Template Theme:</label>
+                                <label class="copy-title mb-3">For Template Theme:</label>
                                 <label class="copy-subtitle">Template Name with Title/Subtitle</label></p>
                             </div>
                           
                         <div class="form-row reset-margin submission">
                             <div class="form-group col-md-6 pt-3">
                             <label for="inputEmail4">First Name <span class="required">*</span></label>
-                            <input type="text" class="form-control" id="inputEmail4">
+                            <input type="text" class="form-control mt-2" id="inputEmail4">
                             </div>
                             <div class="form-group col-md-6 pt-3">
                             <label for="inputPassword4">Last Name <span class="required">*</span></label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <input type="text" class="form-control mt-2" id="inputPassword4">
                             </div>
                             <div class="form-group col-md-6 pt-3">
                             <label for="inputPassword4">Company Name <span class="required">*</span></label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <input type="text" class="form-control mt-2" id="inputPassword4">
                             </div>
                             <div class="form-group col-md-6 pt-3">
                             <label for="inputPassword4">VAT Number <span class="required">*</span></label>
-                            <input type="number" class="form-control" id="inputPassword4">
+                            <input type="number" class="form-control mt-2" id="inputPassword4">
                             </div>
                             <div class="form-group col-md-6 pt-3">
                             <label for="inputPassword4">Position in the company <span class="required">*</span></label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <input type="text" class="form-control mt-2" id="inputPassword4">
                             </div>
                             <div class="form-group col-md-6 pt-3">
                             <label for="inputPassword4">Size of the company<span class="required">*</span></label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <input type="text" class="form-control mt-2" id="inputPassword4">
                             </div>
                             <div class="form-group col-md-6 pt-3">
                             <label for="inputPassword4">Phone Number<span class="required">*</span></label>
-                            <input type="number" class="form-control" id="inputPassword4">
+                            <input type="number" class="form-control mt-2" id="inputPassword4">
                             </div>
                             <div class="form-group col-md-6 pt-3">
                             <label for="inputPassword4">Email Address <span class="required">*</span></label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <input type="text" class="form-control mt-2" id="inputPassword4">
                             </div>
-                            <div class="form-group email-message col-lg-12 pt-3">
+                            <div class="form-group email-message col-lg-12 pt-3 pr-0">
                             <label for="inputAddress">Message</label>
-                            <textarea class="form-control message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <textarea class="form-control message mt-2"  id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
                         </div>
                         <div class="row reset-margin message-subcondent buy-message-subcondent">
