@@ -284,6 +284,26 @@
                 $('.tabs input').prop('checked', false)
             });
 
+            $('body').on('click', '.tabs input', function(e) {
+                if ($(this).prop('checked')==true){ 
+                    $('body').addClass('offcanvas-checkbox');
+                }
+                else{
+                    $('body').removeClass('offcanvas-checkbox');
+                }
+                
+            });
+
+            // click outisde offcanvas
+            $(document).mouseup(function(e) {
+                var container = $(".tabs");
+                if (!container.is(e.target) && container.has(e.target).length === 0) {
+                    if($('body').hasClass('offcanvas-checkbox')){
+                        $('body').removeClass('offcanvas-checkbox');
+                        $('.tabs input').prop('checked', false)
+                    }
+                }
+            });
             
         });
 

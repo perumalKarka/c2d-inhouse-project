@@ -86,15 +86,15 @@
         
         <div id="main" class="accordian-top-section">
         
-            <div class="accordion" id="faq">
-                            <div class="card mb-5">
-                                <div class="card-header container container-90 reset-padding" id="faqhead1">
+            <div class="panel-group accordion" id="faq">
+                            <div class="panel panel-default card mb-5">
+                                <div class="card-header container container-90 reset-padding" role="tab" id="faqhead1">
                                 
                                     <a href="#" class="btn btn-header-link" data-toggle="collapse" data-target="#faq1"
-                                    aria-expanded="true" aria-controls="faq1"><label class="title">Maintenance <span style="color:#FFFFFF;">(Optional)</span></label></a>
+                                    aria-controls="faq1"><label class="title">Maintenance <span style="color:#FFFFFF;">(Optional)</span></label></a>
                                 </div>
 
-                                <div id="faq1" class="collapse show container container-90 reset-padding accordian-first-sec" aria-labelledby="faqhead1" data-parent="#faq">
+                                <div id="faq1" class="panel-collapse collapse show container container-90 reset-padding accordian-first-sec" role="tabpanel" aria-labelledby="faqhead1" data-parent="#faq">
                                     <div class="card-body ">
                                         <h2>CHOOSE ONE</h2>
                                     <div class="form-check ">
@@ -113,16 +113,16 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card mb-5">
-                                <div class="card-header container container-90 reset-padding  accordian-second " id="faqhead2">
+                            <div class="panel panel-default card mb-5">
+                                <div class="card-header container container-90 reset-padding  accordian-second" role="tab" id="faqhead2">
                                     <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq2"
-                                        aria-expanded="false" aria-controls="faq2">
+                                        aria-controls="faq2">
                                         <label class="title">Lorem ipsum<span class="title-span">(6)</span></label>
                                         <button type="button" class="template-button">Go to Templates</button>
                                     </a>
                                 </div>
 
-                                <div id="faq2" class="collapse container container-90 reset-padding" aria-labelledby="faqhead2" data-parent="#faq">
+                                <div id="faq2" class="panel-collapse collapse container container-90 reset-padding" role="tabpanel" aria-labelledby="faqhead2" data-parent="#faq">
                                     <div class="card-body">
                                         <div class="row reset-margin">
                                                 <div class="col-6"><h2 class="accordian-sub-title">LOREM IPSUM</h2></div>
@@ -214,16 +214,16 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card mb-5">
-                                <div class="card-header container container container-90 accordian-third reset-padding " id="faqhead3">
+                            <div class="panel panel-default card mb-5">
+                                <div class="card-header container container container-90 accordian-third reset-padding" role="tab" id="faqhead3">
                                     <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq3"
-                                    aria-expanded="false" aria-controls="faq3">
+                                    aria-controls="faq3">
                                         <label class="title">Lorem ipsum<span class="title-span">(6)</span></label>
                                         <button type="button" class="template-button">Go to Meeting room</button>
                                     </a>
                                 </div>
 
-                                <div id="faq3" class="collapse container container container-90 reset-padding" aria-labelledby="faqhead3" data-parent="#faq">
+                                <div id="faq3" class="panel-collapse collapse container container container-90 reset-padding" role="tabpanel" aria-labelledby="faqhead3" data-parent="#faq">
                                     
                                     <div class="card-body">
                                         <div class="row reset-margin">
@@ -451,8 +451,8 @@
                             </div>
 
                             
-                            <div class="card mb-8">
-                                <div class="card-header container container container-90 accordian-third reset-padding " id="faqhead5">
+                            <div class="panel panel-default card mb-8">
+                                <div class="card-header container container container-90 accordian-third reset-padding" role="tab" id="faqhead5">
                                     <a href="#" class="btn btn-header-link collapsed" data-toggle="collapse" data-target="#faq5"
                                     aria-expanded="false" aria-controls="faq5">
                                         <label class="title">Infrastructure & Security <span class="title-span">(6)</span></label>
@@ -460,7 +460,7 @@
                                     </a>
                                 </div>
 
-                                <div id="faq5" class="collapse container container container-90 reset-padding" aria-labelledby="faqhead4" data-parent="#faq">
+                                <div id="faq5" class="panel-collapse collapse container container container-90 reset-padding" role="tabpanel" aria-labelledby="faqhead4" data-parent="#faq">
                                     
                                     <div class="card-body">
                                         <div class="row reset-margin">
@@ -743,6 +743,13 @@
         $('.input-group').on('click', '.button-minus', function(e) {
             decrementValue(e);
         });
+
+        $('.panel-collapse').on('shown.bs.collapse', function (e) {
+            var $panel = $(this).closest('.panel');
+            $('html,body').animate({
+                scrollTop: $panel.offset().top
+            }, 100); 
+        });  
     </script>
     
    
