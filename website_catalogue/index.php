@@ -321,7 +321,7 @@
                     <h4 class="section-left__title">SUPPORT AND GUIDANCE</h4>
                     <p class="section-left-sub__title">Lorem ipsum dolor sit amet, consetetur</h3>
                     <p class="support-guidance-container-90__title__para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
-                    <a href="">Contact us -></a>
+                    <a href="">Contact us <img src="images/awesome-arrow-right.png" /></a>
                 </div>
             </div>
         </section>
