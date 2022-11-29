@@ -4200,10 +4200,7 @@
     padding-left: 0px !important;
     padding-right: 20px !important;
   }
-  form.by-copy-right-page-form .form-group.email-message{
-   
-    padding-right: 0px !important;
-}
+
   form.by-copy-right-page-form .form-group:nth-child(even) {
     padding-left: 20px !important;
     padding-right: 0px !important;
