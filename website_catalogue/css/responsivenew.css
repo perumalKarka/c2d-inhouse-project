@@ -1269,12 +1269,7 @@
   .preview-button button {
     padding: 9px 12px;
   }
-  section.template-carosal .prev-slider {
-    left: -19px;
-  }
-  section.template-carosal .next-slider {
-    right: -20px;
-  }
+  
   .carousel-item .ads {
     display: inline-block;
     margin-left: -2px;
@@ -3042,12 +3037,6 @@
     width: 1rem;
     height: 1.5rem;
   }
-  section.template-carosal .prev-slider {
-    left: -33px;
-  }
-  section.template-carosal .next-slider {
-    right: -30px;
-  }
   .carousel-item .ads {
     display: inline-block;
     margin-left: -3px;
@@ -4107,12 +4096,7 @@
   .index-page-carousel-2 {
     margin-bottom: 42px !important;
   }
-  section.template-carosal .prev-slider {
-    left: -46px;
-  }
-  section.template-carosal .next-slider {
-    right: -44px;
-  }
+  
   #faq .card .card-header a:after {
     font-family: "FontAwesome";
     content: "\f068";
@@ -4960,12 +4944,6 @@
   .filtersection {
     border: none;
     padding-bottom: 60px;
-  }
-  section.template-carosal .prev-slider {
-    left: -61px;
-  }
-  section.template-carosal .next-slider {
-    right: -58px;
   }
   .carousel-item .ads {
     display: inline-block;
@@ -5867,12 +5845,7 @@
     max-width: 100%;
     line-height: 90px;
   }
-  section.template-carosal .prev-slider {
-    left: -91px;
-  }
-  section.template-carosal .next-slider {
-    right: -73px;
-  }
+  
   .catalogue-firstSection .searchBox input {
     background-color: transparent;
     border: none;

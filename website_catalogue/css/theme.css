@@ -572,11 +572,21 @@ footer {
 .carousel-inner {
   position: relative;
   width: 100%;
-  overflow: hidden;
+  overflow: visible;
 }
 .carousel-item .ads {
   display: inline-block;
   margin-left: -4px;
+}
+section.template-carosal .prev-slider,
+section.template-carosal .next-slider{
+  width: auto;
+}
+section.template-carosal .prev-slider{
+  left:-2%;
+}
+section.template-carosal .next-slider{
+  right:-2%;
 }
 .carousel-item .ads img {
   width: 100%;

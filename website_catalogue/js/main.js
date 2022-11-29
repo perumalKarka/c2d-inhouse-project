@@ -411,9 +411,13 @@ $(document).ready(function() {
   /******  Go to top scroll options ******/
   $(window).scroll(function() {
     if ($(this).scrollTop() > 20) {
-    $('#scroll').fadeIn();
+      $('#scroll').fadeIn();
     } else {
     $('#scroll').fadeOut();
+    }
+
+    if($(".website-builder").scrollTop() > 20){
+      alert();
     }
   });
     

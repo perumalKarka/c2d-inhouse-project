@@ -65,9 +65,8 @@
                         <div class="col-4  ads reset-padding"><img src="images/Group 1199.png"> </div>
                         <div class="col-4  ads reset-padding"><img src="images/Group 109.png"></div>
                     </div>
-                    Left and right controls
-                    <a class="carousel-control-prev prev-slider" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-                    <a class="carousel-control-next next-slider" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                    <a class="carousel-control-prev prev-slider" href="#demo_1" data-slide="prev"><img src="images/ios-arrow-forward.png" /></a>
+                    <a class="carousel-control-next next-slider" href="#demo_1" data-slide="next"><img src="images/ios-arrow-backward.png" /></a>
                 </div>
             </div>
             <div id="demo_2" class="container container-90 carousel slide reset-padding index-page-carousel-2" data-ride="carousel">
@@ -87,9 +86,8 @@
                         <div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>
                         <div class="col-md-4  ads"><img src="images/Group 109.png"></div>
                     </div>
-                    Left and right controls -->
-                    <a class="carousel-control-prev prev-slider" href="#demo_2" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-                    <a class="carousel-control-next next-slider" href="#demo_2" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                    <a class="carousel-control-prev prev-slider" href="#demo_2" data-slide="prev"><img src="images/ios-arrow-forward.png" /></a>
+                    <a class="carousel-control-next next-slider" href="#demo_2" data-slide="next"><img src="images/ios-arrow-backward.png" /></a>
                 </div>
             </div>  
 
@@ -140,9 +138,8 @@
                         <div class="col-6 ads reset-padding "><img src="images/Group 109.png"></div>
                         <div class="col-6 ads reset-padding "><img src="images/Group 1199.png"> </div>
                     </div>
-                    Left and right controls
-                    <a class="carousel-control-prev prev-slider" href="#demo_sm_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-                    <a class="carousel-control-next next-slider" href="#demo_sm_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                    <a class="carousel-control-prev prev-slider" href="#demo_sm_1" data-slide="prev"><img src="images/ios-arrow-forward.png" /></a>
+                    <a class="carousel-control-next next-slider" href="#demo_sm_1" data-slide="next"><img src="images/ios-arrow-backward.png" /></a>
                 </div>
             </div>
             <div id="demo_sm_2" class="container container-90 carousel slide reset-padding index-page-carousel-2" data-ride="carousel">
@@ -159,9 +156,8 @@
                         <div class="col-6 ads reset-padding "><img src="images/Group 109.png"></div>
                         <div class="col-6 ads reset-padding "><img src="images/Group 1199.png"> </div>
                     </div>
-                    Left and right controls -->
-                    <a class="carousel-control-prev prev-slider" href="#demo_sm_2" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-                    <a class="carousel-control-next next-slider" href="#demo_sm_2" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+                    <a class="carousel-control-prev prev-slider" href="#demo_sm_2" data-slide="prev"><img src="images/ios-arrow-forward.png" /></a>
+                    <a class="carousel-control-next next-slider" href="#demo_sm_2" data-slide="next"><img src="images/ios-arrow-backward.png" /></a>
                 </div>
             </div>  
         </section>
