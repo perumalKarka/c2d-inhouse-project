@@ -2,6 +2,7 @@ $(document).ready(function(){
     $('.filter-bar').click(() => {
       $('.menu').toggleClass('nav-open');
       $('.hamburger').toggleClass('nav-open');
+      $('body.catelogue-page').toggleClass('hamburger-nav-open');
     });
     
     $('.has-submenu>a').click(function() {
@@ -19,4 +20,7 @@ $(document).ready(function(){
     $('.search-form').submit(e => {
       e.preventDefault();
     });
+
+    
+    
 });

@@ -60,6 +60,16 @@
         .wish-close-bx{
             background:#d1d1d1;
         }
+        .clear-filter-tag{
+            font-size: 12px;
+            line-height: 14px;
+            text-transform: uppercase;
+            color: #F4A41D;
+            cursor: pointer;
+        }
+        .clear-filter-tag:hover{
+            color: #F4A41D;
+        }
 
         @media (min-width: 380px) {
             .wishlist-bar h2{
@@ -256,6 +266,7 @@
                 </div>
             </div>
         </section>
+        
         <!-- filter section -->
         <section class="filtersection">
             <div class="container container-90 reset-padding">
@@ -266,6 +277,7 @@
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbar">
+
                                 <ul class="navbar-nav mr-auto">
                                     <li class="nav-item dropdown megamenu-li">
                                         <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
@@ -562,6 +574,7 @@
                                             <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Liked <span class="badge badge-light">10</span>
                                         </a>
                                     </li>
+                                    
                                 </ul>
                                 <div class="tagsBoxDropdown">
                                     <div class="tagsBox">
@@ -579,11 +592,17 @@
                         </nav>
 
                         <nav class="d-block d-md-none header-nav">
+                            
+                            
                             <div class="hamburger">
                                 <label class="filter-bar filter-open-bar">
                                     <img src="images/menu-filter-bar.svg" />
                                     Filters
                                 </label>
+                                <div class="filter-hamburger-head">
+                                    <label class="lab-title">Filters</label>
+                                    <a class="clear-filter-tag">Clear all</a>
+                                </div>
                                 <div class="filter-close-bar">
                                     <div class="row m-0">
                                         <a class="col filter-bar text-center">Close</a>
@@ -598,7 +617,7 @@
                                 <li class="has-submenu">
                                     <a href="#" class="active">Categories</a>
                                     <input type="text" id="myInput" class="myfilter_textbox" onkeyup="myFilter()" placeholder="Search by Categorise" />
-                                    <ul class="sub-menu filter-option-lists active" id="sports-sub" style="padding-top:6vh;">
+                                    <ul class="sub-menu filter-option-lists active" id="sports-sub" style="padding-top:16vh;">
                                         <li class="sub-title">
                                             <label class="contactform-check--label block-color">
                                                 <input class="contactform-check--input" type="checkbox" value="Monopage">
@@ -619,7 +638,7 @@
                                 <li class="has-submenu">
                                     <a href="#">Business Type</a>
                                     <input type="text" id="myInput-tab" class="myfilter_textbox" onkeyup="myTabFilter()" placeholder="Search by Business" />
-                                    <ul id="b2c_tabUL" class="sub-menu filter-option-lists" style="padding-top:7vh;">
+                                    <ul id="b2c_tabUL" class="sub-menu filter-option-lists" style="padding-top:16vh;">
                                         <h3 class="title">Category 1</h3>
                                         <li class="sub-title">
                                             <label class="contactform-check--label block-color">
@@ -704,7 +723,7 @@
                                 <li class="has-submenu">
                                     <a href="#">Color Scheme</a>
                                     <input type="text" id="myInput-tab" class="myfilter_textbox" onkeyup="myTabFilter()" placeholder="Search by Color" />
-                                    <ul id="color_tabUL" class="sub-menu filter-option-lists" style="padding-top:7.5vh;">
+                                    <ul id="color_tabUL" class="sub-menu filter-option-lists" style="padding-top:16.5vh;">
                                         <li>
                                             <label class="contactform-check--label block-color">
                                                 <input class="contactform-check--input" type="checkbox" value="Blue">
@@ -745,7 +764,7 @@
                                 <li class="has-submenu">
                                     <a href="#">Style</a>
                                     <input type="text" id="myInput" class="myfilter_textbox" onkeyup="myFilter()" placeholder="Search by Style" />
-                                    <ul class="sub-menu filter-option-lists" style="padding-top:8.5vh;">
+                                    <ul class="sub-menu filter-option-lists" style="padding-top:17.5vh;">
                                         <li>
                                             <label class="contactform-check--label block-color">
                                                 <input class="contactform-check--input" type="checkbox" value="Minimal">
@@ -783,10 +802,9 @@
                                         </li>
                                     </ul>
                                 </li>
-
-
                             </ul>
-                        </nav>
+                            
+                        </nav>  
 
                     </div>
                     <div class="col-5 col-md-12 col-lg-3 request p-0">
@@ -1512,7 +1530,7 @@
             var filterDiv = $(".filter-option").width();
             $(".dropdown-menu.megamenu").width(filterDiv);
             $(".bootstrap-tagsinput").width(filterDiv);
-            //$(".tab-apply-bar").css("width", filterDiv);
+            $(".tab-apply-bar").css("width", filterDiv);
             $('.dropdown-menu,.tagsBoxDropdown').on("click.bs.dropdown", function(e) {
                 e.stopPropagation();
             });
@@ -1538,6 +1556,14 @@
                     $(".wrapper input[type='checkbox']:checked").each(function(index, ele) {
                         checkedvalue.push($(ele).val());
                     })
+                    
+                    if(checkedvalue.length == 1 && $(".tagsBoxDropdown .bootstrap-tagsinput").find( ".least-ele").length == 0){
+                        $(".tagsBoxDropdown .bootstrap-tagsinput").last().append("<a href='javascript:;' class='clear-filter-tag least-ele' onclick='filter_remover();'>Clear All</a>");
+                    }
+                    else if(checkedvalue.length == 0){
+                        $(".tagsBoxDropdown .bootstrap-tagsinput").find( ".least-ele").remove();
+                    }
+
                     var result = checkedvalue.join(",");
                     $("#tagsinput").tagsinput('removeAll');
                     $("#tagsinput").tagsinput('add', result);
@@ -1548,7 +1574,13 @@
 
             //trace the tag remove event, then, based on the tags to checked/unchecked the checkbox
             $("#tagsinput").on('itemRemoved', function() {
-                var valarray = $("#tagsinput").val().split(",");
+                var valarray = [];
+                valarray = $("#tagsinput").val().split(",");
+                if($("#tagsinput").val() == ''){
+                    $(".tagsBoxDropdown .bootstrap-tagsinput").find( ".least-ele").remove();
+                }
+                
+                
                 $(".wrapper input[type='checkbox']").each(function(index, item) {
                     if (jQuery.inArray($(item).val(), valarray) != -1) {
                         $(item).prop("checked", true);
@@ -1559,6 +1591,22 @@
             });
 
         });
+
+        
+        $("body").on("click", ".clear-filter-tag", function() {
+            
+            $(".contactform-check--label input[type='checkbox']").each(function(inde, item){
+                $(item).prop('checked', false);
+            });
+        });
+
+        function filter_remover(){
+            $(".contactform-check--label input[type='checkbox']").each(function(inde, item){
+                $(item).prop('checked', false);
+            });
+            $("#tagsinput").tagsinput('removeAll');
+            $(".tagsBoxDropdown .bootstrap-tagsinput").find( ".least-ele").remove();
+        }
 
         function myTabFilter() {
             var input, filter, ul, li, a, i, txtValue;

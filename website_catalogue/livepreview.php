@@ -49,9 +49,9 @@
                     </div>
                     <div class="col-xl-8 col-lg-10 col-sm-12 preview-button reset-padding">
                         
-                        <button type="button" class="like-button"><img src="images/thumb_webicon.png" class="mr-2"><span class="m-0 p-0 pre-label">Like template</span></button>
-                        <button type="button" class="whistlist-button "> <img src="images/bookmarks_icon.png" class="mr-2"> <span class="m-0 p-0 pre-label">Add to Wishlist</span></button>
-                        <button type="button" class="copyright-button" data-toggle="modal" data-target="#exampleModal-2"><img src="images/certifi.png" class="mr-2"><span class="m-0 p-0 pre-label">Buy Copyright*</span></button>
+                        <button type="button" class="like-button"><img src="images/thumb_webicon.png" class="mr-2"><span class="m-0 p-0 pre-label">Like</span></button>
+                        <button type="button" class="whistlist-button "> <img src="images/bookmarks_icon.png" class="mr-2"> <span class="m-0 p-0 pre-label">Wishlist</span></button>
+                        <button type="button" class="copyright-button" data-toggle="modal" data-target="#exampleModal-2"><img src="images/certifi.png" class="mr-2"><span class="m-0 p-0 pre-label">Copyright*</span></button>
                     </div>
                 </div>
             </div>
@@ -200,7 +200,7 @@
                         <p class="mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et </p>
                     </div>
                     <div class="content-wrapper content-5 footer">
-                        <div class="row active">
+                        <div class="row">
                             <div class="tap-page-slider col-sm-12 col-xl-6">
                                 <img src="images/homepageicon.png" class="tap-page-icon"> 
                                 <h3 class="tab-home-page-label d-none">
@@ -229,7 +229,7 @@
                         </div>
                         
                     </div>
-                    <img src="images/closeicon.png" id="closeLeftside-Tab" />
+                    <img src="images/right-tab-closeicon.png" id="closeLeftside-Tab" />
                 </div> <!-- content div end --->
                 
             </div>

@@ -581,12 +581,13 @@ footer {
 section.template-carosal .prev-slider,
 section.template-carosal .next-slider{
   width: auto;
+  opacity: 1;
 }
 section.template-carosal .prev-slider{
   left:-2%;
 }
 section.template-carosal .next-slider{
-  right:-2%;
+  right:-1%;
 }
 .carousel-item .ads img {
   width: 100%;
