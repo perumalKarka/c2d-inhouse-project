@@ -1578,7 +1578,7 @@ span.title-span {
   text-align: left;
   overflow: auto;
 }
-#faq .card .card-header a[aria-expanded="false"] button.template-button {
+#faq .card .card-header a.collapsed button.template-button {
   display: none;
 }
 #faq .card .card-header a[aria-expanded="true"] button.template-button {
@@ -2276,6 +2276,17 @@ ul.socialmedia_network li a {
   border-radius: 6px;
   float: left;
 }
+.wishlist-container .remove:hover{
+  background:#ff3d00;
+  color: #fff;
+}
+.wishlist-container .preview:focus,
+.wishlist-container .preview:active
+{
+  color: #fff;;
+  background: #ff3d00;
+  border: 1px solid #ffffff;
+}
 .wishlist-container .preview {
   color: #ffffff;
   background: #3ebdcc;
@@ -2288,6 +2299,17 @@ ul.socialmedia_network li a {
   border: 1px solid #3ebdcc;
   border-radius: 6px;
   float: right;
+}
+.wishlist-container .preview:hover{
+  color:#3ebdcc;
+  background: transparent;
+}
+.wishlist-container .preview:focus,
+.wishlist-container .preview:active
+{
+  color: #fff;;
+  background: #3ebdcc;
+  border: 1px solid #ffffff;
 }
 .wishlist-inner-box {
   position: relative;
@@ -2310,9 +2332,20 @@ ul.socialmedia_network li a {
   width: 200px;
   padding: 4px 0;
   text-align: center;
-  border: 1px solid #3ebdcc;
+  border: 2px solid #3ebdcc;
   border-radius: 8px;
   float: right;
+}
+.wish-checkout:hover{
+  color:#3ebdcc;
+  background: transparent;
+}
+.wish-checkout:focus,
+.wish-checkout:active
+{
+  color: #fff;;
+  background: #3ebdcc;
+  border: 2px solid #ffffff;
 }
 .wish-visit {
   color: #ffffff;

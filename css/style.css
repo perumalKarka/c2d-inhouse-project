@@ -3264,10 +3264,9 @@ ul.stage li a {
   position: relative;
   z-index: 1;
   margin-top: 30px;
+  padding:80px 0 100px 0
 }
-.box-content {
-  padding: 100px 0 112px 0;
-}
+
 .box-content .box-title {
   font-style: normal;
   font-weight: bold;

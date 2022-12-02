@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mobile_style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/responsive-new.css" />
     <style>
       .carousel-fade-1 .carousel-item {
         display: block;

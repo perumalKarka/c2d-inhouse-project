@@ -226,7 +226,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 17px;
-    line-height:24px;
+    line-height:22px;
     text-align: center;
     color: #ffffff;
     font-family: "robotoregular";
@@ -236,6 +236,7 @@
     color: var(--unnamed-color-ffffff);
     text-align: center;
     font-size: 12px;
+    line-height: 15px;
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 1;
@@ -407,16 +408,14 @@
     overflow: hidden;
     position: relative;
     z-index: 1;
-    padding-bottom:20px;
     margin-top: 0px;
-  }
-  body.land-page-new .box-content {
-    padding: 30px 0 30px 0;
   }
   
   body.land-page-new .box-btn {
-    padding: 5px 10px;
-    font-size: 12px;
+    padding: 9px 0 7px 0;
+    font-size: 11px;
+    line-height: 20px;
+    width: 125px;
   }
   body.land-page-new .phoningsolution .row {
     flex-wrap: wrap-reverse;
@@ -562,6 +561,16 @@
   }
   .footer-section {
     margin-top: 18px;
+  }
+  .heightlight-footer-box {
+    padding: 25px 0 25px 0px;
+  }
+  .heightlight-footer-box .box-content{
+    margin-bottom: 18px;
+  }
+  .heightlight-footer-box .container-90{
+    max-width: 95%;
+    padding: 0;
   }
 }
 
@@ -711,7 +720,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
-    line-height:34px;
+    line-height:28px;
     text-align: center;
     color: #ffffff;
     font-family: "robotoregular";
@@ -721,6 +730,7 @@
     color: var(--unnamed-color-ffffff);
     text-align: center;
     font-size: 12px;
+    line-height: 15px;
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 1;
@@ -870,22 +880,7 @@
   .fr-site .box-btn {
     width: 45%;
   }
-  body.land-page-new .heightlight-footer-box {
-    background: #f4a41d;
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
-    margin-top: 0px;
-  }
-
-  body.land-page-new .box-content {
-    padding: 30px 0 30px 0;
-  }
-
-  body.land-page-new .box-btn {
-    padding: 9px 15px;
-    font-size: 13px;
-  }
+  
   body.land-page-new .phoningsolution .row {
     flex-wrap: wrap-reverse;
   }
@@ -987,6 +982,10 @@
       background: #3EBDCC;
       border-radius: 8px;
   }
+  .heightlight-footer-box {
+    padding: 30px 0 30px 0px;
+  }
+  
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -1299,22 +1298,12 @@
   .fr-site .box-btn {
     width: 42%;
   }
-  body.land-page-new .heightlight-footer-box {
-    background: #f4a41d;
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
-    margin-top: 0px;
-  }
-
-  body.land-page-new .box-content {
-    padding: 30px 0 30px 0;
-  }
   
   body.land-page-new .box-btn {
-  
-    padding: 9px 24px;
-    font-size: 18px;
+    padding: 10px 0 9px 0;
+    font-size: 13px;
+    line-height: 21px;
+    width: 135px;
   }
   body.land-page-new .phoningsolution .row {
     flex-wrap: wrap-reverse;
@@ -1329,7 +1318,12 @@
   footer {
     padding: 38px 0 26px 0;
   }
-
+  .heightlight-footer-box {
+    padding: 30px 0 35px 0px;
+  }
+  .heightlight-footer-box .box-content{
+    margin-bottom: 20px;
+  }
   
 }
 
@@ -1500,7 +1494,6 @@
   body.land-page-new p.box-para {
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-ffffff);
-    text-align: left;
     font-size: 18px;
     letter-spacing: 0px;
     color: #ffffff;
@@ -1701,6 +1694,13 @@
     font-size: 20px;
     margin: 0;
   }
+
+  .heightlight-footer-box {
+    padding: 50px 0 50px 0px;
+  }
+  .heightlight-footer-box .box-content{
+    margin-bottom: 22px;
+  }
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -1868,6 +1868,7 @@
     color: var(--unnamed-color-ffffff);
     text-align: left;
     font-size: 18px;
+    line-height: 27px;
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 1;
@@ -2013,7 +2014,12 @@
   .fr-site .box-btn {
     width: 283px;
   }
-
+  body.land-page-new .box-btn {
+    padding: 15px 0;
+    font-size: 22px;
+    line-height: 28px;
+    width: 280px;
+  }
 
   .footer-top {
     padding-bottom: 39.5px;
@@ -2024,7 +2030,16 @@
     font-size: 17px;
     text-decoration: underline !important;
   }
- 
+  .heightlight-footer-box {
+    padding: 70px 0 70px 0px;
+  }
+  .heightlight-footer-box .box-content{
+    margin-bottom: 0;
+  }
+  .heightlight-footer-box .container-90{
+    max-width: 90%;
+    padding: 0 15px;
+  }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */

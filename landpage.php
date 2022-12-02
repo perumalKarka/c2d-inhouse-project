@@ -204,12 +204,12 @@
       <p class="container container-90 mb-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos </p>
     </section>
     <!-- highlight-footer -->
-    <section class="heightlight-footer-box d-md-none d-lg-block">
+    <section class="heightlight-footer-box">
       <div class="container container-90">
         <div class="row reset-margin">
           <div class="col-lg-8 col-md-12 col-sm-12 box-content">
             <h4 class="box-title">Lorem ipsum dolor sit amet, consetetur </h4>
-            <p class="box-para">Lorem ipsum dolor sit amet, consetetur sadipscing</p>
+            <p class="box-para">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12 box-link align-self-center">
             <a href="services.php" class="box-btn">Faites un voeux</a>

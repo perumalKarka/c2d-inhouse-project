@@ -382,12 +382,26 @@ font-style: normal;
     height: 18px;
     margin: 0 8px 0 0;
   }
-  .hamburger .filter-open-bar{
+  .hamburger .filter-open-bar,
+  .hamburger .nav-link{
     font-size: 18px;
     line-height: 30px;
     font-family: 'robotolight';
     color: #fff;
-    margin: 0;
+    margin: 0 15px 0 0;
+  }
+  .hamburger.nav-open .nav-link{
+    display: none;
+  }
+  @media screen and (max-width: 400px) {
+    .hamburger .filter-open-bar, .hamburger .nav-link {
+      font-size: 14px;
+      line-height: 24px;
+      margin: 0;
+    }
+  }
+  .hamburger .nav-link{
+    display: inline-block;
   }
   .hamburger .filter-open-bar:hover{
     cursor:pointer;

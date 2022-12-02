@@ -329,8 +329,12 @@
     width: 160px;
     padding: 7px 0px;
     background: #3EBDCC;
-    border-color: #3EBDCC;
+    border:2px solid#3EBDCC;
     border-radius: 8px;
+}
+.apply-logo:hover{
+	background:transparent;
+	color:#3EBDCC;
 }
 .upload-sm{
 	background: #1F1F1F 0% 0% no-repeat padding-box;

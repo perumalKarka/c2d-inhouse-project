@@ -599,6 +599,9 @@
                                     <img src="images/menu-filter-bar.svg" />
                                     Filters
                                 </label>
+                                <a class="nav-link">
+                                    <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>Liked 
+                                </a>
                                 <div class="filter-hamburger-head">
                                     <label class="lab-title">Filters</label>
                                     <a class="clear-filter-tag">Clear all</a>
