@@ -70,8 +70,10 @@
         .clear-filter-tag:hover{
             color: #F4A41D;
         }
-
-        @media (min-width: 380px) {
+        .catelogue-page.has-offcanvas--visible .slide-show-recent_cardview{
+            display:none;
+        }
+        @media (min-width: 360px) {
             .wishlist-bar h2{
                 font-size:15px;
                 line-height:22px;
@@ -90,9 +92,9 @@
             }
             .wishlist-container .remove,
             .wishlist-container .preview {
-                font-size: 11px;
-                width: 41%;
-                padding: 2px 0;
+                font-size: 10px;
+                width: 40%;
+                padding: 2px 1.5px;
                 text-align: center;
                 border-radius: 3px;
             }

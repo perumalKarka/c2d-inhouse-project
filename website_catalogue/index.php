@@ -351,15 +351,7 @@
         jQuery(function () {
             myPlayer = jQuery("#bgndVideo").YTPlayer({useOnMobile:true, mobileFallbackImage:"assets/mask-4.png"});
         });
-        var iframe = document.getElementById('iframe_bgndVideo');
-        var style = document.createElement('style');
-        style.textContent =
-        'body {' +
-        '  background-color: some-color;' +
-        '  background-image: some-image;' +
-        '}' 
-        ;
-        iframe.contentDocument.head.appendChild(style);
+        
     </script>
 </body>
 
