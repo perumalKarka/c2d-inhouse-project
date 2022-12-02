@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/jquery.mb.YTPlayer.min.css" />
     <link rel="stylesheet" href="css/theme.css" />
     <link rel="stylesheet" href="css/responsivenew.css" />
     <link rel="stylesheet" href="css/mobile_style.css" />
@@ -34,7 +35,9 @@
         <!-- top animation -->
         <section class="website-animation">
             <div class="container container-75 reset-padding">
-                <div class="rectangle-animate"></div>
+                <div id="rectangle_wrapper" class="rectangle-animate" style="position:relative; padding:10px 0;z-index:10;">
+                    <div id="bgndVideo" class="player" data-property="{videoURL:'famnCdM0G3o',containment:'#rectangle_wrapper', showControls:false, autoPlay:true, loop:true, vol:50, mute:true, stopMovieOnBlur: true, opacity:1, addRaster:true, quality:'default', optimizeDisplay:true}">My video</div>
+                </div>
                 <div class="websitetemplate-condent">
                     <h4 class="section-center__title">WEBSITE TEMPLATES</h4>
                     <h2 class="section-sub__title">Lorem ipsum dolor sit amet, conseteur sadiscing elitr,sed</h2>
@@ -339,7 +342,25 @@
     <script src="js/owl.carousel.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/mobile_menu.js"></script>
+    <script src="js/jquery.mb.YTPlayer.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+        jQuery.mbYTPlayer.apiKey = "AIzaSyCAHzbOtNhiLEU4RWxIKmyfcxUDDO_tzW0";
+
+        var myPlayer;
+        jQuery(function () {
+            myPlayer = jQuery("#bgndVideo").YTPlayer({useOnMobile:true, mobileFallbackImage:"assets/mask-4.png"});
+        });
+        var iframe = document.getElementById('iframe_bgndVideo');
+        var style = document.createElement('style');
+        style.textContent =
+        'body {' +
+        '  background-color: some-color;' +
+        '  background-image: some-image;' +
+        '}' 
+        ;
+        iframe.contentDocument.head.appendChild(style);
+    </script>
 </body>
 
 </html>

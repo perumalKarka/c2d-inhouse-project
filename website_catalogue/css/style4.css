@@ -346,7 +346,15 @@
     opacity: 1;
     padding: 14px 37px;
 }
-
+.upload-sm:hover{
+	background: #3EBDCC;
+	color:#FFFFFF;
+}
+.upload-sm:focus{
+	background: #FFFFFF;
+	color:#3EBDCC;
+	outline: 1px solid #FFFFFF;
+}
 .shiftRight-arrow{
 	cursor: pointer;
 	position: relative;

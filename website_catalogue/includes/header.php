@@ -28,118 +28,118 @@
                           </div>
                         </div>
                         <div class="col-xl-9 col-lg-9 col-7 text-right">
-                          <!-- Hide for French version
-                          <span class="home-search-bar d-lg-none">
-                            <a href="javascript:void(0)" class="text-black site-menu-toggle search-form-tigger" data-toggle="search-form" >
-                              <span class="icon-menu-bar h3 text-white"><img src="images/header-search.png" style="width:19px;height:19px;"/></span>
-                            </a>
-                          </span>-->
-                          <span class="d-inline-block d-xl-none">
-                            <a href="javascript:void(0)" class="text-black site-menu-toggle js-menu-toggle">
-                              <span class="icon-menu-bar h3 text-white"><img src="images/bar.png" /></span>
-                            </a>
-                          </span>
-                          <nav class="site-navigation navbar navbar-expand-xl navbar-light bg-light reset-padding">
-                              <div class="main-nav collapse navbar-collapse" id="navbarCollapse">
-                                  <ul id="menu-site-menu" class="navbar-nav ml-auto ">
-                                    <li class="nav-item"><a href="index.php" class="nav-link">Accueil</a></li>
-                                    <li class="nav-item"><a href="catelogue.php" class="nav-link">Website Catalogue</a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link">Meeting Rooms</a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link">Infrastructure</a></li>
-                                    <li class="nav-item"><a href="#" class="nav-link">Phoning Solutions</a></li>
-                                    <!-- <li class="nav-item menu-item-has-children">
-                                      <a href="javascript:void(0)" class="nav-link">Nos Services</a>
-                                      <ul class="sub-menu">
-                                        <li class="menu-item"><a href="small_business.php" class="nav-link">Pour les petites entreprises</a></li>
-                                        <li class="menu-item"><a href="home_office.php" class="nav-link">Pour les télétravailleurs </a></li>
-                                        <li class="menu-item"><a href="services.php" class="nav-link">Tous les services</a></li>
-                                      </ul>
-                                    </li> -->
+                            <!-- Hide for French version
+                            <span class="home-search-bar d-lg-none">
+                              <a href="javascript:void(0)" class="text-black site-menu-toggle search-form-tigger" data-toggle="search-form" >
+                                <span class="icon-menu-bar h3 text-white"><img src="images/header-search.png" style="width:19px;height:19px;"/></span>
+                              </a>
+                            </span>-->
+                            <span class="d-inline-block d-xl-none">
+                              <a href="javascript:void(0)" class="text-black site-menu-toggle js-menu-toggle">
+                                <span class="icon-menu-bar h3 text-white"><img src="images/bar.png" /></span>
+                              </a>
+                            </span>
+                            <nav class="site-navigation navbar navbar-expand-xl navbar-light bg-light reset-padding">
+                                <div class="main-nav collapse navbar-collapse" id="navbarCollapse">
+                                    <ul id="menu-site-menu" class="navbar-nav ml-auto ">
+                                      <li class="nav-item"><a href="index.php" class="nav-link active">Accueil</a></li>
+                                      <li class="nav-item"><a href="catelogue.php" class="nav-link">Website Catalogue</a></li>
+                                      <li class="nav-item"><a href="#" class="nav-link">Meeting Rooms</a></li>
+                                      <li class="nav-item"><a href="#" class="nav-link">Infrastructure</a></li>
+                                      <li class="nav-item"><a href="#" class="nav-link">Phoning Solutions</a></li>
+                                      <!-- <li class="nav-item menu-item-has-children">
+                                        <a href="javascript:void(0)" class="nav-link">Nos Services</a>
+                                        <ul class="sub-menu">
+                                          <li class="menu-item"><a href="small_business.php" class="nav-link">Pour les petites entreprises</a></li>
+                                          <li class="menu-item"><a href="home_office.php" class="nav-link">Pour les télétravailleurs </a></li>
+                                          <li class="menu-item"><a href="services.php" class="nav-link">Tous les services</a></li>
+                                        </ul>
+                                      </li> -->
 
-                                    <li class="nav-item lang-item menu-item-has-children">
-                                      <a href="javascript:void(0)" class="nav-link"><img src="images/fr-Flag.png" class="flag"/></a>
-                                      <ul class="sub-menu">
-                                        <li class="menu-item">
-                                          <a href="javascript:void(0)" class="nav-link">
-                                            <label class="lan-code">US</label>
-                                            <label class="lan-flag"><img src="images/us-Flag.png" /></label>
-                                            <label class="lan-title">English</label>
-                                          </a>
-                                        </li>
-                                        <li class="menu-item">
-                                          <a href="javascript:void(0)" class="nav-link">
-                                            <label class="lan-code">FR</label>
-                                            <label class="lan-flag"><img src="images/fr-Flag.png" /></label>
-                                            <label class="lan-title">French</label>
-                                          </a>
-                                        </li>
-                                        <li class="menu-item">
-                                          <a href="javascript:void(0)" class="nav-link">
-                                            <label class="lan-code">GER</label>
-                                            <label class="lan-flag"><img src="images/gr-Flag.png" /></label>
-                                            <label class="lan-title">German</label>
-                                          </a>
-                                        </li>
-                                        <li class="menu-item">
-                                          <a href="javascript:void(0)" class="nav-link">
-                                            <label class="lan-code">IND</label>
-                                            <label class="lan-flag"><img src="images/ind-Flag.png" /></label>
-                                            <label class="lan-title">Tamil</label>
-                                          </a>
-                                        </li>
-                                      </ul>
-                                    </li>
-                                  </ul>
-                                  <!-- Hide for French version
-                                  <ul id="menu-site-menu" class="navbar-nav ml-auto ">
-                                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-                                    <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-                                    <li class="nav-item menu-item-has-children">
-                                      <a href="javascript:void(0)" class="nav-link">Services</a>
-                                      <ul class="sub-menu">
-                                        <li class="menu-item"><a href="small_business.php" class="nav-link">Small Business</a></li>
-                                        <li class="menu-item"><a href="home_office.php" class="nav-link">Home Office Solution</a></li>
-                                        <li class="menu-item"><a href="services.php" class="nav-link">All Our Services</a></li>
-                                      </ul>
-                                    </li>
-                                    <li class="nav-item"><a href="sound_engg_step_1.php" class="nav-link">Sound Engineering</a></li>
-                                    <li class="nav-item"><a href="how_we_work.php" class="nav-link">How we work</a></li>
-                                    <li class="nav-item"><a href="careers.php" class="nav-link">Career</a></li>
-                                    <li class="nav-item lang-item menu-item-has-children">
-                                      <a href="javascript:void(0)" class="nav-link"><img src="images/fr-Flag.png" class="flag"/></a>
-                                      <ul class="sub-menu">
-                                        <li class="menu-item">
-                                          <a href="javascript:void(0)" class="nav-link">
-                                            <label class="lan-code">US</label>
-                                            <label class="lan-flag"><img src="images/us-Flag.png" /></label>
-                                            <label class="lan-title">English</label>
-                                          </a>
-                                        </li>
-                                        <li class="menu-item">
-                                          <a href="javascript:void(0)" class="nav-link">
-                                            <label class="lan-code">FR</label>
-                                            <label class="lan-flag"><img src="images/fr-Flag.png" /></label>
-                                            <label class="lan-title">French</label>
-                                          </a>
-                                        </li>
-                                        <li class="menu-item">
-                                          <a href="javascript:void(0)" class="nav-link">
-                                            <label class="lan-code">GER</label>
-                                            <label class="lan-flag"><img src="images/gr-Flag.png" /></label>
-                                            <label class="lan-title">German</label>
-                                          </a>
-                                        </li>
-                                        <li class="menu-item">
-                                          <a href="javascript:void(0)" class="nav-link">
-                                            <label class="lan-code">IND</label>
-                                            <label class="lan-flag"><img src="images/ind-Flag.png" /></label>
-                                            <label class="lan-title">French</label>
-                                          </a>
-                                        </li>
-                                      </ul>
-                                    </li>-->
-                                  </ul>
-                              </div>
+                                      <li class="nav-item lang-item menu-item-has-children">
+                                        <a href="javascript:void(0)" class="nav-link"><img src="images/fr-Flag.png" class="flag"/></a>
+                                        <ul class="sub-menu">
+                                          <li class="menu-item">
+                                            <a href="javascript:void(0)" class="nav-link">
+                                              <label class="lan-code">US</label>
+                                              <label class="lan-flag"><img src="images/us-Flag.png" /></label>
+                                              <label class="lan-title">English</label>
+                                            </a>
+                                          </li>
+                                          <li class="menu-item">
+                                            <a href="javascript:void(0)" class="nav-link">
+                                              <label class="lan-code">FR</label>
+                                              <label class="lan-flag"><img src="images/fr-Flag.png" /></label>
+                                              <label class="lan-title">French</label>
+                                            </a>
+                                          </li>
+                                          <li class="menu-item">
+                                            <a href="javascript:void(0)" class="nav-link">
+                                              <label class="lan-code">GER</label>
+                                              <label class="lan-flag"><img src="images/gr-Flag.png" /></label>
+                                              <label class="lan-title">German</label>
+                                            </a>
+                                          </li>
+                                          <li class="menu-item">
+                                            <a href="javascript:void(0)" class="nav-link">
+                                              <label class="lan-code">IND</label>
+                                              <label class="lan-flag"><img src="images/ind-Flag.png" /></label>
+                                              <label class="lan-title">Tamil</label>
+                                            </a>
+                                          </li>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                    <!-- Hide for French version
+                                    <ul id="menu-site-menu" class="navbar-nav ml-auto ">
+                                      <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                                      <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+                                      <li class="nav-item menu-item-has-children">
+                                        <a href="javascript:void(0)" class="nav-link">Services</a>
+                                        <ul class="sub-menu">
+                                          <li class="menu-item"><a href="small_business.php" class="nav-link">Small Business</a></li>
+                                          <li class="menu-item"><a href="home_office.php" class="nav-link">Home Office Solution</a></li>
+                                          <li class="menu-item"><a href="services.php" class="nav-link">All Our Services</a></li>
+                                        </ul>
+                                      </li>
+                                      <li class="nav-item"><a href="sound_engg_step_1.php" class="nav-link">Sound Engineering</a></li>
+                                      <li class="nav-item"><a href="how_we_work.php" class="nav-link">How we work</a></li>
+                                      <li class="nav-item"><a href="careers.php" class="nav-link">Career</a></li>
+                                      <li class="nav-item lang-item menu-item-has-children">
+                                        <a href="javascript:void(0)" class="nav-link"><img src="images/fr-Flag.png" class="flag"/></a>
+                                        <ul class="sub-menu">
+                                          <li class="menu-item">
+                                            <a href="javascript:void(0)" class="nav-link">
+                                              <label class="lan-code">US</label>
+                                              <label class="lan-flag"><img src="images/us-Flag.png" /></label>
+                                              <label class="lan-title">English</label>
+                                            </a>
+                                          </li>
+                                          <li class="menu-item">
+                                            <a href="javascript:void(0)" class="nav-link">
+                                              <label class="lan-code">FR</label>
+                                              <label class="lan-flag"><img src="images/fr-Flag.png" /></label>
+                                              <label class="lan-title">French</label>
+                                            </a>
+                                          </li>
+                                          <li class="menu-item">
+                                            <a href="javascript:void(0)" class="nav-link">
+                                              <label class="lan-code">GER</label>
+                                              <label class="lan-flag"><img src="images/gr-Flag.png" /></label>
+                                              <label class="lan-title">German</label>
+                                            </a>
+                                          </li>
+                                          <li class="menu-item">
+                                            <a href="javascript:void(0)" class="nav-link">
+                                              <label class="lan-code">IND</label>
+                                              <label class="lan-flag"><img src="images/ind-Flag.png" /></label>
+                                              <label class="lan-title">French</label>
+                                            </a>
+                                          </li>
+                                        </ul>
+                                      </li>-->
+                                    </ul>
+                                </div>
                             </nav>
 
                             <nav class="site-navigation text-right ml-auto d-none d-lg-none" role="navigation">
