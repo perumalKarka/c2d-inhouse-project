@@ -627,6 +627,7 @@
   .thanksmsg-box img {
     width: 104px;
   }
+  .card_body .badge,
   .card_body button {
     margin-right: 10px;
     color: white;
@@ -636,11 +637,12 @@
     color: #005579;
     opacity: 1;
     border: 0.5px solid #005579;
-    border-radius: 8px;
+    border-radius: 4px;
     opacity: 1;
     padding: 4px 12px;
     background-color: white;
   }
+  
   .card_body h3 {
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-3ebdcc);
@@ -663,12 +665,14 @@
     opacity: 1;
     margin-bottom: 10px;
   }
-  .card_body span {
-    text-align: right;
+  .card_body span.like-counts-text{
+    float: right;
+  }
+  .card_body span.like-counts-text,
+  .card_body span.color-choice {
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-3ebdcc);
-    margin-left: 17%;
-    margin-top: -18px;
+    margin-top: 6px;
     font-size: 12px;
     letter-spacing: 0px;
     color: #3ebdcc;
@@ -912,7 +916,7 @@
     padding: 0;
     display: block;
     cursor: pointer;
-    width: 250px;
+    width: 100%;
   }
   .file-upload-wrapper:before {
     content: "Upload Logo";
@@ -1327,6 +1331,10 @@
   form.send-us-popup-message-form .form-group:nth-child(even) {
     padding-left: 0px !important;
     padding-right: 0px !important;
+  }
+  .tool-label {
+    font-size: 12px !important;
+    line-height: 22px;
   }
 }
 
@@ -1806,7 +1814,7 @@
   .thanksmsg-box img {
     width: 104px;
   }
-  .card_body button {
+  .card_body .badge {
     margin-right: 10px;
     color: white;
     text-align: left;
@@ -1815,7 +1823,7 @@
     color: #005579;
     opacity: 1;
     border: 0.5px solid #005579;
-    border-radius: 8px;
+    border-radius: 4px;
     opacity: 1;
     padding: 4px 12px;
     background-color: white;
@@ -1842,17 +1850,7 @@
     opacity: 1;
     margin-bottom: 10px;
   }
-  .card_body span {
-    text-align: right;
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-3ebdcc);
-    margin-left: 17%;
-    margin-top: -18px;
-    font-size: 12px;
-    letter-spacing: 0px;
-    color: #3ebdcc;
-    opacity: 1;
-  }
+  
 
   .color-selector li {
     width: 28px;
@@ -2025,7 +2023,7 @@
     padding: 0;
     display: block;
     cursor: pointer;
-    width: 250px;
+    width: 100%;
   }
   .file-upload-wrapper:before {
     content: "Upload Logo";
@@ -2919,13 +2917,12 @@
     padding: 0;
     display: block;
     cursor: pointer;
-    width: 250px;
+    width: 100%;
   }
   .file-upload-wrapper:before {
     content: "Upload Logo";
     position: absolute;
     top: 0;
-    left: 55%;
     display: inline-block;
     width: 169px;
     background: #1f1f1f;
@@ -3088,6 +3085,11 @@
   .send-us-popup-message-form .form-group {
     padding-bottom: 20px;
   }
+  .tool-label {
+    font-size: 15px !important;
+    line-height: 25px;
+  }
+  
 }
 
 /* medium device */
@@ -3775,7 +3777,10 @@
     padding: 40px 50px 20px 50px;
   }
   p.logo-subcondent {
+    font-size: 15px;
+    line-height: 25px;
     margin-top: 20px !important;
+    padding-left: 0;
   }
   .logoupload-1 button.preview {
     margin-top: 23px;
@@ -4136,6 +4141,10 @@
   .preview-button button img{
     margin: 0 12px 0 0!important;
   }
+  .tool-label {
+    font-size: 18px !important;
+    line-height: 28px;
+  }
   .index-page-carousel-2 {
     margin-bottom: 42px !important;
   }
@@ -4171,10 +4180,7 @@
     font-size: 20px;
     line-height: 30px;
   }
-  p.logo-subcondent {
-    font-size: 15px;
-    line-height: 25px;
-  }
+  
   .img-preview {
     max-width: 100%;
     margin: 91px 0 0 0;
@@ -4654,6 +4660,7 @@
 
   .card_body p {
     font-size: 15px;
+    line-height: 22px;
     letter-spacing: var(--unnamed-character-spacing-0);
     text-align: left;
     font-family: "robotolight";
@@ -4661,7 +4668,6 @@
     color: #aaaaaa;
     opacity: 1;
     margin-bottom: 10px;
-    line-height: 17px;
   }
 
   .color-selector li {
@@ -4972,7 +4978,7 @@
     height: 1.5rem;
   }
   .megamenu-li {
-    margin-right: 25px;
+    margin-right: 9px;
   }
   .livepreview-firstSection .live-preview-left-sub__title p {
     font-size: 50px;
@@ -5972,5 +5978,22 @@
 
   .by-copyright-content input {
     padding: 30px 20px;
+  }
+
+  .card_body .badge,
+  .card_body button {
+    margin-right: 10px;
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: #005579;
+    opacity: 1;
+    border: 0.5px solid #005579;
+    border-radius: 8px;
+    opacity: 1;
+    padding: 10px 25px;
+    background-color: white;
   }
 }

@@ -234,3 +234,26 @@
     </div>
 
 </div>
+
+
+<div class="modal fade" id="badge_box_lists" tabindex="-1" aria-labelledby="badge_box_listsLabel" data-backdrop="static" aria-hidden="true">
+    <div class="modal-dialog container-80">
+        <div class="modal-content">
+            <div class="">
+                <div class="modal-header border-0">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="images/closeicon.png">
+                    </button>
+                </div>
+                <div class="card_body mt-3">
+                    <ul class="badge-lists">
+                        <li class="badge badge-light">Minimal</li>
+                        <li class="badge badge-light">Classic</li>
+                        <li class="badge badge-light">Minimal</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

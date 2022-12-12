@@ -836,11 +836,15 @@
 
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button">MINIMAL</button>
-                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span class="d-none d-md-block">1245 likes</span>
+                                <ul class="badge-lists">
+                                    <li class="badge badge-light">Minimal</li>
+                                    <li class="badge badge-light">Classic</li>
+                                    <li class="badge badge-light">Minimal</li>
+                                </ul>
+                                <span class="like-counts-text">1245 likes</span>
+                                <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
                                 <h3>We must give title here</h3>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, consetetur sadipscing elitr,consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
                                     <div class="col-6 reset-padding">
                                         <span class="color-choice reset-margin">Color choice</span>
@@ -869,9 +873,13 @@
                                 <i class="fa fa-thumbs-up  "></i>
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button">MINIMAL</button>
-                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span class="d-none d-md-block">1245 likes</span>
+                                <ul class="badge-lists">
+                                    <li class="badge badge-light">Minimal</li>
+                                    <li class="badge badge-light">Classic</li>
+                                    <li class="badge badge-light">Minimal</li>
+                                </ul>
+                                <span class="like-counts-text">1245 likes</span>
+                                <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
                                 <h3>We must give title here</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
@@ -901,9 +909,13 @@
                                 <i class="fa fa-thumbs-up "></i>
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button">MINIMAL</button>
-                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span class="d-none d-md-block">1245 likes</span>
+                                <ul class="badge-lists">
+                                    <li class="badge badge-light">Minimal</li>
+                                    <li class="badge badge-light">Classic</li>
+                                    <li class="badge badge-light">Minimal</li>
+                                </ul>
+                                <span class="like-counts-text">1245 likes</span>
+                                <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
                                 <h3>We must give title here</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
@@ -933,9 +945,13 @@
                                 <i class="fa fa-thumbs-up  "></i>
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button">MINIMAL</button>
-                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span class="d-none d-md-block">1245 likes</span>
+                                <ul class="badge-lists">
+                                    <li class="badge badge-light">Minimal</li>
+                                    <li class="badge badge-light">Classic</li>
+                                    <li class="badge badge-light">Minimal</li>
+                                </ul>
+                                <span class="like-counts-text">1245 likes</span>
+                                <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
                                 <h3>We must give title here</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
@@ -965,9 +981,13 @@
                                 <i class="fa fa-thumbs-up  "></i>
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button">MINIMAL</button>
-                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span class="d-none d-md-block">1245 likes</span>
+                                <ul class="badge-lists">
+                                    <li class="badge badge-light">Minimal</li>
+                                    <li class="badge badge-light">Classic</li>
+                                    <li class="badge badge-light">Minimal</li>
+                                </ul>
+                                <span class="like-counts-text">1245 likes</span>
+                                <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
                                 <h3>We must give title here</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
@@ -997,9 +1017,13 @@
                                 <i class="fa fa-thumbs-up "></i>
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button">MINIMAL</button>
-                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span class="d-none d-md-block">1245 likes</span>
+                                <ul class="badge-lists">
+                                    <li class="badge badge-light">Minimal</li>
+                                    <li class="badge badge-light">Classic</li>
+                                    <li class="badge badge-light">Minimal</li>
+                                </ul>
+                                <span class="like-counts-text">1245 likes</span>
+                                <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
                                 <h3>We must give title here</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
@@ -1029,9 +1053,13 @@
                                 <i class="fa fa-thumbs-up "></i>
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button">MINIMAL</button>
-                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span class="d-none d-md-block">1245 likes</span>
+                                <ul class="badge-lists">
+                                    <li class="badge badge-light">Minimal</li>
+                                    <li class="badge badge-light">Classic</li>
+                                    <li class="badge badge-light">Minimal</li>
+                                </ul>
+                                <span class="like-counts-text">1245 likes</span>
+                                <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
                                 <h3>We must give title here</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
@@ -1061,9 +1089,13 @@
                                 <i class="fa fa-thumbs-up "></i>
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button">MINIMAL</button>
-                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span class="d-none d-md-block">1245 likes</span>
+                                <ul class="badge-lists">
+                                    <li class="badge badge-light">Minimal</li>
+                                    <li class="badge badge-light">Classic</li>
+                                    <li class="badge badge-light">Minimal</li>
+                                </ul>
+                                <span class="like-counts-text">1245 likes</span>
+                                <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
                                 <h3>We must give title here</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
@@ -1093,9 +1125,13 @@
                                 <i class="fa fa-thumbs-up "></i>
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button">MINIMAL</button>
-                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span class="d-none d-md-block">1245 likes</span>
+                                <ul class="badge-lists">
+                                    <li class="badge badge-light">Minimal</li>
+                                    <li class="badge badge-light">Classic</li>
+                                    <li class="badge badge-light">Minimal</li>
+                                </ul>
+                                <span class="like-counts-text">1245 likes</span>
+                                <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
                                 <h3>We must give title here</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
@@ -1125,9 +1161,13 @@
                                 <i class="fa fa-thumbs-up "></i>
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button">MINIMAL</button>
-                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span class="d-none d-md-block">1245 likes</span>
+                                <ul class="badge-lists">
+                                    <li class="badge badge-light">Minimal</li>
+                                    <li class="badge badge-light">Classic</li>
+                                    <li class="badge badge-light">Minimal</li>
+                                </ul>
+                                <span class="like-counts-text">1245 likes</span>
+                                <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
                                 <h3>We must give title here</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
@@ -1157,9 +1197,13 @@
                                 <i class="fa fa-thumbs-up "></i>
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button">MINIMAL</button>
-                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span class="d-none d-md-block">1245 likes</span>
+                                <ul class="badge-lists">
+                                    <li class="badge badge-light">Minimal</li>
+                                    <li class="badge badge-light">Classic</li>
+                                    <li class="badge badge-light">Minimal</li>
+                                </ul>
+                                <span class="like-counts-text">1245 likes</span>
+                                <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
                                 <h3>We must give title here</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
@@ -1189,9 +1233,13 @@
                                 <i class="fa fa-thumbs-up "></i>
                             </div>
                             <div class="card_body mt-3">
-                                <button type="button">MINIMAL</button>
-                                <button type="button" style="color:#3EBDCC;">CLASSIC</button>
-                                <span class="d-none d-md-block">1245 likes</span>
+                                <ul class="badge-lists">
+                                    <li class="badge badge-light">Minimal</li>
+                                    <li class="badge badge-light">Classic</li>
+                                    <li class="badge badge-light">Minimal</li>
+                                </ul>
+                                <span class="like-counts-text">1245 likes</span>
+                                <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
                                 <h3>We must give title here</h3>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
@@ -1251,28 +1299,7 @@
         <!-- slide show -->
         <section class="slide-show-recent_cardview">
 
-            <div id="demo_1" class="container container-90 carousel slide reset-padding  d-none d-md-block d-lg-block" data-ride="carousel">
-                <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
-                <div class="carousel-inner inner-slide">
-                    <div class="carousel-item">
-                        <div class="col-4 col-md-4  ads"><img src="images/card-image-1.png"></div>
-                        <div class="col-4 col-md-4  ads"><img src="images/card-image-2.png"></div>
-                        <div class="col-4 col-md-4  ads"><img src="images/card-image-3.png"></div>
-                    </div>
-                    <div class="carousel-item active">
-                        <div class="col-4 col-md-4   ads"><img src="images/card-image-1.png"></div>
-                        <div class="col-4 col-md-4   ads"><img src="images/card-image-2.png"></div>
-                        <div class="col-4 col-md-4   ads"><img src="images/card-image-3.png"></div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="col-4 col-md-4   ads"><img src="images/card-image-1.png"></div>
-                        <div class="col-4 col-md-4  ads"><img src="images/card-image-2.png"> </div>
-                        <div class="col-4 col-md-4   ads"><img src="images/card-image-3.png"></div>
-                    </div>
-                    <a class="carousel-control-prev slide_position prev-section" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-                    <a class="carousel-control-next slide_position next-section" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
-                </div>
-            </div>
+            
             <!-- mobile carosul -->
             <div id="demo_1" class="container container-90 carousel slide reset-padding d-block d-md-none d-lg-none" data-ride="carousel">
                 <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
@@ -1351,6 +1378,29 @@
     <script src="js/main.js"></script>
 
     <script type="text/javascript">
+        
+        
+        
+        function equalheight() {
+            var maxHeight = 0;
+            $('.catelogu_template_item .card_block').each(function (index) {
+                
+                $(this).find('.card_body p').height('auto');
+                $(this).find('.card_body p').each(function (index) {
+                    if($(this).height() > maxHeight){
+                        maxHeight = $(this).height();
+                    }
+                });
+                $(this).find('.card_body p').height(maxHeight);
+            });
+        }
+        $(document).ready(function () {
+            equalheight();
+        });
+        $(window).bind("resize", equalheight);
+        
+
+
         $(document).ready(function(){
             $(".wishlist-container .remove").each(function(inde, item){
                 $(item).click(function(event) {

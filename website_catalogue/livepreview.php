@@ -187,10 +187,80 @@
                     </div>
                     <div class="content-wrapper content-3 pr-3">
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
-                        <div class="text-center mb-3">
-                            <button type="button" class="btn btn-primary upload-sm">Upload logo</button>
+                        
+                        <div class="upload-logo border-0 ">
+
+                            <form method="post" action="upload.php" enctype="multipart/form-data">
+                                <div class="text-center file-upload-wrapper">
+                                    <input type="file" class="btn btn-primary skip upload-sm" name="file" id="file" />
+                                    <input type="hidden" name="rotation" id="rotation" value="0" />
+                                </div>
+                                <!-- <button type="button" class="btn btn-primary skip" data-dismiss="modal" >Upload logo</button> -->
+                                <p class="logo-subcondent d-none d-md-block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+                                <div class="img-preview" style="display: none;">
+                                    <h3>Edit your logo</h3>
+                                    <div class="row m-0">
+                                        <div class="col-6 col-md-6 edit-panel-tools p-0">
+                                            <div class="edit-panel-border">
+                                                <div class="editpanel-img-type mb-4">
+                                                    <label class="fl-name float-left">Image</label>
+                                                    <label class="fl-type float-right"></label>
+                                                </div>
+                                                <div class="editpanel-img-size">
+                                                    <h5 class="mb-2">Original Image Size (px)</h5>
+                                                    <span class="mr-2">W: <span class="pr-W">700</span></span>|<span class="ml-2">H: <span class="pr-H">300</span></span>
+                                                </div>
+                                                <hr />
+                                                <div class="form-group row m-0 mb-3">
+                                                    <div class="col-9 col-md-10 col-lg-9 p-0">
+                                                        <label class="tool-label">Remove Background</label>
+                                                    </div>
+                                                    <div class="col-3 col-md-2 col-lg-3 p-0">
+
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row m-0">
+                                                    <div class="col-4 col-md-4 p-0">
+                                                        <label class="tool-label">Rotate</label>
+                                                    </div>
+                                                    <div class="col-8 col-md-8 p-0">
+                                                        <span id="rright" class="float-right"><img src="images/right-angle.png" /></span>
+                                                        <span id="rleft" class="float-right"><img src="images/left-angle.png" /></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                        <div class="col-6 p-0 d-block d-md-none">
+                                            <p class="logo-subcondent">
+                                                Lorem ipsum dolor sit amet, consetetur sadipscing
+                                                elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                                                et dolore magna aliquyam erat, sed diam voluptua.
+                                                At vero eos et accusam et justo duo dolores et ea rebum.
+                                                Stet clita kasd gubergren
+                                            </p>
+                                        </div>
+
+                                        <div class="picpreview-col col-md-6 p-0">
+                                            <div class="edit-panel-image d-flex align-items-center align-self-stretch">
+                                                <div id="imgPreview"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="img-preview-btn-actions mt-4">
+                                        <button type="button" class="btn btn-primary btn-primary-outline btn-c2d-primary-sm float-left" name="submit" value="Upload">Cancel</button>
+                                        <button type="submit" class="btn btn-primary btn-c2d-primary-sm float-right" name="submit" value="Upload">Upload</button>
+                                    </div>
+
+                                </div>
+
+
+                            </form>
+
+
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren </p>
+                        
                     </div>
                     
                     <div class="content-wrapper content-4 pr-3">
@@ -261,27 +331,63 @@
     <script type="text/javascript">
         
 
-        $(window).on('load', function(){
-            function resizelabelOverlays(){
-                var tapIcon = $(".tap-page-slider .tap-page-icon").width();
-                $(".tab-home-page-label").width(tapIcon);
-			}
-			resizelabelOverlays();
-			$(window).resize(function(){ 
-                resizelabelOverlays();
-			});
-			$(document).ready(function(){
-                resizelabelOverlays();
-			});
-		});
+        // $(window).on('load', function(){
+        //     function resizelabelOverlays(){
+        //         var tapIcon = $(".tap-page-slider .tap-page-icon").width();
+        //         $(".tab-home-page-label").width(tapIcon);
+		// 	}
+		// 	resizelabelOverlays();
+		// 	$(window).resize(function(){ 
+        //         resizelabelOverlays();
+		// 	});
+		// 	$(document).ready(function(){
+        //         resizelabelOverlays();
+		// 	});
+		// });
         
+        $(document).ready(function() {
+            $(document).on('change', '#file', function() {
+                filePreview(this);
+            });
+
+
+            function filePreview(input) {
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+
+                    var url = URL.createObjectURL(input.files[0]);
+                    var img = new Image();
+                    img.src = url;
+                    img.onload = function() {
+                        $(".pr-W").html(this.width);
+                        $(".pr-H").html(this.height);
+                        $(".fl-type").html(input.files[0].type)
+                    }
+
+                    reader.onload = function(e) {
+                        $('#imgPreview + img').remove();
+                        $('#imgPreview').after('<img src="' + e.target.result + '" class="pic-view" style="max-width:100%"/>');
+                    };
+                    reader.readAsDataURL(input.files[0]);
+                    $('.img-preview').show();
+                } else {
+                    $('#imgPreview + img').remove();
+                    $('.img-preview').hide();
+
+                }
+
+
+            }
+        });
+
         $(function(){
             
             $('body').on('click', '.shiftRight-arrow', function(e) {
                 $('section.tabs').toggleClass("rightTabs");
             });
             $('body').on('click', '#closeLeftside-Tab', function(e) {
-                $('.tabs input').prop('checked', false)
+                $('.tabs input').prop('checked', false);
+                $('body').removeClass('offcanvas-checkbox');
             });
 
             $('body').on('click', '.tabs input', function(e) {
@@ -292,6 +398,58 @@
                     $('body').removeClass('offcanvas-checkbox');
                 }
                 
+            });
+
+            var rotation = 0;
+            $("#rright").click(function() {
+                rotation = (rotation - 90) % 360;
+                $(".pic-view").css({
+                    'transform': 'rotate(' + rotation + 'deg)'
+                });
+                $(".pic-view").parent().height($(".pic-view").height())
+                if (rotation != 0) {
+                    $(".pic-view").css({
+                        'height': 'auto',
+                        'max-width': '100%'
+                    });
+                } else {
+                    $(".pic-view").css({
+                        'height': 'auto',
+                        'max-width': '100%'
+                    });
+                }
+                $('#rotation').val(rotation);
+                $('.pr-W').html("");
+                $('.pr-W').html($(".pic-view").width());
+                $('.pr-H').html("");
+                $('.pr-H').html($(".pic-view").height());
+                // $(".pic-view").css({'height': $(".pic-view").height()});
+
+
+            });
+
+            $("#rleft").click(function() {
+                rotation = (rotation + 90) % 360;
+                $(".pic-view").css({
+                    'transform': 'rotate(' + rotation + 'deg)'
+                });
+                $(".pic-view").parent().height($(".pic-view").height())
+                if (rotation != 0) {
+                    $(".pic-view").css({
+                        'height': 'auto',
+                        'max-width': '100%'
+                    });
+                } else {
+                    $(".pic-view").css({
+                        'height': 'auto',
+                        'max-width': '100%'
+                    });
+                }
+                $('#rotation').val(rotation);
+                $('.pr-W').html("");
+                $('.pr-W').html($(".pic-view").width());
+                $('.pr-H').html("");
+                $('.pr-H').html($(".pic-view").height());
             });
 
             // click outisde offcanvas
