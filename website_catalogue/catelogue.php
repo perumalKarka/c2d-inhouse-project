@@ -26,6 +26,7 @@
     <meta name="msapplication-TileImage" content="images/favicon-ico.png" />
 
     <style type="text/css">
+       
         .delete_sidebar_wish {
             height: 100%;
             width: 0;
@@ -839,12 +840,11 @@
                                 <ul class="badge-lists">
                                     <li class="badge badge-light">Minimal</li>
                                     <li class="badge badge-light">Classic</li>
-                                    <li class="badge badge-light">Minimal</li>
                                 </ul>
                                 <span class="like-counts-text">1245 likes</span>
                                 <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
                                 <h3>We must give title here</h3>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, consetetur sadipscing elitr,consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, consetetur sadipscing elitr,consetetur sadipscing elitr, Lorem ipsum dolor sit amet, consetetur sadipscing elitr, consetetur sadipscing elitr,consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
                                 <div class="row reset-margin">
                                     <div class="col-6 reset-padding">
                                         <span class="color-choice reset-margin">Color choice</span>
@@ -876,7 +876,6 @@
                                 <ul class="badge-lists">
                                     <li class="badge badge-light">Minimal</li>
                                     <li class="badge badge-light">Classic</li>
-                                    <li class="badge badge-light">Minimal</li>
                                 </ul>
                                 <span class="like-counts-text">1245 likes</span>
                                 <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
@@ -912,7 +911,6 @@
                                 <ul class="badge-lists">
                                     <li class="badge badge-light">Minimal</li>
                                     <li class="badge badge-light">Classic</li>
-                                    <li class="badge badge-light">Minimal</li>
                                 </ul>
                                 <span class="like-counts-text">1245 likes</span>
                                 <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
@@ -948,7 +946,6 @@
                                 <ul class="badge-lists">
                                     <li class="badge badge-light">Minimal</li>
                                     <li class="badge badge-light">Classic</li>
-                                    <li class="badge badge-light">Minimal</li>
                                 </ul>
                                 <span class="like-counts-text">1245 likes</span>
                                 <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
@@ -984,7 +981,6 @@
                                 <ul class="badge-lists">
                                     <li class="badge badge-light">Minimal</li>
                                     <li class="badge badge-light">Classic</li>
-                                    <li class="badge badge-light">Minimal</li>
                                 </ul>
                                 <span class="like-counts-text">1245 likes</span>
                                 <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
@@ -1020,7 +1016,6 @@
                                 <ul class="badge-lists">
                                     <li class="badge badge-light">Minimal</li>
                                     <li class="badge badge-light">Classic</li>
-                                    <li class="badge badge-light">Minimal</li>
                                 </ul>
                                 <span class="like-counts-text">1245 likes</span>
                                 <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
@@ -1056,7 +1051,6 @@
                                 <ul class="badge-lists">
                                     <li class="badge badge-light">Minimal</li>
                                     <li class="badge badge-light">Classic</li>
-                                    <li class="badge badge-light">Minimal</li>
                                 </ul>
                                 <span class="like-counts-text">1245 likes</span>
                                 <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
@@ -1092,7 +1086,6 @@
                                 <ul class="badge-lists">
                                     <li class="badge badge-light">Minimal</li>
                                     <li class="badge badge-light">Classic</li>
-                                    <li class="badge badge-light">Minimal</li>
                                 </ul>
                                 <span class="like-counts-text">1245 likes</span>
                                 <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
@@ -1128,7 +1121,6 @@
                                 <ul class="badge-lists">
                                     <li class="badge badge-light">Minimal</li>
                                     <li class="badge badge-light">Classic</li>
-                                    <li class="badge badge-light">Minimal</li>
                                 </ul>
                                 <span class="like-counts-text">1245 likes</span>
                                 <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
@@ -1164,7 +1156,6 @@
                                 <ul class="badge-lists">
                                     <li class="badge badge-light">Minimal</li>
                                     <li class="badge badge-light">Classic</li>
-                                    <li class="badge badge-light">Minimal</li>
                                 </ul>
                                 <span class="like-counts-text">1245 likes</span>
                                 <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
@@ -1200,7 +1191,6 @@
                                 <ul class="badge-lists">
                                     <li class="badge badge-light">Minimal</li>
                                     <li class="badge badge-light">Classic</li>
-                                    <li class="badge badge-light">Minimal</li>
                                 </ul>
                                 <span class="like-counts-text">1245 likes</span>
                                 <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
@@ -1236,7 +1226,6 @@
                                 <ul class="badge-lists">
                                     <li class="badge badge-light">Minimal</li>
                                     <li class="badge badge-light">Classic</li>
-                                    <li class="badge badge-light">Minimal</li>
                                 </ul>
                                 <span class="like-counts-text">1245 likes</span>
                                 <a class="badge_box_content" href="javascript:void(0)" data-toggle="modal" data-target="#badge_box_lists">view more</a>
@@ -1298,53 +1287,65 @@
         </section>
         <!-- slide show -->
         <section class="slide-show-recent_cardview">
-
+            <div id="owl_slide_1" class="container container-90 reset-padding">
+                <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                </div>
+            </div>
+            <div id="owl_slide_2" class="container container-90 reset-padding">
+                <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                </div>
+            </div>
             
-            <!-- mobile carosul -->
-            <div id="demo_1" class="container container-90 carousel slide reset-padding d-block d-md-none d-lg-none" data-ride="carousel">
-                <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
-                <div class="carousel-inner inner-slide">
-                    <div class="carousel-item">
-                        <div class="col-6 ads"><img src="images/card-image-1.png"></div>
-                        <div class="col-6   ads"><img src="images/card-image-2.png"></div>
-                        
-                    </div>
-                    <div class="carousel-item active">
-                    <div class="col-6 ads"><img src="images/card-image-1.png"></div>
-                        <div class="col-6   ads"><img src="images/card-image-2.png"></div>
-                    </div>
-                    <div class="carousel-item">
-                    <div class="col-6 ads"><img src="images/card-image-1.png"></div>
-                        <div class="col-6   ads"><img src="images/card-image-2.png"></div>
-                    </div>
-                    <a class="carousel-control-prev slide_position prev-section" href="#demo_1" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-                    <a class="carousel-control-next slide_position next-section" href="#demo_1" data-slide="next"><span class="carousel-control-next-icon"></span></a>
-                </div>
-            </div>
-             <!-- mobile carosul -->
-            <div id="demo_2" class="container container-90 carousel slide card_slide reset-padding d-none d-md-block d-lg-block" style="margin-top:76px;" data-ride="carousel">
-                <h2 class="card_subtitle">Lorem ipsum dolor sit amet, consetetur</h2>
-                <div class="carousel-inner inner-slide ">
-                    <div class="carousel-item">
-                        <div class="col-md-4  ads"><img src="images/card-image-1.png"></div>
-                        <div class="col-md-4  ads"><img src="images/card-image-2.png"></div>
-                        <div class="col-md-4    ads"><img src="images/card-image-3.png"></div>
-                    </div>
-                    <div class="carousel-item active">
-                        <div class="col-md-4  ads"><img src="images/card-image-1.png"></div>
-                        <div class="col-md-4  ads"><img src="images/card-image-2.png"></div>
-                        <div class="col-md-4   ads"><img src="images/card-image-3.png"></div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="col-md-4  ads"><img src="images/card-image-1.png"></div>
-                        <div class="col-md-4  ads"><img src="images/card-image-2.png"> </div>
-                        <div class="col-md-4   ads"><img src="images/card-image-3.png"></div>
-                    </div>
-                    <!-- Left and right controls -->
-                    <a class="carousel-control-prev slide_position prev-section" href="#demo_2" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
-                    <a class="carousel-control-next slide_position next-section" href="#demo_2" data-slide="next"><span class="carousel-control-next-icon"></span></a>
-                </div>
-            </div>
         </section>
 
 
@@ -1397,10 +1398,9 @@
         $(document).ready(function () {
             equalheight();
         });
+
         $(window).bind("resize", equalheight);
         
-
-
         $(document).ready(function(){
             $(".wishlist-container .remove").each(function(inde, item){
                 $(item).click(function(event) {
@@ -1445,9 +1445,30 @@
         // function closeNav(){
         //     $.myjQuery();
         // }
+        
         $(document).ready(function() {
 
-
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                navText:['<img src="images/ios-arrow-forward.png" />','<img src="images/ios-arrow-backward.png" />'],
+                margin: 10,
+                responsiveClass: true,
+                nav:true,
+                dots:false,
+                responsive: {
+                  0: {
+                    items: 2
+                  },
+                  600: {
+                    items: 3
+                  },
+                  1000: {
+                    items: 3,
+                    loop: false,
+                    margin: 20
+                  }
+                }
+              });
 
             // breakpoint and up
             $(window).resize(function() {

@@ -124,7 +124,6 @@
 
 .tab-label-4 {
     z-index: 2;
-	padding-top: 6px!important;
 }
 .tab-label-5 {
     z-index: 1;
@@ -293,7 +292,7 @@
 	left:0;
 	height:65px;
 	top:0;
-	width:462px;
+	width:100%;
 	border-radius: 10px;
 	background-color:#1F1F1F;
 }

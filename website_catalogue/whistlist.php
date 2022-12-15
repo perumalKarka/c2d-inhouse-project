@@ -41,34 +41,22 @@
         <!-- top animation -->
         <section class="whistlist-slide-section d-none d-xl-block">
             <div class="container container-90 reset-padding">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators whislist-carousel-indicator">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="images/slide-1.png" class="d-block w-100" alt="...">
+                <div id="carouselExampleIndicators" class="reset-padding">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="images/slide-1.png">
                         </div>
-                        <div class="carousel-item">
-                            <img src="images/slide-1.png" class="d-block w-100" alt="...">
+                        <div class="item">
+                            <img src="images/slide-1.png">
                         </div>
-                        <div class="carousel-item">
-                            <img src="images/slide-1.png" class="d-block w-100" alt="...">
+                        <div class="item">
+                            <img src="images/slide-1.png">
+                        </div>
+                        <div class="item">
+                            <img src="images/slide-1.png">
                         </div>
                     </div>
-                    <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a> -->
                 </div>
-              
             </div>
 
         </section>
@@ -256,7 +244,7 @@
                                                     <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
-                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            Qty: <input type="text" disabled step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
@@ -282,7 +270,7 @@
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0 " data-field="quantity">
                                                             
-                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            Qty: <input type="text" disabled step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0 " data-field="quantity">
                                                             
                                                         </div>
@@ -315,7 +303,7 @@
                                                     <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
-                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            Qty: <input type="text" disabled step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
@@ -339,7 +327,7 @@
                                                     <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
-                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            Qty: <input type="text" disabled step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
@@ -363,7 +351,7 @@
                                                     <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
-                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            Qty: <input type="text" disabled step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
@@ -387,7 +375,7 @@
                                                     <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
-                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            Qty: <input type="text" disabled step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
@@ -411,7 +399,7 @@
                                                     <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
-                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            Qty: <input type="text" disabled step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
@@ -435,7 +423,7 @@
                                                     <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
-                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            Qty: <input type="text" disabled step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
@@ -493,7 +481,7 @@
                                                     <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
-                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            Qty: <input type="text" disabled step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
@@ -518,7 +506,7 @@
                                                     <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
-                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            Qty: <input type="text" disabled step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
@@ -550,7 +538,7 @@
                                                     <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
-                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            Qty: <input type="text" disabled step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
@@ -574,7 +562,7 @@
                                                     <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
-                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            Qty: <input type="text" disabled step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
@@ -598,7 +586,7 @@
                                                     <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
-                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            Qty: <input type="text" disabled step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
@@ -622,7 +610,7 @@
                                                     <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
-                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            Qty: <input type="text" disabled step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
@@ -646,7 +634,7 @@
                                                     <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
-                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            Qty: <input type="text" disabled step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
@@ -670,7 +658,7 @@
                                                     <div class="input-group quality-increment justify-content-end align-items-center">
                                                         <div class="id-box">
                                                             <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
-                                                            Qty: <input type="number" step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
+                                                            Qty: <input type="text" disabled step="1" max="10" value="1" name="quantity" class="quantity-field border-0 text-center w-25">
                                                             <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
                                                         </div>
                                                     </div>
@@ -710,6 +698,29 @@
     <script src="js/main.js"></script>
 
     <script type="text/javascript">
+
+        $(document).ready(function() {
+
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                nav:false,
+                dots:true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            });
+        });
+
         function incrementValue(e) {
             e.preventDefault();
             var fieldName = $(e.target).data('field');

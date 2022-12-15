@@ -50,47 +50,61 @@
         <!-- end top animation -->
 
         <!-- template slider -->
-        <section class="d-none d-lg-block template-carosal">
-            <div id="demo_1" class="container container-90 carousel slide reset-padding mt-4 index-page-carousel-2" data-ride="carousel">
-                <div class="carousel-inner reset-padding">
-                    <div class="carousel-item">
-                        <div class="col-4 ads reset-padding"><img src="images/Group 109.png"></div>
-                        <div class="col-4 ads reset-padding"><img src="images/Group 1199.png"></div>
-                        <div class="col-4 ads reset-padding"><img src="images/Group 109.png"></div>
+        <section class="slide-show-recent_cardview template-carosal">
+            <div id="owl_slide_1" class="container container-90 reset-padding">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="images/card-image-1.png">
                     </div>
-                    <div class="carousel-item active">
-                        <div class="col-4  ads reset-padding"><img src="images/Group 109.png"></div>
-                        <div class="col-4  ads reset-padding"><img src="images/Group 1199.png"></div>
-                        <div class="col-4  ads reset-padding"><img src="images/Group 109.png"></div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
                     </div>
-                    <div class="carousel-item">
-                        <div class="col-4  ads reset-padding"><img src="images/Group 109.png"></div>
-                        <div class="col-4  ads reset-padding"><img src="images/Group 1199.png"> </div>
-                        <div class="col-4  ads reset-padding"><img src="images/Group 109.png"></div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
                     </div>
-                    <a class="carousel-control-prev prev-slider" href="#demo_1" data-slide="prev"><img src="images/ios-arrow-forward.png" /></a>
-                    <a class="carousel-control-next next-slider" href="#demo_1" data-slide="next"><img src="images/ios-arrow-backward.png" /></a>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
                 </div>
             </div>
-            <div id="demo_2" class="container container-90 carousel slide reset-padding index-page-carousel-2" data-ride="carousel">
-                <div class="carousel-inner reset-padding">
-                    <div class="carousel-item">
-                        <div class="col-md-4 ads reset-padding"><img src="images/Group 109.png"></div>
-                        <div class="col-md-4 ads reset-padding"><img src="images/Group 1199.png"></div>
-                        <div class="col-md-4 ads reset-padding"><img src="images/Group 109.png"></div>
+            <div id="owl_slide_2" class="container container-90 reset-padding">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="images/card-image-1.png">
                     </div>
-                    <div class="carousel-item active">
-                        <div class="col-md-4  ads reset-padding"><img src="images/Group 109.png"></div>
-                        <div class="col-md-4  ads reset-padding"><img src="images/Group 1199.png"></div>
-                        <div class="col-md-4  ads reset-padding"><img src="images/Group 109.png"></div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
                     </div>
-                    <div class="carousel-item">
-                        <div class="col-md-4  ads"><img src="images/Group 109.png"></div>
-                        <div class="col-md-4  ads"><img src="images/Group 1199.png"> </div>
-                        <div class="col-md-4  ads"><img src="images/Group 109.png"></div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
                     </div>
-                    <a class="carousel-control-prev prev-slider" href="#demo_2" data-slide="prev"><img src="images/ios-arrow-forward.png" /></a>
-                    <a class="carousel-control-next next-slider" href="#demo_2" data-slide="next"><img src="images/ios-arrow-backward.png" /></a>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
+                    <div class="item">
+                        <img src="images/card-image-1.png">
+                    </div>
                 </div>
             </div>  
 
@@ -352,6 +366,29 @@
             myPlayer = jQuery("#bgndVideo").YTPlayer({useOnMobile:true, mobileFallbackImage:"assets/mask-4.png"});
         });
         
+        $(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                navText:['<img src="images/ios-arrow-forward.png" />','<img src="images/ios-arrow-backward.png" />'],
+                margin: 10,
+                responsiveClass: true,
+                nav:true,
+                dots:false,
+                responsive: {
+                  0: {
+                    items: 2
+                  },
+                  600: {
+                    items: 3
+                  },
+                  1000: {
+                    items: 3,
+                    loop: false,
+                    margin: 20
+                  }
+                }
+            });
+        });
     </script>
 </body>
 

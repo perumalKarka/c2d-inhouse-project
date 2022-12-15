@@ -416,9 +416,12 @@ $(document).ready(function() {
     $('#scroll').fadeOut();
     }
 
-    if($(".website-builder").scrollTop() > 20){
-      alert();
+    if ($(this).scrollTop() > 200) {
+      $('.filter-section-title-bar').addClass('fixed-filter-section')
+    } else {
+      $('.filter-section-title-bar').removeClass('fixed-filter-section')
     }
+    
   });
     
   $('#scrollBtn').click(function() {

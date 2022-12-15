@@ -29,33 +29,34 @@
                 </header>
             </div>
         </section>
-        <!-- live preview -->
-        <section class="livepreview-firstSection">
-            <div class="container container-90 reset-padding">
-                <div class="row reset-margin">
-                    <div class="col-xl-6 col-lg-12 col-sm-12 live-preview-left-sub__title reset-padding"><p class="reset-margin">Lorem ipsum dolor sit amet, consetetur</p></div>
-                    <div class="col-xl-6 col-lg-12 col-sm-12 live-preview-right-sub__title align-self-end reset-padding ">
-                       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p> 
-                    </div>
-                        
-                </div>
-            </div>
-        </section> 
-        <!-- prview-filter -->
-        <section class="filtersection">
-            <div class="container container-90 reset-padding">
-                <div class="row filter-option reset-margin">
-                    <div class="col-xl-4 col-lg-2 reset-padding">
-                    </div>
-                    <div class="col-xl-8 col-lg-10 col-sm-12 preview-button reset-padding">
-                        
-                        <button type="button" class="like-button"><img src="images/thumb_webicon.png" class="mr-2"><span class="m-0 p-0 pre-label">Like</span></button>
-                        <button type="button" class="whistlist-button "> <img src="images/bookmarks_icon.png" class="mr-2"> <span class="m-0 p-0 pre-label">Wishlist</span></button>
-                        <button type="button" class="copyright-button" data-toggle="modal" data-target="#exampleModal-2"><img src="images/certifi.png" class="mr-2"><span class="m-0 p-0 pre-label">Copyright*</span></button>
+        <section class="filter-section-title-bar">
+            <!-- live preview -->
+            <div class="livepreview-firstSection">
+                <div class="container container-90 reset-padding">
+                    <div class="row reset-margin">
+                        <div class="col-xl-6 col-lg-12 col-sm-12 live-preview-left-sub__title reset-padding"><p class="reset-margin">Lorem ipsum dolor sit amet, consetetur</p></div>
+                        <div class="col-xl-6 col-lg-12 col-sm-12 live-preview-right-sub__title align-self-end reset-padding ">
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p> 
+                        </div>
+                            
                     </div>
                 </div>
-            </div>
-        </section> 
+            </div> 
+            <!-- prview-filter -->
+            <div class="filtersection">
+                <div class="container container-90 reset-padding">
+                    <div class="row filter-option reset-margin">
+                        <div class="col-xl-4 col-lg-2 reset-padding">
+                        </div>
+                        <div class="col-xl-8 col-lg-10 col-sm-12 preview-button reset-padding">
+                            <button type="button" class="like-button"><img src="images/thumb_webicon.png" class="mr-2"><span class="m-0 p-0 pre-label">Like</span></button>
+                            <button type="button" class="whistlist-button"><img src="images/bookmarks_icon.png" class="mr-2"> <span class="m-0 p-0 pre-label">Wishlist</span></button>
+                            <button type="button" class="copyright-button" data-toggle="modal" data-target="#exampleModal-2"><img src="images/certifi.png" class="mr-2"><span class="m-0 p-0 pre-label">Copyright*</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
         <!-- body condent preview -->
         <section class="body-condent">
             <img src="images/image.jpg" class="body-condent-image">
@@ -146,7 +147,7 @@
                     <div class="custom-wrapper">
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
                             <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
-                        
+                            
                             <div class="row reset-margin">
                                         <div class="col-12 reset-padding">
                                             <span class="color-choice reset-margin">Color Palette</span>
@@ -185,7 +186,7 @@
                         </div>
 
                     </div>
-                    <div class="content-wrapper content-3 pr-3">
+                    <div class="content-wrapper content-3 px-4">
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
                         
                         <div class="upload-logo border-0 ">
@@ -263,7 +264,7 @@
                         
                     </div>
                     
-                    <div class="content-wrapper content-4 pr-3">
+                    <div class="content-wrapper content-4 px-4">
                         <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore</p>
                         <input type="text" class="form-control bussiness-text" id="exampleFormControlInput1" placeholder="Lorem ipsum dolor sit amet, consetetur">
                         
@@ -390,7 +391,7 @@
                 $('body').removeClass('offcanvas-checkbox');
             });
 
-            $('body').on('click', '.tabs input', function(e) {
+            $('body').on('click', '.tabs input[type="radio"]', function(e) {
                 if ($(this).prop('checked')==true){ 
                     $('body').addClass('offcanvas-checkbox');
                 }
