@@ -829,7 +829,7 @@
             <div class="container container-90 reset-padding">
             <h2 class= "d-block d-md-none">Lorem ipsum dolor sit amet (17)</h2>
                 <div class="row catelogu_template_item reset-margin">
-                    <div class="card_block col-xl-6 col-lg-4 col-md-6 reset-padding">
+                    <div class="card_block col-xl-4 col-lg-4 col-md-6 reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
                                 <i class="fa fa-bookmark"></i>
@@ -855,7 +855,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 d-none d-xl-block  reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                    <div class="col-6 d-none d-xl-block align-self-center reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
 
                                 </div>
                                 <div class="row card-last-button-sec ">
@@ -866,7 +866,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card_block col-xl-6 col-lg-4 col-md-6 reset-padding">
+                    <div class="card_block col-xl-4 col-lg-4 col-md-6 reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
                                 <i class="fa fa-bookmark"></i>
@@ -891,7 +891,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                    <div class="col-6 d-none d-xl-block align-self-center reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
                                    
@@ -901,7 +901,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card_block col-xl-6 col-lg-4 col-md-6 reset-padding">
+                    <div class="card_block col-xl-4 col-lg-4 col-md-6 reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
                                 <i class="fa fa-bookmark"></i>
@@ -926,7 +926,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6  d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                    <div class="col-6  d-none d-xl-block align-self-center reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
                                     
@@ -936,7 +936,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card_block col-xl-6 col-lg-4 col-md-6 reset-padding">
+                    <div class="card_block col-xl-4 col-lg-4 col-md-6 reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
                                 <i class="fa fa-bookmark"></i>
@@ -961,7 +961,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                    <div class="col-6 d-none d-xl-block align-self-center reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
                                     
@@ -971,7 +971,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card_block col-xl-6 col-lg-4 col-md-6 reset-padding">
+                    <div class="card_block col-xl-4 col-lg-4 col-md-6 reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
                                 <i class="fa fa-bookmark"></i>
@@ -996,7 +996,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                    <div class="col-6 d-none d-xl-block align-self-center reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
                                     
@@ -1006,7 +1006,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card_block col-xl-6 col-lg-4 col-md-6 reset-padding">
+                    <div class="card_block col-xl-4 col-lg-4 col-md-6 reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
                                 <i class="fa fa-bookmark"></i>
@@ -1031,7 +1031,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                    <div class="col-6 d-none d-xl-block align-self-center reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
                                     
@@ -1041,7 +1041,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card_block col-xl-6 col-lg-4 col-md-6  reset-padding">
+                    <div class="card_block col-xl-4 col-lg-4 col-md-6  reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
                                 <i class="fa fa-bookmark"></i>
@@ -1066,7 +1066,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6  d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                    <div class="col-6  d-none d-xl-block align-self-center reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
                                     
@@ -1076,7 +1076,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card_block col-xl-6 col-lg-4 col-md-6  reset-padding">
+                    <div class="card_block col-xl-4 col-lg-4 col-md-6  reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
                                 <i class="fa fa-bookmark"></i>
@@ -1101,7 +1101,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                    <div class="col-6 d-none d-xl-block align-self-center reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
                                     
@@ -1111,7 +1111,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card_block col-xl-6 col-lg-4  d-none  d-lg-block d-xl-none  reset-padding">
+                    <div class="card_block col-xl-4 col-lg-4  d-none  d-lg-block d-xl-none  reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
                                 <i class="fa fa-bookmark"></i>
@@ -1136,7 +1136,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                    <div class="col-6 d-none d-xl-block align-self-center reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
                                     
@@ -1146,7 +1146,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card_block col-xl-6 col-lg-4 d-none  d-lg-block d-xl-none  reset-padding">
+                    <div class="card_block col-xl-4 col-lg-4 d-none  d-lg-block d-xl-none  reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
                                 <i class="fa fa-bookmark"></i>
@@ -1171,7 +1171,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                    <div class="col-6 d-none d-xl-block align-self-center reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
                                     
@@ -1181,7 +1181,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card_block col-xl-6 col-lg-4 d-none  d-lg-block d-xl-none  reset-padding">
+                    <div class="card_block col-xl-4 col-lg-4 d-none  d-lg-block d-xl-none  reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
                                 <i class="fa fa-bookmark"></i>
@@ -1206,7 +1206,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                    <div class="col-6 d-none d-xl-block align-self-center reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
                                     
@@ -1216,7 +1216,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card_block col-xl-6 col-lg-4 d-none  d-lg-block d-xl-none  reset-padding">
+                    <div class="card_block col-xl-4 col-lg-4 d-none  d-lg-block d-xl-none  reset-padding">
                         <div class="card website_template">
                             <div class="card_image"><img src="images/cardImages.png" class="card-img">
                                 <i class="fa fa-bookmark"></i>
@@ -1241,7 +1241,7 @@
                                             <li style="background: #EAAB3D;"></li>
                                         </ul>
                                     </div>
-                                    <div class="col-6 d-none d-xl-block reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
+                                    <div class="col-6 d-none d-xl-block align-self-center reset-padding"><button type="button" class="preview live_preview reset-margin" data-toggle="modal" data-target="#exampleModal-1">Live Preview</button></div>
                                 </div>
                                 <div class="row card-last-button-sec ">
                                     

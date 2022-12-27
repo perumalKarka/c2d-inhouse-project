@@ -327,9 +327,58 @@
     font-size: 14px;
     font-weight: bold;
     line-height: 24px;
-    padding: 12px 0;
+    padding: 12px 0 12px 24px;
     border-radius: 5px;
 	margin-top: 20px;
+	text-align: left;
+}
+.show>.btn-secondary.dropdown-toggle,
+.show>.btn-secondary.dropdown-toggle:focus,
+.custom-wrapper .btn-secondary.dropdown-toggle:focus{
+	background: #1f1f1f;
+	border: none;
+    box-shadow: none;
+}
+.custom-wrapper .dropdown-toggle::after{
+	float: right;
+    padding-top: 20px;
+    position: relative;
+    top: 12px;
+    right: 21px;
+}
+.custom-wrapper .dropdown-menu{
+	background: #1F1F1F;
+	width: 100%;
+}
+.color-palet-lists{
+	list-style: none;
+}
+.palet-item{
+	display: inline-flex;
+    margin-bottom: 15px;
+    width: 100%;
+	padding: 10px 0 10px 24px;
+}
+.palet-item:hover{
+	background-color: #3EBDCC;
+}
+.palet-item label{
+	font-family: 'robotoregular';
+    font-style: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color:#ffffff;
+	width: 115px;
+    margin: 0;
+    position: relative;
+    top: 6px;
+}
+.color-item{
+	margin-right: 15px;
+	width:32px;
+	height:32px;
+	border-radius:6px;
+	box-shadow: 0px 3px 6px rgb(130 130 130 / 16%);
 }
 .apply-logo{
 	font-family: 'robotoregular';

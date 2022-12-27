@@ -21,16 +21,16 @@
 </head>
 <body class="preview-page">
     <div class="container-fluid site-fluid">
-        <section class="header-section">
+        <!-- <section class="header-section">
             <div class="container container-85 reset-padding">
-                <?php include 'includes/mobile-menu.php'; ?>
+                <?php //include 'includes/mobile-menu.php'; ?>
                 <header class="site-header site-navbar site-navbar-target overlay-header livepreview-header-sec">
-                    <?php include 'includes/header.php'; ?>
+                    <?php //include 'includes/header.php'; ?>
                 </header>
             </div>
-        </section>
+        </section> -->
         <section class="filter-section-title-bar">
-            <!-- live preview -->
+            <!-- live preview
             <div class="livepreview-firstSection">
                 <div class="container container-90 reset-padding">
                     <div class="row reset-margin">
@@ -41,14 +41,16 @@
                             
                     </div>
                 </div>
-            </div> 
+            </div>  -->
+
             <!-- prview-filter -->
             <div class="filtersection">
                 <div class="container container-90 reset-padding">
                     <div class="row filter-option reset-margin">
-                        <div class="col-xl-4 col-lg-2 reset-padding">
+                        <div class="col-xl-6 col-lg-2 live-preview-left-sub__title align-self-center reset-padding">
+                            <p class="reset-margin">Lorem ipsum dolor sit amet, consetetur sadipscing</p>
                         </div>
-                        <div class="col-xl-8 col-lg-10 col-sm-12 preview-button reset-padding">
+                        <div class="col-xl-6 col-lg-10 col-sm-12 preview-button reset-padding">
                             <button type="button" class="like-button"><img src="images/thumb_webicon.png" class="mr-2"><span class="m-0 p-0 pre-label">Like</span></button>
                             <button type="button" class="whistlist-button"><img src="images/bookmarks_icon.png" class="mr-2"> <span class="m-0 p-0 pre-label">Wishlist</span></button>
                             <button type="button" class="copyright-button" data-toggle="modal" data-target="#exampleModal-2"><img src="images/certifi.png" class="mr-2"><span class="m-0 p-0 pre-label">Copyright*</span></button>
@@ -174,9 +176,43 @@
                                     Fresh & Bright
                                 </button>
                                 <div class="dropdown-menu dropdown-menu-lg-right">
-                                    <button class="dropdown-item" type="button">Action</button>
-                                    <button class="dropdown-item" type="button">Another action</button>
-                                    <button class="dropdown-item" type="button">Something else here</button>
+                                    <ul class="color-palet-lists">
+                                        <li class="palet-item">
+                                            <label>Fresh Bright</label>
+                                            <span class="color-item" style="background: #F98866;"></span>
+                                            <span class="color-item" style="background: #FF420E;"></span>
+                                            <span class="color-item" style="background: #80BD9E;"></span>
+                                            <span class="color-item" style="background: #89DA59;"></span>
+                                        </li>
+                                        <li class="palet-item">
+                                            <label>Professional</label>
+                                            <span class="color-item" style="background: #90AFC5;"></span>
+                                            <span class="color-item" style="background: #336B87;"></span>
+                                            <span class="color-item" style="background: #2A3132;"></span>
+                                            <span class="color-item" style="background: #763626;"></span>
+                                        </li>
+                                        <li class="palet-item">
+                                            <label>Crisp & Dramatic</label>
+                                            <span class="color-item" style="background: #505160;"></span>
+                                            <span class="color-item" style="background: #68829E;"></span>
+                                            <span class="color-item" style="background: #AEBD38;"></span>
+                                            <span class="color-item" style="background: #598234;"></span>
+                                        </li>
+                                        <li class="palet-item">
+                                            <label>Cool blues</label>
+                                            <span class="color-item" style="background: #003B46;"></span>
+                                            <span class="color-item" style="background: #07575B;"></span>
+                                            <span class="color-item" style="background: #66A5AD;"></span>
+                                            <span class="color-item" style="background: #C4DFE6;"></span>
+                                        </li>
+                                        <li class="palet-item">
+                                            <label>Natural</label>
+                                            <span class="color-item" style="background: #505160;"></span>
+                                            <span class="color-item" style="background: #68829E;"></span>
+                                            <span class="color-item" style="background: #AEBD38;"></span>
+                                            <span class="color-item" style="background: #598234;"></span>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="mt-4 text-center">
