@@ -183,6 +183,11 @@
             .wishlist-container .card-text{
                 margin: 0 0 13% 0;
             }
+
+            
+            .wish-visit:hover{
+                text-decoration:underline;
+            }
         }
         @media (min-width: 1200px) {
             .wishlist-bar h2{
@@ -224,11 +229,15 @@
                 margin-top: 60px;
             }
             .wish-visit{
-                font-size: 24px;
+                font-size: 20px;
                 line-height: 40px;
+                font-family: 'robotomedium';
             }
+            
             .wish-checkout {
-                font-size: 24px;
+                font-size: 18px;
+                line-height:28px;
+                font-family: 'robotomedium';
                 width: 200px;
                 padding: 4px 0;
                 border-radius: 8px;
@@ -848,7 +857,7 @@
                                 <div class="row reset-margin">
                                     <div class="col-6 reset-padding">
                                         <span class="color-choice reset-margin">Color choice</span>
-                                        <ul class="d-flex color-selector mt-2">
+                                        <ul class="d-flex color-selector">
                                             <li style="background: #9D4EDD;"></li>
                                             <li style="background: #FF570A;"></li>
                                             <li style="background: #6EC630;"></li>
@@ -884,7 +893,7 @@
                                 <div class="row reset-margin">
                                     <div class="col-6 reset-padding">
                                         <span class="color-choice reset-margin">Color choice</span>
-                                        <ul class="d-flex color-selector mt-2">
+                                        <ul class="d-flex color-selector">
                                             <li style="background: #9D4EDD;"></li>
                                             <li style="background: #FF570A;"></li>
                                             <li style="background: #6EC630;"></li>
@@ -919,7 +928,7 @@
                                 <div class="row reset-margin">
                                     <div class="col-6 reset-padding">
                                         <span class="color-choice reset-margin">Color choice</span>
-                                        <ul class="d-flex color-selector mt-2">
+                                        <ul class="d-flex color-selector">
                                             <li style="background: #9D4EDD;"></li>
                                             <li style="background: #FF570A;"></li>
                                             <li style="background: #6EC630;"></li>
@@ -954,7 +963,7 @@
                                 <div class="row reset-margin">
                                     <div class="col-6 reset-padding">
                                         <span class="color-choice reset-margin">Color choice</span>
-                                        <ul class="d-flex color-selector mt-2">
+                                        <ul class="d-flex color-selector">
                                             <li style="background: #9D4EDD;"></li>
                                             <li style="background: #FF570A;"></li>
                                             <li style="background: #6EC630;"></li>
@@ -989,7 +998,7 @@
                                 <div class="row reset-margin">
                                     <div class="col-6 reset-padding">
                                         <span class="color-choice reset-margin">Color choice</span>
-                                        <ul class="d-flex color-selector mt-2">
+                                        <ul class="d-flex color-selector">
                                             <li style="background: #9D4EDD;"></li>
                                             <li style="background: #FF570A;"></li>
                                             <li style="background: #6EC630;"></li>
@@ -1024,7 +1033,7 @@
                                 <div class="row reset-margin">
                                     <div class="col-6 reset-padding">
                                         <span class="color-choice reset-margin">Color choice</span>
-                                        <ul class="d-flex color-selector mt-2">
+                                        <ul class="d-flex color-selector">
                                             <li style="background: #9D4EDD;"></li>
                                             <li style="background: #FF570A;"></li>
                                             <li style="background: #6EC630;"></li>
@@ -1059,7 +1068,7 @@
                                 <div class="row reset-margin">
                                     <div class="col-6 reset-padding">
                                         <span class="color-choice reset-margin">Color choice</span>
-                                        <ul class="d-flex color-selector mt-2">
+                                        <ul class="d-flex color-selector">
                                             <li style="background: #9D4EDD;"></li>
                                             <li style="background: #FF570A;"></li>
                                             <li style="background: #6EC630;"></li>
@@ -1094,7 +1103,7 @@
                                 <div class="row reset-margin">
                                     <div class="col-6 reset-padding">
                                         <span class="color-choice reset-margin">Color choice</span>
-                                        <ul class="d-flex color-selector mt-2">
+                                        <ul class="d-flex color-selector">
                                             <li style="background: #9D4EDD;"></li>
                                             <li style="background: #FF570A;"></li>
                                             <li style="background: #6EC630;"></li>
@@ -1129,7 +1138,7 @@
                                 <div class="row reset-margin">
                                     <div class="col-6 reset-padding">
                                         <span class="color-choice reset-margin">Color choice</span>
-                                        <ul class="d-flex color-selector mt-2">
+                                        <ul class="d-flex color-selector">
                                             <li style="background: #9D4EDD;"></li>
                                             <li style="background: #FF570A;"></li>
                                             <li style="background: #6EC630;"></li>
@@ -1164,7 +1173,7 @@
                                 <div class="row reset-margin">
                                     <div class="col-6 reset-padding">
                                         <span class="color-choice reset-margin">Color choice</span>
-                                        <ul class="d-flex color-selector mt-2">
+                                        <ul class="d-flex color-selector">
                                             <li style="background: #9D4EDD;"></li>
                                             <li style="background: #FF570A;"></li>
                                             <li style="background: #6EC630;"></li>
@@ -1199,7 +1208,7 @@
                                 <div class="row reset-margin">
                                     <div class="col-6 reset-padding">
                                         <span class="color-choice reset-margin">Color choice</span>
-                                        <ul class="d-flex color-selector mt-2">
+                                        <ul class="d-flex color-selector">
                                             <li style="background: #9D4EDD;"></li>
                                             <li style="background: #FF570A;"></li>
                                             <li style="background: #6EC630;"></li>
@@ -1234,7 +1243,7 @@
                                 <div class="row reset-margin">
                                     <div class="col-6 reset-padding">
                                         <span class="color-choice reset-margin">Color choice</span>
-                                        <ul class="d-flex color-selector mt-2">
+                                        <ul class="d-flex color-selector">
                                             <li style="background: #9D4EDD;"></li>
                                             <li style="background: #FF570A;"></li>
                                             <li style="background: #6EC630;"></li>

@@ -193,8 +193,7 @@
     margin-top: 7px;
   }
   .list-of-price ul li span {
-    color: #aaaaaa;
-    margin-left: 8px;
+    color: #aaaaaa; 
     font-size: 16px;
   }
   .starting-price h3 {
@@ -438,7 +437,7 @@
     text-align: center;
     font-size: 20px;
     letter-spacing: 0px;
-    color: #aaaaaa;
+    color: #ffffff;
     opacity: 1;
     padding-left: 0px;
     margin-bottom: 20px;
@@ -1477,7 +1476,6 @@
   }
   .list-of-price ul li span {
     color: #aaaaaa;
-    margin-left: 8px;
     font-size: 20px;
   }
   .starting-price h3 {
@@ -2281,7 +2279,7 @@
   }
   .acordian-button button {
     width: 100%;
-    font-size: 20px;
+    font-size: 24px;
   }
 
   span.title-span {
@@ -2509,7 +2507,6 @@
   }
   .list-of-price ul li span {
     color: #aaaaaa;
-    margin-left: 8px;
     font-size: 20px;
   }
   .starting-price h3 {
@@ -2704,7 +2701,7 @@
     text-align: center;
     font-size: 20px;
     letter-spacing: 0px;
-    color: #aaaaaa;
+    color: #ffffff;
     opacity: 1;
 
     margin-bottom: 20px;
@@ -3239,7 +3236,6 @@
   }
   .list-of-price ul li span {
     color: #aaaaaa;
-    margin-left: 8px;
     font-size: 26px;
   }
   .starting-price h3 {
@@ -3447,7 +3443,7 @@
     text-align: left;
     font-size: 30px;
     letter-spacing: 0px;
-    color: #aaaaaa;
+    color: #ffffff;
     opacity: 1;
     padding-left: 30px;
     margin-bottom: 20px;
@@ -3534,7 +3530,7 @@
     text-align: left;
     font-size: 30px;
     letter-spacing: 0px;
-    color: #aaaaaa;
+    color: #ffffff;
     opacity: 1;
     padding-left: 30px;
     margin-bottom: 20px;
@@ -3804,10 +3800,12 @@
     margin-top: 21px;
   }
   .logo-skip a {
-    padding: 16px 94px;
+    padding: 12px 94px;
   }
   h2.logo-title {
-    font-size: 50px;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: 'robotomedium';
     letter-spacing: 0px;
     color: #3ebdcc;
     opacity: 1;
@@ -3840,10 +3838,10 @@
     color: #3ebdcc;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 28px;
     letter-spacing: -0.015em;
-    padding: 21.5px 0;
+    padding: 12px 0;
     z-index: 25;
     text-align: center;
     pointer-events: none;
@@ -4134,12 +4132,13 @@
     left: inherit;
   }
   .preview-button button {
-    padding: 15px 26px;
-    width: auto;
+    padding: 12px 0;
+    width: 180px;
     height: auto;
-    font-size: 20px;
-    line-height: 34px;
+    font-size: 18px;
+    line-height: 28px;
     color: #ffffff;
+    text-align: center;
   }
   .preview-button button img{
     margin: 0 12px 0 0!important;
@@ -4264,7 +4263,7 @@
     padding-top: 108px;
     margin: 0px;
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     letter-spacing: 4.4px;
     color: #f4a41d;
     text-transform: uppercase;
@@ -4412,8 +4411,7 @@
   }
   .list-of-price ul li span {
     color: #aaaaaa;
-    margin-left: 8px;
-    font-size: 26px;
+    font-size: 24px;
   }
   .starting-price h3 {
     text-align: left;
@@ -4557,13 +4555,16 @@
 
   section.website-builder .click-mail {
     border: none;
-    padding: 24px 59px;
+    padding: 20px 59px;
     border-radius: 8px;
     color: white;
     background-color: #3ebdcc;
-    font-size: 26px;
+    font-size: 24px;
+    line-height: 34px;
+    position: relative;
+    top: 35px;
   }
-
+  
   .requestform-popup-page {
     margin-top: 160px !important;
     margin-bottom: 163px !important;
@@ -4611,7 +4612,7 @@
     padding: 10px 79px;
     color: var(--unnamed-color-ffffff);
     text-align: center;
-    font: normal normal bold 24px/26px Roboto;
+    font: normal normal bold 20px 'robotomedium';
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 1;
@@ -4743,7 +4744,7 @@
   }
 
   .logo-heading {
-    padding: 50px 50px 20px 50px;
+    padding: 25px 50px 20px 50px;
   }
   .logoupload-1 button.preview {
     margin-top: 25px;
@@ -4751,7 +4752,7 @@
     background: var(--unnamed-color-3ebdcc) 0% 0% no-repeat padding-box;
     background: #3ebdcc 0% 0% no-repeat padding-box;
     border-radius: 6px;
-    padding: 16px 49px;
+    padding: 12px 49px;
     text-align: center;
     font-size: 24px;
     letter-spacing: 0px;
@@ -5026,6 +5027,12 @@
   .send-us-popup-message-form .form-group {
     padding-bottom: 20px;
   }
+
+  .slide-show-recent_cardview h2.card_subtitle {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 56px;
+  }
 }
 
 /* large scape */
@@ -5038,7 +5045,7 @@
     padding-top: 75px;
     margin: 0px;
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     letter-spacing: 4.4px;
     color: #f4a41d;
     text-transform: uppercase;
@@ -5048,15 +5055,17 @@
     padding-top: 46px;
     color: var(--unnamed-color-ffffff);
     text-align: center;
-    font-size: 68px;
+    font-size: 48px;
     color: #ffffff;
     opacity: 1;
     margin: 0px;
     max-width: 100%;
-    line-height: 90px;
+    line-height: 58px;
+    font-family: 'robotomedium';
   }
   .websitetemplate-condent p.website-subcondent {
-    font-size: 26px;
+    font-size: 24px;
+    line-height: 34px;
     color: #aaaaaa;
     padding: 30px 0px 50px 0px;
     max-width: 91%;
@@ -5064,11 +5073,12 @@
   }
   .click-mail {
     border: none;
-    padding: 25px 77px;
+    padding: 20px 77px;
     border-radius: 8px;
     color: white;
     background-color: #3ebdcc;
-    font-size: 28px;
+    font-size: 24px;
+    line-height: 34px;
   }
   .maintanance .container-75 {
     width: 100%;
@@ -5085,7 +5095,7 @@
   }
   .section-left__title {
     text-align: left;
-    font-size: 22px;
+    font-size: 24px;
     letter-spacing: 4.4px;
     color: #f4a41d;
     opacity: 1;
@@ -5118,24 +5128,27 @@
     padding-top: 106px;
     margin: 0px;
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     letter-spacing: 4.4px;
     color: #f4a41d;
     text-transform: uppercase;
     opacity: 1;
   }
   .section-left-sub__title {
-    text-align: left;
+    text-align: center;
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 1;
-    font-size: 60px;
+    font-size: 48px;
+    line-height: 58px;
     padding-top: 50px;
     margin: 0px;
   }
   .startingprice {
     padding-top: 77px;
     padding-bottom: 108px;
+    padding-left: 50px;
+    padding-right: 40px;
     flex-wrap: inherit;
   }
   .list-of-price ul li {
@@ -5144,12 +5157,13 @@
   }
   .list-of-price ul li span {
     color: #aaaaaa;
-    margin-left: 30px;
-    font-size: 26px;
+    font-size: 24px;
   }
   .starting-price h3 {
     text-align: left;
-    font-size: 50px;
+    font-size: 36px;
+    line-height: 46px;
+
     letter-spacing: 0px;
     color: #3ebdcc;
     opacity: 1;
@@ -5160,7 +5174,7 @@
   }
   .starting-price p {
     text-align: left;
-    font-size: 30px;
+    font-size: 24px;
     letter-spacing: 0px;
     color: #3ebdcc;
     opacity: 1;
@@ -5170,7 +5184,8 @@
     padding-top: 46px;
     color: var(--unnamed-color-ffffff);
     text-align: center;
-    font-size: 70px;
+    font-size: 48px;
+    font-family: 'robotomedium';
     color: #ffffff;
     opacity: 1;
     margin: 0;
@@ -5187,7 +5202,7 @@
     text-align: left;
     font-size: 40px;
     letter-spacing: 0px;
-    color: #aaaaaa;
+    color: #ffffff;
     opacity: 1;
     padding-left: 30px;
     margin-bottom: 20px;
@@ -5232,10 +5247,11 @@
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 1;
-    font-size: 63px;
+    font-size: 48px;
+    line-height: 58px;
+    font-family: 'robotomedium';
     padding-top: 30px;
     margin: 0px;
-    line-height: 82px;
     max-width: 86%;
   }
   .support-guidance-email-popup-image {
@@ -5246,14 +5262,14 @@
   }
   .support-guidance .section-left__title {
     text-align: left;
-    font-size: 22px;
+    font-size: 24px;
     letter-spacing: 4.4px;
     color: #f4a41d;
     opacity: 1;
   }
   p.support-guidance-container-90__title__para {
-    font-size: 26px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 38px;
     text-align: left;
     letter-spacing: 0px;
     color: #aaaaaa;
@@ -5263,7 +5279,8 @@
   }
   .support-guidance-container-90 a {
     text-align: right;
-    font-size: 28px;
+    font-size: 24px;
+    line-height: 34px;
     letter-spacing: 0px;
     color: #3ebdcc;
     opacity: 1;
@@ -5300,7 +5317,7 @@
   }
   section.feature .section-left__title {
     text-align: left;
-    font-size: 22px;
+    font-size: 24px;
     letter-spacing: 4.4px;
     color: #f4a41d;
     margin-left: 0px;
@@ -5320,16 +5337,18 @@
   .feature-video__condent p {
     letter-spacing: var(--unnamed-character-spacing-0);
     text-align: left;
-    font-size: 26px;
+    font-size: 24px;
+    line-height: 34px;
     font-family: "robotolight";
     letter-spacing: 0px;
     color: #aaaaaa;
     opacity: 1;
   }
   .feature-video__condent p.main-content-feature {
-    color: #aaaaaa;
-    font-family: "robotoregular";
-    font-weight: bold;
+    color: #ffffff;
+    font-family: "robotomedium";
+    font-size: 24px;
+    line-height: 34px;
   }
   .timeline ul li.in-view {
     transition: 0.5s ease-in-out, background-color 0.2s ease-out,
@@ -5360,9 +5379,10 @@
   }
   .timeline_condent h2 {
     text-align: left;
-    font-size: 40px;
+    font-size: 36px;
+    line-height: 46px;
     letter-spacing: 0px;
-    color: #aaaaaa;
+    color: #ffffff;
     opacity: 1;
     padding-left: 30px;
     margin-bottom: 20px;
@@ -5381,7 +5401,7 @@
     border-radius: 6px;
     padding: 17px 36px;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     letter-spacing: 0px;
     opacity: 1;
   }
@@ -5394,7 +5414,9 @@
     color: white;
     padding-bottom: 75px;
     margin: 0px;
-    font-size: 50px;
+    font-size: 48px;
+    line-height: 58px;
+    font-family: 'robotomedium';
     line-height: inherit;
     text-align: inherit;
   }
@@ -5448,7 +5470,9 @@
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-ffffff);
     text-align: left;
-    font-size: 60px;
+    font-size: 48px;
+    line-height: 66px;
+    font-family: 'robotomedium';
     letter-spacing: 0px;
     color: #ffffff;
     opacity: 1;
@@ -5482,7 +5506,9 @@
   }
   .card_body h3 {
     margin: 30px 0px 25px 0px;
-    font-size: 40px;
+    font-size: 36px;
+    line-height: 46px;
+    font-family: 'robotomedium';
     letter-spacing: 0px;
     color: #3ebdcc;
     opacity: 1;
@@ -5502,7 +5528,7 @@
     background-color: white;
   }
   .card_body p {
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: var(--unnamed-character-spacing-0);
     text-align: left;
     font-family: "robotolight";
@@ -5518,7 +5544,7 @@
   }
   .color-selector li {
     width: 34px;
-    height: 34px;
+    height: 30px;
     color: transparent;
     border-radius: 50%;
     margin-right: 11px;
@@ -5586,21 +5612,13 @@
     color: white;
     padding-bottom: 75px;
     margin: 0px;
-    font-size: 60px;
-    line-height: inherit;
+    font-size: 36px;
+    line-height: 48px;
     text-align: inherit;
   }
   .modal.fade.logoupload-1 .container-80 {
     margin-top: 150px !important;
     margin-bottom: 160px !important;
-  }
-  .logoupload-1 h2.form-heading {
-    color: white;
-    padding-bottom: 75px;
-    margin: 0px;
-    font-size: 60px;
-    line-height: inherit;
-    text-align: inherit;
   }
   .modal .logo-upload {
     margin-top: 150px !important;
@@ -5867,9 +5885,9 @@
     margin-right: 40px;
   }
   .wrapper .navbar-nav .megamenu-li a.nav-link {
-    font-size: 20px;
-    font-family: "robotolight";
-    line-height: 30px;
+    font-size: 18px;
+    font-family: "robotoregular";
+    line-height: 28px;
   }
   .filter-section-title-bar.fixed-filter-section .filtersection{
 
@@ -5893,7 +5911,9 @@
     padding-top: 46px;
     color: var(--unnamed-color-ffffff);
     text-align: center;
-    font-size: 60px;
+    font-size: 48px;
+    line-height: 58px;
+    font-family: 'robotomedium';
     color: #ffffff;
     opacity: 1;
     margin: 0px;
@@ -5905,14 +5925,15 @@
     background-color: transparent;
     border: none;
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "robotolight";
     letter-spacing: 0px;
     color: #aaaaaa;
     opacity: 1;
   }
   .card_body button.live_preview {
-    font-size: 15px;
+    font-size: 14px;
+    font-family: 'robotomedium';
     background-color: #3ebdcc;
     color: white;
   }
@@ -5947,7 +5968,7 @@
     float: right;
   }
   .logo-skip a {
-    font-size: 25px;
+    font-size: 24px;
   }
 
   .editpanel-img-type label,

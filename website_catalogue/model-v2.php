@@ -83,10 +83,12 @@
                 <form class="request-popup-form by-copy-right-page-form">
                     <h2 class="form-heading pb-3">Buy Copyright</h2>
                             <div class="row reset-margin">
-                                <img src="images/copyright.jpg" class="copy-right-template">
-                                <p class="copyright-title">
-                                <label class="copy-title mb-3">For Template Theme:</label>
-                                <label class="copy-subtitle">Template Name with Title/Subtitle</label></p>
+                                <img src="images/copyright.jpg" class="col-2 copy-right-template p-0">
+                                <p class=" col-9 copyright-title p-0">
+                                    <label class="copy-title mb-3">For Template Theme:</label>
+                                    <label class="copy-subtitle">Template Name with Title/Subtitle Template Name with 
+                                    Title/Subtitle Template Name with Title/Subtitle</label>
+                                </p>
                             </div>
                           
                         <div class="form-row reset-margin submission">

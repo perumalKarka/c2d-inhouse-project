@@ -13,6 +13,20 @@
   font-style: normal;
 }
 @font-face {
+  font-family: "robotomedium";
+  src: url("../fonts/roboto-medium-webfont.woff2") format("woff2"),
+    url("../fonts/roboto-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "robotobold";
+  src: url("../fonts/roboto-bold-webfont.woff2") format("woff2"),
+    url("../fonts/roboto-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: "robotothin";
   src: url("../fonts/roboto-thin-webfont.woff2") format("woff2"),
     url("../fonts/roboto-thin-webfont.woff") format("woff");
@@ -540,6 +554,7 @@ footer {
   text-align: left;
   font-size: 22px;
   letter-spacing: 4.4px;
+  text-transform: uppercase;
   color: #f4a41d;
   opacity: 1;
 }
@@ -580,7 +595,11 @@ footer {
   background-color: #3ebdcc;
   font-size: 28px;
 }
-
+section.website-builder .click-mail:hover{
+  color: #3ebdcc;
+  background: transparent;
+  border: 2px solid #3ebdcc;
+}
 .click-mail:hover{
   color: #3ebdcc;
   background: transparent;
@@ -592,6 +611,7 @@ footer {
   border: 3px solid #3ebdcc;
   outline:none;
 }
+
 section.website-builder .click-mail:focus{
   border:none;
   box-shadow: none;
@@ -741,6 +761,7 @@ section.pricing {
   letter-spacing: 0px;
   color: #3ebdcc;
   margin: 0px;
+  font-family: 'robotobold';
 }
 p.price_condent {
   font-size: 26px;
@@ -751,6 +772,7 @@ p.price_condent {
   letter-spacing: 0px;
   color: #3ebdcc;
   margin: 0px;
+  font-family: 'robotobold';
 }
 .price-list-right p {
   text-align: center;
@@ -787,6 +809,7 @@ p.price_condent {
   letter-spacing: 0px;
   color: #3ebdcc;
   opacity: 1;
+  font-family: 'robotobold';
 }
 .starting-price p {
   text-align: left;
@@ -802,10 +825,11 @@ p.price-para {
 .list-of-price ul li {
   color: #3ebdcc;
   margin-top: 7px;
+  list-style-position: outside;
+  margin-left: 20px;
 }
 .list-of-price ul li span {
   color: #aaaaaa;
-  margin-left: 30px;
   font-size: 26px;
 }
 
@@ -996,7 +1020,8 @@ p.support-guidance-container-90__title__para {
   text-align: left;
   font-size: 40px;
   letter-spacing: 0px;
-  color: #aaaaaa;
+  font-family: 'robotomedium';
+  color: #ffffff;
   opacity: 1;
   padding-left: 30px;
   margin-bottom: 20px;
@@ -1454,9 +1479,18 @@ label.copy-subtitle {
 .filtersection button:last-child {
   margin-right: 0px;
 }
+.preview-button button .hover-state,
+.preview-button button:hover .normal-state{
+  display: none;
+
+}
+.preview-button button:hover .hover-state{
+  display: inline-block;
+}
 button.like-button {
   padding: 15px 26px;
   background: #3ebdcc 0% 0% no-repeat padding-box;
+  border:1px solid #3ebdcc;
   box-shadow: 0px 4px 6px #000000;
   border-radius: 6px;
   opacity: 1;
@@ -1464,7 +1498,11 @@ button.like-button {
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
-  border: none;
+}
+button.like-button:hover{
+  background-color: transparent;
+  border:1px solid #3ebdcc;
+  color:#3ebdcc;
 }
 button.whistlist-button {
   padding: 15px 26px;
@@ -1478,7 +1516,12 @@ button.whistlist-button {
   color: white;
   opacity: 1;
 }
-button.copyright-button {
+button.whistlist-button:hover{
+  background-color: transparent;
+  border:1px solid #3ebdcc;
+  color:#3ebdcc;
+}
+button.copyright-button{
   padding: 15px 26px;
   background: #f4a41d 0% 0% no-repeat padding-box;
   box-shadow: 0px 4px 6px #000000;
@@ -1489,6 +1532,11 @@ button.copyright-button {
   color: white;
   opacity: 1;
   border: none;
+}
+button.copyright-button:hover{
+  background-color: transparent;
+  border:1px solid #f4a41d;
+  color:#f4a41d;
 }
 .body-condent img {
   width: 100%;
@@ -1799,7 +1847,7 @@ span.checked-color {
 }
 button.template-button {
   text-align: center;
-  font: normal normal normal 20px/34px Roboto;
+  font: normal normal normal 18px 'robotomedium';
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
@@ -2438,6 +2486,7 @@ ul.socialmedia_network li a {
 }
 .wish-visit:hover {
   color: #ffffff;
+  border-bottom: 1.5px solid #ffffff;
 }
 /** Image upload and preview **/
 .img-preview {

@@ -53,7 +53,7 @@
                 <div class="col-xl-8 col-lg-12 col-md-12 col-8">
                     <h2 class="form-heading logo-heading">Lorem ipsum dolor sit amet, consetetur </h2>
                 </div>
-                <div class="col-xl-4 col-4 d-block d-md-none d-xl-block logo-skip reset-padding align-self-center text-right">
+                <div class="col-xl-4 col-4 d-block d-md-none d-xl-block logo-skip reset-padding text-right">
                     <a class="btn btn-primary skip " href="#">Skip</a>
                 </div>
             </div>

@@ -320,8 +320,10 @@
                             </div>
                             <div class="col-lg-6 col-md-6 col-md-6 col-sm-12 timeline_image-2 timeline-card-img"><img src="images/timeline-pic-4.png" /></div>
                         </li>
-                        <div class="col-md-6 col-lg-12 col-sm-12 col timeline_button text-center "><button type="button" class="click-mail" data-toggle="modal" data-target="#exampleModal-2">Let's Build <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></button>
-                            <div>
+                        <div class="col-md-6 col-lg-12 col-sm-12 col timeline_button text-center ">
+                            <a href="livepreview.php" class="click-mail">Let's Build <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
+                        <!-- <button type="button" class="click-mail" data-toggle="modal" data-target="#exampleModal-2">Let's Build <i class="fa fa-arrow-right ml-2" aria-hidden="true"></i></button> -->
+                        <div>
                     </ul>
                 </div>
             </div>
@@ -359,6 +361,25 @@
     <script src="js/jquery.mb.YTPlayer.js"></script>
     <script src="js/main.js"></script>
     <script type="text/javascript">
+
+        function equalheight() {
+            var maxHeight = 0;
+            $('.feature-video__condent').each(function (index) {
+                
+                $(this).find('.feature-condent-sec p.main-content-feature').height('auto');
+                $(this).find('.feature-condent-sec p.main-content-feature').each(function (index) {
+                    if($(this).height() > maxHeight){
+                        maxHeight = $(this).height();
+                    }
+                });
+                $(this).find('.feature-condent-sec p.main-content-feature').height(maxHeight);
+            });
+        }
+        $(document).ready(function () {
+            equalheight();
+        });
+        $(window).bind("resize", equalheight);
+
         jQuery.mbYTPlayer.apiKey = "AIzaSyCAHzbOtNhiLEU4RWxIKmyfcxUDDO_tzW0";
 
         var myPlayer;

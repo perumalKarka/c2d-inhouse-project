@@ -51,9 +51,21 @@
                             <p class="reset-margin">Lorem ipsum dolor sit amet, consetetur sadipscing</p>
                         </div>
                         <div class="col-xl-6 col-lg-10 col-sm-12 preview-button reset-padding">
-                            <button type="button" class="like-button"><img src="images/thumb_webicon.png" class="mr-2"><span class="m-0 p-0 pre-label">Like</span></button>
-                            <button type="button" class="whistlist-button"><img src="images/bookmarks_icon.png" class="mr-2"> <span class="m-0 p-0 pre-label">Wishlist</span></button>
-                            <button type="button" class="copyright-button" data-toggle="modal" data-target="#exampleModal-2"><img src="images/certifi.png" class="mr-2"><span class="m-0 p-0 pre-label">Copyright*</span></button>
+                            <button type="button" class="like-button">
+                                <img src="images/thumb_webicon.png" class="normal-state mr-2">
+                                <img src="images/thumb-white-icon.png" class="hover-state mr-2">
+                                <span class="m-0 p-0 pre-label">Like</span>
+                            </button>
+                            <button type="button" class="whistlist-button">
+                                <img src="images/bookmarks_icon.png" class="normal-state mr-2"> 
+                                <img src="images/bookmarks_white_icon.png" class="hover-state mr-2">
+                                <span class="m-0 p-0 pre-label">Wishlist</span>
+                            </button>
+                            <button type="button" class="copyright-button" data-toggle="modal" data-target="#exampleModal-2">
+                                <img src="images/certifi.png" class="normal-state mr-2">
+                                <img src="images/certifi_white.png" class="hover-state mr-2">
+                                <span class="m-0 p-0 pre-label">Copyright*</span>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -305,6 +317,9 @@
                         <input type="text" class="form-control bussiness-text" id="exampleFormControlInput1" placeholder="Lorem ipsum dolor sit amet, consetetur">
                         
                         <p class="mt-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et </p>
+                        <div class="mt-4 text-center">
+                            <button class="apply-logo">APPLY</button>
+                        </div>
                     </div>
                     <div class="content-wrapper content-5 footer">
                         <div class="row">
